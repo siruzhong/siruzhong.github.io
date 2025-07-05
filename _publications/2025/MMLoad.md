@@ -16,5 +16,5 @@ authors:
   - Yuxuan Liang
 links:
   # Code: https://github.com/CityMind-Lab/AirRadar
-  # Paper: https://www.arxiv.org/abs/2501.13141
+  Paper: https://openreview.net/pdf?id=TN7vj7opye
 ---
