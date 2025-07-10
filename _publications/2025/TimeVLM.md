@@ -5,7 +5,7 @@ selected: true
 pub:            "International Conference on Machine Learning (ICML 2025), Vancouver, Canada"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
-pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
+# pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
 
 cover: /assets/images/covers/TimeVLM.png
 authors:

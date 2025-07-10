@@ -5,7 +5,7 @@ selected: true
 pub:            "ACM International Conference on Multimedia (ACM MM 2025), Dublin, Ireland"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
-pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
+# pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
 
 cover: /assets/images/covers/MMLoad.png
 authors:

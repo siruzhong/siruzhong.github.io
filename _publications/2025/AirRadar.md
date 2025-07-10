@@ -5,7 +5,7 @@ selected: true
 pub:            "AAAI Conference on Artificial Intelligence (AAAI 2025), Philadelphia, America"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
-pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
+# pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
 
 cover: /assets/images/covers/AirRadar.png
 authors:
