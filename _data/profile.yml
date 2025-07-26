@@ -27,7 +27,7 @@ short_bio: >-
     Currently, I am collaborating closely with <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&amp;hl=zh-CN&amp;oi=sra" target="_blank">Dr. Hao Xu</a> from Huawei 2012 Labs and <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a> from Squirrel AI. Prior to that, I interned at Autonomous Driving Center of XPENG (supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>) and worked as a full-time Software Engineer at CloudDev Center of Tencent from 2022 to 2023.
   </p>
   <p style="margin-bottom: 5px;">
-    My research focuses on Spatio-Temporal Data Mining, Urban Computing, and Multimodal Time Series Analysis, welcoming any collaborations in related areas!
+    My research focuses on Spatio-Temporal Data Mining, Multimodal Time Series Analysis, and Urban Computing, welcoming any collaborations in related areas!
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -37,15 +37,15 @@ portrait_caption: >-
 education:
 - name: Hong Kong University of Science and Technology (GZ)
   logo: /assets/images/badges/HKUST_GZ.png
-  position: Ph.D. in Data Science & Analytics
+  position: Ph.D. in Data Science and Analytics
   date: Feb. 2025 - Jan. 2028
 - name: Hong Kong University of Science and Technology (GZ)
   logo: /assets/images/badges/HKUST_GZ.png
-  position: M.Phil. in Data Science & Analytics
+  position: M.Phil. in Data Science and Analytics
   date: Aug. 2023 - Jan. 2025
 - name: Hefei University of Technology
   logo: /assets/images/badges/HFUT.png
-  position: B.Eng. in Computer Science & Information Engineering
+  position: B.Eng. in Computer Science and Information Engineering
   date: Sep. 2018 - Jul. 2022
 
 experience:
