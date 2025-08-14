@@ -164,8 +164,10 @@ img.lazy {
 
 .social-links-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 0.6rem;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .social-link-item {
@@ -288,6 +290,24 @@ img.lazy {
 
 .zhihu-link:hover i {
     color: #0084ff;
+}
+
+.researchgate-link:hover {
+    border-color: #00dbb4;
+    color: #00dbb4;
+}
+
+.researchgate-link:hover i {
+    color: #00dbb4;
+}
+
+.dblp-link:hover {
+    border-color: #ff6b35;
+    color: #ff6b35;
+}
+
+.dblp-link:hover i {
+    color: #ff6b35;
 }
 
 /* Responsive adjustments for social module */

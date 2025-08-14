@@ -55,6 +55,20 @@
                                     </a>
                                     {% endif %}
                                     
+                                    {% if site.data.profile.researchgate %}
+                                    <a class="social-link-item researchgate-link" target="_blank" href="https://www.researchgate.net/profile/{{ site.data.profile.researchgate }}">
+                                        <i class="fab fa-researchgate"></i>
+                                        <span class="social-text">ResearchGate</span>
+                                    </a>
+                                    {% endif %}
+                                    
+                                    {% if site.data.profile.dblp %}
+                                    <a class="social-link-item dblp-link" target="_blank" href="https://dblp.org/pid/{{ site.data.profile.dblp }}">
+                                        <i class="fas fa-database"></i>
+                                        <span class="social-text">DBLP</span>
+                                    </a>
+                                    {% endif %}
+                                    
                                     {% if site.data.profile.github %}
                                     <a class="social-link-item github-link" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
                                         <i class="fab fa-github"></i>
