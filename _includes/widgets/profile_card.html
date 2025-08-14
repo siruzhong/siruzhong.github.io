@@ -27,7 +27,7 @@
                             <div class="position-item">
                                 {% assign parts = position.name | split: '|' %}
                                 {% for part in parts %}
-                                <div>{{ part | strip }}</div>
+                                <div class="position-line">{{ part | strip }}</div>
                                 {% endfor %}
                             </div>
                             {% endfor %}
@@ -45,58 +45,80 @@
                     </a>
                 {% endif %}
                 
-                <div class="social-links">
-                    <a class="pr-3 no-break text-decoration-none" href="mailto:{{ site.data.profile.email | encode_email }}">
-                        <i class="fas fa-at"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
-                    </a>
+                <!-- Social Links Module -->
+                <div class="social-module">
+                    <div class="social-module-header">
+                        <i class="fas fa-link mr-2"></i>Connect with me
+                    </div>
+                    <div class="social-links-grid">
+                        <a class="social-link-item email-link" href="mailto:{{ site.data.profile.email | encode_email }}">
+                            <i class="fas fa-envelope"></i>
+                            <span class="social-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
+                        </a>
 
-                    {% if site.data.profile.gscholar %}
-                    <a class="pr-3 no-break text-decoration-none" target="_blank" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en">
-                        <i class="fab fa-google-scholar"></i> Google Scholar
-                    </a>
-                    {% endif %}
-                    
-                    {% if site.data.profile.sscholar %}
-                    <a class="pr-3 no-break text-decoration-none" target="_blank" href="https://www.semanticscholar.org/author/{{ site.data.profile.sscholar }}">
-                        <i class="fa fa-book"></i> Semantic Scholar
-                    </a>
-                    {% endif %}
-                    
-                    {% if site.data.profile.github %}
-                    <a class="pr-3 no-break text-decoration-none" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
-                    {% endif %}
+                        {% if site.data.profile.gscholar %}
+                        <a class="social-link-item gscholar-link" target="_blank" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en">
+                            <i class="fab fa-google-scholar"></i>
+                            <span class="social-text">Google Scholar</span>
+                        </a>
+                        {% endif %}
+                        
+                        {% if site.data.profile.sscholar %}
+                        <a class="social-link-item sscholar-link" target="_blank" href="https://www.semanticscholar.org/author/{{ site.data.profile.sscholar }}">
+                            <i class="fas fa-book-open"></i>
+                            <span class="social-text">Semantic Scholar</span>
+                        </a>
+                        {% endif %}
+                        
+                        {% if site.data.profile.github %}
+                        <a class="social-link-item github-link" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
+                            <i class="fab fa-github"></i>
+                            <span class="social-text">GitHub</span>
+                        </a>
+                        {% endif %}
 
-                    {% if site.data.profile.wechat_qrcode %}
-                    <a class="pr-3 no-break text-decoration-none" data-toggle="modal" data-target="#modal-wechat">
-                        <i class="fab fa-weixin"></i> WeChat
-                    </a>
-                    {% endif %}
+                        {% if site.data.profile.wechat_qrcode %}
+                        <a class="social-link-item wechat-link" data-toggle="modal" data-target="#modal-wechat">
+                            <i class="fab fa-weixin"></i>
+                            <span class="social-text">WeChat</span>
+                        </a>
+                        {% endif %}
 
-                    {% if site.data.profile.twitter %}
-                    <a class="pr-3 no-break text-decoration-none" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
-                        <i class="fab fa-twitter"></i> Twitter
-                    </a>
-                    {% endif %}
+                        {% if site.data.profile.twitter %}
+                        <a class="social-link-item twitter-link" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
+                            <i class="fab fa-twitter"></i>
+                            <span class="social-text">Twitter</span>
+                        </a>
+                        {% endif %}
 
-                    {% if site.data.profile.linkedin %}
-                    <a class="pr-3 no-break text-decoration-none" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
-                        <i class="fab fa-linkedin"></i> LinkedIn
-                    </a>
-                    {% endif %}
+                        {% if site.data.profile.linkedin %}
+                        <a class="social-link-item linkedin-link" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
+                            <i class="fab fa-linkedin"></i>
+                            <span class="social-text">LinkedIn</span>
+                        </a>
+                        {% endif %}
 
-                    {% if site.data.profile.orcid %}
-                    <a class="pr-3 no-break text-decoration-none" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
-                        <i class="fab fa-orcid"></i> ORCID
-                    </a>
-                    {% endif %}
+                        {% if site.data.profile.orcid %}
+                        <a class="social-link-item orcid-link" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
+                            <i class="fab fa-orcid"></i>
+                            <span class="social-text">ORCID</span>
+                        </a>
+                        {% endif %}
 
-                    {% if site.data.profile.csdn %}
-                    <a class="pr-3 no-break text-decoration-none" target="_blank" href="https://blog.csdn.net/{{ site.data.profile.csdn }}">
-                        <i class="fas fa-blog"></i> CSDN
-                    </a>
-                    {% endif %}
+                        {% if site.data.profile.csdn %}
+                        <a class="social-link-item csdn-link" target="_blank" href="https://blog.csdn.net/{{ site.data.profile.csdn }}">
+                            <i class="fas fa-blog"></i>
+                            <span class="social-text">CSDN</span>
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.profile.zhihu %}
+                        <a class="social-link-item zhihu-link" target="_blank" href="https://www.zhihu.com/people/{{ site.data.profile.zhihu }}">
+                            <i class="fas fa-question-circle"></i>
+                            <span class="social-text">Zhihu</span>
+                        </a>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         </div>        
