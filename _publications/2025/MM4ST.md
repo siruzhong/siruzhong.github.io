@@ -18,6 +18,6 @@ authors:
   - Roger Zimmermann
   - Yuxuan Liang
 links:
-  # Code: https://github.com/CityMind-Lab/AirRadar
-  # Paper: https://www.arxiv.org/abs/2501.13141
+  Code: https://github.com/CityMind-Lab/MM4ST
+  Paper: https://dl.acm.org/doi/10.1145/3746027.3759204
 ---
