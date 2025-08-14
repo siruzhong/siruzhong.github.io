@@ -1,6 +1,6 @@
 ---
 title: "Multimodal Learning for Spatio-Temporal Data Mining"
-date: 2025-08-16 00:00:00 +0800
+date: 2025-02-28 00:00:00 +0800
 selected: true
 pub:            "ACM International Conference on Multimedia Tutorial (ACM MM 2025), Dublin, Ireland"
 # pub_pre:        "Submitted to "
