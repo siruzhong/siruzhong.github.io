@@ -15,6 +15,6 @@ authors:
   - Yuehong Hu
   - Yuxuan Liang
 links:
-  # Code: https://github.com/siruzhong/ICML25-Time-VLM
-  Paper: https://openreview.net/pdf?id=O1IIOh81RQ
----
+  Code: https://github.com/CityMind-Lab/DeepUHI
+  Paper: https://dl.acm.org/doi/10.1145/3711896.3736962
+  Stars: https://img.shields.io/github/stars/CityMind-Lab/DeepUHI?style=social

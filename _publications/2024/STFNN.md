@@ -20,4 +20,5 @@ authors:
 links:
   Code: https://github.com/Yutong-Feng/STFNN
   Paper: https://arxiv.org/pdf/2403.02354.pdf
+  Stars: https://img.shields.io/github/stars/Yutong-Feng/STFNN?style=social
 ---

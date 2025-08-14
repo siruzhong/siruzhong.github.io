@@ -18,4 +18,5 @@ authors:
 links:
   Code: https://github.com/jasonz5/STGormer
   Paper: https://arxiv.org/abs/2408.10822
+  Stars: https://img.shields.io/github/stars/jasonz5/STGormer?style=social
 ---
