@@ -1,6 +1,6 @@
 {% assign publications = include.publications %}
 {% assign pinned_pubs = publications | where: "pinned", true | sort: "date" | reverse %}
-{% assign non_pinned_selected_pubs = publications | where: "selected", true | where: "pinned", false | sort: "date" | reverse %}
+{% assign non_pinned_selected_pubs = publications | where: "selected", true | sort: "date" | reverse %}
 {% assign all_pubs = pinned_pubs | concat: non_pinned_selected_pubs %}
 
 <div class="my-3 p-0 bg-white shadow-sm rounded-sm">
