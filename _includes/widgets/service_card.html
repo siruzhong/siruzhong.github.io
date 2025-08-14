@@ -1,0 +1,37 @@
+<!-- Service & Teaching -->
+<div class="row mb-4">
+    <!-- Service -->
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm bg-white h-100">
+            <h6 class="p-3 mb-0" style="font-weight: bold;"><i class="fas fa-handshake mr-2"></i>Academic Service</h6>
+            <div class="px-3 pb-1">
+                <ul class="list small pl-3 mb-1">
+                    {% for item in site.data.profile.service %}
+                    <li class="mb-2">
+                        <div>{{ item.name }}</div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Teaching -->
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm bg-white h-100">
+            <h6 class="p-3 mb-0" style="font-weight: bold;"><i class="fas fa-chalkboard-teacher mr-2"></i>Teaching Experience</h6>
+            <div class="px-3 pb-1">
+                <ul class="list small pl-3 mb-1">
+                    {% for item in site.data.profile.teaching %}
+                    <li class="mb-2">
+                        <div class="d-flex">
+                            <div>{{ item.name }}</div>
+                            <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

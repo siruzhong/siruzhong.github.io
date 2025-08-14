@@ -100,3 +100,20 @@ activities:
     date: 2018-2022
   - name: HFUT External Relations Department member, Hefei, China
     date: 2018-2019
+
+service:
+  - name: ICLR 2025 Reviewer
+  - name: ACM MM 2025 Reviewer
+  - name: ACM MM 2025 Dataset Track Reviewer
+  - name: KDD 2026 Datasets and Benchmarks Track Reviewer
+  - name: AAAI 2026 Program Committee Member
+  - name: AAAI 2026 Special Track on AI for Social Impact PC Member
+  - name: WebST 2025 & UrbComp 2025 Web Master
+
+teaching:
+  - name: PDEV6800 Introduction to Teaching and Learning in Higher Education
+    date: Fall 2024
+  - name: PLED5001 Communicating Research in English
+    date: Spring 2025
+  - name: DSAA2043 Design and Analysis of Algorithms
+    date: Fall 2025
