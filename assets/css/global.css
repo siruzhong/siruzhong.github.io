@@ -323,11 +323,15 @@ img.lazy {
     padding: 1rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin-top: 1rem;
+    display: inline-block;
+    max-width: 350px;
 }
 
 .clustrmap-container iframe {
     border-radius: 6px;
     border: none;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Analytics Stats - Single Item Styling */
