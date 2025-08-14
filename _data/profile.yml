@@ -111,9 +111,9 @@ service:
   - name: WebST 2025 & UrbComp 2025 Web Master
 
 teaching:
-  - name: PDEV6800 Introduction to Teaching and Learning in Higher Education
-    date: Fall 2024
-  - name: PLED5001 Communicating Research in English
-    date: Spring 2025
   - name: DSAA2043 Design and Analysis of Algorithms
     date: Fall 2025
+  - name: PLED5001 Communicating Research in English
+    date: Spring 2025
+  - name: PDEV6800 Introduction to Teaching and Learning in Higher Education
+    date: Fall 2024
