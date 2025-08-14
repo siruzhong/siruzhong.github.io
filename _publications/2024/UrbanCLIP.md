@@ -2,6 +2,7 @@
 title: "UrbanCLIP: Learning Text-enhanced Urban Region Profiling with Contrastive Language-Image Pretraining from the Web"
 date: 2024-01-12 00:01:00 +0800
 selected: true
+pinned: false
 pub: "International World Wide Web Conference (WWW 2024), Singapore"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
