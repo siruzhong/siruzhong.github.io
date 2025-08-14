@@ -102,13 +102,11 @@ activities:
     date: 2018-2019
 
 service:
-  - name: ICLR 2025 Reviewer
-  - name: ACM MM 2025 Reviewer
-  - name: ACM MM 2025 Dataset Track Reviewer
-  - name: KDD 2026 Datasets and Benchmarks Track Reviewer
-  - name: AAAI 2026 Program Committee Member
-  - name: AAAI 2026 Special Track on AI for Social Impact PC Member
-  - name: WebST 2025 & UrbComp 2025 Web Master
+  - name: Reviewer of ACM MM 2025 (Main Track & Dataset Track)
+  - name: Reviewer of KDD 2026 Datasets and Benchmarks Track
+  - name: Program Committee of AAAI 2026 (Main Track & AISI Track)
+  - name: Reviewer of ICLR 2025 
+  - name: Web Master of WebST 2025 & UrbComp 2025 
 
 teaching:
   - name: DSAA2043 Design and Analysis of Algorithms
