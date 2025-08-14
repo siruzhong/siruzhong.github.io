@@ -152,61 +152,58 @@ img.lazy {
     margin-bottom: 0;
 }
 
-/* Social Module Styling */
-.social-module {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-radius: 12px;
-    padding: 1.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #dee2e6;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+/* Integrated Social Links Styling */
+.social-links-integrated {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #e9ecef;
 }
 
-.social-module-header {
-    font-size: 1.1rem;
+.social-section-header {
+    font-size: 1rem;
     font-weight: 600;
     color: #495057;
     margin-bottom: 1rem;
     text-align: center;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 1px solid #dee2e6;
 }
 
 .social-links-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 0.8rem;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.6rem;
 }
 
 .social-link-item {
     display: flex;
     align-items: center;
-    padding: 0.8rem 1rem;
+    padding: 0.6rem 0.8rem;
     background: white;
-    border-radius: 8px;
+    border-radius: 6px;
     text-decoration: none;
     color: #495057;
     transition: all 0.3s ease;
-    border: 2px solid transparent;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .social-link-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
     text-decoration: none;
 }
 
 .social-link-item i {
-    font-size: 1.2rem;
-    margin-right: 0.8rem;
-    width: 20px;
+    font-size: 1.1rem;
+    margin-right: 0.6rem;
+    width: 18px;
     text-align: center;
 }
 
 .social-text {
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 /* Individual Social Link Colors */
@@ -322,7 +319,6 @@ img.lazy {
     border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-top: 1rem;
     display: inline-block;
     max-width: 350px;
 }
