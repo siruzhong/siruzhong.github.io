@@ -164,10 +164,8 @@ img.lazy {
 
 .social-links-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 0.6rem;
-    max-width: 600px;
-    margin: 0 auto;
 }
 
 .social-link-item {
