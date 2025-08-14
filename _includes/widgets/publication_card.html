@@ -1,7 +1,8 @@
 {% assign publications = include.publications %}
 {% assign pinned_pubs = publications | where: "pinned", true | sort: "date" | reverse %}
-{% assign other_pubs = publications | where: "pinned", false | sort: "date" | reverse %}
-{% assign all_pubs = pinned_pubs | concat: other_pubs %}
+{% assign selected_pubs = publications | where: "selected", true %}
+{% assign other_selected_pubs = selected_pubs | where: "pinned", false | sort: "date" | reverse %}
+{% assign all_pubs = pinned_pubs | concat: other_selected_pubs %}
 
 <div class="my-3 p-0 bg-white shadow-sm rounded-sm">
     <h6 class="border-gray p-3 mb-0">
