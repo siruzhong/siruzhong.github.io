@@ -1,0 +1,12 @@
+{% comment %}
+Citation badge widget for publications
+Usage: {% include widgets/citation_badge.html citation_count=item.citations %}
+{% endcomment %}
+
+{% assign citation_count = include.citation_count | default: 0 %}
+
+{% if citation_count > 0 %}
+  <img src="https://img.shields.io/badge/Citations-{{ citation_count }}-blue?style=flat&logo=google-scholar" alt="Citations: {{ citation_count }}" style="height: 20px; vertical-align: middle;">
+{% else %}
+  <img src="https://img.shields.io/badge/Citations-0-lightgrey?style=flat&logo=google-scholar" alt="Citations: 0" style="height: 20px; vertical-align: middle;">
+{% endif %}
