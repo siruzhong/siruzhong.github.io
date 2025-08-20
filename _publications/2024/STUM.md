@@ -1,10 +1,10 @@
 ---
 title: "Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting"
-date: 2024-11-09 00:01:00 +0800
-selected: false
-# pub: "The International Joint Conference on Artificial Intelligence (IJCAI)"
+date: 2025-08-20 00:00:00 +0800
+selected: true
+pub: "IEEE Transactions on Intelligent Transportation Systems (TITS, 2025)"
 # pub_pre:        "Submitted to "
-pub_post:       'Under review.'
+# pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 
 cover: /assets/images/covers/STUM.png
@@ -17,4 +17,5 @@ authors:
   - Yuxuan Liang
 links:
   Paper: https://arxiv.org/pdf/2411.09251
+  Code: https://anonymous.4open.science/r/STUM-E4F0
 ---
