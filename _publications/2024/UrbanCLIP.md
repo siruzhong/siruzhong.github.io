@@ -6,7 +6,7 @@ pinned: false
 pub: "International World Wide Web Conference (WWW 2024), Singapore"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-# pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
+pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 
 cover: /assets/images/covers/UrbanCLIP.png
 authors:
