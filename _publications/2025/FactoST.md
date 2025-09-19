@@ -1,9 +1,9 @@
 ---
-title: "Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting"
-date: 2025-05-01 00:00:00 +0800
+title: "Learning to Factorize Spatio-Temporal Foundation Models"
+date: 2025-09-18 00:00:00 +0800
 selected: true
 pinned: true
-pub:            "International Conference on Machine Learning (ICML 2025), Vancouver, Canada"
+pub:            "Conference and Workshop on Neural Information Processing Systems (NeurIPS 2025), Santiago, America"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
 pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Spotlight</span>'
