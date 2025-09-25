@@ -3,7 +3,7 @@ title: "Multimodal Learning for Spatio-Temporal Data Mining"
 date: 2025-02-28 00:00:00 +0800
 selected: true
 pinned: true
-pub:            "ACM MM 2025, Dublin, Ireland"
+pub:            "ACM MM 2025 Tutorial, Dublin, Ireland"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
 # pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
