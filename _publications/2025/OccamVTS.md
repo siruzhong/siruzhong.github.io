@@ -2,7 +2,7 @@
 title: "OccamVTS: Distilling Vision Models to 1% Parameters for Time Series Forecasting"
 date: 2025-08-01 00:00:00 +0800
 selected: false
-# pub:            "International Conference on Machine Learning (ICML 2025), Vancouver, Canada"
+# pub:            "ICML 2025, Vancouver, Canada"
 # pub_pre:        "Submitted to "
 pub_post: "Under review."
 # pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'

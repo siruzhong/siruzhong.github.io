@@ -3,7 +3,7 @@ title: "Fine-grained Urban Heat Island Effect Forecasting: A Context-aware Therm
 date: 2025-05-15 00:00:00 +0800
 selected: true
 pinned: false
-pub:            "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2025), Toronto, Canada"
+pub:            "KDD 2025, Toronto, Canada"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
 # pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
