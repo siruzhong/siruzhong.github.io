@@ -19,5 +19,5 @@ authors:
 links:
   Code: https://github.com/siruzhong/urbancross
   Paper: https://arxiv.org/pdf/2404.14241.pdf
-  Stars: https://img.shields.io/github/stars/siruzhong/urbancross?style=social
+  # Stars: https://img.shields.io/github/stars/siruzhong/urbancross?style=social
 ---

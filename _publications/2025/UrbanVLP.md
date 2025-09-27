@@ -20,5 +20,5 @@ authors:
 links:
   Code: https://github.com/CityMind-Lab/UrbanVLP
   Paper: https://arxiv.org/pdf/2403.16831.pdf
-  Stars: https://img.shields.io/github/stars/CityMind-Lab/UrbanVLP?style=social
+  # Stars: https://img.shields.io/github/stars/CityMind-Lab/UrbanVLP?style=social
 ---

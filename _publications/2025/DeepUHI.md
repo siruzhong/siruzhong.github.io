@@ -18,4 +18,4 @@ authors:
 links:
   Code: https://github.com/CityMind-Lab/DeepUHI
   Paper: https://dl.acm.org/doi/10.1145/3711896.3736962
-  Stars: https://img.shields.io/github/stars/CityMind-Lab/DeepUHI?style=social
+  # Stars: https://img.shields.io/github/stars/CityMind-Lab/DeepUHI?style=social

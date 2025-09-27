@@ -23,5 +23,5 @@ links:
   Code: https://github.com/yoshall/SINPA
   Paper: https://arxiv.org/pdf/2405.18910
   Dataset: https://github.com/yoshall/SINPA
-  Stars: https://img.shields.io/github/stars/yoshall/SINPA?style=social
+  # Stars: https://img.shields.io/github/stars/yoshall/SINPA?style=social
 ---
