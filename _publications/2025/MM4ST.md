@@ -6,7 +6,7 @@ pinned: true
 pub:            "MM 2025 Tutorial, Dublin, Ireland"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
-# pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
+pub_last: ' <span class="badge badge-pill badge-publication badge-primary">Tutorial</span>'
 
 cover: /assets/images/covers/MM4ST.png
 authors:
