@@ -21,7 +21,7 @@ authors:
   - Yuxuan Liang
 # citations: 15
 links:
-  # Code: https://github.com/CityMind-Lab/ICML25-TimeVLM
+  Code: https://github.com/CityMind-Lab/NeurIPS-25-FactoST
   Paper: https://openreview.net/pdf?id=d4CZoiaXeC
   # Stars: https://img.shields.io/github/stars/CityMind-Lab/ICML25-TimeVLM?style=social
 ---
