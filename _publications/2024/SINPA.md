@@ -7,7 +7,7 @@ pub: "IJCAI 2024, Jeju Island, South Korea"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-# pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
+pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 
 cover: /assets/images/covers/SINPA.png
 authors:

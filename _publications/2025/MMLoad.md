@@ -6,7 +6,7 @@ pinned: false
 pub:            "MM 2025, Dublin, Ireland"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
-# pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
+pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 
 cover: /assets/images/covers/MMLoad.png
 authors:
