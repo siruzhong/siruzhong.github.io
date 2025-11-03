@@ -19,5 +19,5 @@ authors:
   - Yuxuan Liang
 links:
   Code: https://github.com/CityMind-Lab/MM4ST
-  Paper: https://dl.acm.org/doi/10.1145/3746027.3759204
+  Site: https://mm4st.netlify.app/
 ---
