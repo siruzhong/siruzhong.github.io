@@ -57,7 +57,7 @@ experience:
 - name: 2012 Laboratories, Huawei
   logo: /assets/images/badges/Huawei-Logo.png
   position: Research Intern, Spatio-Temporal Foundation Models
-  date: Feb. 2025 - Now
+  date: Feb. 2025 - Present
 - name: Autonomous Driving Center, XPENG
   logo: /assets/images/badges/xpeng_company.png
   position: Research Intern, Multimodal Image-Text Perception
@@ -86,7 +86,7 @@ awards:
   date: 2020
 
 activities:
-  - name: International Conference on Machine Learning attendee, Vancouver, Canada
+  - name: ICML 2025 attendee, Vancouver, Canada
     date: 2025
   - name: Greater Bay Area Science Forum, Guangzhou, China
     date: 2024
@@ -104,10 +104,10 @@ activities:
     date: 2018-2019
 
 service:
-  - name: Tutorial Organizer of MM4ST 2025
+  - name: Tutorial Organizer of ACM MM 2025 "Multimodal Learning for Spatio-Temporal Data Mining"
   - name: Program Committee of AAAI 2026 (Main Track & AISI Track)
   - name: Reviewer of ICLR 2025, 2026
-  - name: Reviewer of KDD 2026 Datasets and Benchmarks Track
+  - name: Reviewer of KDD 2026 (Datasets and Benchmarks Track)
   - name: Reviewer of MM 2025 (Main Track & Dataset Track)
   - name: Web Master of WebST 2025 & UrbComp 2025 
 
