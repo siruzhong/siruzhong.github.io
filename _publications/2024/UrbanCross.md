@@ -6,7 +6,7 @@ pinned: true
 pub: "MM 2024, Melbourne, Australia"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-# pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
+pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
 
 cover: /assets/images/covers/UrbanCross.png
 authors:
