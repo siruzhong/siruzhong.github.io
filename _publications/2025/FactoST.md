@@ -6,7 +6,7 @@ pinned: true
 pub:            "NeurIPS 2025, Santiago, America"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
-pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Spotlight</span>'
+pub_last: ' <span class="badge badge-pill badge-publication badge-info">Spotlight</span>'
 
 cover: /assets/images/covers/FactoST.png
 authors:
