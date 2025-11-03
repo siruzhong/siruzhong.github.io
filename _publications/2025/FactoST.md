@@ -22,6 +22,6 @@ authors:
 # citations: 15
 links:
   # Code: https://github.com/CityMind-Lab/ICML25-TimeVLM
-  # Paper: https://arxiv.org/abs/2502.04395
+  Paper: https://openreview.net/pdf?id=d4CZoiaXeC
   # Stars: https://img.shields.io/github/stars/CityMind-Lab/ICML25-TimeVLM?style=social
 ---
