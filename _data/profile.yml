@@ -23,13 +23,13 @@ dblp: 359/5794
 
 short_bio: >-
   <p style="margin-bottom: 5px;">
-    Greetings! I am a first-year Ph.D. student in <a href="http://dsa.hkust-gz.edu.cn/" target="_blank">Data Science and Analytics</a> at <strong>HKUST(GZ)</strong>, supervised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a> and co-supervised by <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yue Yang</a> and <a href="https://www.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. Previously, I obtained my M.Phil. degree from the same university and my B.E. degree in <a href="https://ci.hfut.edu.cn/" target="_blank">Computer Science</a> from <strong>HFUT</strong>.
+    Greetings! I am a first-year Ph.D. student in <a href="http://dsa.hkust-gz.edu.cn/" target="_blank">Data Science and Analytics</a> at HKUST(GZ), supervised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a> and co-supervised by <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yue Yang</a> and <a href="https://www.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. Previously, I obtained my M.Phil. degree from the same university and my B.E. degree in <a href="https://ci.hfut.edu.cn/" target="_blank">Computer Science</a> from HFUT.
   </p>
   <p style="margin-bottom: 5px;">
-    Currently, I am collaborating closely with <a href="https://www.comp.nus.edu.sg/cs/people/rogerz/" target="_blank">Prof. Roger Zimmermann</a> from <strong>National University of Singapore</strong>, <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&amp;hl=zh-CN&amp;oi=sra" target="_blank">Dr. Hao Xu</a> from <strong>Huawei</strong>, and <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a> from <strong>Squirrel AI</strong>. Prior to that, I interned at <strong>XPENG</strong> (supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>) and worked as a full-time Software Engineer at <strong>Tencent</strong> from 2022 to 2023.
+    Currently, I am collaborating closely with <a href="https://www.comp.nus.edu.sg/cs/people/rogerz/" target="_blank">Prof. Roger Zimmermann</a> from National University of Singapore, <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&amp;hl=zh-CN&amp;oi=sra" target="_blank">Dr. Hao Xu</a> from Huawei, and <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a> from Squirrel AI. Prior to that, I interned at XPENG (supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>) and worked as a full-time Software Engineer at Tencent from 2022 to 2023.
   </p>
   <p style="margin-bottom: 5px;">
-    My research focuses on <strong>Spatio-Temporal Modeling</strong>, <strong>Foundation Models</strong>, and <strong>Multimodal Time Series Analysis</strong>, I aim to build <em>lightweight</em>, <em>adaptive</em>, and <em>practical</em> spatio-temporal systems. I am passionate about translating cutting-edge research into deployable solutions that address real-world challenges.
+    My research focuses on Spatio-Temporal Modeling, Foundation Models, and Multimodal Time Series Analysis, I aim to build <em>lightweight</em>, <em>adaptive</em>, and <em>practical</em> spatio-temporal systems. I am passionate about translating cutting-edge research into deployable solutions that address real-world challenges.
   </p>
   <p style="margin-bottom: 5px;">
     <em style="color: red;">Feel free to reach out via email if you're interested in discussing research ideas or exploring potential collaborations!</em>
@@ -40,10 +40,10 @@ portrait_caption: >-
   Hi there, I'm siru!
 
 education:
-- name: National University of Singapore
-  logo: /assets/images/badges/NUS.png
-  position: Visiting Student in School of Computing
-  date: Nov. 2025 - Present
+# - name: National University of Singapore
+#   logo: /assets/images/badges/NUS.png
+#   position: Visiting Student in School of Computing
+#   date: Nov. 2025 - Present
 - name: Hong Kong University of Science and Technology (GZ)
   logo: /assets/images/badges/HKUST_GZ.png
   position: Ph.D. in Data Science and Analytics Thrust
@@ -58,10 +58,10 @@ education:
   date: Sep. 2018 - Jul. 2022
 
 experience:
-- name: Squirrel AI Learning
-  logo: /assets/images/badges/Squirrel_AI.png
-  position: Research Intern, AI4Eearth
-  date: May. 2025 - Present
+# - name: Squirrel AI Learning
+#   logo: /assets/images/badges/Squirrel_AI.png
+#   position: Research Intern, AI4Eearth
+#   date: May. 2025 - Present
 - name: 2012 Laboratories, Huawei
   logo: /assets/images/badges/Huawei-Logo.png
   position: Research Intern, Spatio-Temporal Foundation Models
