@@ -58,6 +58,10 @@ education:
   date: Sep. 2018 - Jul. 2022
 
 experience:
+- name: Squirrel AI Learning
+  logo: /assets/images/badges/Squirrel_AI.png
+  position: Research Intern, AI4Eearth
+  date: May. 2025 - Present
 - name: 2012 Laboratories, Huawei
   logo: /assets/images/badges/Huawei-Logo.png
   position: Research Intern, Spatio-Temporal Foundation Models
