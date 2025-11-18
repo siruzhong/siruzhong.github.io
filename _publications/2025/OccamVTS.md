@@ -3,7 +3,7 @@ title: "OccamVTS: Distilling Vision Models to 1% Parameters for Time Series Fore
 date: 2025-11-08 00:00:00 +0800
 selected: true
 pinned: false
-pub:            "AAAI 20220265, Singapore"
+pub:            "AAAI 2026, Singapore"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
 pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
