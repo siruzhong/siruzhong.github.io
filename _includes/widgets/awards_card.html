@@ -1,31 +1,11 @@
-<!-- Awards & Activities -->
+<!-- Awards -->
 <div class="row mb-4">
-    <!-- Awards -->
-    <div class="col-md-6">
+    <div class="col-12">
         <div class="card border-0 shadow-sm bg-white h-100">
             <h6 class="p-3 mb-0" style="font-weight: bold;"><i class="fas fa-award mr-2"></i>Awards</h6>
             <div class="px-3 pb-1">
                 <ul class="list small pl-3 mb-1">
                     {% for item in site.data.profile.awards %}
-                    <li class="mb-2">
-                        <div class="d-flex">
-                            <div>{{ item.name }}</div>
-                            <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
-                        </div>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- Activities -->
-    <div class="col-md-6">
-        <div class="card border-0 shadow-sm bg-white h-100">
-            <h6 class="p-3 mb-0" style="font-weight: bold;"><i class="fas fa-users mr-2"></i>Activities</h6>
-            <div class="px-3 pb-1">
-                <ul class="list small pl-3 mb-1">
-                    {% for item in site.data.profile.activities %}
                     <li class="mb-2">
                         <div class="d-flex">
                             <div>{{ item.name }}</div>

@@ -5,3 +5,5 @@ pages:
   url: /publications
 - name: Talks
   url: /talks
+- name: About
+  url: /about

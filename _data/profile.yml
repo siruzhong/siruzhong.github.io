@@ -23,7 +23,7 @@ dblp: 359/5794
 
 short_bio: >-
   <p style="margin-bottom: 5px;">
-    Greetings! I am a first-year Ph.D. student in <a href="http://dsa.hkust-gz.edu.cn/" target="_blank">Data Science and Analytics</a> at HKUST(GZ), supervised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a> and co-supervised by <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yue Yang</a> and <a href="https://www.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. Previously, I obtained my M.Phil. degree from the same university and my B.E. degree in <a href="https://ci.hfut.edu.cn/" target="_blank">Computer Science</a> from HFUT.
+    Greetings! I am a Ph.D. student in <a href="http://dsa.hkust-gz.edu.cn/" target="_blank">Data Science and Analytics</a> at HKUST(GZ), supervised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a> and co-supervised by <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yue Yang</a> and <a href="https://www.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. Previously, I obtained my M.Phil. degree from the same university and my B.E. degree in <a href="https://ci.hfut.edu.cn/" target="_blank">Computer Science</a> from HFUT.
   </p>
   <p style="margin-bottom: 5px;">
     Currently, I am collaborating closely with <a href="https://www.comp.nus.edu.sg/cs/people/rogerz/" target="_blank">Prof. Roger Zimmermann</a> from National University of Singapore, <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&amp;hl=zh-CN&amp;oi=sra" target="_blank">Dr. Hao Xu</a> from Huawei, and <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a> from Squirrel AI. Prior to that, I interned at XPENG (supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>) and worked as a full-time Software Engineer at Tencent from 2022 to 2023.
@@ -92,24 +92,6 @@ awards:
   date: 2022
 - name: First Prize (Top 10) in CSDN Technology Blogger Competition
   date: 2020
-
-activities:
-  - name: ICML 2025 attendee, Vancouver, Canada
-    date: 2025
-  - name: Greater Bay Area Science Forum, Guangzhou, China
-    date: 2024
-  - name: ACM Multimedia Conference attendee, Melbourne, Australia
-    date: 2024
-  - name: China National Computer Conference attendee, Yiwu, China
-    date: 2024
-  - name: HKUST-GZ System Hub Welcome Party performer, Guangzhou, China
-    date: 2023
-  - name: Tencent New Year Gala performer, Shenzhen, China
-    date: 2023
-  - name: HFUT Chorus member, Hefei, China
-    date: 2018-2022
-  - name: HFUT External Relations Department member, Hefei, China
-    date: 2018-2019
 
 service:
   - name: Tutorial Organizer of ACM MM 2025 "Multimodal Learning for Spatio-Temporal Data Mining"
