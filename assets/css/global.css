@@ -85,9 +85,6 @@ img.lazy {
 /* Analytics Styling */
 .analytics-container {
     padding: 1rem;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-radius: 10px;
-    border: 1px solid #dee2e6;
 }
 
 .analytics-stats {
@@ -326,10 +323,6 @@ img.lazy {
 
 /* ClustrMaps Styling */
 .clustrmap-container {
-    background: white;
-    border-radius: 8px;
-    padding: 0.5rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     display: inline-block;
     max-width: 350px;
 }
