@@ -9,7 +9,7 @@
                 </a>
             </h5>
             <p class="mt-0 mb-0 small text-muted">
-                <i class="far fa-calendar-alt mr-1"></i>{{ talk.date }}
+                <i class="far fa-calendar-alt mr-1"></i>{{ talk.date }}{% if talk.topic %} | <i class="fas fa-microphone mr-1"></i>{{ talk.topic }}{% endif %}
             </p>
         </div>
     </div>
@@ -24,7 +24,7 @@
             </a>
         </h5>
         <p class="mt-0 mb-0 small text-muted">
-            <i class="far fa-calendar-alt mr-1"></i>{{ talk.date }}
+            <i class="far fa-calendar-alt mr-1"></i>{{ talk.date }}{% if talk.topic %} | <i class="fas fa-microphone mr-1"></i>{{ talk.topic }}{% endif %}
         </p>
     </div>
 </div>
