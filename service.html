@@ -1,0 +1,26 @@
+---
+layout: default
+title : Service
+navbar_title: Service
+---
+
+<div class="row">
+    <div class="col-12 col-lg-10">
+        <h2 class="pt-4">Academic Service</h2>
+        <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+            <div class="p-4">
+                <ul class="list-unstyled mb-0">
+                    {% for item in site.data.profile.service %}
+                    <li class="media mb-2">
+                        <i class="fas fa-angle-right text-muted mr-3 mt-1"></i>
+                        <div class="media-body text-dark">
+                            {{ item.name }}
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+

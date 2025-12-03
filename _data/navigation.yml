@@ -5,5 +5,9 @@ pages:
   url: /publications
 - name: Talks
   url: /talks
-- name: About
-  url: /about
+- name: Awards
+  url: /awards
+- name: Service
+  url: /service
+- name: Teaching
+  url: /teaching

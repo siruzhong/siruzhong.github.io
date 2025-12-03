@@ -1,0 +1,28 @@
+---
+layout: default
+title : Teaching
+navbar_title: Teaching
+---
+
+<div class="row">
+    <div class="col-12 col-lg-10">
+        <h2 class="pt-4">Teaching Experience</h2>
+        <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+            <div class="p-4">
+                <ul class="list-unstyled mb-0">
+                    {% for item in site.data.profile.teaching %}
+                    <li class="media mb-3 {% unless forloop.last %}border-bottom pb-3{% endunless %}">
+                        <div class="media-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="font-weight-bold text-dark">{{ item.name }}</div>
+                                <div class="text-muted small text-nowrap ml-3">{{ item.date }}</div>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
