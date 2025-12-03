@@ -118,3 +118,7 @@ talks:
     url: https://mp.weixin.qq.com/s/oLMspQh74LyB5TqcU9KqmQ
     date: 2025
     topic: Learning to Factorize Spatio-Temporal Foundation Models
+  - title: ACM MM 2025 Tutorial — Multimodal Learning for Spatio-Temporal Data Mining
+    url: https://mm4st.netlify.app/
+    date: 2025
+    topic: Multimodal learning techniques for ST data
