@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Data Science & Analytics"
 
 positions:
-- name: 'Ph.D. Student, The Hong Kong University of Science and Technology (Guangzhou), Huawei 2012 Laboratories, Ex-Tencent & XPENG'
+- name: 'Ph.D. Student, The Hong Kong University of Science and Technology (GZ), Ex-Huawei & Tencent & XPENG'
 
 email: "siruzhong@outlook.com"
 # cv_link: link-to-your-cv-file
@@ -29,7 +29,7 @@ short_bio: >-
     Currently, I am collaborating closely with <a href="https://www.comp.nus.edu.sg/cs/people/rogerz/" target="_blank">Prof. Roger Zimmermann</a> from National University of Singapore, <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&amp;hl=zh-CN&amp;oi=sra" target="_blank">Dr. Hao Xu</a> from Huawei, and <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a> from Squirrel AI. Prior to that, I interned at XPENG (supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>) and worked as a full-time Software Engineer at Tencent from 2022 to 2023.
   </p>
   <p style="margin-bottom: 5px;">
-    My research focuses on Spatio-Temporal Modeling, Foundation Models, and Multimodal Time Series Analysis, I aim to build <em>lightweight</em>, <em>adaptive</em>, and <em>practical</em> spatio-temporal systems. I am passionate about translating cutting-edge research into deployable solutions that address real-world challenges.
+    My research focuses on Spatio-Temporal Data Mining, Foundation Models, Time Series Analysis, etc. I aim to build <em>lightweight</em>, <em>adaptive</em>, and <em>practical</em> spatio-temporal systems. I am passionate about translating cutting-edge research into deployable solutions that address real-world challenges.
   </p>
   <p style="margin-bottom: 5px;">
     <em style="color: red;">Feel free to reach out via email if you're interested in discussing research ideas or exploring potential collaborations!</em>
