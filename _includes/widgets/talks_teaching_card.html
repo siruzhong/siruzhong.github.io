@@ -1,0 +1,46 @@
+<!-- Talks & Teaching -->
+<div class="row mb-4" id="talks-teaching">
+    <!-- Talks -->
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm bg-white h-100" id="talks">
+            <h6 class="p-3 mb-0" style="font-weight: bold;"><i class="fas fa-microphone mr-2"></i>Talks</h6>
+            <div class="px-3 pb-1">
+                <ul class="list small pl-3 mb-1">
+                    {% assign talks = site.data.profile.talks | sort: "date" | reverse %}
+                    {% for talk in talks limit:5 %}
+                    <li class="mb-2">
+                        <div class="d-flex">
+                            <div class="flex-grow-1">
+                                <a href="{{ talk.url }}" target="_blank">{{ talk.title }}</a>
+                            </div>
+                            <div class="ml-auto no-break align-self-start"><em>{{ talk.date }}</em></div>
+                        </div>
+                        {% if talk.topic %}
+                        <div class="small text-muted">{{ talk.topic }}</div>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Teaching -->
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm bg-white h-100" id="teaching">
+            <h6 class="p-3 mb-0" style="font-weight: bold;"><i class="fas fa-chalkboard-teacher mr-2"></i>Teaching</h6>
+            <div class="px-3 pb-1">
+                <ul class="list small pl-3 mb-1">
+                    {% for item in site.data.profile.teaching %}
+                    <li class="mb-2">
+                        <div class="d-flex">
+                            <div>{{ item.name }}</div>
+                            <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

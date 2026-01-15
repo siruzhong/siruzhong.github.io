@@ -26,10 +26,10 @@ short_bio: >-
     Greetings! I am a Ph.D. student in <a href="http://dsa.hkust-gz.edu.cn/" target="_blank">Data Science and Analytics</a> at HKUST(GZ), supervised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a> and co-supervised by <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yue Yang</a> and <a href="https://www.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. Previously, I obtained my M.Phil. degree from the same university and my B.E. degree in <a href="https://ci.hfut.edu.cn/" target="_blank">Computer Science</a> from HFUT.
   </p>
   <p style="margin-bottom: 5px;">
-    Currently, I am collaborating closely with <a href="https://www.comp.nus.edu.sg/cs/people/rogerz/" target="_blank">Prof. Roger Zimmermann</a> from National University of Singapore, <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&amp;hl=zh-CN&amp;oi=sra" target="_blank">Dr. Hao Xu</a> from Huawei, and <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a> from Squirrel AI. Prior to that, I interned at XPENG (supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>) and worked as a full-time Software Engineer at Tencent from 2022 to 2023.
+    Currently, my research focuses on Time Series Analysis, Multimodal, and Foundation Models, etc. I also collaborate closely with <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a> from Squirrel AI, <a href="https://www.comp.nus.edu.sg/cs/people/rogerz/" target="_blank">Prof. Roger Zimmermann</a> from National University of Singapore, and <a href="https://zezhishao.github.io/" target="_blank">Prof. Zezhi Shao</a> from Chinese Academy of Sciences. Prior to that, I interned at Huawei (supervised by <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&amp;hl=zh-CN&amp;oi=sra" target="_blank">Dr. Hao Xu</a>), XPENG (supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>), and worked as a full-time Software Engineer at Tencent from 2022 to 2023.
   </p>
   <p style="margin-bottom: 5px;">
-    My research focuses on Spatio-Temporal Data Mining, Foundation Models, Time Series Analysis, etc. I aim to build <em>lightweight</em>, <em>adaptive</em>, and <em>practical</em> spatio-temporal systems. I am passionate about translating cutting-edge research into deployable solutions that address real-world challenges.
+    I am passionate about building adaptive and practical spatio-temporal systems, translating research into deployable solutions that address real-world challenges.
   </p>
   <p style="margin-bottom: 5px;">
     <em style="color: red;">Feel free to reach out via email if you're interested in discussing research ideas or exploring potential collaborations!</em>
@@ -40,10 +40,6 @@ portrait_caption: >-
   Hi there, I'm siru!
 
 education:
-# - name: National University of Singapore
-#   logo: /assets/images/badges/NUS.png
-#   position: Visiting Student in School of Computing
-#   date: Nov. 2025 - Present
 - name: Hong Kong University of Science and Technology (GZ)
   logo: /assets/images/badges/HKUST_GZ.png
   position: Ph.D. in Data Science and Analytics Thrust
@@ -58,14 +54,10 @@ education:
   date: Sep. 2018 - Jul. 2022
 
 experience:
-# - name: Squirrel AI Learning
-#   logo: /assets/images/badges/Squirrel_AI.png
-#   position: Research Intern, AI4Eearth
-#   date: May. 2025 - Present
 - name: 2012 Laboratories, Huawei
   logo: /assets/images/badges/Huawei-Logo.png
   position: Research Intern, Spatio-Temporal Foundation Models
-  date: Feb. 2025 - Nov. 2025
+  date: Feb. 2025 - Dec. 2025
 - name: Autonomous Driving Center, XPENG
   logo: /assets/images/badges/xpeng_company.png
   position: Research Intern, Multimodal Image-Text Perception
@@ -76,8 +68,10 @@ experience:
   date: Jun. 2021 - May. 2023
 
 awards:
+- name: Junior Student Track Awardees of DSA Excellent Research Award, HKUST(GZ)
+  date: 2026
 - name: Runner-Up Prize for DSA Excellent Research Award, HKUST(GZ)
-  date: 2024
+  date: 2025
 - name: Best Project Award (1st/15) in Data Science Computing, HKUST(GZ)
   date: 2023
 - name: Outstanding Student (Top 10%) in Red Bird Summer Camp, HKUST(GZ)
@@ -94,14 +88,19 @@ awards:
   date: 2020
 
 service:
-  - name: Tutorial Organizer of ACM MM 2025 "Multimodal Learning for Spatio-Temporal Data Mining"
-  - name: Program Committee of AAAI 2026 (Main Track & AISI Track)
+  - name: PC Member of AAAI 2026 (Main Track & AISI Track)
+  - name: PC Member of PAKDD
+  - name: Reviewer of IEEE TPAMI
+  - name: Reviewer of IEEE Neurocomputing
   - name: Reviewer of ICLR 2025, 2026
   - name: Reviewer of KDD 2026 (Datasets and Benchmarks Track)
   - name: Reviewer of MM 2025 (Main Track & Dataset Track)
+  - name: Tutorial Organizer of MM4ST@MM2025
   - name: Web Master of WebST 2025 & UrbComp 2025 
 
 teaching:
+  - name: DSAA60000 Table Representation Learning
+    date: Spring 2026
   - name: DSAA2043 Design and Analysis of Algorithms
     date: Fall 2025
   - name: PLED5001 Communicating Research in English

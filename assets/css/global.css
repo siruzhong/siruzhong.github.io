@@ -5,6 +5,11 @@ body {
     padding-top: 5.0rem;
 }
 
+/* Scroll offset for anchor links to account for fixed navbar */
+#service, #awards, #talks, #teaching {
+    scroll-margin-top: 6rem;
+}
+
 .container {
     max-width: 1240px;
 }
