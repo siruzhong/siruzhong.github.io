@@ -2,6 +2,7 @@
 title: "Learning to Factorize and Adapt: A Versatile Approach Toward Universal Spatio-Temporal Foundation Models"
 date: 2026-01-12 00:00:00 +0800
 selected: true
+pinned: true
 # pub:            ""
 # pub_pre:        "Submitted to "
 pub_post: "Under review."
