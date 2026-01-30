@@ -20,5 +20,5 @@ authors:
 # citations: 0
 links:
   Code: https://github.com/CityMind-Lab/DropoutTS
-  # Paper: https://arxiv.org/abs/
+  Paper: https://arxiv.org/abs/2601.21726
 ---
