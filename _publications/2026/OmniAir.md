@@ -8,7 +8,7 @@ pinned: true
 pub_post: "Under review."
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 
-# cover: /assets/images/covers/OmniAir.png
+cover: /assets/images/covers/OmniAir.png
 authors:
   - "Zhiqing Cui*"
   - "Siru Zhong*"
