@@ -49,14 +49,6 @@ h1, h2, h3, h4, h5, h6,
     max-height: 120px;
 }
 
-/* Publication cover image styling */
-.publication-cover {
-    width: 100%;
-    max-height: 80px;
-    object-fit: contain;
-    object-position: center;
-}
-
 .abstract-body {
     min-height: 100px;
 }
