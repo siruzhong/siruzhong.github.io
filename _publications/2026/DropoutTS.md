@@ -2,7 +2,7 @@
 title: "DropoutTS: Sample-Adaptive Dropout for Robust Time Series Forecasting"
 date: 2026-01-29 00:00:00 +0800
 selected: true
-pinned: true
+pinned: false
 # pub:            ""
 # pub_pre:        "Submitted to "
 pub_post: "Under review."

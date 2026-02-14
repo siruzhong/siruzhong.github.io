@@ -1,7 +1,7 @@
 ---
 title: "Fine-grained Urban Heat Island Effect Forecasting: A Context-aware Thermodynamic Modeling Framework"
 date: 2025-05-15 00:00:00 +0800
-selected: true
+selected: false
 pinned: false
 pub:            "KDD 2025, Toronto, Canada"
 # pub_pre:        "Submitted to "

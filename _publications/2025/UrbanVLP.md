@@ -1,7 +1,7 @@
 ---
 title: "UrbanVLP: A Multi-Granularity Vision-Language Pre-Trained Model for Urban Indicator Prediction"
 date: 2025-02-27 00:00:00 +0800
-selected: true
+selected: false
 pinned: false
 pub:            "AAAI 2025, Philadelphia, America"
 # pub_pre:        "Submitted to "

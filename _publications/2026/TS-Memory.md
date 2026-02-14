@@ -2,7 +2,7 @@
 title: "TS-Memory: Plug-and-Play Memory for Time Series Foundation Models"
 date: 2026-02-12 00:00:00 +0800
 selected: true
-pinned: true
+pinned: false
 # pub:            ""
 # pub_pre:        "Submitted to "
 pub_post: "Under review."

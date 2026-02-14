@@ -2,7 +2,7 @@
 title: "Breaking the Regional Barrier: Inductive Semantic Topology Learning for Worldwide Air Quality Forecasting"
 date: 2026-01-29 00:00:00 +0800
 selected: true
-pinned: true
+pinned: false
 # pub:            ""
 # pub_pre:        "Submitted to "
 pub_post: "Under review."

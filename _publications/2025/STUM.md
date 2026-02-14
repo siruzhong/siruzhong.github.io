@@ -1,7 +1,7 @@
 ---
 title: "Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting"
 date: 2025-08-20 00:00:00 +0800
-selected: true
+selected: false
 pinned: false
 pub: "IEEE Transactions on Intelligent Transportation Systems, 2025"
 # pub_pre:        "Submitted to "

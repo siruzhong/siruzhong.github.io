@@ -1,7 +1,7 @@
 ---
 title: "AirRadar: Inferring Nationwide Air Quality in China with Deep Neural Networks"
 date: 2025-02-27 00:00:00 +0800
-selected: true
+selected: false
 pinned: false
 pub:            "AAAI 2025, Philadelphia, America"
 # pub_pre:        "Submitted to "
