@@ -121,3 +121,7 @@ talks:
     url: https://mm4st.netlify.app/
     date: 2025
     topic: Multimodal learning techniques for ST data
+  - title: AAAI 2026 Tutorial — Multi-modal Time Series Analysis: Methods, Datasets, and Applications
+    url: https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/#th11
+    date: 2026
+    topic: Multi-modal time series analysis
