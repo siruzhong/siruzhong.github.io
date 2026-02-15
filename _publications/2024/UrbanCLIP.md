@@ -23,4 +23,5 @@ links:
   Code: https://github.com/StupidBuluchacha/UrbanCLIP
   Paper: https://arxiv.org/pdf/2310.18340.pdf
   # Stars: https://img.shields.io/github/stars/StupidBuluchacha/UrbanCLIP?style=social
+  遥感GIS大模型: https://mp.weixin.qq.com/s/nZK6CbTqnHUpI9RRz1xnBQ
 ---
