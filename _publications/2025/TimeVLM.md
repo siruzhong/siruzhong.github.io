@@ -20,5 +20,10 @@ authors:
 links:
   Code: https://github.com/CityMind-Lab/ICML25-TimeVLM
   Paper: https://arxiv.org/abs/2502.04395
-  # Stars: https://img.shields.io/github/stars/CityMind-Lab/ICML25-TimeVLM?style=social
+  时序大模型: https://mp.weixin.qq.com/s/qJhP8dymSlL0EECCP2uHPg
+  大头的算法笔记: https://mp.weixin.qq.com/s/89mg_jT9RxpL_Yfb9Y5Eng
+  时序量化Top: https://mp.weixin.qq.com/s/wm_hqLIOfdJdigUSk8BFTA
+  时序前沿研究: https://mp.weixin.qq.com/s/EmPhCuE5SH2t3BvhYfaSPw
+  当交通遇上机器学习: https://mp.weixin.qq.com/s/eO-H92Fl7K1UuhkBX_892A
+  圆圆的算法笔记: https://mp.weixin.qq.com/s/8zCCv5EIO555adZDbuBBnw
 ---
