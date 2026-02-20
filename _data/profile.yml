@@ -88,8 +88,9 @@ awards:
   date: 2020
 
 service:
+  - name: PC Member of ACM MM 2026
   - name: PC Member of AAAI 2026 (Main Track & AISI Track)
-  - name: PC Member of PAKDD
+  - name: PC Member of PAKDD 2026
   - name: Reviewer of IEEE TPAMI
   - name: Reviewer of IEEE Neurocomputing
   - name: Reviewer of ICLR 2025, 2026
