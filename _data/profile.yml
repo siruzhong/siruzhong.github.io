@@ -88,6 +88,7 @@ awards:
   date: 2020
 
 service:
+  - name: Reviewer of KDD 2026 (Datasets and Benchmarks Track, AI4Science Track)
   - name: PC Member of ACM MM 2026
   - name: PC Member of AAAI 2026 (Main Track & AISI Track)
   - name: PC Member of PAKDD 2026
