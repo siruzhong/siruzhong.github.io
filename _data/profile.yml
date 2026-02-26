@@ -40,6 +40,10 @@ portrait_caption: >-
   Hi there, I'm siru!
 
 education:
+- name: Tsinghua University
+  logo: /assets/images/badges/Tsinghua.png
+  position: Visiting Ph.D. Student, Institute of Data and Information
+  date: Feb. 2026 - Present
 - name: Hong Kong University of Science and Technology (GZ)
   logo: /assets/images/badges/HKUST_GZ.png
   position: Ph.D. in Data Science and Analytics Thrust
@@ -54,11 +58,6 @@ education:
   date: Sep. 2018 - Jul. 2022
 
 experience:
-- name: Tsinghua University
-  logo: /assets/images/badges/Tsinghua.png
-  position: Visiting Ph.D. Student, High Performance Computing
-  dept: Institute of Data and Information
-  date: Feb. 2026 - Present
 - name: 2012 Laboratories, Huawei
   logo: /assets/images/badges/Huawei-Logo.png
   position: Research Intern, Spatio-Temporal Foundation Models
