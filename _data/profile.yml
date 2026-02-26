@@ -23,7 +23,7 @@ dblp: 359/5794
 
 short_bio: >-
   <p style="margin-bottom: 5px;">
-    Greetings! I am a Ph.D. student in <a href="http://dsa.hkust-gz.edu.cn/" target="_blank">Data Science and Analytics</a> at HKUST(GZ), supervised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a> and co-supervised by <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yue Yang</a> and <a href="https://www.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. Previously, I obtained my M.Phil. degree from the same university and my B.E. degree in <a href="https://ci.hfut.edu.cn/" target="_blank">Computer Science</a> from HFUT.
+    Greetings! I am a Ph.D. student in <a href="http://dsa.hkust-gz.edu.cn/" target="_blank">Data Science and Analytics</a> at <strong>The Hong Kong University of Science and Technology (GZ)</strong>, supervised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a> and co-supervised by <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yue Yang</a> and <a href="https://www.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. I am also a visiting Ph.D. student at <a href="https://www.thuhpgc.net/" target="_blank">Tsinghua University</a>, supervised by <a href="https://www.thuhpgc.net/author/haohuan-fu/" target="_blank">Prof. Haohuan Fu</a>. Previously, I obtained my M.Phil. degree from the same university and my B.E. degree in <a href="https://ci.hfut.edu.cn/" target="_blank">Computer Science</a> from <strong>Hefei University of Technology</strong>.
   </p>
   <p style="margin-bottom: 5px;">
     Currently, my research focuses on Time Series Analysis, Multimodal, and Foundation Models, etc. I also collaborate closely with <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a> @ Squirrel AI, <a href="https://www.comp.nus.edu.sg/cs/people/rogerz/" target="_blank">Prof. Roger Zimmermann</a> @ NUS, <a href="https://zezhishao.github.io/" target="_blank">Prof. Zezhi Shao</a> @ CAS, <a href="https://scholar.google.com/citations?user=frWRJN4AAAAJ" target="_blank">Prof. Shirui Pan</a> @ Griffith University, and <a href="https://scholar.google.com/citations?user=cVDF1tkAAAAJ" target="_blank">Prof. Hui Xiong</a> @ HKUST. Prior to that, I interned at Huawei (supervised by <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&amp;hl=zh-CN&amp;oi=sra" target="_blank">Dr. Hao Xu</a>), XPENG (supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>), and worked as a full-time Software Engineer at Tencent from 2022 to 2023.
@@ -54,6 +54,10 @@ education:
   date: Sep. 2018 - Jul. 2022
 
 experience:
+- name: Tsinghua University
+  logo: /assets/images/badges/Tsinghua.png
+  position: Visiting Ph.D. Student, High Performance Computing
+  date: Feb. 2026 - Present
 - name: 2012 Laboratories, Huawei
   logo: /assets/images/badges/Huawei-Logo.png
   position: Research Intern, Spatio-Temporal Foundation Models
