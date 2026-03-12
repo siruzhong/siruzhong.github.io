@@ -58,6 +58,10 @@ education:
   date: Sep. 2018 - Jul. 2022
 
 experience:
+  - name: National Supercomputing Center Shenzhen
+    logo: /assets/images/badges/nscc.png
+    position: Visiting Scholar, AI4Earth, Global
+    date: Mar. 2026 - Present
 - name: 2012 Laboratories, Huawei
   logo: /assets/images/badges/Huawei-Logo.png
   position: Research Intern, Spatio-Temporal Foundation Models
