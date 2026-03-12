@@ -58,22 +58,22 @@ education:
   date: Sep. 2018 - Jul. 2022
 
 experience:
-- name: National Supercomputing Center Shenzhen
-  logo: /assets/images/badges/nscc.png
-  position: Visiting Scholar, AI4Earth, Global
-  date: Mar. 2026 - Present
-- name: 2012 Laboratories, Huawei
-  logo: /assets/images/badges/Huawei-Logo.png
-  position: Research Intern, Spatio-Temporal Foundation Models
-  date: Feb. 2025 - Dec. 2025
-- name: Autonomous Driving Center, XPENG
-  logo: /assets/images/badges/xpeng_company.png
-  position: Research Intern, Multimodal Image-Text Perception
-  date: May. 2024 - Aug. 2024
-- name: CloudDev Center, Tencent
-  logo: /assets/images/badges/tencent_company.png
-  position: Software Engineer & Intern, Cloud Intelligent IDE
-  date: Jun. 2021 - May. 2023
+  - name: National Supercomputing Center Shenzhen
+    logo: /assets/images/badges/nscc.png
+    position: Visiting Scholar, AI4Earth, Global
+    date: Mar. 2026 - Present
+  - name: 2012 Laboratories, Huawei
+    logo: /assets/images/badges/Huawei-Logo.png
+    position: Research Intern, Spatio-Temporal Foundation Models
+    date: Feb. 2025 - Dec. 2025
+  - name: Autonomous Driving Center, XPENG
+    logo: /assets/images/badges/xpeng_company.png
+    position: Research Intern, Multimodal Image-Text Perception
+    date: May. 2024 - Aug. 2024
+  - name: CloudDev Center, Tencent
+    logo: /assets/images/badges/tencent_company.png
+    position: Software Engineer & Intern, Cloud Intelligent IDE
+    date: Jun. 2021 - May. 2023
 
 awards:
 - name: Junior Student Track Awardees of DSA Excellent Research Award, HKUST(Guangzhou)
