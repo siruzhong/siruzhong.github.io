@@ -57,9 +57,9 @@
   overflow-y: visible;
   scrollbar-width: thin;
   scrollbar-color: #d0d5dd transparent;
-  padding: 200px 0 120px 0;
+  padding: 180px 0 120px 0;
   -webkit-overflow-scrolling: touch;
-  min-height: 420px;
+  min-height: 380px;
 }
 
 .timeline-scroll-container::-webkit-scrollbar {
@@ -107,8 +107,8 @@
   display: flex;
   flex-direction: column;
   align-items: centero;
-  min-width: 120px;
-  max-width: 120px;
+  min-width: 115px;
+  max-width: 115px;
   padding: 0 0.25rem;
   z-index: 2;
 }
@@ -188,7 +188,7 @@
   border: 1px solid #e5e7eb;
   border-radius: 10px;
   padding: 0.75rem;
-  width: 220px;
+  width: 200px;
   transition: all 0.25s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
@@ -205,9 +205,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  padding: 0.2rem 0.5rem;
   border-radius: 12px;
-  margin-bottom: 0.625rem;
   white-space: nowrap;
 }
 
@@ -514,10 +512,7 @@ For same start year: larger end = newer = LEFT
   {% endunless %}
 {% endfor %}
 
-<div class="timeline-card-wrapper">
-  <h6 class="card-title"><i class="fas fa-clock"></i>Education & Experience</h6>
-  <div class="card-body">
-    <div class="timeline-outer">
+<div class="timeline-outer">
       <div class="timeline-scroll-container">
         <div class="timeline-wrapper">
           <div class="timeline-axis-h"></div>
@@ -582,5 +577,3 @@ For same start year: larger end = newer = LEFT
         </div>
       </div>
     </div>
-  </div>
-</div>
