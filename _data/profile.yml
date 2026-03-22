@@ -49,7 +49,7 @@ education:
   position: Data Science and Analytics
   date: Feb. 2025 - Jan. 2028
 - name: Master of Philosophy
-  logo: /assets/images/badges/HKUST_GZ.png
+  logo: /assets/images/badges/HKUST_GZ_Logo.png
   position: Data Science and Analytics
   date: Aug. 2023 - Jan. 2025
 - name: Bachelor of Engineering
@@ -74,7 +74,7 @@ experience:
     logo: /assets/images/badges/tencent_company.png
     position: CloudDev Center
     date: Jun. 2022 - May. 2023
-  - name: Software Intern,
+  - name: Software Intern
     logo: /assets/images/badges/tencent_company.png
     position:  Workflow Engine Center
     date: Jun. 2021 - Sep. 2021
