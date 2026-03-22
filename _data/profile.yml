@@ -21,13 +21,15 @@ orcid: 0009-0001-4465-8686
 # researchgate: Siru_Zhong
 dblp: 359/5794
 
-short_bio: >-
+bio_before_timeline: >-
   <p style="margin-bottom: 5px;">
-    Greetings! I am a Ph.D. student at <a href="https://www.citymind.top/" target="_blank">CityMind Lab</a>, <a href="http://dsa.hkust-gz.edu.cn/" target="_blank">Hong Kong University of Science and Technology (GZ)</a>, supervised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a>, <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yue Yang</a>, and <a href="https://www.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. Currently, I am also a visiting Ph.D. student at <a href="https://www.thuhpgc.net/" target="_blank">HPGC Research Group</a>, <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>, supervised by <a href="https://www.thuhpgc.net/author/haohuan-fu/" target="_blank">Prof. Haohuan Fu</a>, and a visiting scholar at the <a href="https://www.nsccsz.cn/" target="_blank">National Supercomputing Center, Shenzhen</a>. Previously, I obtained my M.Phil. from HKUST (GZ) and B.E. from <a href="https://ci.hfut.edu.cn/" target="_blank">Hefei University of Technology</a>.
+    I am a Ph.D. student at <a href="https://www.citymind.top/" target="_blank">CityMind Lab</a>, <u style="text-decoration-color: #999;">Hong Kong University of Science and Technology (GZ)</u>, supervised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a>, <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yue Yang</a>, and <a href="https://www.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. I am also a visiting Ph.D. student at <a href="https://www.thuhpgc.net/" target="_blank">HPGC Research Group</a>, <u style="text-decoration-color: #999;">Tsinghua University</u>, supervised by <a href="https://www.thuhpgc.net/author/haohuan-fu/" target="_blank">Prof. Haohuan Fu</a>, and a visiting scholar at the National Supercomputing Center, Shenzhen. Previously, I obtained my M.Phil. from HKUST (GZ) and B.E. from <u style="text-decoration-color: #999;">Hefei University of Technology</u>.
   </p>
   <p style="margin-bottom: 5px;">
-    Currently, my research focuses on Time Series Modeling, Spatio-Temporal Data Mining, and AI4Earth. I also collaborate closely with <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a> @ Squirrel AI, <a href="https://www.comp.nus.edu.sg/cs/people/rogerz/" target="_blank">Prof. Roger Zimmermann</a> @ NUS, <a href="https://zezhishao.github.io/" target="_blank">Prof. Zezhi Shao</a> @ CAS, and <a href="https://scholar.google.com/citations?user=frWRJN4AAAAJ" target="_blank">Prof. Shirui Pan</a> @ Griffith University. Prior to that, I interned at Huawei (supervised by <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&amp;hl=zh-CN&amp;oi=sra" target="_blank">Dr. Hao Xu</a>), XPENG (supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>), and worked as a full-time Software Engineer at Tencent from 2022 to 2023.
+    My research focuses on Time Series Modeling, Spatio-Temporal Data Mining, and AI4Earth. I also collaborate with <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a> @ Squirrel AI, <a href="https://www.comp.nus.edu.sg/cs/people/rogerz/" target="_blank">Prof. Roger Zimmermann</a> @ <u style="text-decoration-color: #999;">National University of Singapore</u>, <a href="https://zezhishao.github.io/" target="_blank">Prof. Zezhi Shao</a> @ <u style="text-decoration-color: #999;">Chinese Academy of Sciences</u>, and <a href="https://scholar.google.com/citations?user=frWRJN4AAAAJ" target="_blank">Prof. Shirui Pan</a> @ <u style="text-decoration-color: #999;">Griffith University</u>. Earlier, I interned at Huawei (supervised by <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&hl=zh-CN&oi=sra" target="_blank">Dr. Hao Xu</a>), XPENG (supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>), and worked as a software engineer at Tencent (2022–2023).
   </p>
+
+bio_after_timeline: >-
   <p style="margin-bottom: 5px;">
     I am passionate about building adaptive and practical spatio-temporal systems, translating research into deployable solutions that address real-world challenges.
   </p>
@@ -44,40 +46,49 @@ education:
   logo: /assets/images/badges/THU.png
   position: Institute of Data and Information
   date: Mar. 2026 - Present
+  url: https://www.tsinghua.edu.cn/
 - name: Doctor of Philosophy
   logo: /assets/images/badges/HKUST_GZ_Logo.png
   position: Data Science and Analytics
   date: Feb. 2025 - Jan. 2028
+  url: https://www.hkust-gz.edu.cn/
 - name: Master of Philosophy
   logo: /assets/images/badges/HKUST_GZ_Logo.png
   position: Data Science and Analytics
   date: Aug. 2023 - Jan. 2025
+  url: https://www.hkust-gz.edu.cn/
 - name: Bachelor of Engineering
   logo: /assets/images/badges/HFUT_logo.png
   position: School of Artificial Intelligence
   date: Sep. 2018 - Jun. 2022
+  url: https://ci.hfut.edu.cn/
 
 experience:
   - name: Visiting Scholar
     logo: /assets/images/badges/nscc.png
     position: HPC Department
     date: Mar. 2026 - Present
+    url: http://www.nsccsz.cn/
   - name: Research Intern
     logo: /assets/images/badges/Huawei-Logo.png
     position: 2012 Laboratories
     date: Feb. 2025 - Dec. 2025
+    url: https://www.huawei.com/
   - name: Research Intern
     logo: /assets/images/badges/xpeng_company.png
     position: Autonomous Driving Center
     date: May. 2024 - Aug. 2024
+    url: https://www.xpeng.com/
   - name: Software Engineer
     logo: /assets/images/badges/tencent_company.png
     position: CloudDev Center
     date: Jun. 2022 - May. 2023
+    url: https://www.tencent.com/
   - name: Software Intern
     logo: /assets/images/badges/tencent_company.png
     position:  Workflow Engine Center
     date: Jun. 2021 - Sep. 2021
+    url: https://www.tencent.com/
 
 awards:
 - name: Junior Student Track Awardees of DSA Excellent Research Award, HKUST(Guangzhou)
