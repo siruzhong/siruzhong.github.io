@@ -1,0 +1,621 @@
+<!-- Timeline: Education & Experience Combined (Horizontal Zigzag Layout) -->
+{% comment %}
+  Merge education and experience, add type labels, and prepare for sorting
+{% endcomment %}
+{% assign all_items = '' | split: '' %}
+
+{% for item in site.data.profile.education %}
+  {% assign item_with_type = item %}
+  {% assign item_with_type = item_with_type | merge: {'type': 'Education'} %}
+  {% assign all_items = all_items | push: item_with_type %}
+{% endfor %}
+
+{% for item in site.data.profile.experience %}
+  {% assign item_with_type = item %}
+  {% assign item_with_type = item_with_type | merge: {'type': 'Experience'} %}
+  {% assign all_items = all_items | push: item_with_type %}
+{% endfor %}
+
+<style>
+/* ===== TIMELINE CARD WRAPPER ===== */
+.timeline-card-wrapper {
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.timeline-card-wrapper .card-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #374151;
+  padding: 1rem 1.25rem;
+  margin: 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.timeline-card-wrapper .card-title i {
+  color: #6b7280;
+  margin-right: 0.5rem;
+}
+
+.timeline-card-wrapper .card-body {
+  padding: 1.25rem;
+}
+
+/* ===== HORIZONTAL ZIGZAG TIMELINE ===== */
+.timeline-outer {
+  position: relative;
+  width: 100%;
+}
+
+/* Scroll container for horizontal layout */
+.timeline-scroll-container {
+  position: relative;
+  overflow-x: auto;
+  overflow-y: visible;
+  scrollbar-width: thin;
+  scrollbar-color: #d0d5dd transparent;
+  padding: 200px 0 120px 0;
+  -webkit-overflow-scrolling: touch;
+  min-height: 420px;
+}
+
+.timeline-scroll-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.timeline-scroll-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.timeline-scroll-container::-webkit-scrollbar-thumb {
+  background: #d0d5dd;
+  border-radius: 3px;
+}
+
+/* Timeline wrapper */
+.timeline-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  min-width: max-content;
+  padding: 0 2rem;
+}
+
+/* Horizontal axis line - runs through the center */
+.timeline-axis-h {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(to right, 
+    transparent 0%, 
+    #d0d5dd 2%, 
+    #d0d5dd 98%, 
+    transparent 100%);
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+/* Individual timeline node */
+.timeline-node {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 180px;
+  max-width: 180px;
+  padding: 0 0.25rem;
+  z-index: 2;
+}
+
+/* Timeline dot on the axis */
+.timeline-dot-h {
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border: 2px solid #9aa5b8;
+  border-radius: 50%;
+  flex-shrink: 0;
+  transition: all 0.25s ease;
+  position: relative;
+  z-index: 3;
+}
+
+.timeline-node:hover .timeline-dot-h {
+  border-color: #4a5568;
+  background: #4a5568;
+  transform: scale(1.3);
+}
+
+.timeline-node.present .timeline-dot-h {
+  border-color: #059669;
+  background: #059669;
+  box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.15);
+}
+
+.timeline-node.present:hover .timeline-dot-h {
+  box-shadow: 0 0 0 5px rgba(5, 150, 105, 0.2);
+}
+
+/* Connecting line from card to dot */
+.timeline-connector {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  background: #d0d5dd;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Card positioned ABOVE axis (odd items: 0, 2, 4, 6) */
+.timeline-node.up .timeline-connector {
+  bottom: 6px;
+  height: 60px;
+}
+
+.timeline-node.up .timeline-card-h {
+  position: absolute;
+  bottom: 66px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Card positioned BELOW axis (even items: 1, 3, 5, 7) */
+.timeline-node.down .timeline-connector {
+  top: 6px;
+  height: 60px;
+}
+
+.timeline-node.down .timeline-card-h {
+  position: absolute;
+  top: 66px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Card styling */
+.timeline-card-h {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 0.75rem;
+  width: 240px;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.timeline-node:hover .timeline-card-h {
+  border-color: #d0d5dd;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transform: translateX(-50%) translateY(-2px);
+}
+
+/* Type badge */
+.timeline-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  margin-bottom: 0.625rem;
+  white-space: nowrap;
+}
+
+.timeline-badge.education {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.timeline-badge.experience {
+  background: #f3e8ff;
+  color: #7c3aed;
+}
+
+/* Logo styling - natural aspect ratio, no square container */
+.timeline-logo-h {
+  height: 34px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.timeline-logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-node:hover .timeline-logo-h {
+  transform: scale(1.05);
+}
+
+/* Organization name */
+.timeline-org-h {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1f2937;
+  line-height: 1.35;
+  text-decoration: none;
+  margin-bottom: 0.25rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.3em;
+}
+
+.timeline-org-h:hover {
+  color: #4b5563;
+}
+
+/* Position */
+.timeline-position-h {
+  font-size: 0.75rem;
+  color: #4b5563;
+  line-height: 1.4;
+  margin-bottom: 0.375rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Date styling */
+.timeline-date-h {
+  font-size: 0.7rem;
+  color: #6b7280;
+  font-family: 'SF Mono', Monaco, monospace;
+  white-space: nowrap;
+}
+
+/* Scroll indicators */
+.scroll-hint {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  color: #9aa5b8;
+  background: #f9fafb;
+  border-radius: 6px;
+  margin-top: 0.75rem;
+}
+
+.scroll-hint svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ===== MOBILE VERTICAL LAYOUT ===== */
+@media (max-width: 767.98px) {
+  .timeline-card-wrapper .card-body {
+    padding: 1rem;
+  }
+  
+  .timeline-scroll-container {
+    overflow-x: hidden;
+    padding: 0;
+  }
+  
+  .timeline-wrapper {
+    flex-direction: column;
+    min-width: auto;
+    padding: 0;
+    align-items: stretch;
+    gap: 0;
+  }
+  
+  .timeline-axis-h {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 24px;
+    width: 2px;
+    height: auto;
+    background: linear-gradient(to bottom, 
+      transparent 0%, 
+      #d0d5dd 2%, 
+      #d0d5dd 98%, 
+      transparent 100%);
+    transform: none;
+  }
+  
+  .timeline-node {
+    flex-direction: row;
+    align-items: center;
+    min-width: auto;
+    max-width: none;
+    padding: 0.625rem 0;
+    gap: 1rem;
+  }
+  
+  .timeline-node.up .timeline-card-h,
+  .timeline-node.down .timeline-card-h {
+    position: static;
+    transform: none;
+  }
+  
+  .timeline-node:hover .timeline-card-h {
+    transform: translateY(-2px);
+  }
+  
+  .timeline-connector {
+    display: none;
+  }
+  
+  .timeline-dot-h {
+    margin: 0;
+    flex-shrink: 0;
+    order: -1;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .timeline-card-h {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    flex: 1;
+    padding: 0.75rem;
+    gap: 0.875rem;
+    width: auto;
+  }
+  
+  .timeline-badge {
+    margin-bottom: 0;
+    order: 2;
+    margin-left: auto;
+  }
+  
+  .timeline-logo-h {
+    height: 28px;
+    width: auto;
+    max-width: 80px;
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+  
+  .timeline-logo-link {
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+  
+  .timeline-content-v {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .timeline-org-h {
+    -webkit-line-clamp: 1;
+    min-height: auto;
+    margin-bottom: 0.125rem;
+    font-size: 0.875rem;
+  }
+  
+  .timeline-position-h {
+    font-size: 0.75rem;
+    margin-bottom: 0.125rem;
+  }
+  
+  .timeline-date-h {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .scroll-hint {
+    display: flex;
+  }
+}
+</style>
+
+{% comment %} 
+Sort by: start_year ASC, then end_year ASC
+LEFT = newer (smaller start), RIGHT = older (larger start)
+For same start year: larger end = newer = LEFT
+{% endcomment %}
+
+{% assign sorted_items = '' | split: '' %}
+
+{% comment %} Present items first (newest) {% endcomment %}
+{% for item in all_items %}
+  {% if item.date contains "Present" %}
+    {% assign sorted_items = sorted_items | push: item %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} 2026 items {% endcomment %}
+{% for item in all_items %}
+  {% assign start = item.date | split: '-' | first | strip %}
+  {% if start contains "2026" and item.date contains "2026" %}
+    {% unless item.date contains "Present" %}
+      {% assign sorted_items = sorted_items | push: item %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} 2025 items - end 2025 first (LEFT), end 2028 second (RIGHT) {% endcomment %}
+{% for item in all_items %}
+  {% assign start = item.date | split: '-' | first | strip %}
+  {% if start contains "2025" %}
+    {% assign end = item.date | split: '-' | last | strip %}
+    {% if end contains "2025" %}
+      {% assign sorted_items = sorted_items | push: item %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% for item in all_items %}
+  {% assign start = item.date | split: '-' | first | strip %}
+  {% if start contains "2025" %}
+    {% assign end = item.date | split: '-' | last | strip %}
+    {% if end contains "2028" %}
+      {% assign sorted_items = sorted_items | push: item %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} 2024 items {% endcomment %}
+{% for item in all_items %}
+  {% assign start = item.date | split: '-' | first | strip %}
+  {% if start contains "2024" %}
+    {% assign sorted_items = sorted_items | push: item %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} 2023 items {% endcomment %}
+{% for item in all_items %}
+  {% assign start = item.date | split: '-' | first | strip %}
+  {% if start contains "2023" %}
+    {% assign sorted_items = sorted_items | push: item %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} 2022 items - sort by end year (larger end = LEFT) {% endcomment %}
+{% for item in all_items %}
+  {% assign start = item.date | split: '-' | first | strip %}
+  {% if start contains "2022" %}
+    {% assign end = item.date | split: '-' | last | strip %}
+    {% if end contains "2023" %}
+      {% assign sorted_items = sorted_items | push: item %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% for item in all_items %}
+  {% assign start = item.date | split: '-' | first | strip %}
+  {% if start contains "2022" %}
+    {% assign end = item.date | split: '-' | last | strip %}
+    {% if end contains "2022" %}
+      {% assign sorted_items = sorted_items | push: item %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} 2021 items {% endcomment %}
+{% for item in all_items %}
+  {% assign start = item.date | split: '-' | first | strip %}
+  {% if start contains "2021" %}
+    {% assign sorted_items = sorted_items | push: item %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} 2018-2020 items (oldest = RIGHT) {% endcomment %}
+{% for item in all_items %}
+  {% assign start = item.date | split: '-' | first | strip %}
+  {% if start contains "2020" or start contains "2019" or start contains "2018" %}
+    {% assign sorted_items = sorted_items | push: item %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} Remove duplicates {% endcomment %}
+{% assign unique_sorted_items = '' | split: '' %}
+{% assign seen_keys = '' | split: '' %}
+{% for item in sorted_items %}
+  {% assign composite_key = item.name | append: '|' | append: item.date %}
+  {% assign is_duplicate = false %}
+  {% for seen in seen_keys %}
+    {% if seen == composite_key %}
+      {% assign is_duplicate = true %}
+    {% endif %}
+  {% endfor %}
+  {% unless is_duplicate %}
+    {% assign unique_sorted_items = unique_sorted_items | push: item %}
+    {% assign seen_keys = seen_keys | push: composite_key %}
+  {% endunless %}
+{% endfor %}
+
+<div class="timeline-card-wrapper">
+  <h6 class="card-title"><i class="fas fa-clock"></i>Education & Experience</h6>
+  <div class="card-body">
+    <div class="timeline-outer">
+      <div class="timeline-scroll-container">
+        <div class="timeline-wrapper">
+          <div class="timeline-axis-h"></div>
+          
+          {% for item in unique_sorted_items %}
+            {% assign is_present = false %}
+            {% if item.date contains "Present" %}
+              {% assign is_present = true %}
+            {% endif %}
+            
+            {% comment %} Determine zigzag position: odd (0,2,4,6) = up, even (1,3,5,7) = down {% endcomment %}
+            {% assign position_class = 'down' %}
+            {% assign mod_result = forloop.index0 | modulo: 2 %}
+            {% if mod_result == 0 %}
+              {% assign position_class = 'up' %}
+            {% endif %}
+            
+            {% comment %} Determine organization URL {% endcomment %}
+            {% assign org_url = '#' %}
+            {% if item.name contains 'Tsinghua' %}
+              {% assign org_url = 'https://www.tsinghua.edu.cn/' %}
+            {% elsif item.name contains 'HKUST' or item.name contains 'Hong Kong' %}
+              {% assign org_url = 'https://www.hkust-gz.edu.cn/' %}
+            {% elsif item.name contains 'Hefei' or item.name contains 'HFUT' %}
+              {% assign org_url = 'https://ci.hfut.edu.cn/' %}
+            {% elsif item.name contains 'Supercomputing' or item.name contains 'NSCC' %}
+              {% assign org_url = 'http://www.nsccsz.cn/' %}
+            {% elsif item.name contains 'Huawei' %}
+              {% assign org_url = 'https://www.huawei.com/' %}
+            {% elsif item.name contains 'XPENG' or item.name contains 'Xpeng' %}
+              {% assign org_url = 'https://www.xpeng.com/' %}
+            {% elsif item.name contains 'Tencent' %}
+              {% assign org_url = 'https://www.tencent.com/' %}
+            {% endif %}
+            
+            {% comment %} Fix logo paths for specific organizations {% endcomment %}
+            {% assign logo_url = item.logo %}
+            {% if item.name contains 'Tsinghua' %}
+              {% assign logo_url = '/assets/images/badges/THU.png' %}
+            {% elsif item.name contains 'HKUST' or item.name contains 'Hong Kong' %}
+              {% assign logo_url = '/assets/images/badges/HKUST_GZ_Logo.png' %}
+            {% endif %}
+            
+            <div class="timeline-node {{ position_class }} {% if is_present %}present{% endif %}">
+              <div class="timeline-connector"></div>
+              <div class="timeline-dot-h"></div>
+              <div class="timeline-card-h">
+                <span class="timeline-badge {{ item.type | downcase }}">{{ item.type }}</span>
+                <a href="{{ org_url }}" target="_blank" rel="noopener" class="timeline-logo-link">
+                  <img src="{{ logo_url | relative_url }}" alt="{{ item.name }}" class="timeline-logo-h">
+                </a>
+                <div class="timeline-content-v">
+                  <a href="{{ org_url }}" target="_blank" rel="noopener" class="timeline-org-h">
+                    {{ item.name }}
+                  </a>
+                  <div class="timeline-position-h">{{ item.position }}</div>
+                  <span class="timeline-date-h">{{ item.date }}</span>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      
+      <div class="scroll-hint">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+        <span>Scroll to explore timeline</span>
+      </div>
+    </div>
+  </div>
+</div>

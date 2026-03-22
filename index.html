@@ -5,12 +5,10 @@ navbar_title: Home
 ---
 {% include widgets/profile_card.html %}
 
-{% include widgets/logos_card.html %}
-
 {% include widgets/url_debug_message.html %}
 
 {% if site.data.display.homepage.show_experience %}
-{% include widgets/experience_card.html %}
+{% include widgets/timeline_card.html %}
 {% endif %}
 
 {% if site.data.display.homepage.show_news %}
