@@ -111,6 +111,8 @@ awards:
   date: 2020
 
 service:
+  - name: Reviewer of NeurIPS 2026
+  - name: Reviewer of FARS (Fully Automated Research System)
   - name: Reviewer of KDD 2026 (Datasets and Benchmarks Track, AI4Science Track)
   - name: PC Member of ACM MM 2026
   - name: PC Member of AAAI 2026 (Main Track & AISI Track)
