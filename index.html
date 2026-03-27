@@ -23,6 +23,10 @@ navbar_title: Home
 %}
 {% endif %}
 
+{% if site.data.display.homepage.show_experience %}
+{% include widgets/experience_card.html %}
+{% endif %}
+
 {% if site.data.display.homepage.show_service_awards %}
 {% include widgets/service_awards_card.html %}
 {% endif %}
