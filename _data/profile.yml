@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Data Science & Analytics"
 
 positions:
-- name: 'Ph.D. Student @ HKUST (GZ), Visiting @ THU & NSCC, Ex-Engineer @ Huawei & XPENG & Tencent'
+- name: 'Ph.D. Student @ HKUST (GZ), Visiting @ THU & NSCC, Ex- @ Huawei & XPENG & Tencent'
 
 email: "siruzhong@outlook.com"
 # cv_link: link-to-your-cv-file
@@ -31,7 +31,7 @@ bio_before_timeline: >-
 
 bio_after_timeline: >-
   <p style="margin-bottom: 5px;">
-    I have extensive experience across both academia and industry. Previously, I interned at Huawei (2025, supervised by <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&hl=zh-CN&oi=sra" target="_blank">Dr. Hao Xu</a>), where our model was deployed at scale for industry customers, and at XPENG (2024, supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>), where I participated in the development of the XNGP Brain. I also worked at Tencent from intern to a full-time software engineer (2021-2023), where I helped build an automated workflow engine. In addition, I am honored to be a consecutive recipient of the HKUST (GZ) DSA Excellent Research Award, a Tutorial Organizer of MM4ST at MM 2025 and ICME 2026, an invited speaker of MM4TS at AAAI 2026, and a reviewer/PC member for top venues including NeurIPS, ICLR, KDD, ACM MM, AAAI, PAKDD, IEEE TPAMI, and Neurocomputing.
+    I have extensive experience across both academia and industry. Previously, I interned at Huawei (2025, supervised by <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&hl=zh-CN&oi=sra" target="_blank">Dr. Hao Xu</a>), where our model was deployed at scale for industry customers, and at XPENG (2024, supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>), where I participated in the development of the XNGP Brain. I also worked at Tencent from intern to a full-time software engineer (2021-2023), where I helped build an automated workflow engine. In addition, I am honored to be a consecutive recipient of the HKUST (GZ) DSA Excellent Research Award, a Tutorial Speaker for MM4ST at MM 2025 and ICME 2026 and MM4TS at AAAI 2026, and a reviewer/PC member for top venues including NeurIPS, ICLR, KDD, ACM MM, AAAI, PAKDD, IEEE TPAMI, and Neurocomputing.
   </p>
   <p style="margin-bottom: 5px;">
     <em style="color: red;">Feel free to reach out via email if you're interested in discussing research ideas or exploring potential collaborations!</em>
@@ -122,15 +122,12 @@ awards:
 service:
   - name: "<strong>Reviewer</strong>: NeurIPS 2026; ICLR 2025, 2026; KDD 2026; MM 2025; FARS (Fully Automated Research System); IEEE TPAMI; IEEE Neurocomputing"
   - name: "<strong>PC Member</strong>: ACM MM 2026; AAAI 2026; PAKDD 2026"
-  - name: "<strong>Speaker</strong>: MM4TS @ AAAI 2026"
-  - name: "<strong>Tutorial Organizer</strong>: MM4ST @ MM 2025, MM4ST @ ICME 2026"
+  - name: "<strong>Tutorial Speaker</strong>: MM4ST @ MM 2025, MM4ST @ ICME 2026, MM4TS @ AAAI 2026"
   - name: "<strong>Web Master</strong>: WebST 2025, UrbComp 2025"
 
 teaching:
   - name: DSAA60000 Table Representation Learning
     date: Spring 2026
-  - name: DSAA2043 Design and Analysis of Algorithms
-    date: Fall 2025
   - name: PLED5001 Communicating Research in English
     date: Spring 2025
   - name: PDEV6800 Introduction to Teaching and Learning in Higher Education
@@ -140,16 +137,12 @@ talks:
   - title: AI TIME × 时空探索之旅| NeurIPS 2025 时空数据专场预告
     url: https://mp.weixin.qq.com/s/Ck_rc15EoW1txUJWHJevmg?scene=1
     date: 2025
-    topic: Learning to Factorize Spatio-Temporal Foundation Models
   - title: 南方科技大学统计与数据科学系NeurIPS2025（深圳）研讨会
     url: https://mp.weixin.qq.com/s/oLMspQh74LyB5TqcU9KqmQ
     date: 2025
-    topic: Learning to Factorize Spatio-Temporal Foundation Models
   - title: ACM MM 2025 Tutorial — Multimodal Learning for Spatio-Temporal Data Mining
     url: https://mm4st.netlify.app/
     date: 2025
-    topic: Multimodal learning techniques for ST data
   - title: "AAAI 2026 Tutorial — Multi-modal TS Analysis: Methods, Datasets, and Applications"
     url: https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/#th11
     date: 2026
-    topic: Multi-modal time series analysis

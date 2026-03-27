@@ -27,12 +27,10 @@ navbar_title: Home
 %}
 {% endif %}
 
-{% if site.data.display.homepage.show_service_awards %}
-{% include widgets/service_awards_card.html %}
-{% endif %}
-
 {% if site.data.display.homepage.show_talks_teaching %}
 {% include widgets/talks_teaching_card.html %}
 {% endif %}
 
+{% comment %}
 {% include widgets/timeline_section_card.html %}
+{% endcomment %}

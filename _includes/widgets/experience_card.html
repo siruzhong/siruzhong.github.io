@@ -1,22 +1,45 @@
-<!-- Education & Experience -->
+<!-- Education/Experience + Service -->
 <div class="row mb-4">
-    <!-- Education -->
+    <!-- Education + Experience in one card -->
     <div class="col-md-6">
         <div class="card border-0 shadow-sm bg-white h-100">
-            <h6 class="p-3 mb-0" style="font-weight: bold;"><i class="fas fa-graduation-cap mr-2"></i>Education</h6>
             <div class="px-3 pb-1">
+                <h6 class="pt-3 mb-2" style="font-weight: 600;"><i class="fas fa-graduation-cap mr-2"></i>Education</h6>
                 <ul class="list-unstyled mb-1">
                     {% for item in site.data.profile.education %}
-                    <li class="media mb-3">
+                    <li class="media mb-2">
                         <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-2 mt-1 align-self-center">
                         <div class="media-body">
-                            <div style="font-size: 15.4px">
+                            <div style="font-size: 14.8px">
                                 {{ item.name }}{% if item.org %} @ {{ item.org }}{% endif %}
                             </div>
                             {% if item.dept %}
                             <div class="small">{{ item.dept }}</div>
                             {% endif %}
-                            <div class="small d-flex">
+                            <div class="small d-flex text-muted">
+                                <div>{{ item.position }}</div>
+                                <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <hr class="my-3">
+
+                <h6 class="pt-1 mb-2" style="font-weight: 600;"><i class="fas fa-briefcase mr-2"></i>Experience</h6>
+                <ul class="list-unstyled mb-1">
+                    {% for item in site.data.profile.experience %}
+                    <li class="media mb-2">
+                        <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-2 mt-1 align-self-center">
+                        <div class="media-body">
+                            <div style="font-size: 14.8px">
+                                {{ item.name }}{% if item.org %} @ {{ item.org }}{% endif %}
+                            </div>
+                            {% if item.dept %}
+                            <div class="small">{{ item.dept }}</div>
+                            {% endif %}
+                            <div class="small d-flex text-muted">
                                 <div>{{ item.position }}</div>
                                 <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
                             </div>
@@ -28,26 +51,42 @@
         </div>
     </div>
 
-    <!-- Experience -->
+    <!-- Service + Awards -->
     <div class="col-md-6">
         <div class="card border-0 shadow-sm bg-white h-100">
-            <h6 class="p-3 mb-0" style="font-weight: bold;"><i class="fas fa-briefcase mr-2"></i>Experience</h6>
+            <h6 class="p-3 mb-0" style="font-weight: bold;" id="service"><i class="fas fa-handshake mr-2"></i>Service</h6>
             <div class="px-3 pb-1">
-                <ul class="list-unstyled mb-1">
-                    {% for item in site.data.profile.experience %}
-                    <li class="media mb-3">
-                        <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-2 mt-1 align-self-center">
-                        <div class="media-body">
-                            <div style="font-size: 15.4px">
-                                {{ item.name }}{% if item.org %} @ {{ item.org }}{% endif %}
-                            </div>
-                            {% if item.dept %}
-                            <div class="small">{{ item.dept }}</div>
-                            {% endif %}
-                            <div class="small d-flex">
-                                <div>{{ item.position }}</div>
-                                <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
-                            </div>
+                <ul class="list small pl-3 mb-1">
+                    {% for item in site.data.profile.service %}
+                    <li class="mb-1">
+                        <div>{{ item.name }}</div>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <hr class="my-3">
+
+                <h6 class="pt-1 mb-2" style="font-weight: 600;" id="teaching"><i class="fas fa-chalkboard-teacher mr-2"></i>Teaching</h6>
+                <ul class="list small pl-3 mb-1">
+                    {% for item in site.data.profile.teaching %}
+                    <li class="mb-1">
+                        <div class="d-flex">
+                            <div>{{ item.name }}</div>
+                            <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <hr class="my-3">
+
+                <h6 class="pt-1 mb-2" style="font-weight: 600;" id="awards"><i class="fas fa-award mr-2"></i>Awards</h6>
+                <ul class="list small pl-3 mb-1">
+                    {% for item in site.data.profile.awards %}
+                    <li class="mb-1">
+                        <div class="d-flex">
+                            <div>{{ item.name }}</div>
+                            <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
                         </div>
                     </li>
                     {% endfor %}
