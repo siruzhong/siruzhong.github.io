@@ -7,6 +7,10 @@ navbar_title: Home
 
 {% include widgets/url_debug_message.html %}
 
+{% if site.data.display.homepage.show_experience %}
+{% include widgets/experience_card.html %}
+{% endif %}
+
 {% if site.data.display.homepage.show_news %}
 {% assign count_news = site.data.news | size %}
 {% if count_news > 0 %}
@@ -23,10 +27,6 @@ navbar_title: Home
 %}
 {% endif %}
 
-{% if site.data.display.homepage.show_experience %}
-{% include widgets/experience_card.html %}
-{% endif %}
-
 {% if site.data.display.homepage.show_service_awards %}
 {% include widgets/service_awards_card.html %}
 {% endif %}
@@ -34,3 +34,5 @@ navbar_title: Home
 {% if site.data.display.homepage.show_talks_teaching %}
 {% include widgets/talks_teaching_card.html %}
 {% endif %}
+
+{% include widgets/timeline_section_card.html %}

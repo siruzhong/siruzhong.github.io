@@ -1,0 +1,10 @@
+{% if site.data.display.homepage.show_experience %}
+<div class="my-3 bg-white shadow-sm rounded-sm">
+    <h6 class="p-3 mb-0 border-bottom border-gray" style="font-weight: bold;">
+        <i class="fas fa-stream mr-2"></i>Timeline
+    </h6>
+    <div class="px-3 py-3">
+        {% include widgets/timeline_card.html %}
+    </div>
+</div>
+{% endif %}

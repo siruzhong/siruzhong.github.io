@@ -1,8 +1,58 @@
-<div class="my-3 bg-white shadow-sm rounded-sm">
-    <h6 class="p-3 mb-0 border-bottom border-gray" style="font-weight: bold;">
-        <i class="fas fa-briefcase mr-2"></i>Experience
-    </h6>
-    <div class="px-3 py-3">
-        {% include widgets/timeline_card.html %}
+<!-- Education & Experience -->
+<div class="row mb-4">
+    <!-- Education -->
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm bg-white h-100">
+            <h6 class="p-3 mb-0" style="font-weight: bold;"><i class="fas fa-graduation-cap mr-2"></i>Education</h6>
+            <div class="px-3 pb-1">
+                <ul class="list-unstyled mb-1">
+                    {% for item in site.data.profile.education %}
+                    <li class="media mb-3">
+                        <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-2 mt-1 align-self-center">
+                        <div class="media-body">
+                            <div style="font-size: 15.4px">
+                                {{ item.name }}{% if item.org %} @ {{ item.org }}{% endif %}
+                            </div>
+                            {% if item.dept %}
+                            <div class="small">{{ item.dept }}</div>
+                            {% endif %}
+                            <div class="small d-flex">
+                                <div>{{ item.position }}</div>
+                                <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm bg-white h-100">
+            <h6 class="p-3 mb-0" style="font-weight: bold;"><i class="fas fa-briefcase mr-2"></i>Experience</h6>
+            <div class="px-3 pb-1">
+                <ul class="list-unstyled mb-1">
+                    {% for item in site.data.profile.experience %}
+                    <li class="media mb-3">
+                        <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-2 mt-1 align-self-center">
+                        <div class="media-body">
+                            <div style="font-size: 15.4px">
+                                {{ item.name }}{% if item.org %} @ {{ item.org }}{% endif %}
+                            </div>
+                            {% if item.dept %}
+                            <div class="small">{{ item.dept }}</div>
+                            {% endif %}
+                            <div class="small d-flex">
+                                <div>{{ item.position }}</div>
+                                <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
     </div>
 </div>

@@ -23,10 +23,10 @@ dblp: 359/5794
 
 bio_before_timeline: >-
   <p style="margin-bottom: 5px;">
-    I am a Ph.D. student at <a href="https://www.citymind.top/" target="_blank">CityMind Lab</a>, <u style="text-decoration-color: #999;">Hong Kong University of Science and Technology (GZ)</u>, supervised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a>, <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yue Yang</a>, and <a href="https://www.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. I am also a visiting Ph.D. student at <a href="https://www.thuhpgc.net/" target="_blank">HPGC Research Group</a>, <u style="text-decoration-color: #999;">Tsinghua University</u>, supervised by <a href="https://www.thuhpgc.net/author/haohuan-fu/" target="_blank">Prof. Haohuan Fu</a>, and a visiting scholar at the National Supercomputing Center, Shenzhen. Previously, I obtained my M.Phil. from HKUST (GZ) and B.E. from <u style="text-decoration-color: #999;">Hefei University of Technology</u>.
+    I am a Ph.D. student at <a href="https://www.citymind.top/" target="_blank">CityMind Lab</a>, The Hong Kong University of Science and Technology (Guangzhou), supervised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a>, <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yue Yang</a>, and <a href="https://www.cse.ust.hk/~yqsong/" target="_blank">Prof. Yangqiu Song</a>. I am also a visiting Ph.D. student at <a href="https://www.thuhpgc.net/" target="_blank">HPGC Research Group</a>, Tsinghua University, supervised by <a href="https://www.thuhpgc.net/author/haohuan-fu/" target="_blank">Prof. Haohuan Fu</a>, and a visiting scholar at the National Supercomputing Center, Shenzhen. Previously, I obtained my M.Phil. from HKUST (GZ) and B.E. from Hefei University of Technology.
   </p>
   <p style="margin-bottom: 5px;">
-    My research focuses on Time Series Modeling, Spatio-Temporal Data Mining, and AI4Earth. I also collaborate with <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a> @ Squirrel AI, <a href="https://www.comp.nus.edu.sg/cs/people/rogerz/" target="_blank">Prof. Roger Zimmermann</a> @ <u style="text-decoration-color: #999;">National University of Singapore</u>, <a href="https://zezhishao.github.io/" target="_blank">Prof. Zezhi Shao</a> @ <u style="text-decoration-color: #999;">Chinese Academy of Sciences</u>, and <a href="https://scholar.google.com/citations?user=frWRJN4AAAAJ" target="_blank">Prof. Shirui Pan</a> @ <u style="text-decoration-color: #999;">Griffith University</u>. Earlier, I interned at Huawei (supervised by <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&hl=zh-CN&oi=sra" target="_blank">Dr. Hao Xu</a>), XPENG (supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>), and worked as a software engineer at Tencent (2022–2023).
+    My research focuses on Time Series Modeling, Spatio-Temporal Data Mining, and AI4Earth. I also collaborate with <a href="https://sites.google.com/site/qingsongwen8/" target="_blank">Dr. Qingsong Wen</a> @ Squirrel AI, <a href="https://www.comp.nus.edu.sg/cs/people/rogerz/" target="_blank">Prof. Roger Zimmermann</a> @ National University of Singapore, <a href="https://zezhishao.github.io/" target="_blank">Prof. Zezhi Shao</a> @ Chinese Academy of Sciences, and <a href="https://scholar.google.com/citations?user=frWRJN4AAAAJ" target="_blank">Prof. Shirui Pan</a> @ Griffith University. Earlier, I interned at Huawei (supervised by <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&hl=zh-CN&oi=sra" target="_blank">Dr. Hao Xu</a>), XPENG (supervised by <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>), and worked as a software engineer at Tencent (2022–2023).
   </p>
 
 bio_after_timeline: >-
@@ -43,21 +43,25 @@ portrait_caption: >-
 
 education:
 - name: Visiting Ph.D. Student
+  org: THU
   logo: /assets/images/badges/THU.png
   position: Institute of Data and Information
   date: Mar. 2026 - Present
   url: https://www.tsinghua.edu.cn/
 - name: Doctor of Philosophy
+  org: HKUST (GZ)
   logo: /assets/images/badges/HKUST_GZ_Logo.png
   position: Data Science and Analytics
   date: Feb. 2025 - Jan. 2028
   url: https://www.hkust-gz.edu.cn/
 - name: Master of Philosophy
+  org: HKUST (GZ)
   logo: /assets/images/badges/HKUST_GZ_Logo.png
   position: Data Science and Analytics
   date: Aug. 2023 - Jan. 2025
   url: https://www.hkust-gz.edu.cn/
 - name: Bachelor of Engineering
+  org: HFUT
   logo: /assets/images/badges/HFUT_logo.png
   position: School of Artificial Intelligence
   date: Sep. 2018 - Jun. 2022
@@ -65,39 +69,44 @@ education:
 
 experience:
   - name: Visiting Scholar
+    org: National Supercomputing Center
     logo: /assets/images/badges/nscc.png
     position: HPC Department
     date: Mar. 2026 - Present
     url: http://www.nsccsz.cn/
   - name: Research Intern
+    org: Huawei 2012 Laboratories
     logo: /assets/images/badges/Huawei-Logo.png
     position: 2012 Laboratories
     date: Feb. 2025 - Dec. 2025
     url: https://www.huawei.com/
   - name: Research Intern
+    org: XPENG Autonomous Driving Center
     logo: /assets/images/badges/xpeng_company.png
     position: Autonomous Driving Center
     date: May. 2024 - Aug. 2024
     url: https://www.xpeng.com/
   - name: Software Engineer
+    org: Tencent PCG Tech Center
     logo: /assets/images/badges/tencent_company.png
     position: CloudDev Center
     date: Jun. 2022 - May. 2023
     url: https://www.tencent.com/
   - name: Software Intern
+    org: Tencent PCG Tech Center
     logo: /assets/images/badges/tencent_company.png
     position:  Workflow Engine Center
     date: Jun. 2021 - Sep. 2021
     url: https://www.tencent.com/
 
 awards:
-- name: Junior Student Track Awardees of DSA Excellent Research Award, HKUST(Guangzhou)
+- name: Junior Student Track Awardees of DSA Excellent Research Award, HKUST(GZ)
   date: 2026
-- name: Runner-Up Prize for DSA Excellent Research Award, HKUST(Guangzhou)
+- name: Runner-Up Prize for DSA Excellent Research Award, HKUST(GZ)
   date: 2025
-- name: Best Project Award (1st/15) in Data Science Computing, HKUST(Guangzhou)
+- name: Best Project Award (1st/15) in Data Science Computing, HKUST(GZ)
   date: 2023
-- name: Outstanding Student (Top 10%) in Red Bird Summer Camp, HKUST(Guangzhou)
+- name: Outstanding Student (Top 10%) in Red Bird Summer Camp, HKUST(GZ)
   date: 2023
 - name: iCode Certification of R&D Engineering Competency Evaluation, Tencent
   date: 2022
@@ -111,19 +120,11 @@ awards:
   date: 2020
 
 service:
-  - name: Reviewer of NeurIPS 2026
-  - name: Reviewer of FARS (Fully Automated Research System)
-  - name: Reviewer of KDD 2026 (Datasets and Benchmarks Track, AI4Science Track)
-  - name: PC Member of ACM MM 2026
-  - name: PC Member of AAAI 2026 (Main Track & AISI Track)
-  - name: PC Member of PAKDD 2026
-  - name: Reviewer of IEEE TPAMI
-  - name: Reviewer of IEEE Neurocomputing
-  - name: Reviewer of ICLR 2025, 2026
-  - name: Reviewer of KDD 2026 (Datasets and Benchmarks Track)
-  - name: Reviewer of MM 2025 (Main Track & Dataset Track)
-  - name: Tutorial Organizer of MM4ST@MM2025
-  - name: Web Master of WebST 2025 & UrbComp 2025 
+  - name: "<strong>Reviewer</strong>: NeurIPS 2026; ICLR 2025, 2026; KDD 2026; MM 2025; FARS (Fully Automated Research System); IEEE TPAMI; IEEE Neurocomputing"
+  - name: "<strong>PC Member</strong>: ACM MM 2026; AAAI 2026; PAKDD 2026"
+  - name: "<strong>Speaker</strong>: MM4TS @ AAAI 2026"
+  - name: "<strong>Tutorial Organizer</strong>: MM4ST @ MM 2025, MM4ST @ ICME 2026"
+  - name: "<strong>Web Master</strong>: WebST 2025, UrbComp 2025"
 
 teaching:
   - name: DSAA60000 Table Representation Learning
@@ -148,7 +149,7 @@ talks:
     url: https://mm4st.netlify.app/
     date: 2025
     topic: Multimodal learning techniques for ST data
-  - title: "AAAI 2026 Tutorial — Multi-modal Time Series Analysis: Methods, Datasets, and Applications"
+  - title: "AAAI 2026 Tutorial — Multi-modal TS Analysis: Methods, Datasets, and Applications"
     url: https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/#th11
     date: 2026
     topic: Multi-modal time series analysis
