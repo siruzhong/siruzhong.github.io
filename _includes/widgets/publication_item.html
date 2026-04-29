@@ -13,7 +13,7 @@
                 {% if item.pinned %}<i class="fas fa-thumbtack text-primary mr-2" title="Pinned"></i>{% endif %}{{ item.title }}
             </h5>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-            <p class="mt-0 mb-0 small text-muted">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_last }}</p>
+            <p class="mt-0 mb-0 small">{{item.pub_pre}}<i class="font-weight-bold" style="color: #1a5276;">{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_last }}</p>
             
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                 {% for link in item.links %}
@@ -47,7 +47,7 @@
                 {% if item.pinned %}<i class="fas fa-thumbtack text-primary mr-2" title="Pinned"></i>{% endif %}{{ item.title }}
             </h5>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-            <p class="mt-0 mb-0 small text-muted">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_last }}</p>
+            <p class="mt-0 mb-0 small">{{item.pub_pre}}<i class="font-weight-bold" style="color: #1a5276;">{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_last }}</p>
             
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                 {% for link in item.links %}
