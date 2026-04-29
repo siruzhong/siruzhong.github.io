@@ -3,7 +3,7 @@ title: "Spatio-Temporal Field Neural Networks for Air Quality Inference"
 date: 2024-05-12 00:01:00 +0800
 selected: false
 pinned: false
-pub: "IJCAI 2024, Jeju Island, South Korea"
+pub: "IJCAI (International Joint Conference on Artificial Intelligence) 2024, Jeju Island, South Korea"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'

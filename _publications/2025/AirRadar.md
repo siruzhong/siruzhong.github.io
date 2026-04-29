@@ -3,7 +3,7 @@ title: "AirRadar: Inferring Nationwide Air Quality in China with Deep Neural Net
 date: 2025-02-27 00:00:00 +0800
 selected: false
 pinned: false
-pub:            "AAAI 2025, Philadelphia, America"
+pub:            "AAAI (AAAI Conference on Artificial Intelligence) 2025, Philadelphia, America"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
 pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'

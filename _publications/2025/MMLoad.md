@@ -3,7 +3,7 @@ title: "Towards Multi-Scenario Forecasting of Building Electricity Loads with Mu
 date: 2025-07-05 00:00:00 +0800
 selected: false
 pinned: false
-pub:            "MM 2025, Dublin, Ireland"
+pub:            "MM (ACM International Conference on Multimedia) 2025, Dublin, Ireland"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
