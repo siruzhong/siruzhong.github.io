@@ -2,10 +2,10 @@
 title: "DropoutTS: Sample-Adaptive Dropout for Robust Time Series Forecasting"
 date: 2026-01-29 00:00:00 +0800
 selected: true
-pinned: false
-# pub:            ""
+pinned: true
+pub:            "ICML (International Conference on Machine Learning) 2026, Seoul, South Korea"
 # pub_pre:        "Submitted to "
-pub_post: 'ICML 2026.'
+# pub_post:       'ICML 2026.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 
 cover: /assets/images/covers/DropoutTS.png
