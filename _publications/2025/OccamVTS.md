@@ -6,7 +6,7 @@ pinned: false
 pub:            "AAAI (AAAI Conference on Artificial Intelligence) 2026, Singapore"
 # pub_pre:        "Submitted to "
 # pub_post: "Under review."
-pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
+# pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
 
 cover: /assets/images/covers/OccamVTS.png
 authors:
