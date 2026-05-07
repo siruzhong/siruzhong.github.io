@@ -2,7 +2,7 @@
 title: "Perceive, Route and Modulate: Dynamic Pattern Recalibration for Time Series Forecasting"
 date: 2026-05-07 00:00:00 +0800
 selected: true
-pinned: true
+pinned: false
 # pub:            ""
 # pub_pre:        "Submitted to "
 pub_post: "Under review."
