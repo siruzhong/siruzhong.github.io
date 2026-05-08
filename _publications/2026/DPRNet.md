@@ -17,5 +17,6 @@ authors:
   - Qingsong Wen
   - Yuxuan Liang
 # citations: 0
-links: {}
+links:
+  Paper: https://arxiv.org/abs/2605.06310
 ---
