@@ -27,12 +27,16 @@ bio_before_timeline: >-
   </p>
 
   <p style="margin-bottom: 5px;">
+   I am also fortunate to have received guidance from <a href="https://scholar.google.com/citations?user=MdQZ-q8AAAAJ&hl=en" target="_blank">Prof. Yangqiu Song</a> and <a href="https://scholar.google.com/citations?user=iHevumsAAAAJ&hl=zh-CN" target="_blank">Prof. Jeffrey Xu Yu</a>.
+  </p>
+
+  <p style="margin-bottom: 5px;">
    I am honored to be a consecutive recipient of the HKUST (GZ) DSA Excellent Research Award, a Tutorial Speaker for MM4ST @ MM 2025 & ICME 2026 and MM4TS @ AAAI 2026, and a reviewer/PC member for top venues including NeurIPS, ICLR, KDD, ACM MM, AAAI, PAKDD, IEEE TPAMI, and Neurocomputing.
   </p>
 
 bio_after_timeline: >-
   <p style="margin-bottom: 5px;">
-    Beyond academia, I have built and deployed ML systems in industry. At Huawei (2025), my model was deployed at scale for industry customers under <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&hl=zh-CN&oi=sra" target="_blank">Dr. Hao Xu</a>. At XPENG (2024), I contributed to the XNGP Brain autonomous driving system with <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>. Earlier, I built automated workflow engines at Tencent (2021–2023), advancing from intern to full-time software engineer. <em style="color: red;">Feel free to reach out via email if you're interested in exploring potential collaborations!</em>
+    Beyond academia, I have built and deployed ML systems in industry. At Huawei (2025), my model was deployed at scale for industry customers with <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&hl=zh-CN&oi=sra" target="_blank">Dr. Hao Xu</a>. At XPENG (2024), I contributed to the XNGP Brain autonomous driving system with <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>. Earlier, I built automated workflow engines at Tencent (2021–2023), advancing from intern to full-time software engineer. <em style="color: red;">Feel free to reach out via email if you're interested in exploring potential collaborations!</em>
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -44,7 +48,7 @@ education:
   org: THU
   logo: /assets/images/badges/THU.png
   position: Institute of Data and Information
-  date: Mar. 2026 - Present
+  date: Feb. 2026 - Present
   url: https://www.tsinghua.edu.cn/
 - name: Doctor of Philosophy
   org: HKUST (GZ)
@@ -82,7 +86,7 @@ experience:
     org: XPENG Autonomous Driving Center
     logo: /assets/images/badges/xpeng_company.png
     position: Autonomous Driving Center
-    date: May. 2024 - Aug. 2024
+    date: May. 2024 - Nov. 2024
     url: https://www.xpeng.com/
   - name: Software Engineer
     org: Tencent PCG Tech Center
