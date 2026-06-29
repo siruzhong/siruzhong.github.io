@@ -67,21 +67,21 @@ education:
 
 experience:
   - name: Visiting Scholar
-    org: National Supercomputing Center
+    org: NSCC
     logo: /assets/images/badges/nscc.png
     position: HPC Department
     date: Mar. 2026 - Present
     url: http://www.nsccsz.cn/
   - name: Research Intern
-    org: Huawei 2012 Laboratories
+    org: Huawei
     logo: /assets/images/badges/Huawei.png
-    position: Service Lab
+    position: 2012 Laboratories
     date: Feb. 2025 - Dec. 2025
     url: https://www.huawei.com/
   - name: Research Intern
-    org: XPENG Autonomous Driving Center
+    org: XPENG
     logo: /assets/images/badges/Xpeng.png
-    position: XBrain Team
+    position: Autonomous Driving Center
     date: May. 2024 - Nov. 2024
     url: https://www.xpeng.com/
   - name: Software Engineer
