@@ -74,7 +74,7 @@ experience:
     url: https://betainf.com/
   - name: Visiting Scholar
     org: National Supercomputing Center
-    logo: /assets/images/badges/nscc_full.png
+    logo: /assets/images/badges/NSCC_full.png
     position: AI for Large-Scale Earth Science
     date: Mar. 2026 - Present
     url: http://www.nsccsz.cn/
@@ -92,13 +92,13 @@ experience:
     url: https://www.xpeng.com/
   - name: Software Engineer
     org: Tencent CloudDev Center
-    logo: /assets/images/badges/Tencen_full.png
+    logo: /assets/images/badges/Tencent_full.png
     position: Cloud-Native Intelligent Coding
     date: Jun. 2022 - May. 2023
     url: https://www.tencent.com/
   - name: Software Development Intern
     org: Tencent Workflow Center
-    logo: /assets/images/badges/Tencen_full.png
+    logo: /assets/images/badges/Tencent_full.png
     position: Automation Workflow Engine
     date: Jun. 2021 - Sep. 2021
     url: https://www.tencent.com/
