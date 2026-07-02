@@ -40,18 +40,18 @@ portrait_caption: >-
   Hi there, I'm siru!
 
 education:
-- name: Visiting Ph.D. Student
-  org: THU
-  logo: /assets/images/badges/THU_full.png
-  position: HPGC Research Group
-  date: Feb. 2026 - Present
-  url: https://www.thuhpgc.net/people/
 - name: Doctor of Philosophy
   org: HKUST (GZ)
   logo: /assets/images/badges/HKUST_GZ_full.png
   position: Data Science and Analytics
   date: Feb. 2025 - Jan. 2028
   url: https://www.hkust-gz.edu.cn/
+- name: Visiting Ph.D. Student
+  org: THU
+  logo: /assets/images/badges/THU_full.png
+  position: HPGC Research Group
+  date: Feb. 2026 - Present
+  url: https://www.thuhpgc.net/people/
 - name: Master of Philosophy
   org: HKUST (GZ)
   logo: /assets/images/badges/HKUST_GZ_full.png
