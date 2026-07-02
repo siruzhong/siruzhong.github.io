@@ -42,25 +42,25 @@ portrait_caption: >-
 education:
 - name: Visiting Ph.D. Student
   org: THU
-  logo: /assets/images/badges/THU.png
+  logo: /assets/images/badges/THU_full.png
   position: HPGC Research Group
   date: Feb. 2026 - Present
   url: https://www.thuhpgc.net/people/
 - name: Doctor of Philosophy
   org: HKUST (GZ)
-  logo: /assets/images/badges/HKUST_GZ.png
+  logo: /assets/images/badges/HKUST_GZ_full.png
   position: Data Science and Analytics
   date: Feb. 2025 - Jan. 2028
   url: https://www.hkust-gz.edu.cn/
 - name: Master of Philosophy
   org: HKUST (GZ)
-  logo: /assets/images/badges/HKUST_GZ.png
+  logo: /assets/images/badges/HKUST_GZ_full.png
   position: Data Science and Analytics
   date: Aug. 2023 - Jan. 2025
   url: https://www.hkust-gz.edu.cn/
 - name: Bachelor of Engineering
   org: HFUT
-  logo: /assets/images/badges/HFUT.png
+  logo: /assets/images/badges/HFUT_full.png
   position: School of Artificial Intelligence
   date: Sep. 2018 - Jun. 2022
   url: https://ci.hfut.edu.cn/
