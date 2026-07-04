@@ -66,7 +66,7 @@ education:
   url: https://ci.hfut.edu.cn/
 
 experience:
-  - name: Research Scientist Intern
+  - name: Research Intern
     org: Beta Infinity
     logo: /assets/images/badges/beta_infinity.png
     position: Spatio-Temporal Memory in Physical AI
@@ -78,7 +78,7 @@ experience:
     position: AI for Large-Scale Earth Science
     date: Mar. 2026 - Jun. 2026
     url: http://www.nsccsz.cn/
-  - name: PhD Research Intern
+  - name: Research Intern
     org: Huawei 2012 Laboratories
     logo: /assets/images/badges/Huawei_full.png
     position: Spatio-Temporal Foundation Models
@@ -96,7 +96,7 @@ experience:
     position: Cloud-Native Intelligent Coding
     date: Jun. 2022 - May. 2023
     url: https://www.tencent.com/
-  - name: Software Development Intern
+  - name: Software Intern
     org: Tencent Workflow Center
     logo: /assets/images/badges/Tencent_full.png
     position: Automation Workflow Engine
