@@ -45,12 +45,6 @@ education:
   position: PhD, Data Science and Analytics
   date: Feb. 2025 - Jan. 2028
   url: https://www.hkust-gz.edu.cn/
-- name: Tsinghua University
-  logo: /assets/images/badges/THU_full.png
-  position: Visiting PhD Student, HPGC Research Group
-  date: Feb. 2026 - Present
-  url: https://www.thuhpgc.net/people/
-- name: Hong Kong University of Science and Technology (GZ)
   logo: /assets/images/badges/HKUST_GZ_full.png
   position: MPhil, Data Science and Analytics
   date: Aug. 2023 - Jan. 2025
@@ -67,12 +61,11 @@ experience:
     position: Research Intern, Spatio-Temporal Memory in Embodied AI
     date: Jun. 2026 - Present
     url: https://betainf.com/
-  - name: National Supercomputing Center in Shenzhen
-    logo: /assets/images/badges/NSCC_full.png
-    position: Visiting Scholar, AI for Large-Scale Earth Science
-    date: Mar. 2026 - Jun. 2026
-    url: http://www.nsccsz.cn/
-
+  - name: Tsinghua University & National Supercomputing Center (SZ)
+    logo: /assets/images/badges/THU_full.png
+    position: Visiting PhD Student, HPGC Research Group
+    date: Feb. 2026 - Present
+    url: https://www.thuhpgc.net/people/
   - name: Huawei | 2012 Laboratories
     logo: /assets/images/badges/Huawei_full.png
     position: Research Intern, Spatio-Temporal Foundation Models
