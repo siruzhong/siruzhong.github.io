@@ -163,7 +163,9 @@ img.lazy {
     padding-bottom: 0.5rem;
     border-bottom: 1px solid #dee2e6;
 }
-
+.figure-img {
+    margin-bottom: 0 !important;
+}
 .social-links-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
