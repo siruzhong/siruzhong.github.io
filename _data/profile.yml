@@ -32,7 +32,7 @@ bio_before_timeline: >-
 
 bio_after_timeline: >-
   <p style="margin-bottom: 5px;">
-    Beyond academia, I have built and deployed ML systems in industry. At Huawei (2025), my model was deployed at scale for industry customers with <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&hl=zh-CN&oi=sra" target="_blank">Dr. Hao Xu</a>. At XPENG (2024), I contributed to the XNGP Brain autonomous driving system with <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>. Earlier, I built automated workflow engines at Tencent (2021–2023), advancing from intern to full-time software engineer. <em style="color: red;">Feel free to reach out via email if you're interested in exploring potential collaborations!</em>
+    Beyond academia, I have built and deployed ML systems in industry. At Beta Infinity (2026), I work on Spatio-Temporal Memory in Embodied AI with <a href="https://scholar.google.com/citations?user=od00FfIAAAAJ" target="_blank">Dr. Wulong Liu</a>. At Huawei (2025), my model was deployed at scale for industry customers with <a href="https://scholar.google.com/citations?user=sNb24gkAAAAJ&hl=zh-CN&oi=sra" target="_blank">Dr. Hao Xu</a>. At XPENG (2024), I contributed to the XNGP Brain autonomous driving system with <a href="https://www.linkedin.com/in/cheng-lu-5b24a739/" target="_blank">Dr. Cheng Lu</a>. Earlier, I built automated workflow engines at Tencent (2021–2023), advancing from intern to full-time software engineer. <em style="color: red;">Feel free to reach out via email if you're interested in exploring potential collaborations!</em>
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -40,66 +40,56 @@ portrait_caption: >-
   Hi there, I'm siru!
 
 education:
-- name: Visiting Ph.D. Student
-  org: THU
+- name: Tsinghua University
   logo: /assets/images/badges/THU_full.png
-  position: HPGC Research Group
+  position: Visiting PhD Student, HPGC Research Group
   date: Feb. 2026 - Present
   url: https://www.thuhpgc.net/people/
-- name: Doctor of Philosophy
-  org: HKUST (GZ)
+- name: The Hong Kong University of Science and Technology (GZ)
   logo: /assets/images/badges/HKUST_GZ_full.png
-  position: Data Science and Analytics
+  position: PhD, Data Science and Analytics
   date: Feb. 2025 - Jan. 2028
   url: https://www.hkust-gz.edu.cn/
-- name: Master of Philosophy
-  org: HKUST (GZ)
+- name: The Hong Kong University of Science and Technology (GZ)
   logo: /assets/images/badges/HKUST_GZ_full.png
-  position: Data Science and Analytics
+  position: MPhil, Data Science and Analytics
   date: Aug. 2023 - Jan. 2025
   url: https://www.hkust-gz.edu.cn/
-- name: Bachelor of Engineering
-  org: HFUT
+- name: Hefei University of Technology
   logo: /assets/images/badges/HFUT_full.png
-  position: School of Artificial Intelligence
+  position: BE, School of Artificial Intelligence
   date: Sep. 2018 - Jun. 2022
   url: https://ci.hfut.edu.cn/
 
 experience:
-  - name: Research Scientist Intern
-    org: Beta Infinity
+  - name: Beta Infinity
     logo: /assets/images/badges/beta_infinity.png
-    position: Spatio-Temporal Memory in Physical AI
+    position: Research Scientist Intern, Spatio-Temporal Memory in Embodied AI
     date: Jun. 2026 - Present
     url: https://betainf.com/
-  - name: Visiting Scholar
-    org: National Supercomputing Center
+  - name: National Supercomputing Center in Shenzhen
     logo: /assets/images/badges/NSCC_full.png
-    position: AI for Large-Scale Earth Science
+    position: Visiting Scholar, AI for Large-Scale Earth Science
     date: Mar. 2026 - Jun. 2026
     url: http://www.nsccsz.cn/
-  - name: PhD Research Intern
-    org: Huawei 2012 Laboratories
+  - name: Huawei 2012 Laboratories
     logo: /assets/images/badges/Huawei_full.png
-    position: Spatio-Temporal Foundation Models
+    position: PhD Research Intern, Spatio-Temporal Foundation Models
     date: Feb. 2025 - Dec. 2025
     url: https://www.huawei.com/
-  - name: Research Intern
-    org: XPENG Autonomous Driving Center
+  - name: XPENG Autonomous Driving Center
     logo: /assets/images/badges/Xpeng_full.png
-    position: Visual Perception for Autonomous Driving
+    position: Research Intern, Visual Perception for Autonomous Driving
     date: May. 2024 - Nov. 2024
     url: https://www.xpeng.com/
-  - name: Software Engineer
-    org: Tencent CloudDev Center
+  - name: Tencent CloudDev Center
     logo: /assets/images/badges/Tencent_full.png
-    position: Cloud-Native Intelligent Coding
+    position: Software Engineer, Cloud-Native Intelligent Coding
     date: Jun. 2022 - May. 2023
     url: https://www.tencent.com/
-  - name: Software Intern
-    org: Tencent Workflow Center
+  - name: Tencent Workflow Center
     logo: /assets/images/badges/Tencent_full.png
-    position: Automation Workflow Engine
+    position: Software Intern, Automation Workflow Engine
     date: Jun. 2021 - Sep. 2021
     url: https://www.tencent.com/
 
