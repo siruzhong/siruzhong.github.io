@@ -21,6 +21,5 @@ authors:
   - Yuxuan Liang
 # citations: 0
 links:
-  Code: 
   Paper: https://arxiv.org/abs/2602.11550
 ---

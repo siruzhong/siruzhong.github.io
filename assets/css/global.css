@@ -168,6 +168,7 @@ img.lazy {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 0.6rem;
+}
 /* Compact Icon-Only Social Grid (below portrait) */
 .social-links-grid-compact {
     display: grid;
