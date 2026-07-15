@@ -62,9 +62,9 @@ education:
   url: https://ci.hfut.edu.cn/
 
 experience:
-  - name: Beta Infinity
+  - name: Beta Infinity, Embodied Brain Team
     logo: /assets/images/badges/beta_infinity.png
-    position: Research Scientist Intern, Embodied Brain Team, Spatio-Temporal Memory in Embodied AI
+    position: Research Scientist Intern, Spatio-Temporal Memory in Embodied AI
     date: Jun. 2026 - Present
     url: https://betainf.com/
   - name: National Supercomputing Center in Shenzhen
