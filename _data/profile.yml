@@ -62,7 +62,7 @@ education:
   url: https://ci.hfut.edu.cn/
 
 experience:
-  - name: Beta Infinity, Embodied Brain Team
+  - name: Beta Infinity | Embodied Brain Team
     logo: /assets/images/badges/beta_infinity.png
     position: Research Scientist Intern, Spatio-Temporal Memory in Embodied AI
     date: Jun. 2026 - Present
@@ -72,22 +72,22 @@ experience:
     position: Visiting Scholar, AI for Large-Scale Earth Science
     date: Mar. 2026 - Jun. 2026
     url: http://www.nsccsz.cn/
-  - name: Huawei 2012 Laboratories
+  - name: Huawei | 2012 Laboratories
     logo: /assets/images/badges/Huawei_full.png
     position: PhD Research Intern, Spatio-Temporal Foundation Models
     date: Feb. 2025 - Dec. 2025
     url: https://www.huawei.com/
-  - name: XPENG Autonomous Driving Center
+  - name: XPENG | Autonomous Driving Center
     logo: /assets/images/badges/Xpeng_full.png
     position: Research Intern, Visual Perception for Autonomous Driving
     date: May. 2024 - Nov. 2024
     url: https://www.xpeng.com/
-  - name: Tencent CloudDev Center
+  - name: Tencent | CloudDev Center
     logo: /assets/images/badges/Tencent_full.png
     position: Software Engineer, Cloud-Native Intelligent Coding
     date: Jun. 2022 - May. 2023
     url: https://www.tencent.com/
-  - name: Tencent Workflow Center
+  - name: Tencent | Workflow Center
     logo: /assets/images/badges/Tencent_full.png
     position: Software Intern, Automation Workflow Engine
     date: Jun. 2021 - Sep. 2021
