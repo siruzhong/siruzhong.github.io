@@ -171,16 +171,17 @@ img.lazy {
 }
 /* Compact Icon-Only Social Grid (below portrait) */
 .social-links-grid-compact {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.3rem;
-    max-width: 160px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 0.25rem;
+
 }
 .social-links-grid-compact .social-link-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.4rem 0;
+    padding: 0.25rem 0.35rem;
     background: white;
     border-radius: 4px;
     text-decoration: none;
