@@ -3,11 +3,11 @@
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
             <div class="card-body" style="padding: 1.0rem 2rem;">
-                <div class="h3 mb-2">
-                    {{ site.data.profile.primary_name }} <small class="text-muted">{{ site.data.profile.secondary_name }}</small>
-                </div>
                 <div class="row align-items-start">
                     <div class="col-auto">
+                        <div class="h3 mb-2">
+                            {{ site.data.profile.primary_name }} <small class="text-muted">{{ site.data.profile.secondary_name }}</small>
+                        </div>
                         {% if site.data.profile.portrait_url %}
                         <figure class="figure mb-0">
                             <img 
@@ -73,7 +73,7 @@
                     </div>
                     <div class="col">
                         {% if site.data.profile.bio_before_timeline %}
-                        <div class="text-profile-bio mb-1 mt-1">
+                        <div class="text-profile-bio mt-1">
                             {{ site.data.profile.bio_before_timeline }}
                         </div>
                         {% endif %}
