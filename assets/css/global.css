@@ -136,9 +136,30 @@ img.lazy {
         flex-direction: column;
         gap: 0.5rem;
     }
-    
+
     .analytics-item {
         margin-bottom: 0.5rem;
+    }
+
+    /* Profile card mobile */
+    .profile-card-body {
+        padding: 0.75rem 1rem !important;
+    }
+
+    .profile-photo-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .profile-photo-col .figure-img {
+        height: 160px !important;
+        width: 128px !important;
+    }
+
+    .text-profile-bio {
+        font-size: 0.875rem;
     }
 }
 
