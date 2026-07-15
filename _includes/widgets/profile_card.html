@@ -5,9 +5,6 @@
             <div class="card-body" style="padding: 1.0rem 2rem;">
                 <div class="row align-items-start">
                     <div class="col-auto">
-                        <div class="h3 mb-2">
-                            {{ site.data.profile.primary_name }} <small class="text-muted">{{ site.data.profile.secondary_name }}</small>
-                        </div>
                         {% if site.data.profile.portrait_url %}
                         <figure class="figure mb-0">
                             <img 
@@ -20,6 +17,9 @@
                             >
                         </figure>
                         {% endif %}
+                        <div class="h3 mb-2 mt-2 text-center" style="max-width: 160px;">
+                            {{ site.data.profile.primary_name }} <small class="text-muted">{{ site.data.profile.secondary_name }}</small>
+                        </div>
                         <!-- Social Links as Icon-Only Tiles -->
                         <div class="mt-2">
                             <div class="social-links-grid-compact">
@@ -72,14 +72,9 @@
                         </div>
                     </div>
                     <div class="col">
-                        {% if site.data.profile.bio_before_timeline %}
-                        <div class="text-profile-bio mt-1">
-                            {{ site.data.profile.bio_before_timeline }}
-                        </div>
-                        {% endif %}
-                        {% if site.data.profile.bio_after_timeline %}
-                        <div class="text-profile-bio mb-3 mt-1">
-                            {{ site.data.profile.bio_after_timeline }}
+                        {% if site.data.profile.bio %}
+                        <div class="text-profile-bio mt-1 mb-3">
+                            {{ site.data.profile.bio }}
                         </div>
                         {% endif %}
                     </div>
