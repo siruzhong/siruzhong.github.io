@@ -22,4 +22,5 @@ links:
   Code: https://github.com/CityMind-Lab/DropoutTS
   Paper: https://arxiv.org/abs/2601.21726
   时空探索之旅: https://mp.weixin.qq.com/s/0O-zncb9ncWBGZ0vlTc8PQ
+  时序大模型: https://mp.weixin.qq.com/s/IfYHJCt9i465DbbHruDE2Q
 ---

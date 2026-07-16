@@ -25,4 +25,5 @@ links:
   Paper: https://openreview.net/pdf?id=d4CZoiaXeC
   AI TIME 论道: https://mp.weixin.qq.com/s/XGXRV-EScicpS02SnJD97g
   时空探索之旅: https://mp.weixin.qq.com/s/i_6oeIalLHZ7rcN-jH7Gfg
+  南方科技大学统计与数据科学系: https://mp.weixin.qq.com/s/oLMspQh74LyB5TqcU9KqmQ
 ---

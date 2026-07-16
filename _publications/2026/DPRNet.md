@@ -19,4 +19,5 @@ authors:
 # citations: 0
 links:
   Paper: https://arxiv.org/abs/2605.06310
+  算法前哨站: https://mp.weixin.qq.com/s/rOEw_Z_VY9IZKBSkojn0Iw
 ---
