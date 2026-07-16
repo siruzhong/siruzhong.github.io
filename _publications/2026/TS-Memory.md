@@ -1,7 +1,7 @@
 ---
 title: "TS-Memory: Plug-and-Play Memory for Time Series Foundation Models"
 date: 2026-02-12 00:00:00 +0800
-selected: true
+selected: false
 pinned: false
 pub:            "KDD (ACM SIGKDD Conference on Knowledge Discovery and Data Mining) 2026, Jeju, South Korea"
 # pub_pre:        "Submitted to "
