@@ -160,8 +160,12 @@ img.lazy {
 
     .text-profile-bio {
         font-size: 0.875rem;
+    .profile-tagline {
+        display: none;
     }
 }
+
+/* Position / Tagline */
 
 /* Position Styling */
 .position-line {
