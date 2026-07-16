@@ -161,6 +161,10 @@ img.lazy {
     .text-profile-bio {
         font-size: 0.875rem;
     .profile-tagline {
+        margin-left: 0 !important;
+        width: 100%;
+        padding-top: 2px;
+    }
         display: none;
     }
 }
