@@ -10,11 +10,7 @@
                     <li class="mb-2">
                         <div class="d-flex">
                             <div class="flex-grow-1">
-                                {% if talk.url %}
-                                <a href="{{ talk.url }}" target="_blank">{{ talk.title }}</a>
-                                {% else %}
-                                {{ talk.title }}
-                                {% endif %}
+                                {{ talk.title }}{% if talk.url %} <a href="{{ talk.url }}" target="_blank" rel="noopener">[link]</a>{% endif %}
                             </div>
                             <div class="ml-auto no-break align-self-start"><em>{{ talk.date }}</em></div>
                         </div>
