@@ -121,24 +121,23 @@ teaching:
     date: Fall 2024
 
 talks:
-  - title: 中南大学计算机学院第六届青年学者论坛 | 跨时空学习：多模态感知、跨域泛化与鲁棒适应
+  - title: "中南大学计算机学院第六届青年学者论坛 | 跨时空学习：多模态感知、跨域泛化与鲁棒适应"
     url: https://cse.csu.edu.cn/info/1039/11410.htm
     date: 2026
   - title: "清华大学深圳国际研究院交流 | Learning across Space and Time: Multimodal Integration, Foundation Models, and Dynamic Networks"
-    url: 
     date: 2026
-  - title: "AI TIME × ICML 2026 科学与医疗领域人工智能专场 | DropoutTS: Sample-Adaptive Dropout for Robust Time Series Forecasting"
+  - title: "AI TIME × ICML 2026 | DropoutTS: Sample-Adaptive Dropout for Robust Time Series Forecasting"
     url: https://mp.weixin.qq.com/s/CcHXC3sFP2dYbhLT8CpMHA?scene=1
     date: 2026
-  - title: AI TIME × 时空探索之旅 | NeurIPS 2025 时空数据专场预告
+  - title: "AI TIME × 时空探索之旅 | NeurIPS 2025 时空数据专场预告"
     url: https://mp.weixin.qq.com/s/Ck_rc15EoW1txUJWHJevmg?scene=1
     date: 2025
-  - title: 南方科技大学统计与数据科学系 NeurIPS 2025（深圳）研讨会
+  - title: "南方科技大学统计与数据科学系 | NeurIPS 2025（深圳）研讨会"
     url: https://mp.weixin.qq.com/s/oLMspQh74LyB5TqcU9KqmQ
     date: 2025
-  - title: ACM MM 2025 Tutorial — Multimodal Learning for Spatio-Temporal Data Mining
+  - title: "ACM MM 2025 Tutorial | Multimodal Learning for Spatio-Temporal Data Mining"
     url: https://mm4st.netlify.app/
     date: 2025
-  - title: "AAAI 2026 Tutorial — Multi-modal TS Analysis: Methods, Datasets, and Applications"
+  - title: "AAAI 2026 Tutorial | Multi-modal TS Analysis: Methods, Datasets, and Applications"
     url: https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/#th11
     date: 2026
