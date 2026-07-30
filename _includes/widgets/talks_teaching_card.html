@@ -11,6 +11,9 @@
                         <div class="d-flex">
                             <div class="flex-grow-1">
                                 {{ talk.title }}{% if talk.url %} <a href="{{ talk.url }}" target="_blank" rel="noopener">[link]</a>{% endif %}
+                                {% if talk.location %}
+                                <div class="text-muted" style="font-size: 0.9em;">{{ talk.location }}</div>
+                                {% endif %}
                             </div>
                             <div class="ml-auto no-break align-self-start"><em>{{ talk.date }}</em></div>
                         </div>
