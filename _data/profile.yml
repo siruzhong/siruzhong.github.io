@@ -1,9 +1,9 @@
 primary_name: "Siru Zhong"
 secondary_name: ""
-navbar_name: "Data Science & Analytics"
+navbar_name: "Siru Zhong"
 
 positions:
-  - name: 'PhD @ HKUST(GZ), Visiting @ THU & NSCS · Spatio-Temporal Intelligence · Beta Infinity · ex-Huawei / XPeng / Tencent'
+  - name: 'PhD @ HKUST(GZ), Visiting @ THU · Spatio-Temporal Intelligence · Beta Infinity · ex-Huawei / XPeng / Tencent'
 
 email: "siruzhong@outlook.com"
 # cv_link: link-to-your-cv-file
@@ -23,71 +23,71 @@ dblp: 359/5794
 
 bio: >-
   <p style="margin-bottom: 5px;">
-    Hi there, I'm Siru Zhong, a Ph.D. Candidate at <a href="https://dsa.hkust-gz.edu.cn/" target="_blank">The Hong Kong University of Science and Technology, Guangzhou</a>, advised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a> and <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yang Yue</a>. I also hold visiting affiliations with <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> and the <a href="https://www.nsccsz.cn/" target="_blank">National Supercomputing Center in Shenzhen</a>, hosted by <a href="https://www.thuhpgc.net/author/haohuan-fu/" target="_blank">Prof. Haohuan Fu</a>. My research focuses on <em>Spatial-Temporal Intelligence, Time Series, and AI4Science</em>.
+    Hi there, I'm Siru Zhong, a Ph.D. Candidate at <a href="https://dsa.hkust-gz.edu.cn/" target="_blank">The Hong Kong University of Science and Technology, Guangzhou</a>, advised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a> and <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yang Yue</a>. I am also fortunate to receive guidance from <a href="https://scholar.google.com/citations?user=-oTraZ4AAAAJ" target="_blank">Prof. James T. Kwok</a> and <a href="https://scholar.google.com/citations?user=iHevumsAAAAJ" target="_blank">Prof. Jeffrey Xu Yu</a>. I also hold visiting affiliations with <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> and the <a href="https://www.nsccsz.cn/" target="_blank">National Supercomputing Center in Shenzhen</a>, hosted by <a href="https://www.thuhpgc.net/author/haohuan-fu/" target="_blank">Prof. Haohuan Fu</a>.
   </p>
 
   <p style="margin-bottom: 5px;">
-    I am honored to be a consecutive recipient of the HKUST (GZ) DSA Excellent Research Award, a Tutorial Speaker for MM4ST @ MM 2025 &amp; ICME 2026 and MM4TS @ AAAI 2026, a Web Master for WebST 2025 &amp; UrbComp 2025, and a reviewer/PC member for top venues including NeurIPS, ICLR, KDD, ACM MM, AAAI, PAKDD, IEEE TPAMI, FARS, MILETS, IJITDM, and Neurocomputing.
-  </p>
-  <p style="margin-bottom: 5px;">
-    Beyond academia, I have sufficient industry experience. Currently, I work on Spatio-Temporal Memory in Embodied AI with <a href="https://scholar.google.com/citations?user=od00FfIAAAAJ" target="_blank">Dr. Wulong Liu</a> at Beta Infinity (2026). Previously, I worked on Spatio-Temporal Foundation Models deployed at scale at Huawei (2025), visual perception for autonomous driving at XPeng Motors (2024), and large-scale workflow data stream engineering at Tencent (2021–2023).
+    My research centers on <em>Spatio-Temporal Intelligence</em>, with a focus on time series modeling, foundation models, AI for dynamic real-world environments. Beyond academia, I have substantial industry experience: temporal data infrastructure at <a href="https://www.tencent.com/" target="_blank">Tencent</a>, multimodal perception at <a href="https://www.xpeng.com/" target="_blank">XPeng Motors</a>, foundation models at <a href="https://www.huawei.com/" target="_blank">Huawei</a>, and spatio-temporal memory for Ego-Stream Video at <a href="https://betainf.com/" target="_blank">Beta Infinity</a>.
   </p>
 
+  <p style="margin-bottom: 5px;">
+    I am honored to be a consecutive recipient of the HKUST (GZ) DSA Excellent Research Award, a Tutorial Speaker for MM4ST @ MM 2025 &amp; ICME 2026 and MM4TS @ AAAI 2026, a Web Master for WebST 2025 &amp; UrbComp 2025, and a reviewer/PC member for venues including NeurIPS, ICLR, KDD, ACM MM, AAAI, PAKDD, IEEE TPAMI, FARS, MILETS, IJITDM, and Neurocomputing.
+  </p>
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
   Hi there, I'm siru!
 
 education:
-- name: Tsinghua University & National Supercomputing Center (SZ)
-  logo: /assets/images/badges/THU_full.png
-  position: Visiting PhD Student, HPGC Research Group
-  date: Feb. 2026 - Present
-  url: https://www.thuhpgc.net/people/
-- name: The Hong Kong University of Science and Technology (GZ)
+- name: Hong Kong University of Science and Technology (GZ)
   logo: /assets/images/badges/HKUST_GZ_full.png
   position: PhD, Data Science and Analytics
   date: Feb. 2025 - Jan. 2028
   url: https://www.hkust-gz.edu.cn/
-- name: The Hong Kong University of Science and Technology (GZ)
+- name: Tsinghua University
+  logo: /assets/images/badges/THU_full.png
+  position: Visiting PhD Student, HPGC Research Group
+  date: Feb. 2026 - Present
+  url: https://www.thuhpgc.net/people/
+- name: Hong Kong University of Science and Technology (GZ)
   logo: /assets/images/badges/HKUST_GZ_full.png
   position: MPhil, Data Science and Analytics
   date: Aug. 2023 - Jan. 2025
   url: https://www.hkust-gz.edu.cn/
-- name: Hefei University of Technology (HFUT)
+- name: Hefei University of Technology
   logo: /assets/images/badges/HFUT_full.png
   position: BE, School of Artificial Intelligence
   date: Sep. 2018 - Jun. 2022
   url: https://ci.hfut.edu.cn/
 
 experience:
-  - name: Beta Infinity (Embodied Memory Team)
+  - name: Beta Infinity
     logo: /assets/images/badges/beta_infinity.png
-    position: Research Intern, Spatio-Temporal Memory in Embodied AI
+    position: Research Intern · Spatio-Temporal Memory for Ego-Stream Video
     date: Jun. 2026 - Present
     url: https://betainf.com/
-  - name: Huawei (2012 Laboratories)
+  - name: Huawei
     logo: /assets/images/badges/Huawei_full.png
-    position: Research Intern, Spatio-Temporal Foundation Models
+    position: Research Intern · Spatio-Temporal Foundation Models
     date: Feb. 2025 - Dec. 2025
     url: https://www.huawei.com/
-  - name: XPeng Motors (Autonomous Driving Center)
+  - name: XPeng Motors
     logo: /assets/images/badges/Xpeng_full.png
-    position: Research Intern, Visual Perception for Autonomous Driving
+    position: Research Intern · Spatio-Temporal Perception for Autonomous Driving
     date: May. 2024 - Nov. 2024
     url: https://www.xpeng.com/
-  - name: Tencent (Workflow Data Center)
+  - name: Tencent
     logo: /assets/images/badges/Tencent_full.png
-    position: Software Engineer (Full-time), Large-Scale Data Stream Engineering
+    position: Software Engineer · Large-Scale Temporal Data Infrastructure
     date: Jun. 2022 - May. 2023
     url: https://www.tencent.com/
-  - name: Tencent (Workflow Data Center)
+  - name: Tencent
     logo: /assets/images/badges/Tencent_full.png
-    position: Software Intern, Event Series Orchestration
+    position: Software Engineering Intern · Temporal Workflow Orchestration
     date: Jun. 2021 - Sep. 2021
     url: https://www.tencent.com/
 
 awards:
-- name: Junior Student Track Awardees of DSA Excellent Research Award, HKUST(GZ)
+- name: Junior Student Track Award, DSA Excellent Research Award, HKUST(GZ)
   date: 2026
 - name: Runner-Up Prize for DSA Excellent Research Award, HKUST(GZ)
   date: 2025
@@ -107,7 +107,7 @@ awards:
   date: 2020
 
 service:
-  - name: "<strong>Reviewer</strong>: NeurIPS 2026; ICLR 2025, 2026; KDD 2026, 2027; AAAI 2027; ACML 2026; MM 2025; FARS (Fully Automated Research System); IEEE TPAMI; IEEE Neurocomputing; IJITDM"
+  - name: "<strong>Reviewer</strong>: NeurIPS 2026; ICLR 2025, 2026; KDD 2026, 2027; AAAI 2027; ACML 2026; MM 2025; FARS (Fully Automated Research System); IEEE TPAMI; Neurocomputing; IJITDM"
   - name: "<strong>PC Member</strong>: ACM MM 2026; AAAI 2026; PAKDD 2026; MILETS 2026 @ KDD 2026"
   - name: "<strong>Tutorial Speaker</strong>: MM4ST @ MM 2025, MM4ST @ ICME 2026, MM4TS @ AAAI 2026"
   - name: "<strong>Web Master</strong>: WebST 2025, UrbComp 2025"

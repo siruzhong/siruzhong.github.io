@@ -20,4 +20,5 @@ authors:
 links:
   Code: https://github.com/sisuolv/OccamVTS
   Paper: https://www.arxiv.org/abs/2508.01727
+  时间序列分析团队: https://mp.weixin.qq.com/s?__biz=MzkxMDY4OTA5Ng==&mid=2247486452&idx=1&sn=16ba9e460b445d6d285f09864c497667&chksm=c126ddd3f65154c54377faa5d8a97dfa114a0ccb7942987d99d0e71e626e425a9720d978241b#rd
 ---

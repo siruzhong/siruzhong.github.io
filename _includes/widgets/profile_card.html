@@ -9,14 +9,13 @@
                 {% endif %}
             </h6>
             <div class="card-body profile-card-body" style="padding: 1.0rem 2rem;">
-                <div class="row align-items-start">
+                <div class="row align-items-start align-items-md-center">
                     <div class="col-auto profile-photo-col">
                         {% if site.data.profile.portrait_url %}
                         <figure class="figure mb-0">
-                            <img 
+                            <img
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
-                                class="figure-img img-fluid" 
-                                style="height: 204px; width: 160px; object-fit: cover; border: 4px solid #f8f9fa;"
+                                class="figure-img img-fluid profile-portrait"
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="{{ site.data.profile.portrait_caption }}"
