@@ -65,6 +65,11 @@ experience:
     position: Research Intern · Spatio-Temporal Memory for Ego-Stream Video
     date: Jun. 2026 - Present
     url: https://betainf.com/
+  - name: National Supercomputing Center (SZ)
+    logo: /assets/images/badges/NSCC_full.png
+    position: Visiting Researcher · AI for Weather
+    date: Feb. 2026 - Jun. 2026
+    url: https://www.nsccsz.cn/
   - name: Huawei
     logo: /assets/images/badges/Huawei_full.png
     position: Research Intern · Spatio-Temporal Foundation Models
