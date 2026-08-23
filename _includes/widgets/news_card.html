@@ -11,8 +11,8 @@
             <div class="media-body">
                 {% for item in year.items %}
                 <div class="my-1 d-flex">
-                    <div style="font-size: 15.4px">{{ item.title }}</div>
-                    <div class="ml-auto mt-auto text-muted no-break" style="font-size: 15.4px"><em>{{ item.date | date: "%b %d" }}</em></div>
+                    <div class="small">{{ item.title }}</div>
+                    <div class="ml-auto mt-auto text-muted no-break small"><em>{{ item.date | date: "%b %d" }}</em></div>
                 </div>
                 {% endfor %}
             </div>
