@@ -145,8 +145,8 @@ talks:
     location: ACM MM 2025 Tutorial, Dublin
     url: https://mm4st.netlify.app/
     date: 2025.12
-  - title: "NeurIPS 2025 时空数据专场预告"
-    location: AI TIME × 时空探索之旅, Online
+  - title: "Learning to Factorize Spatio-Temporal Foundation Models"
+    location: AI TIME × ICML 2025, Online
     url: https://mp.weixin.qq.com/s/Ck_rc15EoW1txUJWHJevmg?scene=1
     date: 2025.11
   - title: "NeurIPS 2025（深圳）研讨会"

@@ -6,7 +6,7 @@
             <div class="px-3 pb-1">
                 <ul class="list small pl-3 mb-1">
                     {% assign talks = site.data.profile.talks | sort: "date" | reverse %}
-                    {% for talk in talks limit:5 %}
+                    {% for talk in talks %}
                     <li class="mb-2">
                         <div class="d-flex">
                             <div class="flex-grow-1">
