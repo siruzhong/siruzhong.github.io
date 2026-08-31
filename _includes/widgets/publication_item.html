@@ -9,7 +9,7 @@
         {%- else -%}
         <div class="col p-3 ml-md-2">
         {%- endif -%}
-            <h5 class="mt-0 mb-1" style="font-size: 16px; font-weight: 500; color: #1a1a2e;">
+            <h5 class="mt-0 mb-1" style="font-size: 16px; font-weight: 600; color: #1a1a2e;">
                 {% if item.pinned %}<i class="fas fa-thumbtack text-primary mr-2" title="Pinned"></i>{% endif %}{{ item.title }}
             </h5>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
@@ -43,7 +43,7 @@
     <div class="card-img-overlay d-flex align-items-start flex-column" style="background-color: rgba(255, 255, 255, 0.85);">
         <div class="mb-auto"></div>
         <div>
-            <h5 class="mt-0 mb-1" style="font-size: 16px; font-weight: 500; color: #1a1a2e;">
+            <h5 class="mt-0 mb-1" style="font-size: 16px; font-weight: 600; color: #1a1a2e;">
                 {% if item.pinned %}<i class="fas fa-thumbtack text-primary mr-2" title="Pinned"></i>{% endif %}{{ item.title }}
             </h5>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
