@@ -10,7 +10,9 @@
             {% if item.pinned %}<i class="fas fa-thumbtack mr-2" title="Pinned publication" aria-label="Pinned publication"></i>{% endif %}{{ item.title }}
         </h3>
         <p class="publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
-        <p class="publication-venue">{{ item.pub_pre }}<span>{{ item.pub }}</span>{{ item.pub_post }} {{ item.pub_last }}</p>
+        <p class="publication-venue">
+            {{ item.pub_pre }}{% if item.pub %}{% assign venue_parts = item.pub | split: " (" %}{% if venue_parts.size > 1 %}{% assign venue_short = venue_parts | first %}<strong class="publication-venue-name">{{ venue_short }}</strong><span class="publication-venue-details">{{ item.pub | remove_first: venue_short }}</span>{% else %}<span class="publication-venue-details">{{ item.pub }}</span>{% endif %}{% endif %}{{ item.pub_post }} {{ item.pub_last }}
+        </p>
         <div class="publication-links">
             {% for link in item.links %}
             {% if link[1].url %}
