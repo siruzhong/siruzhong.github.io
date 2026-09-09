@@ -1,11 +1,10 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top mb-5 shadow-sm">
+<nav class="navbar navbar-expand-md navbar-light fixed-top" aria-label="Primary navigation">
     <div class="container">
-        <a class="navbar-brand">
-            <img src="/assets/images/badges/HKUST_GZ_full.png" alt="HKUST(GZ)" style="max-width: 200px; width: 100%;" class="mr-1 mt-1 align-self-center">
+        <a class="navbar-brand" href="{{ '/' | relative_url }}" aria-label="Siru Zhong home">
+            <img src="{{ '/assets/images/badges/HKUST_GZ_full.png' | relative_url }}" alt="HKUST(GZ)">
         </a>
-        <!-- <a class="navbar-brand">{{site.data.profile.navbar_name}}</a> -->
-        <button class="navbar-toggler" style="font-size: 1em; padding: 0.5em;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-map"></i> Menu
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars" aria-hidden="true"></i>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarResponsive">

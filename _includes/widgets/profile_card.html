@@ -1,15 +1,15 @@
 <!-- Profile Header -->
-<div class="row mb-4">
+<div class="row">
     <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <h6 class="p-3 mb-0 border-bottom border-gray d-flex flex-wrap align-items-center" style="font-weight: bold;">
+        <div class="card profile-card">
+            <h6 class="section-card-header profile-card-header">
                 <span><i class="fas fa-user mr-2"></i>About (Siru Zhong 钟嗣儒)</span>
                 {% if site.data.profile.positions %}
                 <span class="ml-auto profile-tagline text-muted small font-weight-normal">{{ site.data.profile.positions[0].name }}</span>
                 {% endif %}
             </h6>
-            <div class="card-body profile-card-body" style="padding: 1.0rem 2rem;">
-                <div class="row align-items-start align-items-md-center">
+            <div class="card-body profile-card-body">
+                <div class="row profile-main">
                     <div class="col-auto profile-photo-col">
                         {% if site.data.profile.portrait_url %}
                         <figure class="figure mb-0">
@@ -19,43 +19,42 @@
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="{{ site.data.profile.portrait_caption }}"
+                                alt="{{ site.data.profile.portrait_caption }}"
                             >
                         </figure>
                         {% endif %}
 
                         <!-- Social Links as Icon-Only Tiles -->
-                        <div class="mt-2">
-                            <div class="social-links-grid-compact">
-                                <a class="social-link-item email-link" href="mailto:{{ site.data.profile.email | encode_email }}" title="Email">
+                        <div class="profile-socials">
+                                <a class="social-link-item email-link" href="mailto:{{ site.data.profile.email | encode_email }}" title="Email" aria-label="Email">
                                     <i class="fas fa-envelope"></i>
                                 </a>
 
                                 {% if site.data.profile.gscholar %}
-                                <a class="social-link-item gscholar-link" target="_blank" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en" title="Google Scholar">
-                                    <i class="fab fa-google-scholar"></i>
+                                <a class="social-link-item gscholar-link" target="_blank" rel="noopener" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en" title="Google Scholar" aria-label="Google Scholar">
+                                    <i class="ai ai-google-scholar"></i>
                                 </a>
                                 {% endif %}
 
 
                                 {% if site.data.profile.github %}
-                                <a class="social-link-item github-link" target="_blank" href="https://github.com/{{ site.data.profile.github }}" title="GitHub">
+                                <a class="social-link-item github-link" target="_blank" rel="noopener" href="https://github.com/{{ site.data.profile.github }}" title="GitHub" aria-label="GitHub">
                                     <i class="fab fa-github"></i>
                                 </a>
                                 {% endif %}
                                 
                                 {% if site.data.profile.linkedin %}
-                                <a class="social-link-item linkedin-link" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}" title="LinkedIn">
+                                <a class="social-link-item linkedin-link" target="_blank" rel="noopener" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}" title="LinkedIn" aria-label="LinkedIn">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
                                 {% endif %}
 
                                 {% if site.data.profile.csdn %}
-                                <a class="social-link-item csdn-link" target="_blank" href="https://blog.csdn.net/{{ site.data.profile.csdn }}" title="CSDN">
-                                    <i class="fas fa-blog"></i>
+                                <a class="social-link-item csdn-link" target="_blank" rel="noopener" href="https://blog.csdn.net/{{ site.data.profile.csdn }}" title="CSDN" aria-label="CSDN">
+                                    <span class="social-wordmark" aria-hidden="true">CSDN</span>
                                 </a>
                                 {% endif %}
                         </div>
-                    </div>
                     </div>
                     <div class="col">
                         {% if site.data.profile.bio %}
@@ -66,7 +65,7 @@
                     </div>
                 </div>
                 {% if site.data.profile.cv_link %}
-                    <a target="_blank" href="{{ site.data.profile.cv_link }}" class="btn btn-outline-primary btn-sm mb-4">
+                    <a target="_blank" rel="noopener" href="{{ site.data.profile.cv_link }}" class="btn btn-outline-primary btn-sm mt-4">
                         <i class="fas fa-file-alt"></i> Curriculum Vitae
                     </a>
                 {% endif %}

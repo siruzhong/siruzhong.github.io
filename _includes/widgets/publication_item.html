@@ -1,67 +1,29 @@
 {% assign item = include.item %}
-<div class="d-none d-md-block">
-    <div class="row no-gutters border-gray">
-        {%- if item.cover -%}
-        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
-            <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm publication-cover" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
-        </div>
-        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
-        {%- else -%}
-        <div class="col p-3 ml-md-2">
-        {%- endif -%}
-            <h5 class="mt-0 mb-1" style="font-size: 16px; font-weight: 600; color: #1a1a2e;">
-                {% if item.pinned %}<i class="fas fa-thumbtack text-primary mr-2" title="Pinned"></i>{% endif %}{{ item.title }}
-            </h5>
-            <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-            <p class="mt-0 mb-0 small">{{item.pub_pre}}<span style="color: #555;">{{ item.pub }}</span>{{ item.pub_post }} {{ item.pub_last }}</p>
-            
-            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
-                {% for link in item.links %}
-                {% if link[1].url %}
-                <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">[{{ link[0] }}]</a>
-                {% elsif link[1] contains 'img.shields.io' %}
-                <img src="{{ link[1] }}" alt="{{ link[0] }}" style="height: 20px; vertical-align: middle;">
-                {% else %}
-                <a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a>
-                {% endif %}
-                {% endfor %}
-                {% if item.citations %}
-                {% include widgets/citation_badge.html citation_count=item.citations %}
-                {% endif %}
-            </p>
-
+<article class="publication-item">
+    <div class="publication-media">
+        {% if item.cover %}
+        <img data-src="{{ item.cover | relative_url }}" alt="Cover image for {{ item.title }}" class="lazy publication-cover" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+        {% endif %}
+    </div>
+    <div class="publication-content">
+        <h3 class="publication-title">
+            {% if item.pinned %}<i class="fas fa-thumbtack mr-2" title="Pinned publication" aria-label="Pinned publication"></i>{% endif %}{{ item.title }}
+        </h3>
+        <p class="publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
+        <p class="publication-venue">{{ item.pub_pre }}<span>{{ item.pub }}</span>{{ item.pub_post }} {{ item.pub_last }}</p>
+        <div class="publication-links">
+            {% for link in item.links %}
+            {% if link[1].url %}
+            <a target="{{ link[1]['target'] | default: '_blank' }}" rel="noopener" href="{{ link[1]['url'] }}">{{ link[0] }}</a>
+            {% elsif link[1] contains 'img.shields.io' %}
+            <img src="{{ link[1] }}" alt="{{ link[0] }}" class="publication-badge">
+            {% else %}
+            <a target="_blank" rel="noopener" href="{{ link[1] }}">{{ link[0] }}</a>
+            {% endif %}
+            {% endfor %}
+            {% if item.citations %}
+            {% include widgets/citation_badge.html citation_count=item.citations %}
+            {% endif %}
         </div>
     </div>
-</div>
-
-<div class="card w-100 d-md-none border-top-0 border-right-0 border-left-0 rounded-0" style="overflow-y: scroll;">
-    {%- if item.cover -%}
-    <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy card-img w-100" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
-    {%- else -%}
-    <img alt="{{ item.title }}" class="w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
-    {%- endif -%}
-    <div class="card-img-overlay d-flex align-items-start flex-column" style="background-color: rgba(255, 255, 255, 0.85);">
-        <div class="mb-auto"></div>
-        <div>
-            <h5 class="mt-0 mb-1" style="font-size: 16px; font-weight: 600; color: #1a1a2e;">
-                {% if item.pinned %}<i class="fas fa-thumbtack text-primary mr-2" title="Pinned"></i>{% endif %}{{ item.title }}
-            </h5>
-            <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-            <p class="mt-0 mb-0 small">{{item.pub_pre}}<span style="color: #555;">{{ item.pub }}</span>{{ item.pub_post }} {{ item.pub_last }}</p>
-            
-            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
-                {% for link in item.links %}
-                {% if link[1].url %}
-                <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">[{{ link[0] }}]</a>
-                {% elsif link[1] contains 'img.shields.io' %}
-                <img src="{{ link[1] }}" alt="{{ link[0] }}" style="height: 20px; vertical-align: middle;">
-                {% elsif link[0] == 'Citations' %}
-                {% include widgets/citation_badge.html citation_count=item.citations %}
-                {% else %}
-                <a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a>
-                {% endif %}
-                {% endfor %}
-            </p>
-        </div>
-    </div>
-</div>
+</article>

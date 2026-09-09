@@ -1,21 +1,21 @@
 <!-- Talks -->
 <div class="row mb-4" id="talks-teaching">
     <div class="col-12">
-        <div class="card border-0 shadow-sm bg-white h-100" id="talks">
-            <h6 class="p-3 mb-0" style="font-weight: bold;"><i class="fas fa-microphone mr-2"></i>Talks</h6>
-            <div class="px-3 pb-1">
-                <ul class="list small pl-3 mb-1">
+        <div class="card" id="talks">
+            <h6 class="section-card-header"><i class="fas fa-microphone"></i>Talks</h6>
+            <div class="section-card-body">
+                <ul class="talk-list">
                     {% assign talks = site.data.profile.talks | sort: "date" | reverse %}
                     {% for talk in talks %}
-                    <li class="mb-2">
-                        <div class="d-flex">
-                            <div class="flex-grow-1">
-                                {{ talk.title }}{% if talk.url %} <a href="{{ talk.url }}" target="_blank" rel="noopener">[link]</a>{% endif %}
+                    <li>
+                        <div class="talk-row">
+                            <div>
+                                <div class="talk-title">{{ talk.title }}{% if talk.url %} <a href="{{ talk.url }}" target="_blank" rel="noopener">[link]</a>{% endif %}</div>
                                 {% if talk.location %}
-                                <div class="text-muted" style="font-size: 0.9em;">{{ talk.location }}</div>
+                                <div class="talk-location">{{ talk.location }}</div>
                                 {% endif %}
                             </div>
-                            <div class="ml-auto no-break align-self-start"><em>{{ talk.date }}</em></div>
+                            <div class="date-label">{{ talk.date }}</div>
                         </div>
                     </li>
                     {% endfor %}
