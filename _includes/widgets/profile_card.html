@@ -9,8 +9,8 @@
                 {% endif %}
             </h6>
             <div class="card-body profile-card-body">
-                <div class="row profile-main">
-                    <div class="col-auto profile-photo-col">
+                <div class="profile-main">
+                    <div class="profile-photo-col">
                         {% if site.data.profile.portrait_url %}
                         <figure class="figure mb-0">
                             <img
@@ -56,9 +56,13 @@
                                 {% endif %}
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="profile-copy-col">
+                        <div class="profile-mobile-identity">
+                            <div class="profile-name">Siru Zhong <span>钟嗣儒</span></div>
+                            <div class="profile-role">Ph.D. Candidate <span>HKUST(GZ) · Visiting @ THU</span></div>
+                        </div>
                         {% if site.data.profile.bio %}
-                        <div class="text-profile-bio mt-1 mb-3">
+                        <div class="text-profile-bio">
                             {{ site.data.profile.bio }}
                         </div>
                         {% endif %}

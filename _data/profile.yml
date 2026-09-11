@@ -62,7 +62,7 @@ education:
 experience:
   - name: Beta Infinity
     logo: /assets/images/badges/beta_infinity.png
-    position: Research Intern · Spatio-Temporal Memory for Embodied AI
+    position: Research Intern · Spatio-Temporal Memory
     date: Jun. 2026 - Present
     url: https://betainf.com/
   - name: National Supercomputing Center (SZ)
@@ -87,7 +87,7 @@ experience:
     url: https://www.tencent.com/
   - name: Tencent
     logo: /assets/images/badges/Tencent_full.png
-    position: Software Engineering Intern · Temporal Workflow Orchestration
+    position: Software Engineering Intern · Temporal Workflow Engine
     date: Jun. 2021 - Sep. 2021
     url: https://www.tencent.com/
 

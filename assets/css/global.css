@@ -135,8 +135,9 @@ h5 { font-size: 1.05rem; }
     }
 }
 .profile-card-body { padding: 1.2rem 1.35rem !important; }
-.profile-main { align-items: flex-start; }
+.profile-main { display: flex; align-items: flex-start; gap: 1.35rem; }
 .profile-photo-col { flex: 0 0 190px; max-width: 190px; text-align: center; }
+.profile-copy-col { flex: 1 1 auto; min-width: 0; }
 .profile-portrait {
     width: 158px;
     height: 202px;
@@ -152,6 +153,7 @@ h5 { font-size: 1.05rem; }
     gap: 0.3rem;
     margin-top: 0.5rem;
 }
+.profile-mobile-identity { display: none; }
 .social-link-item {
     display: inline-flex;
     align-items: center;
@@ -318,10 +320,58 @@ img.lazy { min-height: 80px; background: #f7f9fa url("images/loading.gif") cente
     .profile-card-header { align-items: flex-start; gap: 0.35rem; }
     .profile-tagline { width: 100%; margin-left: 0; font-size: 0.75rem; line-height: 1.45; }
     .profile-card-body { padding: 1rem !important; }
-    .profile-main { display: block; }
-    .profile-photo-col { max-width: none; margin-bottom: 1rem; text-align: center; }
-    .profile-portrait { width: 145px; height: 185px; }
-    .text-profile-bio { font-size: 0.9rem; }
+    .profile-tagline { display: none; }
+    .profile-main {
+        display: grid;
+        grid-template-columns: 102px minmax(0, 1fr);
+        column-gap: 0.9rem;
+        row-gap: 0.75rem;
+        width: 100%;
+    }
+    .profile-photo-col, .profile-copy-col { display: contents; }
+    .profile-photo-col .figure {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+        margin: 0;
+        text-align: left;
+    }
+    .profile-portrait {
+        width: 102px;
+        height: 132px;
+        border-width: 4px;
+        border-radius: 9px;
+    }
+    .profile-mobile-identity {
+        display: block;
+        grid-column: 2;
+        grid-row: 1;
+        align-self: end;
+    }
+    .profile-name { color: var(--ink); font-size: 1.08rem; font-weight: 700; line-height: 1.25; }
+    .profile-name span { color: var(--muted); font-size: 0.82rem; font-weight: 500; }
+    .profile-role { margin-top: 0.28rem; color: var(--muted); font-size: 0.78rem; line-height: 1.45; }
+    .profile-role span { display: block; color: var(--subtle); }
+    .profile-socials {
+        grid-column: 2;
+        grid-row: 2;
+        align-self: start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 0.2rem;
+        margin: 0;
+    }
+    .social-link-item { flex-basis: 1.9rem; width: 1.9rem; height: 1.9rem; }
+    .text-profile-bio {
+        grid-column: 1 / -1;
+        grid-row: 3;
+        margin: 0.1rem 0 0;
+        padding-top: 0.9rem;
+        border-top: 1px solid var(--border);
+        color: #33465b;
+        font-size: 0.91rem;
+        line-height: 1.62;
+    }
+    .text-profile-bio p { margin-bottom: 0.75rem; }
     .section-card-body { padding: 1rem; }
     .experience-meta, .talk-row, .award-row, .teaching-row { display: block; }
     .date-label { display: block; margin-top: 0.12rem; }
