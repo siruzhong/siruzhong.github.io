@@ -2,12 +2,6 @@
 <div class="row">
     <div class="col">
         <div class="card profile-card">
-            <h6 class="section-card-header profile-card-header">
-                <span><i class="fas fa-user mr-2"></i>About (Siru Zhong 钟嗣儒)</span>
-                {% if site.data.profile.positions %}
-                <span class="ml-auto profile-tagline text-muted small font-weight-normal">{{ site.data.profile.positions[0].name }}</span>
-                {% endif %}
-            </h6>
             <div class="card-body profile-card-body">
                 <div class="profile-main">
                     <div class="profile-photo-col">
@@ -19,7 +13,8 @@
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="{{ site.data.profile.portrait_caption }}"
-                                alt="{{ site.data.profile.portrait_caption }}"
+                                alt="Portrait of {{ site.data.profile.primary_name }}"
+                                width="220" height="282"
                             >
                         </figure>
                         {% endif %}
@@ -57,9 +52,10 @@
                         </div>
                     </div>
                     <div class="profile-copy-col">
-                        <div class="profile-mobile-identity">
-                            <div class="profile-name">Siru Zhong <span>钟嗣儒</span></div>
-                            <div class="profile-role">Ph.D. Candidate <span>HKUST(GZ) · Visiting @ THU</span></div>
+                        <div class="profile-identity">
+                            <p class="profile-eyebrow">Spatio-Temporal Intelligence</p>
+                            <h1 class="profile-name">{{ site.data.profile.primary_name }} <span lang="zh">钟嗣儒</span></h1>
+                            <div class="profile-role">Ph.D. Candidate <span>HKUST(GZ) <span class="identity-divider" aria-hidden="true">/</span> Visiting @ Tsinghua</span></div>
                         </div>
                         {% if site.data.profile.bio %}
                         <div class="text-profile-bio">

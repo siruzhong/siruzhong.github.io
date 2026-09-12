@@ -1,13 +1,13 @@
 {% assign news_items = site.data.news | sort: "date" | reverse %}
 {% assign news_by_year = news_items | group_by_exp: "item", "item.date | date: '%Y'" -%}
 
-<section class="news-card">
-    <h6 class="news-card-header"><i class="fas fa-rss"></i>News</h6>
+<section class="news-card open-section">
+    <h2 class="news-card-header"><i class="fas fa-rss"></i>News</h2>
     <div class="news-card-body">
         {% for year in news_by_year %}
         <div class="news-year">
             <div class="news-year-label">{{ year.name }}</div>
-            <div>
+            <div class="news-stream">
                 {% for item in year.items %}
                 <div class="news-entry">
                     <div>{{ item.title }}</div>

@@ -3,11 +3,11 @@
 {% assign non_pinned_selected_pubs = publications | where: "selected", true | where: "pinned", false | sort: "date" | reverse %}
 {% assign all_pubs = pinned_pubs | concat: non_pinned_selected_pubs %}
 
-<div class="publication-list">
-    <h6 class="publication-card-header">
+<div class="publication-list open-section">
+    <h2 class="publication-card-header">
         <span>{% if include.title %}{{ include.title }}{% else %}<i class="fas fa-star"></i> Selected Recent Publications{% endif %}</span>
-        <a class="view-all" href="{{ 'publications' | relative_url }}">View all <i class="fas fa-angle-right"></i></a>
-    </h6>
+        <a class="view-all" href="{{ 'publications' | relative_url }}">All publications <i class="fas fa-angle-right"></i></a>
+    </h2>
     {% for item in all_pubs limit:include.limit %}
         {% include widgets/publication_item.html item=item %}    
     {% endfor %}

@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-md navbar-light fixed-top" aria-label="Primary navigation">
     <div class="container">
         <a class="navbar-brand" href="{{ '/' | relative_url }}" aria-label="Siru Zhong home">
+            <span class="brand-name">{{ site.data.profile.navbar_name }}</span>
+            <span class="brand-divider" aria-hidden="true"></span>
             <img src="{{ '/assets/images/badges/HKUST_GZ_full.png' | relative_url }}" alt="HKUST(GZ)">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,7 +13,7 @@
             <ul class="navbar-nav ml-auto">
                 {% for item in site.data.navigation.pages %}
                 <li class="nav-item {% if item.name == page.navbar_title %}active{% endif %}">
-                    <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                    <a class="nav-link" href="{{ item.url | relative_url }}" {% if item.name == page.navbar_title %}aria-current="page"{% endif %}>{{ item.name }}</a>
                 </li>
                 {% endfor %}
             </ul>

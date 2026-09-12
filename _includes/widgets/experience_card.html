@@ -1,57 +1,59 @@
-<!-- Education/Industry Experience + Service -->
-<div class="row section-grid">
-    <!-- Education + Industry Experience in one card -->
+<div class="row section-grid experience-section">
     <div class="col-md-6">
-        <div class="card">
-            <div class="section-card-body">
-                <h6 class="section-subheading"><i class="fas fa-graduation-cap"></i>Education</h6>
-                <ul class="experience-list">
+    <div class="card career-card open-section">
+        <div class="section-card-body">
+            <section class="career-section" aria-labelledby="education-heading">
+                <h2 class="section-subheading career-section-title" id="education-heading"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Education</h2>
+                <ul class="experience-list education-list">
                     {% for item in site.data.profile.education %}
-                    <li>
-                        <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}">
-                        <div>
+                    <li class="career-entry">
+                        <span class="career-logo{% if item.logo contains 'beta_infinity' %} career-logo-crop{% endif %}" aria-hidden="true">
+                            <img src="{{ item.logo | replace: '_full', '' | relative_url }}" alt="">
+                        </span>
+                        <div class="career-details">
                             <div class="experience-name">{{ item.name }}</div>
                             {% if item.dept %}
                             <div class="experience-meta">{{ item.dept }}</div>
                             {% endif %}
-                            <div class="experience-meta">
+                            <div class="experience-meta experience-meta-row">
                                 <span>{{ item.position }}</span>
-                                <span class="date-label">{{ item.date }}</span>
+                                <span class="career-date">{{ item.date }}</span>
                             </div>
                         </div>
                     </li>
                     {% endfor %}
                 </ul>
-
-                <hr class="my-3">
-
-                <h6 class="section-subheading"><i class="fas fa-briefcase"></i>Industry Experience</h6>
-                <ul class="experience-list">
+            </section>
+            <section class="career-section" aria-labelledby="experience-heading">
+                <h2 class="section-subheading career-section-title" id="experience-heading"><i class="fas fa-briefcase" aria-hidden="true"></i>Industry Experience</h2>
+                <ul class="experience-list industry-list">
                     {% for item in site.data.profile.experience %}
-                    <li>
-                        <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}">
-                        <div>
+                    <li class="career-entry">
+                        <span class="career-logo{% if item.logo contains 'beta_infinity' %} career-logo-crop{% endif %}" aria-hidden="true">
+                            <img src="{{ item.logo | replace: '_full', '' | relative_url }}" alt="">
+                        </span>
+                        <div class="career-details">
                             <div class="experience-name">{{ item.name }}</div>
                             {% if item.dept %}
                             <div class="experience-meta">{{ item.dept }}</div>
                             {% endif %}
-                            <div class="experience-meta">
+                            <div class="experience-meta experience-meta-row">
                                 <span>{{ item.position }}</span>
-                                <span class="date-label">{{ item.date }}</span>
+                                <span class="career-date">{{ item.date }}</span>
                             </div>
                         </div>
                     </li>
                     {% endfor %}
                 </ul>
-            </div>
+            </section>
         </div>
     </div>
-
-    <!-- Service + Awards -->
+    </div>
     <div class="col-md-6">
-        <div class="card">
-            <div class="section-card-body">
-                <h6 class="section-subheading" id="service"><i class="fas fa-handshake"></i>Service</h6>
+    <div class="card service-card open-section">
+        <div class="section-card-body">
+        <section class="activity-section activity-service">
+<h2 class="section-subheading" id="service"><i class="fas fa-handshake"></i>Service</h2>
                 <ul class="compact-list">
                     {% for item in site.data.profile.service %}
                     <li>
@@ -59,10 +61,9 @@
                     </li>
                     {% endfor %}
                 </ul>
-
-                <hr class="my-3">
-
-                <h6 class="section-subheading" id="teaching"><i class="fas fa-chalkboard-teacher"></i>Teaching</h6>
+        </section>
+        <section class="activity-section activity-teaching">
+<h2 class="section-subheading" id="teaching"><i class="fas fa-chalkboard-teacher"></i>Teaching</h2>
                 <ul class="compact-list">
                     {% for item in site.data.profile.teaching %}
                     <li>
@@ -73,10 +74,9 @@
                     </li>
                     {% endfor %}
                 </ul>
-
-                <hr class="my-3">
-
-                <h6 class="section-subheading" id="awards"><i class="fas fa-award"></i>Awards</h6>
+        </section>
+        <section class="activity-section activity-awards">
+<h2 class="section-subheading" id="awards"><i class="fas fa-award"></i>Awards</h2>
                 <ul class="compact-list">
                     {% for item in site.data.profile.awards %}
                     <li>
@@ -87,7 +87,8 @@
                     </li>
                     {% endfor %}
                 </ul>
-            </div>
+        </section>
         </div>
+    </div>
     </div>
 </div>
