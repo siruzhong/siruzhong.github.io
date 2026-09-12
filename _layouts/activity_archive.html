@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{% assign activities = site.data.profile[page.activity_type] %}
+{% if page.activity_type == 'talks' %}
+    {% assign activities = activities | sort: 'date' | reverse %}
+    {% assign years = activities | group_by_exp: 'item', "item.date | split: '.' | first" %}
+{% else %}
+    {% assign years = activities | group_by_exp: 'item', "item.date | split: ' ' | last" | sort: 'name' | reverse %}
+{% endif %}
+
+<header class="page-intro">
+    <p class="profile-eyebrow">{{ page.eyebrow }}</p>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+</header>
+
+<div class="row publications-layout">
+    <div class="col-12 col-lg-10">
+        {% for year in years %}
+        <section aria-labelledby="year-{{ year.name }}">
+            <h2 class="publication-year" id="year-{{ year.name }}">{{ year.name }}</h2>
+            <div class="publication-list my-0 activity-archive-list">
+                {% for item in year.items %}
+                <article class="activity-archive-item">
+                    <div class="activity-archive-date">
+                        {% if page.activity_type == 'talks' %}
+                        <time datetime="{{ item.date | replace: '.', '-' }}">{{ item.date }}</time>
+                        {% else %}
+                        {{ item.date }}
+                        {% endif %}
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">{% if page.activity_type == 'talks' %}{{ item.title }}{% else %}{{ item.name }}{% endif %}</h3>
+                        {% if item.location %}<p class="publication-venue">{{ item.location }}</p>{% endif %}
+                        {% if item.url %}
+                        <div class="publication-links"><a href="{{ item.url }}" target="_blank" rel="noopener" aria-label="View details for {{ item.title | default: item.name | escape }}">Details <span aria-hidden="true">↗</span></a></div>
+                        {% endif %}
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+        {% endfor %}
+    </div>
+    <div class="col-2 d-none d-lg-block">
+        <nav id="navbar-year" class="year-nav nav nav-pills flex-column sticky-top" aria-label="{{ page.title }} years">
+            {% for year in years %}
+            <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
+            {% endfor %}
+        </nav>
+    </div>
+</div>

@@ -2,15 +2,15 @@
 <div class="row mb-4" id="talks-teaching">
     <div class="col-12">
         <div class="card open-section" id="talks">
-            <h2 class="section-card-header"><i class="fas fa-microphone"></i>Talks</h2>
+            <h2 class="section-card-header"><i class="fas fa-microphone"></i>Talks <a class="section-view-all" href="{{ '/talks' | relative_url }}">All talks <i class="fas fa-angle-right" aria-hidden="true"></i></a></h2>
             <div class="section-card-body">
                 <ul class="talk-list">
                     {% assign talks = site.data.profile.talks | sort: "date" | reverse %}
-                    {% for talk in talks %}
+                    {% for talk in talks limit:3 %}
                     <li>
                         {% assign talk_date = talk.date | split: "." %}
                         <div class="talk-row">
-                            <time class="talk-date" datetime="{{ talk.date }}">
+                            <time class="talk-date" datetime="{{ talk.date | replace: '.', '-' }}">
                                 <span>{{ talk_date[0] }}</span>{{ talk_date[1] }}
                             </time>
                             <div class="talk-content">

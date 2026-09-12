@@ -280,6 +280,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .publication-card-header { justify-content: space-between; flex-wrap: wrap; }
 .publication-card-header > span { display: inline-flex; align-items: center; gap: 0.65rem; }
 .publication-card-header .view-all { margin-left: auto; color: var(--accent); font-size: 0.82rem; font-weight: 500; letter-spacing: 0; }
+.section-view-all { margin-left: auto; color: var(--accent); font-size: 0.82rem; font-weight: 500; letter-spacing: 0; white-space: nowrap; }
+.section-view-all i { font-size: 0.75em !important; }
 .publication-item { display: grid; grid-template-columns: 186px minmax(0, 1fr); gap: 1.65rem; padding: 1rem 1.65rem; }
 .publication-item + .publication-item { border-top: 1px solid var(--border); }
 .publication-item { transition: background-color 0.16s ease; }
@@ -313,6 +315,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .abstract-body { min-height: 112px; }
 
 /* Year navigation */
+.activity-archive-item { display: grid; grid-template-columns: 6rem minmax(0, 1fr); gap: 1.65rem; padding: 1.2rem 1.65rem; }
+.activity-archive-item + .activity-archive-item { border-top: 1px solid var(--border); }
+.activity-archive-date { padding-top: 0.2rem; color: var(--muted); font-size: 0.8rem; font-variant-numeric: tabular-nums; }
+.activity-archive-item .publication-title { margin-bottom: 0.25rem; }
 .publication-year { margin: 2rem 0 1rem; scroll-margin-top: 6rem; font-size: 1.7rem; font-family: Georgia, serif; font-weight: 400; }
 .year-nav { top: 5.5rem; padding: 0.35rem; border: 1px solid var(--border); border-radius: 10px; background: rgba(255, 255, 255, 0.78); }
 .year-nav .nav-link { padding: 0.45rem 0.65rem; border-radius: 7px; color: var(--muted); font-size: 0.84rem; font-weight: 700; }
@@ -440,6 +446,7 @@ img.lazy.publication-cover { background: transparent; }
     .news-card-header, #talks > .section-card-header { padding: 0.65rem 1.15rem !important; min-height: 3.2rem; }
     .publication-card-header { gap: 0.3rem; }
     .publication-card-header .view-all { font-size: 0.72rem; }
+    .section-view-all { font-size: 0.72rem; }
     .section-card-body { padding: 1.15rem; }
     .section-grid { margin-top: 1.5rem; }
     .experience-meta { display: block; }
@@ -453,6 +460,7 @@ img.lazy.publication-cover { background: transparent; }
     .news-entry { display: grid; }
     .talk-list { grid-template-columns: 1fr; }
     .publication-item { display: block; padding: 1rem 1.15rem; }
+    .activity-archive-item { grid-template-columns: minmax(0, 1fr); gap: 0.4rem; padding: 1rem 1.15rem; }
     .publication-media { margin-bottom: 1rem; }
     .publication-cover { height: 150px; padding: 0; }
     .publication-title { font-size: 1rem; }

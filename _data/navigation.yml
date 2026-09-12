@@ -8,6 +8,6 @@ pages:
 - name: Awards
   url: /#awards
 - name: Talks
-  url: /#talks
+  url: /talks
 - name: Teaching
-  url: /#teaching
+  url: /teaching

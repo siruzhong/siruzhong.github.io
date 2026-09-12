@@ -63,17 +63,17 @@
                 </ul>
         </section>
         <section class="activity-section activity-teaching">
-<h2 class="section-subheading" id="teaching"><i class="fas fa-chalkboard-teacher"></i>Teaching</h2>
-                <ul class="compact-list">
-                    {% for item in site.data.profile.teaching %}
-                    <li>
-                        <div class="teaching-row">
-                            <div>{{ item.name }}</div>
-                            <div class="date-label">{{ item.date }}</div>
-                        </div>
-                    </li>
-                    {% endfor %}
-                </ul>
+            <h2 class="section-subheading" id="teaching"><i class="fas fa-chalkboard-teacher"></i>Teaching <a class="section-view-all" href="{{ '/teaching' | relative_url }}">All teaching <i class="fas fa-angle-right" aria-hidden="true"></i></a></h2>
+            <ul class="compact-list">
+                {% for item in site.data.profile.teaching limit:3 %}
+                <li>
+                    <div class="teaching-row">
+                        <div>{{ item.name }}</div>
+                        <div class="date-label">{{ item.date }}</div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
         </section>
         <section class="activity-section activity-awards">
 <h2 class="section-subheading" id="awards"><i class="fas fa-award"></i>Awards</h2>
