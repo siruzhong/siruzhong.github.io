@@ -8,8 +8,8 @@ pub: "Preprint, 2026"
 cover: /assets/images/covers/STORM-Bench.png
 authors:
   - Siru Zhong
-  - S. Tan
-  - R. Yan
+  - Shenghan Tan
+  - Rihong Yan
   - Xiaohui Lv
   - Yuzheng Zhuang
   - Shuai Tao
