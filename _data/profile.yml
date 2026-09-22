@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Siru Zhong"
 
 positions:
-  - name: 'PhD @ HKUST(GZ) · Visiting @ THU · Spatio-Temporal Intelligence'
+  - name: 'PhD @ HKUST(GZ) · Visiting @ THU · Temporal & Multimodal Intelligence'
 
 email: "siruzhong@outlook.com"
 # cv_link: link-to-your-cv-file
@@ -23,15 +23,15 @@ dblp: 359/5794
 
 bio: >-
   <p>
-    Hi there, I'm Siru Zhong, a Ph.D. Candidate at <a href="https://dsa.hkust-gz.edu.cn/" target="_blank">The Hong Kong University of Science and Technology, Guangzhou</a>, advised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a> and <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yang Yue</a>. I am currently visiting <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> and the <a href="https://www.nsccsz.cn/" target="_blank">National Supercomputing Center in Shenzhen</a>, hosted by <a href="https://www.thuhpgc.net/author/haohuan-fu/" target="_blank">Prof. Haohuan Fu</a>. I am also fortunate to receive guidance from <a href="https://scholar.google.com/citations?user=-oTraZ4AAAAJ" target="_blank">Prof. James T. Kwok</a>, <a href="https://scholar.google.com/citations?user=iHevumsAAAAJ" target="_blank">Prof. Jeffrey Xu Yu</a>, and <a href="https://scholar.google.com/citations?user=MdQZ-q8AAAAJ" target="_blank">Prof. Yangqiu Song</a> from <a href="https://hkust.edu.hk/" target="_blank">HKUST</a>.
+    Hi there, I'm Siru Zhong, a Ph.D. Candidate at <a href="https://dsa.hkust-gz.edu.cn/" target="_blank">The Hong Kong University of Science and Technology, Guangzhou</a>, advised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a> and <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yang/yangyue" target="_blank">Prof. Yang Yue</a>. My visiting research from February to September 2026 is at <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> and the <a href="https://www.nsccsz.cn/" target="_blank">National Supercomputing Center in Shenzhen</a>, hosted by <a href="https://www.thuhpgc.net/author/haohuan-fu/" target="_blank">Prof. Haohuan Fu</a>. I am also fortunate to receive guidance from <a href="https://scholar.google.com/citations?user=-oTraZ4AAAAJ" target="_blank">Prof. James T. Kwok</a>, <a href="https://scholar.google.com/citations?user=iHevumsAAAAJ" target="_blank">Prof. Jeffrey Xu Yu</a>, and <a href="https://scholar.google.com/citations?user=MdQZ-q8AAAAJ" target="_blank">Prof. Yangqiu Song</a> from <a href="https://hkust.edu.hk/" target="_blank">HKUST</a>.
   </p>
 
   <p>
-    My research centers on <em>Spatio-Temporal Intelligence</em> for dynamic real-world environments. I study how AI systems can model evolving signals, retain long-range context, and make reliable decisions. Beyond academia, I have worked on temporal data infrastructure at <a href="https://www.tencent.com/" target="_blank">Tencent</a>, multimodal perception at <a href="https://www.xpeng.com/" target="_blank">XPeng Motors</a>, foundation models at <a href="https://www.huawei.com/" target="_blank">Huawei</a>, and memory for Embodied AI at <a class="no-break" href="https://betainf.com/" target="_blank">Beta Infinity</a>.
+    My research focuses on <em>Temporal and Multimodal Intelligence</em>. Building on time-series and spatio-temporal foundation models, I study how learning systems retain and retrieve relevant history, integrate evolving evidence, and support reliable understanding of sequential and multimodal inputs. Beyond academia, I have worked on temporal data infrastructure at <a href="https://www.tencent.com/" target="_blank">Tencent</a>, multimodal perception at <a href="https://www.xpeng.com/" target="_blank">XPeng Motors</a>, foundation models at <a href="https://www.huawei.com/" target="_blank">Huawei</a>, and long-video understanding at <a class="no-break" href="https://betainf.com/" target="_blank">Beta Infinity</a>.
   </p>
 
   <p>
-    I am honored to be a consecutive recipient of the HKUST (GZ) DSA Excellent Research Award, a Tutorial Speaker for MM4ST @ MM 2025 &amp; ICME 2026 and MM4TS @ AAAI 2026, a Web Master for WebST 2025 &amp; UrbComp 2025, and a reviewer/PC member for venues including NeurIPS, ICLR, KDD, ACM MM, AAAI, PAKDD, IEEE TPAMI, FARS, MILETS, IJITDM, and Neurocomputing.
+    I am honored to be a consecutive recipient of the HKUST (GZ) DSA Excellent Research Award, a Tutorial Speaker for MM4ST @ MM 2025 &amp; ICME 2026 and MM4TS @ AAAI 2026, a Web Chair for WebST 2025 &amp; 2026 and UrbComp 2025, and a reviewer/PC member for venues including NeurIPS, ICLR, KDD, ACM MM, AAAI, PAKDD, IEEE TPAMI, FARS, MILETS, IJITDM, and Neurocomputing.
   </p>
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
@@ -46,7 +46,7 @@ education:
 - name: Tsinghua University
   logo: /assets/images/badges/THU_full.png
   position: Visiting PhD Student, HPGC Research Group
-  date: Feb. 2026 - Present
+  date: Feb. 2026 - Sep. 2026
   url: https://www.thuhpgc.net/people/
 - name: The Hong Kong University of Science and Technology (GZ)
   logo: /assets/images/badges/HKUST_GZ_full.png
@@ -62,13 +62,14 @@ education:
 experience:
   - name: Beta Infinity
     logo: /assets/images/badges/beta_infinity.png
-    position: Research Intern · Spatio-Temporal Memory
+    dept: Foundation Model Lab
+    position: Research Intern · Long-Video Memory & Reliability
     date: Jun. 2026 - Present
     url: https://betainf.com/
   - name: National Supercomputing Center (SZ)
     logo: /assets/images/badges/nscc.png
     position: Visiting Researcher · AI for Weather Science
-    date: Feb. 2026 - Jun. 2026
+    date: Feb. 2026 - Sep. 2026
     url: https://www.nsccsz.cn/
   - name: Huawei 2012 Laboratories
     logo: /assets/images/badges/Huawei_full.png
@@ -115,7 +116,7 @@ service:
   - name: "<strong>Reviewer</strong>: NeurIPS 2026; FMTS 2026 @ NeurIPS 2026; ICLR 2025, 2026, 2027; KDD 2026, 2027; AAAI 2027; ACML 2026; MM 2025; FARS (Fully Automated Research System); IEEE TPAMI; Neurocomputing; IJITDM"
   - name: "<strong>PC Member</strong>: WSDM 2027; ACM MM 2026; AAAI 2026, 2027; PAKDD 2026; MILETS 2026 @ KDD 2026"
   - name: "<strong>Tutorial Speaker</strong>: MM4ST @ MM 2025, MM4ST @ ICME 2026, MM4TS @ AAAI 2026"
-  - name: "<strong>Web Master</strong>: WebST 2025, UrbComp 2025"
+  - name: "<strong>Web Chair</strong>: WebST 2026, WebST 2025, UrbComp 2025"
 
 teaching:
   - name: DSAA60000 Table Representation Learning
@@ -126,6 +127,9 @@ teaching:
     date: Fall 2024
 
 talks:
+  - title: "Multimodal Learning for Spatio-Temporal Data Mining in the Era of Foundation Models"
+    location: ICME 2026 Tutorial, Bangkok
+    date: 2026.07
   - title: "跨时空学习：多模态感知、跨域泛化与鲁棒适应"
     location: 中南大学计算机学院第六届青年学者论坛, 长沙
     url: https://cse.csu.edu.cn/info/1039/11410.htm
