@@ -71,22 +71,26 @@ experience:
     position: Visiting Researcher · Temporal Sequence Modeling
     date: Feb. 2026 - Sep. 2026
     url: https://www.nsccsz.cn/
-  - name: Huawei 2012 Laboratories
+  - name: Huawei
+    dept: 2012 Laboratories
     logo: /assets/images/badges/Huawei_full.png
     position: Research Intern · Spatio-Temporal Foundation Models
     date: Feb. 2025 - Dec. 2025
     url: https://www.huawei.com/
-  - name: XPENG Autonomous Driving Center
+  - name: XPENG Motors
+    dept: Autonomous Driving Center
     logo: /assets/images/badges/Xpeng_full.png
     position: Research Intern · Video Understanding
     date: May. 2024 - Nov. 2024
     url: https://www.xpeng.com/
-  - name: Tencent
+  - name: Tencent PCG
+    dept: Tech Center
     logo: /assets/images/badges/Tencent_full.png
     position: Software Engineer · Temporal Data Infrastructure
     date: Jun. 2022 - May. 2023
     url: https://www.tencent.com/
-  - name: Tencent
+  - name: Tencent PCG
+    dept: Tech Center
     logo: /assets/images/badges/Tencent_full.png
     position: Software Engineering Intern · Temporal Workflow Engine
     date: Jun. 2021 - Sep. 2021
