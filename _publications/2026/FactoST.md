@@ -5,7 +5,7 @@ selected: true
 pinned: false
 # pub:            ""
 # pub_pre:        "Submitted to "
-pub_post: "Under review."
+pub_post: "Preprint, 2026"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 
 cover: /assets/images/covers/FactoST-v2.png

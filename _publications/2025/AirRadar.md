@@ -5,7 +5,7 @@ selected: false
 pinned: false
 pub:            "AAAI (AAAI Conference on Artificial Intelligence) 2025, Philadelphia, America"
 # pub_pre:        "Submitted to "
-# pub_post: "Under review."
+# pub_post: "Preprint, 2025"
 # pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
 
 cover: /assets/images/covers/AirRadar.png

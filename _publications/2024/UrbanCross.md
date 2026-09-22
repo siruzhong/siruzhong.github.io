@@ -5,7 +5,7 @@ selected: true
 pinned: true
 pub: "ACM MM (ACM International Conference on Multimedia) 2024, Melbourne, Australia"
 # pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
+# pub_post:       'Preprint, 2024'
 # pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
 
 cover: /assets/images/covers/UrbanCross.png

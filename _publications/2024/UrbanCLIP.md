@@ -5,7 +5,7 @@ selected: false
 pinned: false
 pub: "WWW (The Web Conference) 2024, Singapore"
 # pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
+# pub_post:       'Preprint, 2024'
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 
 cover: /assets/images/covers/UrbanCLIP.png

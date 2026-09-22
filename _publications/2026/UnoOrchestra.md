@@ -5,7 +5,7 @@ selected: false
 pinned: false
 # pub: "Preprint, 2026"
 # pub_pre:        "Submitted to "
-pub_post: "Under review."
+pub_post: "Preprint, 2026"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 
 cover: /assets/images/covers/Uno-Orchestra.png

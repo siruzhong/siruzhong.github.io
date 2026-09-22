@@ -5,7 +5,7 @@ selected: true
 pinned: false
 pub:            "KDD (ACM SIGKDD Conference on Knowledge Discovery and Data Mining) 2026, Jeju, South Korea"
 # pub_pre:        "Submitted to "
-# pub_post: "Under review."
+# pub_post: "Preprint, 2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 
 cover: /assets/images/covers/TS-Memory.png

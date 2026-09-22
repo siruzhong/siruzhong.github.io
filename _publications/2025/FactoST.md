@@ -5,7 +5,7 @@ selected: true
 pinned: true
 pub:            "NeurIPS (Advances in Neural Information Processing Systems) 2025, Santiago, America"
 # pub_pre:        "Submitted to "
-# pub_post: "Under review."
+# pub_post: "Preprint, 2025"
 pub_last: ' <span class="badge badge-pill badge-publication badge-info">Spotlight</span> <span class="text-muted" style="font-size: 0.7rem;">(688/21,575, 3.19%)</span>'
 
 cover: /assets/images/covers/FactoST.png

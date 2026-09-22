@@ -5,7 +5,7 @@ selected: false
 pinned: false
 pub: "IJCAI (International Joint Conference on Artificial Intelligence) 2024, Jeju Island, South Korea"
 # pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
+# pub_post:       'Preprint, 2024'
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 
 cover: /assets/images/covers/STFNN.png

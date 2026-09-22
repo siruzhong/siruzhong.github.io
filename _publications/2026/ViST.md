@@ -5,7 +5,7 @@ selected: false
 pinned: false
 pub: "ACM MM (ACM International Conference on Multimedia) 2026, Rio de Janeiro, Brazil"
 # pub_pre:        "Submitted to "
-# pub_post: "Under review."
+# pub_post: "Preprint, 2026"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 
 cover: /assets/images/covers/ViST.png

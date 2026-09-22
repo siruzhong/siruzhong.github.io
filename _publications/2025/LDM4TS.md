@@ -4,7 +4,7 @@ date: 2025-05-10 00:00:00 +0800
 selected: false
 # pub:            "AAAI"
 # pub_pre:        "Submitted to "
-pub_post: "Under review."
+pub_post: "Preprint, 2025"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 
 cover: /assets/images/covers/LDM4TS.png
