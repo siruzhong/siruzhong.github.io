@@ -1,7 +1,7 @@
 ---
 title: "LiveHouse-TS: An Open-world Living Benchmark for Time Series Foundation Models"
 date: 2026-08-18 00:00:00 +0800
-pub: "arXiv preprint arXiv:2608.17299, 2026"
+pub: "Preprint, 2026"
 
 cover: /assets/images/covers/LiveHouse-TS.png
 authors:

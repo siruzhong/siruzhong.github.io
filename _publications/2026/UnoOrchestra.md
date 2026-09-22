@@ -3,7 +3,7 @@ title: "Uno-Orchestra: Parsimonious Agent Routing via Selective Delegation"
 date: 2026-05-06 00:00:00 +0800
 selected: false
 pinned: false
-# pub: "arXiv preprint arXiv:2605.05007, 2026"
+# pub: "Preprint, 2026"
 # pub_pre:        "Submitted to "
 pub_post: "Under review."
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'

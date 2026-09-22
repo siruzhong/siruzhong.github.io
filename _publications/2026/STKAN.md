@@ -1,7 +1,7 @@
 ---
 title: "Kolmogorov-Arnold Networks for Spatio-Temporal Forecasting"
 date: 2026-07-14 00:00:00 +0800
-pub: "arXiv preprint arXiv:2607.13108, 2026"
+pub: "Preprint, 2026"
 
 cover: /assets/images/covers/STKAN.jpg
 authors:
