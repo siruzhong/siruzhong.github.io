@@ -33,10 +33,7 @@
                             <img src="{{ item.logo | replace: '_full', '' | relative_url }}" alt="">
                         </span>
                         <div class="career-details">
-                            <div class="experience-name">{{ item.name }}</div>
-                            {% if item.dept %}
-                            <div class="experience-meta">{{ item.dept }}</div>
-                            {% endif %}
+                            <div class="experience-name">{{ item.name }}{% if item.dept %} — {{ item.dept }}{% endif %}</div>
                             <div class="experience-meta experience-meta-row">
                                 <span>{{ item.position }}</span>
                                 <span class="career-date">{{ item.date }}</span>
