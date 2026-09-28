@@ -16,4 +16,7 @@ authors:
   - Wulong Liu
   - Haohuan Fu
   - Yuxuan Liang
+links:
+  Paper: https://arxiv.org/pdf/2609.30981
+  Code: https://github.com/siruzhong/STORM-Bench
 ---
