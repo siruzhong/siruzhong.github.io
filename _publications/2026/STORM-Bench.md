@@ -1,5 +1,5 @@
 ---
-title: "Storm-Bench: Evaluating Online Video QA under Evolving and Incomplete Evidence"
+title: "STORM-Bench: Evaluating Online Video QA under Evolving and Incomplete Evidence"
 date: 2026-09-22 00:00:00 +0800
 selected: true
 pinned: true
