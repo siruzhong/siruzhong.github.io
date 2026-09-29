@@ -22,7 +22,7 @@ authors:
   - Yuxuan Liang
 # citations: 0
 links:
-  Code: https://github.com/CityMind-Lab/FactoST
+  # Code: https://github.com/CityMind-Lab/FactoST  (404, repo removed - restore when public)
   Paper: https://arxiv.org/pdf/2601.12083
   AI TIME 论道: https://mp.weixin.qq.com/s/XGXRV-EScicpS02SnJD97g
   时空探索之旅: https://mp.weixin.qq.com/s/i_6oeIalLHZ7rcN-jH7Gfg

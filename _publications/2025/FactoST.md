@@ -21,7 +21,7 @@ authors:
   - Yuxuan Liang
 # citations: 15
 links:
-  Code: https://github.com/CityMind-Lab/NeurIPS-25-FactoST
+  # Code: https://github.com/CityMind-Lab/NeurIPS-25-FactoST  (404, repo removed - restore when public)
   Paper: https://openreview.net/pdf?id=d4CZoiaXeC
   AI TIME 论道: https://mp.weixin.qq.com/s/XGXRV-EScicpS02SnJD97g
   时空探索之旅: https://mp.weixin.qq.com/s/i_6oeIalLHZ7rcN-jH7Gfg
