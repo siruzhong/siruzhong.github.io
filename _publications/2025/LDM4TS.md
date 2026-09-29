@@ -15,5 +15,5 @@ authors:
   - Yuxuan Liang
 links:
   # Code: https://github.com/RWLinno/LDM4TS
-  Paper: http://arxiv.org/abs/2502.14887
+  Paper: https://arxiv.org/abs/2502.14887
 ---
