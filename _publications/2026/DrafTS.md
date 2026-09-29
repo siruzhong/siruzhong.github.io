@@ -3,6 +3,7 @@ title: "Time-Aware Decomposition with Residual Correction for Time Series Modeli
 date: 2026-09-27 00:00:00 +0800
 pub: "Preprint, 2026"
 
+cover: /assets/images/covers/DrafTS.jpg
 authors:
   - Yiqiu Liu
   - Siru Zhong
