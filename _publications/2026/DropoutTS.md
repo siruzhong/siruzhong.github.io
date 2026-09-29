@@ -26,4 +26,5 @@ links:
   时序预测研究: https://mp.weixin.qq.com/s/uHXYW7ZEEFLC2uxPRL0fYA
   卷毛的时序日记: https://mp.weixin.qq.com/s/y6sRwasVT4HmFeQyzQMD_w
   网络科学与人工智能: https://mp.weixin.qq.com/s/t216fVNViw16pb2yblRPWQ
+  研梦非凡985: https://mp.weixin.qq.com/s/3mBtW-GmwqmOHQFbT3b7cQ
 ---
