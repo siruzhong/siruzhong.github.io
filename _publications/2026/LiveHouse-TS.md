@@ -5,10 +5,10 @@ pub: "Preprint, 2026"
 
 cover: /assets/images/covers/LiveHouse-TS.png
 authors:
-  - Haomin Wen
-  - Ziyu Zhou
-  - Qingxiang Liu
-  - Siru Zhong
+  - Haomin Wen*
+  - Ziyu Zhou*
+  - Qingxiang Liu*
+  - Siru Zhong*
   - Yuxuan Liang
 links:
   Code: https://huggingface.co/spaces/CityMindDev/LiveHouse-TS
