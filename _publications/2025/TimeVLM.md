@@ -26,4 +26,5 @@ links:
   时序前沿研究: https://mp.weixin.qq.com/s/EmPhCuE5SH2t3BvhYfaSPw
   当交通遇上机器学习: https://mp.weixin.qq.com/s/eO-H92Fl7K1UuhkBX_892A
   圆圆的算法笔记: https://mp.weixin.qq.com/s/8zCCv5EIO555adZDbuBBnw
+  时序预测研究: https://mp.weixin.qq.com/s/eiZyWbZiNi3e85jqWYwkqg
 ---
