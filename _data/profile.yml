@@ -66,8 +66,9 @@ experience:
     position: Research Intern · Video Understanding & Memory
     date: Jun. 2026 - Present
     url: https://betainf.com/
-  - name: National Supercomputing Center (SZ)
+  - name: NSCSZ
     logo: /assets/images/badges/nscc.png
+    dept: HPC Department
     position: Visiting Researcher · Temporal Sequence Modeling
     date: Feb. 2026 - Present
     url: https://www.nsccsz.cn/
