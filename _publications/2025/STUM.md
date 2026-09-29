@@ -18,5 +18,5 @@ authors:
   - Yuxuan Liang
 links:
   Paper: https://arxiv.org/pdf/2411.09251
-  Code: https://anonymous.4open.science/r/STUM-E4F0
+  Code: https://github.com/RWLinno/STUM
 ---
