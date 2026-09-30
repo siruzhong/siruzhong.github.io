@@ -278,7 +278,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .news-entry:last-child { margin-bottom: 0; }
 
 /* Publications */
-.publication-list { margin: 2rem 0; }
+.publication-list { margin: 1rem 0; }
 .publication-card-header { justify-content: space-between; flex-wrap: wrap; }
 .publication-card-header > span { display: inline-flex; align-items: center; gap: 0.65rem; }
 .publication-card-header .view-all { margin-left: 1rem; color: var(--accent); font-size: 0.82rem; font-weight: 500; letter-spacing: 0; }
