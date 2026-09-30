@@ -437,7 +437,7 @@ img.lazy.publication-cover { background: transparent; }
     .navbar-nav .nav-link { padding: 0.65rem !important; border-radius: 6px; }
     .navbar-nav .active > .nav-link { background: var(--accent-soft); }
     .navbar-nav .active > .nav-link::after { display: none; }
-    .card.profile-card { margin-bottom: 2rem; }
+    .card.profile-card { margin-bottom: 1rem; }
     .profile-main { display: grid; grid-template-columns: minmax(0, 1fr) 100px; gap: 1rem; }
     .profile-photo-col, .profile-copy-col { display: contents; }
     .profile-photo-col .figure { grid-column: 2; grid-row: 1; align-self: center; }
@@ -466,7 +466,6 @@ img.lazy.publication-cover { background: transparent; }
     .date-label { display: block; margin-top: 0.2rem; }
     .news-card-body { padding: 0.8rem 1.15rem; }
     .news-year { grid-template-columns: 2.5rem minmax(0, 1fr); gap: 0.5rem; }
-    .news-entry { display: block; }
     .news-entry { display: grid; }
     .talk-list { grid-template-columns: 1fr; }
     .publication-item { display: block; padding: 1rem 1.15rem; }
