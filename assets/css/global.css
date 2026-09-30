@@ -270,11 +270,11 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .news-year + .news-year { border-top: 1px solid var(--border); }
 .news-year-label { padding-top: 0.05rem; color: var(--accent); font-size: 0.76rem; font-weight: 700; letter-spacing: 0.04em; }
 .news-stream { position: relative; }
-.news-stream::before { position: absolute; top: 0.55rem; bottom: 0.55rem; left: 2.9rem; width: 1px; background: var(--border); content: ""; }
-.news-entry { position: relative; display: grid; grid-template-columns: 2.25rem minmax(0, 1fr); gap: 1rem; margin-bottom: 0.55rem; font-size: 0.85rem; line-height: 1.5; }
-.news-entry::before { position: absolute; top: 0.54rem; left: 2.72rem; width: 5px; height: 5px; border-radius: 50%; background: var(--muted); box-shadow: 0 0 0 3px var(--surface); content: ""; }
-.news-entry > div:first-child { grid-column: 2; }
-.news-entry .date-label { grid-column: 1; grid-row: 1; margin: 0; color: var(--subtle); font-size: 0.68rem; font-weight: 600; letter-spacing: 0.02em; }
+.news-stream::before { position: absolute; top: 0.55rem; bottom: 0.55rem; left: 0.15rem; width: 1px; background: var(--border); content: ""; }
+.news-entry { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.9rem; margin-bottom: 0.55rem; padding-left: 1rem; font-size: 0.9rem; line-height: 1.5; }
+.news-entry::before { position: absolute; top: 0.54rem; left: 0; width: 5px; height: 5px; border-radius: 50%; background: var(--muted); box-shadow: 0 0 0 3px var(--surface); content: ""; }
+.news-entry > div:first-child { grid-column: 1; }
+.news-entry .date-label { grid-column: 2; grid-row: 1; margin: 0; text-align: right; color: var(--subtle); font-size: 0.68rem; font-weight: 600; letter-spacing: 0.02em; }
 .news-entry:last-child { margin-bottom: 0; }
 
 /* Publications */
