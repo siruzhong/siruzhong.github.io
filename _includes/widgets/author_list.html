@@ -1,6 +1,4 @@
 {%- assign authors = include.authors -%}
-{%- assign has_eq_contrib = false -%}
-{%- assign has_corresponding = false -%}
 
 {%- for _key in authors -%}
     {%- assign last_char = _key | slice: -1, 1%}
@@ -40,15 +38,3 @@
     {%- endif -%}
 
 {%- endfor -%}
-
-{%- if has_eq_contrib or has_corresponding %}
-<mark>(
-    {%- if has_eq_contrib -%}
-        * <i> equal contribution</i>
-    {%- endif -%}
-    {%- if has_corresponding -%}
-        {%- if has_eq_contrib -%}, {% endif -%}
-        <sup>#</sup> <i> corresponding author</i>
-    {%- endif -%}
-)</mark>
-{%- endif -%}
