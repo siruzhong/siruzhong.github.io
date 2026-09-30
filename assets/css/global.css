@@ -107,7 +107,7 @@ h5 { font-size: 1.05rem; }
 .navbar-nav .active > .nav-link::after { position: absolute; bottom: 0.1rem; left: 0.65rem; right: 0.65rem; height: 2px; background: var(--accent); content: ""; }
 
 /* Editorial profile */
-.card.profile-card { overflow: visible; margin-bottom: 3.4rem; border: 0 !important; background: transparent !important; box-shadow: none !important; }
+.card.profile-card { overflow: visible; margin-bottom: 1rem; border: 0 !important; background: transparent !important; box-shadow: none !important; }
 .profile-card-body { padding: 0 !important; }
 .profile-main { display: flex; align-items: flex-start; gap: 3.6rem; }
 .profile-photo-col { order: 2; flex: 0 0 220px; max-width: 220px; padding-top: 3.1rem; text-align: center; }
