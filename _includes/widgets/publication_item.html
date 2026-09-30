@@ -10,22 +10,63 @@
             {% if item.pinned %}<i class="fas fa-thumbtack mr-2" title="Pinned publication" aria-label="Pinned publication"></i>{% endif %}{{ item.title }}
         </h3>
         <p class="publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
+        <div class="publication-meta">
+        {% assign venue_source = item.pub | default: item.pub_post %}
+        {% assign venue_parts = venue_source | split: " (" %}
         <p class="publication-venue">
-            {{ item.pub_pre }}{% if item.pub %}{% assign venue_parts = item.pub | split: " (" %}{% if venue_parts.size > 1 %}{% assign venue_short = venue_parts | first %}<strong class="publication-venue-name">{{ venue_short }}</strong><span class="publication-venue-details">{{ item.pub | remove_first: venue_short }}</span>{% else %}<span class="publication-venue-details">{{ item.pub }}</span>{% endif %}{% endif %}{{ item.pub_post }} {{ item.pub_last }}
-        </p>
-        <div class="publication-links">
-            {% for link in item.links %}
-            {% if link[1].url %}
-            <a target="{{ link[1]['target'] | default: '_blank' }}" rel="noopener" href="{{ link[1]['url'] }}">{{ link[0] }}</a>
-            {% elsif link[1] contains 'img.shields.io' %}
-            <img src="{{ link[1] }}" alt="{{ link[0] }}" class="publication-badge">
+            {{ item.pub_pre }}
+            {% if venue_parts.size > 1 %}
+            {% assign venue_short = venue_parts | first %}
+            {% assign venue_suffix = venue_source | split: ")" | last | strip %}
+            {% assign venue_year = venue_suffix | split: "," | first | strip %}
+            <span class="publication-venue-tag" title="{{ venue_source | escape }}">{{ venue_short }} {{ venue_year }}</span>
+            {{ item.pub_last }}
             {% else %}
-            <a target="_blank" rel="noopener" href="{{ link[1] }}">{{ link[0] }}</a>
+            {% if venue_source %}<span class="publication-venue-tag">{{ venue_source | replace: ", ", " " }}</span>{% endif %}
+            {{ item.pub_last }}
             {% endif %}
+            {% if item.pub and item.pub_post %}<span class="publication-venue-details">{{ item.pub_post }}</span>{% endif %}
+        </p>
+        {% assign resource_names = "Paper|Code|Project|Site|Tutorial|Dataset|Demo|Video|Slides|Poster" | split: "|" %}
+        {% capture resource_links %}
+            {% for resource_name in resource_names %}
+            {% assign resource = item.links[resource_name] %}
+            {% if resource and resource != empty %}
+            {% if resource.url %}
+            <a class="publication-resource-link" target="{{ resource.target | default: '_blank' }}" rel="noopener" href="{{ resource.url }}">{{ resource_name }}</a>
+            {% elsif resource contains 'img.shields.io' %}
+            <img src="{{ resource }}" alt="{{ resource_name }}" class="publication-badge">
+            {% else %}
+            <a class="publication-resource-link" target="_blank" rel="noopener" href="{{ resource }}">{{ resource_name }}</a>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+            {% for link in item.links %}
+            {% unless resource_names contains link[0] %}
+            {% if link[1] contains 'img.shields.io' %}<img src="{{ link[1] }}" alt="{{ link[0] }}" class="publication-badge">{% endif %}
+            {% endunless %}
             {% endfor %}
             {% if item.citations %}
             {% include widgets/citation_badge.html citation_count=item.citations %}
             {% endif %}
+        {% endcapture %}
+        {% assign resource_links = resource_links | strip %}
+        {% if resource_links != empty %}<div class="publication-links">{{ resource_links }}</div>{% endif %}
         </div>
+        {% capture press_links %}
+            {% for link in item.links %}
+            {% if link[1] and link[1] != empty %}
+            {% unless resource_names contains link[0] or link[1] contains 'img.shields.io' %}
+            {% if link[1].url %}
+            <a target="{{ link[1]['target'] | default: '_blank' }}" rel="noopener" href="{{ link[1]['url'] }}">{{ link[0] }}</a>
+            {% else %}
+            <a target="_blank" rel="noopener" href="{{ link[1] }}">{{ link[0] }}</a>
+            {% endif %}
+            {% endunless %}
+            {% endif %}
+            {% endfor %}
+        {% endcapture %}
+        {% assign press_links = press_links | strip %}
+        {% if press_links != empty %}<div class="publication-press-links">{{ press_links }}</div>{% endif %}
     </div>
 </article>
