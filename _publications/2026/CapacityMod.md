@@ -3,6 +3,7 @@ title: "Towards Robust Time Series Learning via Capacity-Centric Modulation"
 date: 2026-09-30 00:00:00 +0800
 selected: true
 pinned: true
+pub: "Preprint, 2026"
 
 cover: /assets/images/covers/CapacityMod.png
 authors:
