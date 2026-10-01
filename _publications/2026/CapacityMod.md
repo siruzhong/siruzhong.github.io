@@ -10,4 +10,7 @@ authors:
   - Senzhang Wang
   - James T. Kwok
   - Yuxuan Liang
+
+links:
+  Paper: https://arxiv.org/abs/2609.39489
 ---
