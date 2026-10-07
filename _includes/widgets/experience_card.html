@@ -10,9 +10,7 @@
                             <img src="{{ item.logo | replace: '_full', '' | relative_url }}" alt="">
                         </span>
                         <div class="career-details">
-                            <div class="experience-name">{{ item.name }}{% if item.dept %}<span class="career-department"> · {{ item.dept }}</span>{% endif %}</div>
-                            <p class="career-position">{{ item.position }}</p>
-                            <span class="resume-date">{{ item.date }}</span>
+                            <p class="career-description">{{ item.date }}, {{ item.position }}, {{ item.name }}{% if item.dept %}, {{ item.dept }}{% endif %}</p>
                         </div>
                     </li>
                     {% endfor %}
@@ -27,9 +25,7 @@
                             <img src="{{ item.logo | replace: '_full', '' | relative_url }}" alt="">
                         </span>
                         <div class="career-details">
-                            <div class="experience-name">{{ item.name }}{% if item.dept %}<span class="career-department"> · {{ item.dept }}</span>{% endif %}</div>
-                            <p class="career-position">{{ item.position }}</p>
-                            <span class="resume-date">{{ item.date }}</span>
+                            <p class="career-description">{{ item.date }}, {{ item.position | replace: ' · ', ', ' }}{% if item.dept %}, {{ item.dept }}{% endif %}, {{ item.name }}</p>
                         </div>
                     </li>
                     {% endfor %}

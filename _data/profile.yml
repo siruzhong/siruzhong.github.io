@@ -38,23 +38,23 @@ portrait_caption: >-
 education:
 - name: The Hong Kong University of Science and Technology (Guangzhou)
   logo: /assets/images/badges/HKUST_GZ_full.png
-  position: PhD, Data Science and Analytics
-  date: Feb. 2025 - Jan. 2028
+  position: PhD Student, Data Science and Analytics
+  date: 2025.02 - Present
   url: https://www.hkust-gz.edu.cn/
 - name: Tsinghua University
   logo: /assets/images/badges/THU_full.png
   position: Visiting PhD Student, HPGC Research Group
-  date: Feb. 2026 - Present
+  date: 2026.02 - Present
   url: https://www.thuhpgc.net/people/
 - name: The Hong Kong University of Science and Technology (Guangzhou)
   logo: /assets/images/badges/HKUST_GZ_full.png
   position: Red Bird MPhil, Data Science and Analytics
-  date: Aug. 2023 - Jan. 2025
+  date: 2023.08 - 2025.01
   url: https://www.hkust-gz.edu.cn/
 - name: Hefei University of Technology
   logo: /assets/images/badges/HFUT_full.png
   position: BE, School of Artificial Intelligence
-  date: Sep. 2018 - Jun. 2022
+  date: 2018.09 - 2022.06
   url: https://ci.hfut.edu.cn/
 
 experience:
@@ -62,37 +62,37 @@ experience:
     logo: /assets/images/badges/beta_infinity.png
     dept: Foundation Model Lab
     position: Research Intern · Video Understanding & Memory
-    date: Jun. 2026 - Present
+    date: 2026.06 - Present
     url: https://betainf.com/
   - name: NSCS
     logo: /assets/images/badges/nscc.png
     dept: HPC Department
     position: Visiting Researcher · Temporal Sequence Modeling
-    date: Feb. 2026 - Present
+    date: 2026.02 - Present
     url: https://www.nsccsz.cn/
   - name: Huawei
     dept: 2012 Laboratories
     logo: /assets/images/badges/Huawei_full.png
     position: Research Intern · Temporal Foundation Model
-    date: Feb. 2025 - Dec. 2025
+    date: 2025.02 - 2025.12
     url: https://www.huawei.com/
   - name: XPENG
     dept: Autonomous Driving Center
     logo: /assets/images/badges/Xpeng_full.png
     position: Research Intern · Video Understanding
-    date: May. 2024 - Nov. 2024
+    date: 2024.05 - 2024.11
     url: https://www.xpeng.com/
   - name: Tencent
     dept: PCG Tech Center
     logo: /assets/images/badges/Tencent_full.png
     position: Software Engineer · Temporal Data Infrastructure
-    date: Jun. 2022 - May. 2023
+    date: 2022.06 - 2023.05
     url: https://www.tencent.com/
   - name: Tencent
     dept: PCG Tech Center
     logo: /assets/images/badges/Tencent_full.png
     position: Software Intern · Temporal Workflow Engine
-    date: Jun. 2021 - Sep. 2021
+    date: 2021.06 - 2021.09
     url: https://www.tencent.com/
 
 awards:
