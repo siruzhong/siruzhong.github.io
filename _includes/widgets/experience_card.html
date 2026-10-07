@@ -10,7 +10,7 @@
                             <img src="{{ item.logo | replace: '_full', '' | relative_url }}" alt="">
                         </span>
                         <div class="career-details">
-                            <p class="career-description">{{ item.date }}, {{ item.position }}, {{ item.name }}{% if item.dept %}, {{ item.dept }}{% endif %}</p>
+                            <p class="career-description"><span class="career-date">{{ item.date }}</span>, {{ item.position }}, {{ item.name }}{% if item.dept %}, {{ item.dept }}{% endif %}</p>
                         </div>
                     </li>
                     {% endfor %}
@@ -24,8 +24,10 @@
                         <span class="career-logo{% if item.logo contains 'beta_infinity' %} career-logo-crop{% endif %}" aria-hidden="true">
                             <img src="{{ item.logo | replace: '_full', '' | relative_url }}" alt="">
                         </span>
-                        <div class="career-details">
-                            <p class="career-description">{{ item.date }}, {{ item.position | replace: ' · ', ', ' }}{% if item.dept %}, {{ item.dept }}{% endif %}, {{ item.name }}</p>
+                        <div class="career-details industry-details">
+                            <p class="industry-organization"><strong class="career-company">{{ item.name }}</strong>{% if item.dept %}<span class="industry-department"> · {{ item.dept }}</span>{% endif %}</p>
+                            <p class="career-description industry-role">{{ item.position }}</p>
+                            <span class="industry-date">{{ item.date }}</span>
                         </div>
                     </li>
                     {% endfor %}

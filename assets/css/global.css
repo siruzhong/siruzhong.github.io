@@ -227,17 +227,25 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .service-card .compact-list li { margin-bottom: 0.45rem; line-height: 1.5; }
 .compact-list li:last-child { margin-bottom: 0; }
 
-/* Single-column résumé sections with date-first entries. */
+/* Single-column résumé sections. */
 .experience-section { margin-top: 2.4rem; margin-bottom: 1.5rem; }
 .resume-section + .resume-section { margin-top: 2rem; }
 .career-section-title { margin: 0 0 1rem; color: var(--ink); font-size: var(--section-title-size); font-weight: 600; letter-spacing: -0.02em; line-height: 1.5; }
 .career-section-title i { margin-right: 0.1rem; color: var(--accent); font-size: 0.9rem; }
+.career-section .education-list { max-width: 70rem; }
 .career-card .career-entry { display: flex; align-items: center; gap: 0.65rem; margin: 0; padding: 0.4rem 0; }
 .career-card .career-entry:first-child { padding-top: 0.1rem; }
 .career-card .career-entry:last-child { margin-bottom: 0; padding-bottom: 0.1rem; }
 .career-entry .career-details { display: block; flex: 1 1 auto; min-width: 0; }
 .resume-date { color: var(--muted); font-size: 0.82rem; font-style: normal; font-weight: 400; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .career-entry .career-description { margin: 0; color: var(--ink); font-size: 14px; font-weight: 400; line-height: 1.5; }
+.career-description .career-date { color: var(--muted); font-style: normal; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.career-entry .industry-details { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; column-gap: 1.5rem; row-gap: 0.15rem; }
+.industry-organization { grid-column: 1; grid-row: 1; min-width: 0; margin: 0; color: var(--ink); font-size: 14px; font-weight: 400; line-height: 1.5; }
+.industry-organization .career-company { font-weight: 600; }
+.industry-department, .career-entry .industry-role { color: var(--muted); }
+.industry-role { grid-column: 1; grid-row: 2; }
+.industry-date { grid-column: 2; grid-row: 1; color: var(--muted); font-size: 13px; font-style: normal; font-weight: 400; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
 .career-logo { display: flex; flex: 0 0 26px; align-items: center; justify-content: center; width: 26px; height: 26px; }
 .career-card .career-logo img { flex: none; display: block; width: 22px; height: 22px; max-width: none; margin: 0; padding: 0; border-radius: 0; object-fit: contain; object-position: center; background: transparent; }
 /* The first 84px of this 316×84 wordmark contain only its symbol. */
@@ -250,6 +258,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     .experience-section { margin-top: 1.5rem; }
     .resume-section + .resume-section { margin-top: 1.5rem; }
     .career-card .career-entry { align-items: flex-start; }
+    .career-entry .industry-details { grid-template-columns: minmax(0, 1fr); }
+    .industry-date { grid-column: 1; grid-row: 3; }
     .experience-section .resume-list-entry { grid-template-columns: minmax(0, 1fr); gap: 0.15rem; }
 }
 
