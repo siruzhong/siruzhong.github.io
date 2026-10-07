@@ -10,7 +10,7 @@
                             <img src="{{ item.logo | replace: '_full', '' | relative_url }}" alt="">
                         </span>
                         <div class="career-details">
-                            <p class="career-description"><span class="career-date">{{ item.date }}</span>, {{ item.position }}, {{ item.name }}{% if item.dept %}, {{ item.dept }}{% endif %}</p>
+                            <p class="career-description"><span class="career-date">{{ item.date }}</span>, {{ item.position }}, {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}{% if item.dept %}, {{ item.dept }}{% endif %}</p>
                         </div>
                     </li>
                     {% endfor %}
