@@ -14,7 +14,6 @@
         <{{ publication_heading }} class="publication-title">
             {% if item.pinned %}<i class="fas fa-thumbtack mr-2" title="Pinned publication" aria-label="Pinned publication"></i>{% endif %}{{ item.title }}
         </{{ publication_heading }}>
-        {% if include.research_role %}<p class="publication-research-role">{{ include.research_role }}</p>{% endif %}
         <p class="publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
         <div class="publication-meta">
         {% assign venue_source = item.pub | default: item.pub_post %}

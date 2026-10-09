@@ -11,15 +11,12 @@ modules:
     publications:
       - path: _publications/2025/TimeVLM.md
         name: Time-VLM
-        role: Enriching time series forecasting with multimodal knowledge.
         representative: true
       - path: _publications/2025/FactoST.md
         name: FactoST
-        role: Separating shared temporal patterns from domain-specific spatial structure.
         representative: true
       - path: _publications/2026/FactoST.md
         name: FactoST-v2
-        role: Extending factorized learning to versatile spatio-temporal adaptation.
         representative: true
       - path: _publications/2025/MM4ST.md
       - path: _publications/2024/UrbanCross.md
@@ -38,15 +35,12 @@ modules:
     publications:
       - path: _publications/2026/DropoutTS.md
         name: DropoutTS
-        role: Adapting dropout to the reliability of individual samples.
         representative: true
       - path: _publications/2026/CapacityMod.md
         name: CCM
-        role: Studying reliability-aware learning capacity across time series tasks.
         representative: true
       - path: _publications/2026/TS-Memory.md
         name: TS-Memory
-        role: Adapting foundation-model forecasts with retrieved historical experience.
         representative: true
       - path: _publications/2026/DPRNet.md
         name: DPR
@@ -64,13 +58,10 @@ modules:
     publications:
       - path: _publications/2026/PREM.md
         name: PReM
-        role: Retaining and reading long-video evidence through compact recurrent memory.
         representative: true
       - path: _publications/2026/STORM-Bench.md
         name: STORM-Bench
-        role: Evaluating online answers and certainty under evolving, incomplete evidence.
         representative: true
       - path: _publications/2026/GCR.md
         name: GCR
-        role: Selecting grounded, complementary evidence for long-video questions.
         representative: true

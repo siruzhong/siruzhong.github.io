@@ -430,7 +430,6 @@ img.lazy.publication-cover { background: transparent; }
 .research-back-link { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); font-size: 0.7rem; white-space: nowrap; }
 .research-back-link > i { font-size: 0.6rem; }
 .research-publications .publication-item { padding: 1.15rem 0; }
-.publication-research-role { margin: 0 0 0.5rem; color: var(--module-color, var(--muted)); font-size: 0.82rem; line-height: 1.55; }
 .research-other-title { margin: 0; padding: 0.6rem 0; border-top: 2px solid var(--accent); border-bottom: 1px solid var(--border); font-size: 0.94rem; font-weight: 600; }
 
 @media (max-width: 991.98px) {

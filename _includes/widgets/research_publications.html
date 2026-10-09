@@ -33,7 +33,7 @@
         {% assign publication = matched_pubs | first %}
         {% if publication %}
             {% assign mapped_paths = mapped_paths | append: work.path | append: "|" %}
-            {% include widgets/publication_item.html item=publication research_role=work.role heading_level="h4" native_images=true %}
+            {% include widgets/publication_item.html item=publication heading_level="h4" native_images=true %}
         {% endif %}
         {% endfor %}
     {% endcapture %}
