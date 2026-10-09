@@ -9,8 +9,6 @@
     </div>
 
     <div class="research-overview">
-        <p class="research-agenda-title">{{ research.title }}</p>
-        <p class="research-agenda-question">{{ research.question }}</p>
         <nav class="research-map" aria-label="Research modules">
             {% for module in research.modules %}
             <a class="research-map-node research-theme-{{ module.id }}" href="#research-{{ module.id }}">

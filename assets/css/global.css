@@ -408,8 +408,6 @@ img.lazy.publication-cover { background: transparent; }
 .research-publications .publication-card-header h2,
 #selected-publications-title { scroll-margin-top: 6.5rem; }
 .research-overview { padding: 1rem 0 0; }
-.research-agenda-title { margin: 0; font-size: 1rem; font-weight: 600; line-height: 1.5; }
-.research-agenda-question { margin: 0.3rem 0 0.85rem; color: var(--muted); font-size: 0.82rem; }
 .research-theme-representations { --module-color: #14457D; --module-tint: #F3F6FA; --module-border: #CAD7E6; }
 .research-theme-reliability { --module-color: #276350; --module-tint: #F3F8F5; --module-border: #C5DCD2; }
 .research-theme-memory { --module-color: #684B86; --module-tint: #F7F4FA; --module-border: #D9CDE6; }
