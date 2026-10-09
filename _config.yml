@@ -16,7 +16,7 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://siruzhong.github.io" # site root, used for canonical and social preview URLs
 title: "Siru Zhong"
-description: "Ph.D. Candidate at The Hong Kong University of Science and Technology (Guangzhou), working on Temporal and Multimodal Intelligence: time series foundation models, long-video understanding, and multimodal learning."
+description: "Ph.D. Candidate at The Hong Kong University of Science and Technology (Guangzhou), working on Spatiotemporal and Multimodal Learning: transferable representations, robust adaptation, and long-term memory."
 
 # Build settings
 markdown: kramdown

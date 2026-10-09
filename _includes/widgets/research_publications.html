@@ -34,6 +34,7 @@
         {% if publication %}
             {% assign mapped_paths = mapped_paths | append: work.path | append: "|" %}
             {% include widgets/publication_item.html item=publication heading_level="h4" native_images=true %}
+            {% if work.note %}<p class="research-work-note">{{ work.note }}</p>{% endif %}
         {% endif %}
         {% endfor %}
     {% endcapture %}

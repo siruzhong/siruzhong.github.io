@@ -541,3 +541,6 @@ img.lazy.publication-cover { background: transparent; }
     html { scroll-behavior: auto; }
     *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* Note attached to a research work */
+.research-work-note { margin: -0.35rem 0 0.9rem; color: var(--muted); font-size: 0.78rem; }

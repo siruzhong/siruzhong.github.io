@@ -4,10 +4,10 @@ modules:
   - id: representations
     number: "01"
     verb: Learn
-    title: Temporal Representations
+    title: "Representation & Generalization"
     icon: fa-wave-square
-    question: How can models learn transferable temporal and spatial structure?
-    description: Generalizable representations across temporal, spatial, and multimodal data.
+    question: How can models learn transferable representations across temporal, spatial, and multimodal data?
+    description: Learning transferable structures and representations across dynamic data and domains.
     publications:
       - path: _publications/2025/TimeVLM.md
         name: Time-VLM
@@ -18,16 +18,19 @@ modules:
       - path: _publications/2026/FactoST.md
         name: FactoST-v2
         representative: true
+      - path: _publications/2024/UrbanCross.md
+        name: UrbanCross
+        representative: true
       - path: _publications/2025/OccamVTS.md
       - path: _publications/2026/OmniAir.md
 
   - id: reliability
     number: "02"
     verb: Adapt
-    title: Reliable Learning & Adaptation
+    title: "Robust Learning & Adaptation"
     icon: fa-sliders
-    question: How should learning and prediction adapt to unreliable observations?
-    description: Robust learning and adaptation in uncertain and changing environments.
+    question: How can models adapt to noisy observations and changing data distributions?
+    description: Robust learning and efficient adaptation under uncertainty and distribution shifts.
     publications:
       - path: _publications/2026/DropoutTS.md
         name: DropoutTS
@@ -38,6 +41,7 @@ modules:
       - path: _publications/2026/TS-Memory.md
         name: TS-Memory
         representative: true
+        note: Bridges time-series adaptation into long-term memory (03 / Remember).
       - path: _publications/2026/DPRNet.md
         name: DPR
         representative: true
@@ -46,10 +50,10 @@ modules:
   - id: memory
     number: "03"
     verb: Remember
-    title: Memory & Dynamic Evidence
+    title: "Memory & Dynamic Evidence"
     icon: fa-layer-group
-    question: What should models retain and trust as the visual world changes?
-    description: Memory and temporal reasoning for understanding dynamic visual worlds.
+    question: How can models retain, interpret, and revise evidence as the world evolves?
+    description: Efficient memory and evidence-based reasoning in evolving environments.
     publications:
       - path: _publications/2026/PREM.md
         name: PReM
