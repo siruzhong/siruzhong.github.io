@@ -433,14 +433,7 @@ img.lazy.publication-cover { background: transparent; }
 .research-back-link > i { font-size: 0.6rem; }
 .research-publications .publication-item { padding: 1.15rem 0; }
 .publication-research-role { margin: 0 0 0.5rem; color: var(--module-color, var(--muted)); font-size: 0.82rem; line-height: 1.55; }
-.research-related { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
-.research-related summary { display: flex; align-items: center; gap: 0.65rem; padding: 0.8rem 0; color: var(--module-color, var(--accent)); font-size: 0.78rem; font-weight: 500; cursor: pointer; list-style: none; }
-.research-related summary::-webkit-details-marker { display: none; }
-.research-related summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
-.research-related summary > i { font-size: 0.65rem; transition: transform 0.16s ease; }
-.research-related[open] summary > i { transform: rotate(180deg); }
-.research-related[open] summary { border-bottom: 1px solid var(--border); }
-.research-other { margin-top: 2rem; }
+.research-other-title { margin: 0; padding: 0.6rem 0; border-top: 2px solid var(--accent); border-bottom: 1px solid var(--border); font-size: 0.94rem; font-weight: 600; }
 
 @media (max-width: 991.98px) {
     .research-map { gap: 1rem; }
