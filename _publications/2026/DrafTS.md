@@ -1,7 +1,7 @@
 ---
 title: "Time-Aware Decomposition with Residual Correction for Time Series Modeling"
 date: 2026-09-27 00:00:00 +0800
-selected: true
+selected: false
 pinned: false
 pub: "Preprint, 2026"
 
