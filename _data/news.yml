@@ -1,60 +1,17 @@
-- title: "I was invited to serve as a Reviewer for ICLR 2027."
-  date: 2026-08-28 00:00:00 -0400
-
-- title: "I was invited to serve as a Reviewer for FMTS 2026 @ NeurIPS 2026."
-  date: 2026-08-20 00:00:00 -0400
-
-- title: "I was invited to serve as a PC member for the Full Paper Track of WSDM 2027."
-  date: 2026-08-20 00:00:00 -0400
-
-- title: "I was invited to serve as a Reviewer for ACML 2026."
-  date: 2026-07-28 00:00:00 -0400
-
-- title: "I was invited to serve as a PC member for AAAI 2027."
-  date: 2026-07-25 00:00:00 -0400
-
 - title: "One paper on Multimodal Spatio-Temporal forecasting was accepted to ACM MM 2026."
   date: 2026-07-10 00:00:00 -0400
 
-- title: "I was invited to serve as a reviewer for KDD 2027 (AI for Sciences Track)."
-  date: 2026-07-01 00:00:00 -0400
-
-- title: "I was invited to serve as a PC member for MILETS 2026 @ KDD 2026."
-  date: 2026-06-09 00:00:00 -0400
 - title: "I passed my Ph.D. PQE and officially became a Ph.D. Candidate at HKUST (GZ)."
   date: 2026-05-21 00:00:00 -0400
+
 - title: "One paper about time series memory was accepted by KDD 2026 research track."
   date: 2026-05-16 00:00:00 -0400
 
 - title: "One paper on sample-adaptive dropout for robust time series forecasting was accepted to ICML 2026."
   date: 2026-05-01 00:00:00 -0400
 
-- title: "I am honored to be invited as a reviewer of International Journal of Information Technology & Decision Making (IJITDM)."
-  date: 2026-04-10 00:00:00 -0400
-
-- title: "I was invited to be a reviewer of NeurIPS 2026."
-  date: 2026-03-25 00:00:00 -0400
-
-- title: "I am honored to be invited as a reviewer of FARS (Fully Automated Research System)."
-  date: 2026-03-21 00:00:00 -0400
-
 - title: "I am glad to become a visiting student at Tsinghua University and National Supercomputing Center."
   date: 2026-03-04 00:00:00 -0400
-
-- title: "I was invited to serve as a reviewer for KDD 2026 (AI4Science Track)."
-  date: 2026-02-28 00:00:00 -0400
-
-- title: "I was invited to serve as a PC member for ACM MM 2026."
-  date: 2026-02-20 00:00:00 -0400
-
-- title: "I was invited to serve as a Reviewer for IEEE TPAMI."
-  date: 2026-01-15 00:00:00 -0400
-
-- title: "I was invited to serve as a PC member for PAKDD 2026."
-  date: 2026-01-15 00:00:00 -0400
-
-- title: "I was invited to serve as a Reviewer for Neurocomputing."
-  date: 2025-12-24 00:00:00 -0400
 
 - title: "One tutorial on Multimodal Learning for Spatio-Temporal Data Mining Era of Foundation Models was accepted to ICME 2026."
   date: 2025-12-24 00:00:00 -0400
@@ -65,23 +22,8 @@
 - title: "One paper on Spatio-Temporal Foundation Model was accepted to NeurIPS 2025 (spotlight)."
   date: 2025-09-18 00:00:00 -0400
 
-- title: "I was invited to serve as a reviewer for ICLR 2026."
-  date: 2025-09-03 00:00:00 -0400
-
 - title: "One paper on Traffic Flow Forecasting was accepted to TITS 2025."
   date: 2025-08-20 00:00:00 -0400
-
-- title: "I was invited to serve as a PC member for AAAI 2026 (Special Track on AI for Social Impact)."
-  date: 2025-08-08 00:00:00 -0400
-
-- title: "I was invited to serve as a PC member for AAAI 2026."
-  date: 2025-07-26 00:00:00 -0400
-
-- title: "I was invited to serve as a reviewer for KDD 2026 Datasets and Benchmarks Track."
-  date: 2025-07-25 00:00:00 -0400
-
-- title: "I was invited to serve as a reviewer for MM 2025 Dataset Track."
-  date: 2025-07-23 00:00:00 -0400
 
 - title: "One paper on Multimodal Building Electricity Loads Forecasting was accepted to MM 2025."
   date: 2025-07-05 00:00:00 -0400
@@ -91,9 +33,6 @@
 
 - title: "One paper on Multimodal Time Series Forecasting was accepted to ICML 2025."
   date: 2025-05-01 00:00:00 -0400
-
-- title: "I was invited to serve as a reviewer for MM 2025."
-  date: 2025-04-26 00:00:00 -0400
 
 - title: "One tutorial on Multimodal Learning for Spatio-Temporal Data Mining was accepted to MM 2025."
   date: 2025-02-28 00:00:00 -0400
@@ -112,9 +51,6 @@
 
 - title: "I successfully defended my MPhil thesis in Data Science and Analytics at HKUST (GZ)."
   date: 2024-11-25 00:00:00 -0400
-
-- title: "I was invited to serve as a reviewer for ICLR 2025."
-  date: 2024-08-23 00:00:00 -0400
 
 - title: "One paper on Urban Multimodal Image-Text Retrieval was accepted to MM 2024."
   date: 2024-07-18 00:00:00 -0400
