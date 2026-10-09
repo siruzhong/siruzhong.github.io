@@ -10,7 +10,7 @@ modules:
     title: Temporal Representations
     icon: fa-wave-square
     question: How can models learn transferable temporal and spatial structure?
-    description: Learning temporal patterns through multimodal knowledge and factorized spatio-temporal representations.
+    description: Generalizable representations across temporal, spatial, and multimodal data.
     publications:
       - path: _publications/2025/TimeVLM.md
         name: Time-VLM
@@ -37,7 +37,7 @@ modules:
     title: Reliable Learning & Adaptation
     icon: fa-sliders
     question: How should learning and prediction adapt to unreliable observations?
-    description: Adjusting learning capacity to input quality and adapting forecasts with historical experience.
+    description: Robust learning and adaptation in uncertain and changing environments.
     publications:
       - path: _publications/2026/DropoutTS.md
         name: DropoutTS
@@ -61,7 +61,7 @@ modules:
     title: Memory & Dynamic Evidence
     icon: fa-layer-group
     question: What should models retain and trust as the visual world changes?
-    description: Preserving long-video evidence under limited budgets and evaluating reasoning with evolving, incomplete observations.
+    description: Memory and temporal reasoning for understanding dynamic visual worlds.
     publications:
       - path: _publications/2026/PREM.md
         name: PReM
