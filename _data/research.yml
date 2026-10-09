@@ -43,7 +43,6 @@ modules:
       - path: _publications/2026/DPRNet.md
         name: DPR
         representative: true
-      - path: _publications/2026/LiveHouse-TS.md
 
   - id: memory
     number: "03"
