@@ -9,7 +9,6 @@
     </div>
 
     <div class="research-overview">
-        <p class="research-eyebrow">A connected research agenda</p>
         <p class="research-agenda-title">{{ research.title }}</p>
         <p class="research-agenda-question">{{ research.question }}</p>
         <nav class="research-map" aria-label="Research modules">
@@ -24,15 +23,9 @@
                     {% if work.representative and matched_pubs.size > 0 %}<span>{{ work.name }}</span>{% endif %}
                     {% endfor %}
                 </span>
-                <span class="research-map-action">Explore works <i class="fas fa-arrow-down" aria-hidden="true"></i></span>
             </a>
             {% endfor %}
         </nav>
-        <div class="research-outlook">
-            <span class="research-outlook-verb"><i class="fas fa-arrow-turn-up" aria-hidden="true"></i> {{ research.outlook.verb }}</span>
-            <span class="research-outlook-copy"><strong>{{ research.outlook.title }}</strong><span>{{ research.outlook.description }}</span></span>
-            <span class="research-outlook-status">{{ research.outlook.status }}</span>
-        </div>
     </div>
 
     {% for module in research.modules %}

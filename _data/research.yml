@@ -1,5 +1,5 @@
 title: Reliable Temporal Intelligence
-question: How can models learn, remember, and revise reliable knowledge over time?
+question: How can models learn and retain reliable knowledge from changing observations?
 
 # Paths identify publications uniquely, including different versions of a work.
 # Representative works appear first; related works remain available on expansion.
@@ -75,9 +75,3 @@ modules:
         name: GCR
         role: Selecting grounded, complementary evidence for long-video questions.
         representative: true
-
-outlook:
-  verb: Revise
-  title: Predictive Memory & Belief Revision
-  description: Updating remembered world states when new evidence arrives.
-  status: Future direction
