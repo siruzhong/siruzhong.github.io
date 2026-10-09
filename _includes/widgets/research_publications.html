@@ -1,0 +1,96 @@
+{% assign research = site.data.research %}
+{% assign selected_pubs = include.publications %}
+{% assign mapped_paths = "|" %}
+<section class="publication-list open-section research-publications" aria-labelledby="selected-publications-title">
+    <div class="publication-card-header">
+        <h2 id="selected-publications-title"><i class="fas fa-star" aria-hidden="true"></i> Selected Publications</h2>
+        <span class="publication-note">(* equal contribution)</span>
+        <a class="view-all" href="{{ 'publications' | relative_url }}">All publications <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+    </div>
+
+    <div class="research-overview">
+        <p class="research-eyebrow">A connected research agenda</p>
+        <p class="research-agenda-title">{{ research.title }}</p>
+        <p class="research-agenda-question">{{ research.question }}</p>
+        <nav class="research-map" aria-label="Research modules">
+            {% for module in research.modules %}
+            <a class="research-map-node research-theme-{{ module.id }}" href="#research-{{ module.id }}">
+                <span class="research-map-step"><span>{{ module.number }} / {{ module.verb }}</span><i class="fas {{ module.icon }}" aria-hidden="true"></i></span>
+                <span class="research-map-title">{{ module.title }}</span>
+                <span class="research-map-question">{{ module.question }}</span>
+                <span class="research-map-works">
+                    {% for work in module.publications %}
+                    {% assign matched_pubs = selected_pubs | where: "path", work.path %}
+                    {% if work.representative and matched_pubs.size > 0 %}<span>{{ work.name }}</span>{% endif %}
+                    {% endfor %}
+                </span>
+                <span class="research-map-action">Explore works <i class="fas fa-arrow-down" aria-hidden="true"></i></span>
+            </a>
+            {% endfor %}
+        </nav>
+        <div class="research-outlook">
+            <span class="research-outlook-verb"><i class="fas fa-arrow-turn-up" aria-hidden="true"></i> {{ research.outlook.verb }}</span>
+            <span class="research-outlook-copy"><strong>{{ research.outlook.title }}</strong><span>{{ research.outlook.description }}</span></span>
+            <span class="research-outlook-status">{{ research.outlook.status }}</span>
+        </div>
+    </div>
+
+    {% for module in research.modules %}
+    {% assign related_count = 0 %}
+    {% capture representative_items %}
+        {% for work in module.publications %}
+        {% assign matched_pubs = selected_pubs | where: "path", work.path %}
+        {% assign publication = matched_pubs | first %}
+        {% if publication %}
+            {% assign mapped_paths = mapped_paths | append: work.path | append: "|" %}
+            {% if work.representative %}
+                {% include widgets/publication_item.html item=publication research_role=work.role heading_level="h4" native_images=true %}
+            {% else %}
+                {% assign related_count = related_count | plus: 1 %}
+            {% endif %}
+        {% endif %}
+        {% endfor %}
+    {% endcapture %}
+    {% assign representative_items = representative_items | strip %}
+    {% if representative_items != empty or related_count > 0 %}
+    <section class="research-module research-theme-{{ module.id }}" id="research-{{ module.id }}" aria-labelledby="research-{{ module.id }}-title">
+        <header class="research-module-header">
+            <span class="research-module-number" aria-hidden="true">{{ module.number }}</span>
+            <div class="research-module-heading">
+                <p class="research-module-label">{{ module.verb }}</p>
+                <h3 id="research-{{ module.id }}-title">{{ module.title }}</h3>
+                <p class="research-module-description">{{ module.description }}</p>
+            </div>
+            <a class="research-back-link" href="#selected-publications-title" aria-label="Back to research overview"><i class="fas fa-arrow-up" aria-hidden="true"></i> Overview</a>
+        </header>
+        <div class="research-module-papers">{{ representative_items }}</div>
+        {% if related_count > 0 %}
+        <details class="research-related">
+            <summary>{{ related_count }} more selected works in this module <i class="fas fa-angle-down" aria-hidden="true"></i></summary>
+            {% for work in module.publications %}
+            {% unless work.representative %}
+            {% assign matched_pubs = selected_pubs | where: "path", work.path %}
+            {% assign publication = matched_pubs | first %}
+            {% if publication %}{% include widgets/publication_item.html item=publication heading_level="h4" native_images=true %}{% endif %}
+            {% endunless %}
+            {% endfor %}
+        </details>
+        {% endif %}
+    </section>
+    {% endif %}
+    {% endfor %}
+
+    {% capture other_items %}
+        {% for publication in selected_pubs %}
+        {% assign path_token = publication.path | prepend: "|" | append: "|" %}
+        {% unless mapped_paths contains path_token %}{% include widgets/publication_item.html item=publication native_images=true %}{% endunless %}
+        {% endfor %}
+    {% endcapture %}
+    {% assign other_items = other_items | strip %}
+    {% if other_items != empty %}
+    <details class="research-related research-other">
+        <summary>More selected publications <i class="fas fa-angle-down" aria-hidden="true"></i></summary>
+        {{ other_items }}
+    </details>
+    {% endif %}
+</section>

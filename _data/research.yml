@@ -1,0 +1,83 @@
+title: Reliable Temporal Intelligence
+question: How can models learn, remember, and revise reliable knowledge over time?
+
+# Paths identify publications uniquely, including different versions of a work.
+# Representative works appear first; related works remain available on expansion.
+modules:
+  - id: representations
+    number: "01"
+    verb: Learn
+    title: Temporal Representations
+    icon: fa-wave-square
+    question: How can models learn transferable temporal and spatial structure?
+    description: Learning temporal patterns through multimodal knowledge and factorized spatio-temporal representations.
+    publications:
+      - path: _publications/2025/TimeVLM.md
+        name: Time-VLM
+        role: Enriching time series forecasting with multimodal knowledge.
+        representative: true
+      - path: _publications/2025/FactoST.md
+        name: FactoST
+        role: Separating shared temporal patterns from domain-specific spatial structure.
+        representative: true
+      - path: _publications/2026/FactoST.md
+        name: FactoST-v2
+        role: Extending factorized learning to versatile spatio-temporal adaptation.
+        representative: true
+      - path: _publications/2025/MM4ST.md
+      - path: _publications/2024/UrbanCross.md
+      - path: _publications/2025/OccamVTS.md
+      - path: _publications/2025/MMLoad.md
+      - path: _publications/2026/OmniAir.md
+      - path: _publications/2026/ViST.md
+
+  - id: reliability
+    number: "02"
+    verb: Adapt
+    title: Reliable Learning & Adaptation
+    icon: fa-sliders
+    question: How should learning and prediction adapt to unreliable observations?
+    description: Adjusting learning capacity to input quality and adapting forecasts with historical experience.
+    publications:
+      - path: _publications/2026/DropoutTS.md
+        name: DropoutTS
+        role: Adapting dropout to the reliability of individual samples.
+        representative: true
+      - path: _publications/2026/CapacityMod.md
+        name: Capacity Modulation
+        role: Studying reliability-aware learning capacity across time series tasks.
+        representative: true
+      - path: _publications/2026/TS-Memory.md
+        name: TS-Memory
+        role: Adapting foundation-model forecasts with retrieved historical experience.
+        representative: true
+      - path: _publications/2026/DPRNet.md
+      - path: _publications/2026/DrafTS.md
+      - path: _publications/2026/LiveHouse-TS.md
+
+  - id: memory
+    number: "03"
+    verb: Remember
+    title: Memory & Dynamic Evidence
+    icon: fa-layer-group
+    question: What should models retain and trust as the visual world changes?
+    description: Preserving long-video evidence under limited budgets and evaluating reasoning with evolving, incomplete observations.
+    publications:
+      - path: _publications/2026/PREM.md
+        name: PReM
+        role: Retaining and reading long-video evidence through compact recurrent memory.
+        representative: true
+      - path: _publications/2026/STORM-Bench.md
+        name: STORM-Bench
+        role: Evaluating online answers and certainty under evolving, incomplete evidence.
+        representative: true
+      - path: _publications/2026/GCR.md
+        name: GCR
+        role: Selecting grounded, complementary evidence for long-video questions.
+        representative: true
+
+outlook:
+  verb: Revise
+  title: Predictive Memory & Belief Revision
+  description: Updating remembered world states when new evidence arrives.
+  status: Future direction

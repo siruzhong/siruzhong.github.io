@@ -1,14 +1,20 @@
 {% assign item = include.item %}
+{% assign publication_heading = include.heading_level | default: "h3" %}
 <article class="publication-item">
     <div class="publication-media">
         {% if item.cover %}
+        {% if include.native_images %}
+        <img src="{{ item.cover | relative_url }}" alt="Cover image for {{ item.title | escape }}" class="publication-cover" loading="lazy" decoding="async">
+        {% else %}
         <img data-src="{{ item.cover | relative_url }}" alt="Cover image for {{ item.title }}" class="lazy publication-cover" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+        {% endif %}
         {% endif %}
     </div>
     <div class="publication-content">
-        <h3 class="publication-title">
+        <{{ publication_heading }} class="publication-title">
             {% if item.pinned %}<i class="fas fa-thumbtack mr-2" title="Pinned publication" aria-label="Pinned publication"></i>{% endif %}{{ item.title }}
-        </h3>
+        </{{ publication_heading }}>
+        {% if include.research_role %}<p class="publication-research-role">{{ include.research_role }}</p>{% endif %}
         <p class="publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
         <div class="publication-meta">
         {% assign venue_source = item.pub | default: item.pub_post %}
