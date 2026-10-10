@@ -113,7 +113,7 @@ h5 { font-size: 1.05rem; }
 .profile-photo-col { order: 2; flex: 0 0 210px; max-width: 210px; padding-top: 0.25rem; text-align: center; }
 .profile-copy-col { flex: 1 1 auto; min-width: 0; }
 .profile-portrait { width: 210px; height: 270px; object-fit: cover; margin: 0; border: 1px solid var(--border); border-radius: 3px; box-shadow: none; }
-.profile-name { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.6rem, 4.3vw, 3.6rem); font-weight: 400; line-height: 1.15; letter-spacing: -0.055em; }
+.profile-name { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.4rem, 3.7vw, 3.1rem); font-weight: 400; line-height: 1.15; letter-spacing: -0.055em; }
 .profile-name span { display: inline-block; margin-left: 0.65rem; color: var(--muted); font-family: "Songti SC", "STSong", serif; font-size: 1.45rem; font-weight: 400; letter-spacing: 0.1em; vertical-align: middle; }
 .profile-role { margin-top: 0.75rem; color: var(--muted); font-size: 0.86rem; font-weight: 400; }
 .profile-role-line { display: block; }
