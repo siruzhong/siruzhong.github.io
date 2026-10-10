@@ -4,7 +4,7 @@ modules:
   - id: memory
     current_focus: true
     verb: Remember
-    title: "Memory & Dynamic Evidence"
+    title: "Memory and Evidence"
     icon: fa-layer-group
     question: How can models retain, interpret, and revise evidence as the world evolves?
     description: Efficient memory and evidence-based reasoning in evolving environments.
@@ -21,7 +21,7 @@ modules:
 
   - id: reliability
     verb: Adapt
-    title: "Robust Learning & Adaptation"
+    title: "Robust Adaptation"
     icon: fa-sliders
     question: How can models adapt to noisy observations and changing data distributions?
     description: Robust learning and efficient adaptation under uncertainty and distribution shifts.
@@ -41,7 +41,7 @@ modules:
 
   - id: representations
     verb: Learn
-    title: "Representation & Generalization"
+    title: "Transferable Representations"
     icon: fa-wave-square
     question: How can models learn transferable representations across temporal, spatial, and multimodal data?
     description: Learning transferable structures and representations across dynamic data and domains.

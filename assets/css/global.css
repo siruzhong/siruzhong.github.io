@@ -121,7 +121,7 @@ h5 { font-size: 1.05rem; }
     .profile-photo-col .profile-role { width: max-content; max-width: calc(100% + 4rem); margin-left: 50%; transform: translateX(-50%); }
 }
 .text-profile-bio { margin-top: 1.6rem; color: var(--ink); font-size: 0.93rem; line-height: 1.85; }
-.text-profile-bio p { margin-bottom: 1rem; }
+.text-profile-bio p { margin-bottom: 0.6rem; }
 .text-profile-bio a { text-decoration: none; text-underline-offset: 3px; }
 .text-profile-bio a:hover { text-decoration: underline; }
 .text-profile-bio em { color: var(--ink); font-style: normal; font-weight: 600; }
