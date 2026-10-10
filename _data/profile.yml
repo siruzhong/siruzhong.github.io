@@ -24,12 +24,14 @@ dblp: 359/5794
 bio: >-
   <p>
     Hi there, I'm a Ph.D. Candidate at <a href="https://dsa.hkust-gz.edu.cn/" target="_blank">The Hong Kong University of Science and Technology, Guangzhou</a>, advised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a>. I am currently visiting <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> and the <a href="https://www.nsccsz.cn/" target="_blank">National Supercomputing Center in Shenzhen</a>, hosted by <a href="https://www.thuhpgc.net/author/haohuan-fu/" target="_blank">Prof. Haohuan Fu</a>. I am also fortunate to receive guidance from <a href="https://scholar.google.com/citations?user=-oTraZ4AAAAJ" target="_blank">Prof. James T. Kwok</a> at <a href="https://hkust.edu.hk/" target="_blank">HKUST</a>.
-
-    My research focuses on <em>Spatiotemporal and Multimodal Learning</em>, exploring how intelligent models learn transferable representations, adapt to uncertain and changing environments, and retain useful information over time.
   </p>
 
   <p>
-    I am honored to be a consecutive recipient of the HKUST (GZ) DSA Excellent Research Award, a Tutorial Speaker for MM4ST @ MM 2025 &amp; ICME 2026 and MM4TS @ AAAI 2026, and a reviewer/PC member for venues including NeurIPS, ICLR, KDD, ACM MM, AAAI, PAKDD, IEEE TPAMI, FARS, MILETS, IJITDM, and Neurocomputing. Beyond academia, I have worked on temporal data infrastructure at <a href="https://www.tencent.com/" target="_blank">Tencent</a>, multimodal perception at <a href="https://www.xpeng.com/" target="_blank">XPENG</a>, foundation models at <a href="https://www.huawei.com/" target="_blank">Huawei</a>, and video memory at <a class="no-break" href="https://betainf.com/" target="_blank">Beta Infinity</a>.
+    My research focuses on <em>Spatiotemporal and Multimodal Learning</em>, exploring how intelligent models learn transferable predictive representations, adapt to uncertain and changing environments, and retain useful information over time.
+  </p>
+
+  <p>
+    Beyond academia, my industry experience spans temporal data infrastructure at <a href="https://www.tencent.com/" target="_blank">Tencent</a>, multimodal perception at <a href="https://www.xpeng.com/" target="_blank">XPENG</a>, spatio-temporal foundation models at <a href="https://www.huawei.com/" target="_blank">Huawei</a>, and long-term memory at <a class="no-break" href="https://betainf.com/" target="_blank">Beta Infinity</a>.
   </p>
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
@@ -61,7 +63,7 @@ experience:
   - name: Beta Infinity
     logo: /assets/images/badges/beta_infinity.png
     dept: Foundation Model Lab
-    position: Research Intern · Video Understanding & Memory
+    position: Research Intern · Long-term Memory
     date: 2026.06 - Present
     url: https://betainf.com/
   - name: NSCS
@@ -73,13 +75,13 @@ experience:
   - name: Huawei
     dept: 2012 Laboratories
     logo: /assets/images/badges/Huawei_full.png
-    position: Research Intern · Temporal Foundation Model
+    position: Research Intern · Spatio-Temporal Foundation Model
     date: 2025.02 - 2025.12
     url: https://www.huawei.com/
   - name: XPENG
     dept: Autonomous Driving Center
     logo: /assets/images/badges/Xpeng_full.png
-    position: Research Intern · Video Understanding
+    position: Research Intern · Multimodal Perception
     date: 2024.05 - 2024.11
     url: https://www.xpeng.com/
   - name: Tencent

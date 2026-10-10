@@ -57,7 +57,6 @@
         {% endcapture %}
         {% assign resource_links = resource_links | strip %}
         {% if resource_links != empty %}<div class="publication-links">{{ resource_links }}</div>{% endif %}
-        </div>
         {% capture press_links %}
             {% for link in item.links %}
             {% if link[1] and link[1] != empty %}
@@ -73,5 +72,6 @@
         {% endcapture %}
         {% assign press_links = press_links | strip %}
         {% if press_links != empty %}<div class="publication-press-links">{{ press_links }}</div>{% endif %}
+        </div>
     </div>
 </article>

@@ -18,50 +18,35 @@
                             >
                         </figure>
                         {% endif %}
-
-                        <!-- Social Links as Icon-Only Tiles -->
-                        <div class="profile-socials">
-                                <a class="social-link-item email-link" href="mailto:{{ site.data.profile.email | encode_email }}" title="Email" aria-label="Email">
-                                    <i class="fas fa-envelope"></i>
-                                </a>
-
-                                {% if site.data.profile.gscholar %}
-                                <a class="social-link-item gscholar-link" target="_blank" rel="noopener" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en" title="Google Scholar" aria-label="Google Scholar">
-                                    <i class="ai ai-google-scholar"></i>
-                                </a>
-                                {% endif %}
-
-
-                                {% if site.data.profile.github %}
-                                <a class="social-link-item github-link" target="_blank" rel="noopener" href="https://github.com/{{ site.data.profile.github }}" title="GitHub" aria-label="GitHub">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                {% endif %}
-                                
-                                {% if site.data.profile.linkedin %}
-                                <a class="social-link-item linkedin-link" target="_blank" rel="noopener" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}" title="LinkedIn" aria-label="LinkedIn">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                {% endif %}
-
-                                {% if site.data.profile.csdn %}
-                                <a class="social-link-item csdn-link" target="_blank" rel="noopener" href="https://blog.csdn.net/{{ site.data.profile.csdn }}" title="CSDN" aria-label="CSDN">
-                                    <span class="social-wordmark" aria-hidden="true">CSDN</span>
-                                </a>
-                                {% endif %}
+                        <div class="profile-role">
+                            <span class="profile-role-line">Ph.D. Candidate · HKUST Guangzhou</span>
+                            <span class="profile-role-line">Visiting · Tsinghua · HPGC Group</span>
                         </div>
                     </div>
                     <div class="profile-copy-col">
                         <div class="profile-identity">
-                            <p class="profile-eyebrow">Spatiotemporal &amp; Multimodal Learning</p>
                             <h1 class="profile-name">{{ site.data.profile.primary_name }} <span lang="zh">钟嗣儒</span></h1>
-                            <div class="profile-role">Ph.D. Candidate <span>HKUST (GZ) <span class="identity-divider" aria-hidden="true">/</span> Visiting @ Tsinghua · HPGC Group</span></div>
                         </div>
                         {% if site.data.profile.bio %}
                         <div class="text-profile-bio">
                             {{ site.data.profile.bio }}
                         </div>
                         {% endif %}
+                        <nav class="profile-socials" aria-label="Profile links">
+                            <a class="social-link-item email-link" href="mailto:{{ site.data.profile.email | encode_email }}">Email</a>
+                            {% if site.data.profile.gscholar %}
+                            <a class="social-link-item" target="_blank" rel="noopener" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en">Google Scholar</a>
+                            {% endif %}
+                            {% if site.data.profile.github %}
+                            <a class="social-link-item" target="_blank" rel="noopener" href="https://github.com/{{ site.data.profile.github }}">GitHub</a>
+                            {% endif %}
+                            {% if site.data.profile.linkedin %}
+                            <a class="social-link-item" target="_blank" rel="noopener" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">LinkedIn</a>
+                            {% endif %}
+                            {% if site.data.profile.csdn %}
+                            <a class="social-link-item" target="_blank" rel="noopener" href="https://blog.csdn.net/{{ site.data.profile.csdn }}">CSDN</a>
+                            {% endif %}
+                        </nav>
                     </div>
                 </div>
                 {% if site.data.profile.cv_link %}

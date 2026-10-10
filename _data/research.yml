@@ -1,30 +1,25 @@
 # Paths identify publications uniquely, including different versions of a work.
 # All selected works appear in module order; representative works label the overview.
 modules:
-  - id: representations
-    number: "01"
-    verb: Learn
-    title: "Representation & Generalization"
-    icon: fa-wave-square
-    question: How can models learn transferable representations across temporal, spatial, and multimodal data?
-    description: Learning transferable structures and representations across dynamic data and domains.
+  - id: memory
+    current_focus: true
+    verb: Remember
+    title: "Memory & Dynamic Evidence"
+    icon: fa-layer-group
+    question: How can models retain, interpret, and revise evidence as the world evolves?
+    description: Efficient memory and evidence-based reasoning in evolving environments.
     publications:
-      - path: _publications/2025/TimeVLM.md
-        name: Time-VLM
+      - path: _publications/2026/PREM.md
+        name: PReM
         representative: true
-      - path: _publications/2025/FactoST.md
-        name: FactoST
+      - path: _publications/2026/STORM-Bench.md
+        name: STORM-Bench
         representative: true
-      - path: _publications/2026/FactoST.md
-        name: FactoST-v2
+      - path: _publications/2026/GCR.md
+        name: GCR
         representative: true
-      - path: _publications/2024/UrbanCross.md
-        name: UrbanCross
-        representative: true
-      - path: _publications/2026/OmniAir.md
 
   - id: reliability
-    number: "02"
     verb: Adapt
     title: "Robust Learning & Adaptation"
     icon: fa-sliders
@@ -44,20 +39,23 @@ modules:
         name: DPR
         representative: true
 
-  - id: memory
-    number: "03"
-    verb: Remember
-    title: "Memory & Dynamic Evidence"
-    icon: fa-layer-group
-    question: How can models retain, interpret, and revise evidence as the world evolves?
-    description: Efficient memory and evidence-based reasoning in evolving environments.
+  - id: representations
+    verb: Learn
+    title: "Representation & Generalization"
+    icon: fa-wave-square
+    question: How can models learn transferable representations across temporal, spatial, and multimodal data?
+    description: Learning transferable structures and representations across dynamic data and domains.
     publications:
-      - path: _publications/2026/PREM.md
-        name: PReM
+      - path: _publications/2025/TimeVLM.md
+        name: Time-VLM
         representative: true
-      - path: _publications/2026/STORM-Bench.md
-        name: STORM-Bench
+      - path: _publications/2025/FactoST.md
+        name: FactoST
         representative: true
-      - path: _publications/2026/GCR.md
-        name: GCR
+      - path: _publications/2026/FactoST.md
+        name: FactoST-v2
         representative: true
+      - path: _publications/2024/UrbanCross.md
+        name: UrbanCross
+        representative: true
+      - path: _publications/2026/OmniAir.md

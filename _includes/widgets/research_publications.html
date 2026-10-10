@@ -8,11 +8,11 @@
         <a class="view-all" href="{{ 'publications' | relative_url }}">All publications <i class="fas fa-angle-right" aria-hidden="true"></i></a>
     </div>
 
-    <div class="research-overview">
-        <nav class="research-map" aria-label="Research modules">
+    <div class="research-overview" id="research-overview">
+        <nav class="research-map" aria-label="Research interests and publications">
             {% for module in research.modules %}
-            <a class="research-map-node research-theme-{{ module.id }}" href="#research-{{ module.id }}">
-                <span class="research-map-step"><span>{{ module.number }} / {{ module.verb }}</span><i class="fas {{ module.icon }}" aria-hidden="true"></i></span>
+            <a class="research-map-node" href="#research-{{ module.id }}">
+                <span class="research-map-step"><span>{{ module.verb }}</span>{% if module.current_focus %}<span class="research-current-focus">Current Focus</span>{% endif %}</span>
                 <span class="research-map-title">{{ module.title }}</span>
                 <span class="research-map-question">{{ module.question }}</span>
                 <span class="research-map-works">
@@ -41,12 +41,10 @@
     {% if module_items != empty %}
     <section class="research-module research-theme-{{ module.id }}" id="research-{{ module.id }}" aria-labelledby="research-{{ module.id }}-title">
         <header class="research-module-header">
-            <span class="research-module-number" aria-hidden="true">{{ module.number }}</span>
             <div class="research-module-heading">
                 <h3 id="research-{{ module.id }}-title">{{ module.title }}</h3>
-                <p class="research-module-description">{{ module.description }}</p>
             </div>
-            <a class="research-back-link" href="#selected-publications-title" aria-label="Back to research overview"><i class="fas fa-arrow-up" aria-hidden="true"></i> Overview</a>
+            <a class="research-back-link" href="#research-overview" aria-label="Back to research overview"><i class="fas fa-arrow-up" aria-hidden="true"></i> Overview</a>
         </header>
         <div class="research-module-papers">{{ module_items }}</div>
     </section>
