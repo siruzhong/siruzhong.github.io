@@ -9,12 +9,12 @@
     </div>
 
     <div class="research-overview" id="research-overview">
-        <p class="sr-only">Research progression: Transferable Representations, then Robust Adaptation, then Memory and Evidence, the current focus.</p>
+        <p class="sr-only">Research progression: Representation (2024–2025), then Adaptation (2025–2026), then World Models (2026–Future), the current focus.</p>
         <nav class="research-map" aria-label="Research interests and publications">
             {% for module in research.modules %}
             <a class="research-map-node{% if module.current_focus %} research-map-current{% endif %}" href="#research-{{ module.id }}">
                 {% unless forloop.last %}<span class="research-map-connection" aria-hidden="true"></span>{% endunless %}
-                <span class="research-map-step"><span>{{ module.verb }}</span>{% if module.current_focus %}<span class="research-current-focus">Current Focus</span>{% endif %}</span>
+                <span class="research-map-step"><span>{{ module.period }} · {{ module.verb }}</span>{% if module.current_focus %}<span class="research-current-focus">Current Focus</span>{% endif %}</span>
                 <span class="research-map-title">{{ module.title }}</span>
                 <span class="research-map-question">{{ module.question }}</span>
                 <span class="research-map-works">
@@ -44,6 +44,7 @@
     <section class="research-module research-theme-{{ module.id }}" id="research-{{ module.id }}" aria-labelledby="research-{{ module.id }}-title">
         <header class="research-module-header">
             <div class="research-module-heading">
+                <p class="research-module-period">{{ module.period }} · {{ module.verb }}</p>
                 <h3 id="research-{{ module.id }}-title">{{ module.title }}</h3>
             </div>
             <a class="research-back-link" href="#research-overview" aria-label="Back to research overview"><i class="fas fa-arrow-up" aria-hidden="true"></i> Overview</a>

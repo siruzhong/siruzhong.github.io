@@ -1,50 +1,13 @@
 # Paths identify publications uniquely, including different versions of a work.
-# All selected works appear in module order; representative works label the overview.
+# Modules are ordered as a research progression; representative works label the overview.
 modules:
-  - id: memory
-    current_focus: true
-    verb: Remember
-    title: "Memory and Evidence"
-    icon: fa-layer-group
-    question: How can models retain, interpret, and revise evidence as the world evolves?
-    description: Efficient memory and evidence-based reasoning in evolving environments.
-    publications:
-      - path: _publications/2026/PREM.md
-        name: PReM
-        representative: true
-      - path: _publications/2026/STORM-Bench.md
-        name: STORM-Bench
-        representative: true
-      - path: _publications/2026/GCR.md
-        name: GCR
-        representative: true
-
-  - id: reliability
-    verb: Adapt
-    title: "Robust Adaptation"
-    icon: fa-sliders
-    question: How can models adapt to noisy observations and changing data distributions?
-    description: Robust learning and efficient adaptation under uncertainty and distribution shifts.
-    publications:
-      - path: _publications/2026/DropoutTS.md
-        name: DropoutTS
-        representative: true
-      - path: _publications/2026/CapacityMod.md
-        name: CCM
-        representative: true
-      - path: _publications/2026/TS-Memory.md
-        name: TS-Memory
-        representative: true
-      - path: _publications/2026/DPRNet.md
-        name: DPR
-        representative: true
-
-  - id: representations
-    verb: Learn
-    title: "Transferable Representations"
+  - id: representation
+    period: "2024–2025"
+    verb: Representation
+    title: "Learning Transferable Dynamics"
     icon: fa-wave-square
-    question: How can models learn transferable representations across temporal, spatial, and multimodal data?
-    description: Learning transferable structures and representations across dynamic data and domains.
+    question: How can models learn spatiotemporal dynamics that generalize across domains?
+    description: Learning transferable dynamics and representations across domains.
     publications:
       - path: _publications/2025/TimeVLM.md
         name: Time-VLM
@@ -59,3 +22,43 @@ modules:
         name: UrbanCross
         representative: true
       - path: _publications/2026/OmniAir.md
+
+  - id: adaptation
+    period: "2025–2026"
+    verb: Adaptation
+    title: "Learning under Uncertainty and Shift"
+    icon: fa-sliders
+    question: How can models adapt when observations become unreliable and distributions shift?
+    description: Robust learning and adaptation under uncertainty and distribution shifts.
+    publications:
+      - path: _publications/2026/DropoutTS.md
+        name: DropoutTS
+        representative: true
+      - path: _publications/2026/CapacityMod.md
+        name: CCM
+        representative: true
+      - path: _publications/2026/TS-Memory.md
+        name: TS-Memory
+        representative: true
+      - path: _publications/2026/DPRNet.md
+        name: DPR
+        representative: true
+
+  - id: world-models
+    period: "2026–Future"
+    current_focus: true
+    verb: World Models
+    title: "Learning and Revising World States"
+    icon: fa-layer-group
+    question: How can models maintain reliable internal world states over long horizons?
+    description: Predictive memory and evidence-based reasoning that keep an internal world state reliable over time.
+    publications:
+      - path: _publications/2026/PREM.md
+        name: PReM
+        representative: true
+      - path: _publications/2026/STORM-Bench.md
+        name: STORM-Bench
+        representative: true
+      - path: _publications/2026/GCR.md
+        name: GCR
+        representative: true
