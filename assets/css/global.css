@@ -160,8 +160,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .publication-authors strong { color: var(--ink); }
 .publication-authors a.text-body:hover, .publication-authors a.text-body:focus-visible { color: var(--accent) !important; text-decoration: underline; text-underline-offset: 3px; }
 .publication-author-details summary { cursor: pointer; }
-.publication-author-toggle { display: inline-block; margin-left: 0.4rem; color: var(--accent); font-size: var(--meta-text-size); text-decoration: none; text-underline-offset: 3px; }
-.publication-author-details[open] .publication-author-toggle { display: none; }
 .publication-author-full-list { margin: 0.5rem 0 0; padding-left: 0.8rem; border-left: 2px solid var(--border); }
 .publication-author-details summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .publication-authors, .publication-venue { margin: 0; color: var(--muted); font-size: var(--meta-text-size); font-weight: var(--weight-regular); line-height: var(--meta-line-height); }

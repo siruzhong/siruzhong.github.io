@@ -29,11 +29,9 @@
         {% capture resource_links %}
             {% for resource_name in resource_names %}
             {% assign resource = item.links[resource_name] %}
-            {% if resource_name != 'Paper' and resource and resource != empty and resource != title_resource %}
+            {% if resource_name != 'Paper' and resource_name != 'Code' and resource and resource != empty and resource != title_resource %}
             {% if resource_name == 'Dataset' and resource == item.links.Code %}{% continue %}{% endif %}
-            {% assign resource_label = resource_name %}
-            {% if resource_name == 'Code' and resource == item.links.Dataset %}{% assign resource_label = 'Code &amp; Dataset' %}{% endif %}
-            <a class="publication-resource-link" target="_blank" rel="noopener" href="{{ resource }}">{{ resource_label }}</a>
+            <a class="publication-resource-link" target="_blank" rel="noopener" href="{{ resource }}">{{ resource_name }}</a>
             {% endif %}
             {% endfor %}
         {% endcapture %}

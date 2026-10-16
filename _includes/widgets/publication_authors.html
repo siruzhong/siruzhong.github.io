@@ -18,7 +18,6 @@
         {% endunless %}
         {% assign final_author = publication_authors | slice: -1, 1 %}
         {% include widgets/author_list.html authors=final_author %}
-        <span class="publication-author-toggle">All {{ publication_authors.size }} authors</span>
     </summary>
     <p class="publication-author-full-list">{% include widgets/author_list.html authors=publication_authors %}</p>
 </details>
