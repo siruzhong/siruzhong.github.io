@@ -1,5 +1,4 @@
 {% assign news_items = site.data.news | sort: "date" | reverse %}
-{% assign earlier_news_count = news_items.size | minus: 5 %}
 
 <section class="news-card open-section" aria-labelledby="news-title">
     <h2 class="news-card-header section-heading" id="news-title">News</h2>
@@ -9,9 +8,9 @@
             {% include widgets/news_item.html item=item %}
         {% endfor %}
         </ul>
-        {% if earlier_news_count > 0 %}
+        {% if news_items.size > 5 %}
         <details class="news-archive">
-            <summary>Earlier news <span class="news-archive-count">({{ earlier_news_count }})</span></summary>
+            <summary>Earlier news</summary>
             <ul class="news-list">
             {% for item in news_items offset:5 %}
                 {% include widgets/news_item.html item=item %}

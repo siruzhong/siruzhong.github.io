@@ -12,7 +12,7 @@
                         <div class="talk-row">
                             <time class="talk-date" datetime="{{ talk.date | replace: '.', '-' }}">{{ talk_date | date: '%b %Y' }}</time>
                             <div class="talk-content">
-                                <div class="talk-title">{% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener">{{ talk.title }}<span class="talk-link" aria-hidden="true">↗</span></a>{% else %}{{ talk.title }}{% endif %}</div>
+                                <div class="talk-title">{% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}</div>
                                 {% if talk.location %}
                                 <div class="talk-location">{{ talk.location }}</div>
                                 {% endif %}

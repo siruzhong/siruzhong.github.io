@@ -6,7 +6,8 @@ pinned: false
 pub:            "KDD (ACM SIGKDD Conference on Knowledge Discovery and Data Mining) 2025, Toronto, Canada"
 # pub_pre:        "Submitted to "
 # pub_post: "Preprint, 2025"
-# pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
+# Oral confirmed by the first author's project page: https://xczou.top/Research.html
+pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 
 cover: /assets/images/covers/DeepUHI.png
 authors:

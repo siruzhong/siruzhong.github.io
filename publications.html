@@ -9,9 +9,7 @@ body_attr: >-
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
 <header class="page-intro">
-    <p class="profile-eyebrow">Research archive</p>
     <h1>Publications</h1>
-    <p>Research on predictive representation learning, context-adaptive learning, and memory for continual understanding.</p>
     <p class="publication-note">(* equal contribution)</p>
 </header>
 

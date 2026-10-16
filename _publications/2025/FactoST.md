@@ -6,7 +6,7 @@ pinned: true
 pub:            "NeurIPS (Advances in Neural Information Processing Systems) 2025, Santiago, America"
 # pub_pre:        "Submitted to "
 # pub_post: "Preprint, 2025"
-pub_last: ' <span class="badge badge-pill badge-publication badge-info">Spotlight</span> <span class="publication-venue-details">(688/21,575, 3.19%)</span>'
+pub_last: ' <span class="badge badge-pill badge-publication badge-info">Spotlight</span> <span class="publication-venue-details" title="688 spotlight papers out of 21,575 submissions">(3.19%)</span>'
 
 cover: /assets/images/covers/FactoST.png
 authors:

@@ -6,7 +6,10 @@ pinned: false
 pub: "WWW (The Web Conference) 2024, Singapore"
 # pub_pre:        "Submitted to "
 # pub_post:       'Preprint, 2024'
-pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
+# Oral rate: 192 / 2,008 submissions, reported by HKBU Research and a JST project report.
+# https://research.hkbu.edu.hk/page/detail/22733
+# https://www.jst.go.jp/kisoken/crest/evaluation/nenpou/2023/JST_1111114_23827381_2023_Matsubara_PYR.pdf
+pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span> <span class="publication-venue-details" title="192 oral presentations out of 2,008 submissions">(9.6%)</span>'
 
 cover: /assets/images/covers/UrbanCLIP.png
 authors:
