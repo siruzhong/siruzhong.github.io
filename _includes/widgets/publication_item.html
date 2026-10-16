@@ -25,11 +25,11 @@
             {% endif %}
             {% if item.pub and item.pub_post %}<span class="publication-venue-details">{{ item.pub_post }}</span>{% endif %}
         </p>
-        {% assign resource_names = "Paper|Code|Project|Site|Tutorial|Dataset|Demo|Video|Slides|Poster" | split: "|" %}
+        {% assign resource_names = "Project|Site|Tutorial|Dataset|Demo|Video|Poster" | split: "|" %}
         {% capture resource_links %}
             {% for resource_name in resource_names %}
             {% assign resource = item.links[resource_name] %}
-            {% if resource_name != 'Paper' and resource_name != 'Code' and resource and resource != empty and resource != title_resource %}
+            {% if resource and resource != empty and resource != title_resource %}
             {% if resource_name == 'Dataset' and resource == item.links.Code %}{% continue %}{% endif %}
             <a class="publication-resource-link" target="_blank" rel="noopener" href="{{ resource }}">{{ resource_name }}</a>
             {% endif %}
@@ -37,22 +37,6 @@
         {% endcapture %}
         {% assign resource_links = resource_links | strip %}
         {% if resource_links != empty %}<div class="publication-links">{{ resource_links }}</div>{% endif %}
-        {% capture press_links %}
-            {% for link in item.links %}
-            {% if link[1] and link[1] != empty %}
-            {% unless resource_names contains link[0] %}
-            <a target="_blank" rel="noopener" href="{{ link[1] }}">{{ link[0] }}</a>
-            {% endunless %}
-            {% endif %}
-            {% endfor %}
-        {% endcapture %}
-        {% assign press_links = press_links | strip %}
-        {% if press_links != empty %}
-        <details class="publication-press-links">
-            <summary>Media</summary>
-            <div class="publication-press-list">{{ press_links }}</div>
-        </details>
-        {% endif %}
         </div>
     </div>
 </article>

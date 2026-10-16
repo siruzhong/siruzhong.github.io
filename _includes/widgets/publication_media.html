@@ -1,0 +1,29 @@
+{% assign coverage_resource_names = "Paper|Code|Project|Site|Tutorial|Dataset|Demo|Video|Slides|Poster" | split: "|" %}
+{% assign coverage_publications = include.publications | sort: "date" | reverse %}
+{% capture coverage_items %}
+    {% for coverage_publication in coverage_publications %}
+    {% capture coverage_links %}
+        {% for coverage_link in coverage_publication.links %}
+        {% if coverage_link[1] and coverage_link[1] != empty %}
+        {% unless coverage_resource_names contains coverage_link[0] %}
+        <li><a href="{{ coverage_link[1] | escape }}" target="_blank" rel="noopener">{{ coverage_link[0] | escape }}</a></li>
+        {% endunless %}
+        {% endif %}
+        {% endfor %}
+    {% endcapture %}
+    {% assign coverage_links = coverage_links | strip %}
+    {% if coverage_links != empty %}
+    <li class="publication-media-item">
+        <p class="publication-media-title">{{ coverage_publication.title | escape }}</p>
+        <ul class="publication-media-links">{{ coverage_links }}</ul>
+    </li>
+    {% endif %}
+    {% endfor %}
+{% endcapture %}
+{% assign coverage_items = coverage_items | strip %}
+{% if coverage_items != empty %}
+<details class="publication-media-archive">
+    <summary>Media coverage</summary>
+    <ul class="publication-media-list">{{ coverage_items }}</ul>
+</details>
+{% endif %}
