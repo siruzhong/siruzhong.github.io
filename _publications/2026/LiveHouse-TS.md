@@ -13,6 +13,6 @@ authors:
   - Siru Zhong*
   - Yuxuan Liang
 links:
-  Code: https://huggingface.co/spaces/CityMindDev/LiveHouse-TS
+  Demo: https://huggingface.co/spaces/ThinkcatLab/LiveHouse-TS
   Paper: https://arxiv.org/abs/2608.17299
 ---

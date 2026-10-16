@@ -11,18 +11,21 @@ body_attr: >-
 <header class="page-intro">
     <p class="profile-eyebrow">Research archive</p>
     <h1>Publications</h1>
-    <p>Research in temporal representation learning, predictive memory, and world models.</p>
+    <p>Research on predictive representation learning, context-adaptive learning, and memory for continual understanding.</p>
     <p class="publication-note">(* equal contribution)</p>
 </header>
 
 <div class="row publications-layout">
     <div class="col-12 col-lg-10">
         {% for year in pubs_by_year %}
+        {% include ordered_publications.html publications=year.items %}
         <h2 class="publication-year" id="year-{{ year.name }}">{{ year.name }}</h2>
-        <div class="publication-list my-0">
-            {% for item in year.items %}
-                {% include widgets/publication_item.html item=item %}
+        <div class="publication-list open-section my-0">
+            <ul class="publication-entries publication-entries-archive">
+            {% for item in ordered_publications %}
+                <li class="publication-entry">{% include widgets/publication_item.html item=item %}</li>
             {% endfor %}
+            </ul>
         </div>
         {% endfor %}
     </div>

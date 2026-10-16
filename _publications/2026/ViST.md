@@ -19,6 +19,5 @@ authors:
   - Yuxuan Liang
 # citations: 0
 links:
-  Code: 
-  Paper:
+  Code: https://github.com/RWLinno/ViST
 ---

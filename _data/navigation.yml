@@ -2,12 +2,12 @@ pages:
 - name: Home
   url: /
 - name: Publications
-  url: /publications
+  url: /#publications
 - name: Service
   url: /#service
 - name: Awards
   url: /#awards
 - name: Talks
-  url: /talks
+  url: /#talks
 - name: Teaching
-  url: /teaching
+  url: /#teaching

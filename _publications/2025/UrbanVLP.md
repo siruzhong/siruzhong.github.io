@@ -19,7 +19,7 @@ authors:
   - Yuxuan Liang
 links:
   Code: https://github.com/CityMind-Lab/UrbanVLP
-  Paper: https://arxiv.org/pdf/2403.16831.pdf
+  Paper: https://arxiv.org/pdf/2403.16831
   # Stars: https://img.shields.io/github/stars/CityMind-Lab/UrbanVLP?style=social
   遥感GIS大模型: https://mp.weixin.qq.com/s/nZK6CbTqnHUpI9RRz1xnBQ
 ---

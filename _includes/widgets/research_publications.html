@@ -1,70 +1,43 @@
 {% assign research = site.data.research %}
-{% assign selected_pubs = include.publications %}
+{% include ordered_publications.html publications=include.publications %}
+{% assign all_publications = ordered_publications %}
 {% assign mapped_paths = "|" %}
-<section class="publication-list open-section research-publications" aria-labelledby="selected-publications-title">
-    <div class="publication-card-header">
-        <h2 id="selected-publications-title"><i class="fas fa-star" aria-hidden="true"></i> Selected Publications</h2>
-        <span class="publication-note">(* equal contribution)</span>
-        <a class="view-all" href="{{ 'publications' | relative_url }}">All publications <i class="fas fa-angle-right" aria-hidden="true"></i></a>
-    </div>
-
-    <div class="research-overview" id="research-overview">
-        <p class="sr-only">Research progression: Representation (2024–2025), then Adaptation (2025–2026), then World Models (2026–Future), the current focus.</p>
-        <nav class="research-map" aria-label="Research interests and publications">
-            {% for module in research.modules %}
-            <a class="research-map-node{% if module.current_focus %} research-map-current{% endif %}" href="#research-{{ module.id }}">
-                {% unless forloop.last %}<span class="research-map-connection" aria-hidden="true"></span>{% endunless %}
-                <span class="research-map-step"><span>{{ module.period }} · {{ module.verb }}</span>{% if module.current_focus %}<span class="research-current-focus">Current Focus</span>{% endif %}</span>
-                <span class="research-map-title">{{ module.title }}</span>
-                <span class="research-map-question">{{ module.question }}</span>
-                <span class="research-map-works">
-                    {% for work in module.publications %}
-                    {% assign matched_pubs = selected_pubs | where: "path", work.path %}
-                    {% if work.representative and matched_pubs.size > 0 %}<span>{{ work.name }}</span>{% endif %}
-                    {% endfor %}
-                </span>
-            </a>
-            {% endfor %}
-        </nav>
-    </div>
+<section class="publication-list open-section research-publications" id="publications" aria-labelledby="publications-title">
+    <header class="publication-card-header section-heading" id="research-overview">
+        <h2 class="section-heading-title" id="publications-title">Publications <span class="publication-count">{{ all_publications.size }}</span></h2>
+        <span class="publication-note">* equal contribution</span>
+    </header>
 
     {% for module in research.modules %}
-    {% capture module_items %}
-        {% for work in module.publications %}
-        {% assign matched_pubs = selected_pubs | where: "path", work.path %}
-        {% assign publication = matched_pubs | first %}
-        {% if publication %}
-            {% assign mapped_paths = mapped_paths | append: work.path | append: "|" %}
-            {% include widgets/publication_item.html item=publication heading_level="h4" native_images=true %}
-        {% endif %}
-        {% endfor %}
-    {% endcapture %}
-    {% assign module_items = module_items | strip %}
-    {% if module_items != empty %}
-    <section class="research-module research-theme-{{ module.id }}" id="research-{{ module.id }}" aria-labelledby="research-{{ module.id }}-title">
+    {% assign module_paths = module.publications | map: "path" %}
+    {% assign module_publications = all_publications | where_exp: "publication", "module_paths contains publication.path" %}
+    {% if module_publications.size > 0 %}
+    <section class="research-module" id="research-{{ module.id }}" aria-labelledby="research-{{ module.id }}-title">
         <header class="research-module-header">
-            <div class="research-module-heading">
-                <p class="research-module-period">{{ module.period }} · {{ module.verb }}</p>
-                <h3 id="research-{{ module.id }}-title">{{ module.title }}</h3>
-            </div>
-            <a class="research-back-link" href="#research-overview" aria-label="Back to research overview"><i class="fas fa-arrow-up" aria-hidden="true"></i> Overview</a>
+            <h3 id="research-{{ module.id }}-title">{{ module.title }}</h3>
         </header>
-        <div class="research-module-papers">{{ module_items }}</div>
+        <ul class="research-module-papers publication-entries">
+            {% for publication in module_publications %}
+            {% assign mapped_paths = mapped_paths | append: publication.path | append: "|" %}
+            <li class="publication-entry">{% include widgets/publication_item.html item=publication heading_level="h4" %}</li>
+            {% endfor %}
+        </ul>
     </section>
     {% endif %}
     {% endfor %}
 
+    {% comment %}Related work and future additions stay visible without being forced into an area.{% endcomment %}
     {% capture other_items %}
-        {% for publication in selected_pubs %}
+        {% for publication in all_publications %}
         {% assign path_token = publication.path | prepend: "|" | append: "|" %}
-        {% unless mapped_paths contains path_token %}{% include widgets/publication_item.html item=publication heading_level="h4" native_images=true %}{% endunless %}
+        {% unless mapped_paths contains path_token %}<li class="publication-entry">{% include widgets/publication_item.html item=publication heading_level="h4" %}</li>{% endunless %}
         {% endfor %}
     {% endcapture %}
     {% assign other_items = other_items | strip %}
     {% if other_items != empty %}
-    <section class="research-module research-other" aria-labelledby="other-selected-publications-title">
-        <h3 class="research-other-title" id="other-selected-publications-title">Other Selected Publications</h3>
-        {{ other_items }}
+    <section class="research-module research-additional" id="research-other" aria-labelledby="other-publications-title">
+        <header class="research-module-header"><h3 id="other-publications-title">Other Research &amp; Collaborations</h3></header>
+        <ul class="publication-entries">{{ other_items }}</ul>
     </section>
     {% endif %}
 </section>

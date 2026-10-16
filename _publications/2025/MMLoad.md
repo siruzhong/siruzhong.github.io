@@ -17,7 +17,7 @@ authors:
   - Yuxuan Liang
 links:
   # Code: https://github.com/CityMind-Lab/AirRadar
-  Paper: https://openreview.net/pdf?id=TN7vj7opye
+  Paper: https://doi.org/10.1145/3746027.3755775
   时序之心: https://mp.weixin.qq.com/s/RByX7MXVtKzDEOr1caBt8A
   时序大模型: https://mp.weixin.qq.com/s/u3scJshaDO1bwnRxL0_pYQ
 ---

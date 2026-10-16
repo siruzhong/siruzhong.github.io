@@ -2,60 +2,53 @@
     <div class="card career-card service-card open-section">
         <div class="section-card-body">
             <section class="career-section resume-section" aria-labelledby="education-heading">
-                <h2 class="section-subheading career-section-title" id="education-heading"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Education</h2>
+                <h2 class="section-subheading career-section-title section-heading" id="education-heading">Education</h2>
                 <ul class="experience-list education-list">
                     {% for item in site.data.profile.education %}
                     <li class="career-entry">
-                        <span class="career-logo{% if item.logo contains 'beta_infinity' %} career-logo-crop{% endif %}" aria-hidden="true">
-                            <img src="{{ item.logo | replace: '_full', '' | relative_url }}" alt="">
-                        </span>
-                        <div class="career-details">
-                            <p class="career-description"><span class="career-date">{{ item.date }}</span>, {{ item.position }}, {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}{% if item.dept %}, {{ item.dept }}{% endif %}</p>
-                        </div>
+                        <span class="career-date">{% include widgets/career_date.html value=item.date %}</span>
+                        {% assign degree_parts = item.position | replace: 'PhD', 'Ph.D.' | replace: 'MPhil', 'M.Phil.' | replace: 'BE,', 'B.E.,' | split: ', ' %}
+                        <p class="career-description"><strong>{{ degree_parts | first }}</strong>{% for part in degree_parts offset:1 %}, {{ part }}{% endfor %}, {% if item.url %}<a class="career-affiliation" href="{{ item.url }}" title="{{ item.name }}" target="_blank" rel="noopener noreferrer">{{ item.short_name | default: item.name }}</a>{% else %}{{ item.short_name | default: item.name }}{% endif %}{% if item.dept %}, {{ item.dept }}{% endif %}</p>
                     </li>
                     {% endfor %}
                 </ul>
             </section>
             <section class="career-section resume-section" aria-labelledby="experience-heading">
-                <h2 class="section-subheading career-section-title" id="experience-heading"><i class="fas fa-briefcase" aria-hidden="true"></i>Industry Experience</h2>
+                <h2 class="section-subheading career-section-title section-heading" id="experience-heading">Research &amp; Industry Experience</h2>
                 <ul class="experience-list industry-list">
                     {% for item in site.data.profile.experience %}
                     <li class="career-entry">
-                        <span class="career-logo{% if item.logo contains 'beta_infinity' %} career-logo-crop{% endif %}" aria-hidden="true">
-                            <img src="{{ item.logo | replace: '_full', '' | relative_url }}" alt="">
-                        </span>
-                        <div class="career-details industry-details">
-                            <p class="industry-organization"><strong class="career-company">{{ item.name }}</strong>{% if item.dept %}<span class="industry-department"> · {{ item.dept }}</span>{% endif %}</p>
-                            <p class="career-description industry-role">{{ item.position }}</p>
-                            <span class="industry-date">{{ item.date }}</span>
-                        </div>
+                        <span class="career-date">{% include widgets/career_date.html value=item.date %}</span>
+                        {% assign role_parts = item.position | split: ' · ' %}
+                        <p class="career-description"><strong>{{ role_parts | first }}</strong>, {% if item.url %}<a class="career-affiliation" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}{% if item.dept %}, {{ item.dept }}{% endif %}{% if role_parts.size > 1 %}<span class="career-topic"> · {{ role_parts | last }}</span>{% endif %}</p>
                     </li>
                     {% endfor %}
                 </ul>
             </section>
             <section class="activity-section resume-section" aria-labelledby="service">
-                <h2 class="section-subheading" id="service"><i class="fas fa-handshake" aria-hidden="true"></i>Service</h2>
-                <ul class="compact-list">
+                <h2 class="section-subheading section-heading" id="service">Service</h2>
+                <dl class="service-list">
                     {% for item in site.data.profile.service %}
-                    <li>
-                        <div>{{ item.name }}</div>
-                    </li>
+                    <div class="service-entry">
+                        <dt>{{ item.role }}</dt>
+                        <dd>{{ item.details }}</dd>
+                    </div>
                     {% endfor %}
-                </ul>
+                </dl>
             </section>
             <section class="activity-section resume-section" aria-labelledby="teaching">
-                <h2 class="section-subheading" id="teaching"><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i>Teaching <a class="section-view-all" href="{{ '/teaching' | relative_url }}">All teaching <i class="fas fa-angle-right" aria-hidden="true"></i></a></h2>
-                <ul class="compact-list">
-                    {% for item in site.data.profile.teaching limit:3 %}
-                    <li class="resume-list-entry"><span>{{ item.name }}</span><span class="resume-date">{{ item.date }}</span></li>
+                <h2 class="section-subheading section-heading" id="teaching">Teaching</h2>
+                <ul class="dated-list">
+                    {% for item in site.data.profile.teaching %}
+                    <li class="resume-list-entry"><span class="resume-date">{{ item.date }}</span><span>{% if item.url %}<a class="career-affiliation" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</span></li>
                     {% endfor %}
                 </ul>
             </section>
             <section class="activity-section resume-section" aria-labelledby="awards">
-                <h2 class="section-subheading" id="awards"><i class="fas fa-award" aria-hidden="true"></i>Awards</h2>
-                <ul class="compact-list">
+                <h2 class="section-subheading section-heading" id="awards">Awards</h2>
+                <ul class="dated-list">
                     {% for item in site.data.profile.awards %}
-                    <li class="resume-list-entry"><span>{{ item.name }}</span><span class="resume-date">{{ item.date }}</span></li>
+                    <li class="resume-list-entry"><span class="resume-date">{{ item.date }}</span><span>{{ item.name }}</span></li>
                     {% endfor %}
                 </ul>
             </section>

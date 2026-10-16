@@ -1,64 +1,46 @@
-# Paths identify publications uniquely, including different versions of a work.
-# Modules are ordered as a research progression; representative works label the overview.
+# Three research areas develop in parallel and are organized by research question.
+# Representation covers predictive temporal, spatial, and multimodal structure;
+# adaptation covers context, data reliability, domain experience, and expert routing;
+# memory covers retaining, accessing, and evaluating historical evidence.
+# Scientific-agent systems and KV-cache optimization remain additional work.
+# Order: first author, equal-first author, then other authorship; newest first within each group.
 modules:
   - id: representation
-    period: "2024–2025"
-    verb: Representation
-    title: "Learning Transferable Dynamics"
-    icon: fa-wave-square
-    question: How can models learn spatiotemporal dynamics that generalize across domains?
-    description: Learning transferable dynamics and representations across domains.
+    title: Predictive Representation Learning
     publications:
       - path: _publications/2025/TimeVLM.md
-        name: Time-VLM
-        representative: true
       - path: _publications/2025/FactoST.md
-        name: FactoST
-        representative: true
       - path: _publications/2026/FactoST.md
-        name: FactoST-v2
-        representative: true
-      - path: _publications/2024/UrbanCross.md
-        name: UrbanCross
-        representative: true
       - path: _publications/2026/OmniAir.md
+      - path: _publications/2026/ViST.md
+      - path: _publications/2025/OccamVTS.md
+      - path: _publications/2025/LDM4TS.md
+      - path: _publications/2024/UrbanCLIP.md
+      - path: _publications/2025/UrbanVLP.md
+      - path: _publications/2026/STKAN.md
+      - path: _publications/2025/STUM.md
+      - path: _publications/2024/STFNN.md
+      - path: _publications/2025/DeepUHI.md
+      - path: _publications/2025/MMLoad.md
+      - path: _publications/2025/MM4ST.md
+      - path: _publications/2024/SINPA.md
 
   - id: adaptation
-    period: "2025–2026"
-    verb: Adaptation
-    title: "Learning under Uncertainty and Shift"
-    icon: fa-sliders
-    question: How can models adapt when observations become unreliable and distributions shift?
-    description: Robust learning and adaptation under uncertainty and distribution shifts.
+    title: Context-Adaptive Learning
     publications:
       - path: _publications/2026/DropoutTS.md
-        name: DropoutTS
-        representative: true
       - path: _publications/2026/CapacityMod.md
-        name: CCM
-        representative: true
-      - path: _publications/2026/TS-Memory.md
-        name: TS-Memory
-        representative: true
       - path: _publications/2026/DPRNet.md
-        name: DPR
-        representative: true
+      - path: _publications/2024/UrbanCross.md
+      - path: _publications/2026/TS-Memory.md
+      - path: _publications/2026/DrafTS.md
+      - path: _publications/2026/LiveHouse-TS.md
+      - path: _publications/2025/AirRadar.md
+      - path: _publications/2024/STGormer.md
 
-  - id: world-models
-    period: "2026–Future"
-    current_focus: true
-    verb: World Models
-    title: "Learning and Revising World States"
-    icon: fa-layer-group
-    question: How can models maintain reliable internal world states over long horizons?
-    description: Predictive memory and evidence-based reasoning that keep an internal world state reliable over time.
+  - id: memory
+    title: Memory and Continual Understanding
     publications:
       - path: _publications/2026/PREM.md
-        name: PReM
-        representative: true
       - path: _publications/2026/STORM-Bench.md
-        name: STORM-Bench
-        representative: true
       - path: _publications/2026/GCR.md
-        name: GCR
-        representative: true

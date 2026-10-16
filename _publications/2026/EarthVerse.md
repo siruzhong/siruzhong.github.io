@@ -21,4 +21,6 @@ authors:
   - Jinhua Zhao
 links:
   Paper: https://arxiv.org/abs/2608.23525
+  Code: https://github.com/CuiZHIQ/Earth-Verse
+  Project: https://cuizhiq.github.io/EarthVerse/
 ---

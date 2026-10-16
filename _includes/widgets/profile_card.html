@@ -10,24 +10,16 @@
                             <img
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
                                 class="figure-img img-fluid profile-portrait"
-                                data-toggle="tooltip" 
-                                data-placement="top" 
-                                title="{{ site.data.profile.portrait_caption }}"
                                 alt="Portrait of {{ site.data.profile.primary_name }}"
-                                width="220" height="282"
+                                width="196" height="252"
                             >
                         </figure>
                         {% endif %}
-                        <div class="profile-role">
-                            <span class="profile-role-line">Ph.D. Candidate · HKUST (GZ)</span>
-                            <span class="profile-role-line">Visiting · Tsinghua HPGC Group</span>
-                        </div>
                     </div>
                     <div class="profile-copy-col">
                         <div class="profile-identity">
                             <p class="profile-eyebrow">Machine Learning for Dynamic Worlds</p>
-                            <h1 class="profile-name">{{ site.data.profile.primary_name }} <span lang="zh">钟嗣儒</span></h1>
-                            <p class="profile-focus">Temporal Representation Learning · Predictive Memory · World Models</p>
+                            <h1 class="profile-name">{{ site.data.profile.primary_name }}</h1>
                         </div>
                         {% if site.data.profile.bio %}
                         <div class="text-profile-bio">
@@ -60,23 +52,3 @@
         </div>
     </div>
 </div>
-
-{% if site.data.profile.wechat_qrcode %}
-<div class="modal fade" id="modal-wechat" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-            <div class="modal-body p-0">
-                <img src="{{ site.data.profile.wechat_qrcode }}" class="img-fluid">
-            </div>
-            {% if site.data.profile.wechat_prompt %}
-            <div class="modal-body p-1">
-                {{ site.data.profile.wechat_prompt }}
-            </div>
-            {% endif %}
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-{% endif %}

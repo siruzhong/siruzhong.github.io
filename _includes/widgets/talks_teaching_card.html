@@ -2,21 +2,19 @@
 <div class="row mb-4" id="talks-teaching">
     <div class="col-12">
         <div class="card open-section" id="talks">
-            <h2 class="section-card-header"><i class="fas fa-microphone"></i>Talks <a class="section-view-all" href="{{ '/talks' | relative_url }}">All talks <i class="fas fa-angle-right" aria-hidden="true"></i></a></h2>
+            <h2 class="section-card-header section-heading">Talks</h2>
             <div class="section-card-body">
                 <ul class="talk-list">
                     {% assign talks = site.data.profile.talks | sort: "date" | reverse %}
-                    {% for talk in talks limit:3 %}
+                    {% for talk in talks %}
                     <li>
-                        {% assign talk_date = talk.date | split: "." %}
+                        {% assign talk_date = talk.date | replace: '.', '-' | append: '-01' %}
                         <div class="talk-row">
-                            <time class="talk-date" datetime="{{ talk.date | replace: '.', '-' }}">
-                                <span>{{ talk_date[0] }}</span>{{ talk_date[1] }}
-                            </time>
+                            <time class="talk-date" datetime="{{ talk.date | replace: '.', '-' }}">{{ talk_date | date: '%b %Y' }}</time>
                             <div class="talk-content">
-                                <div class="talk-title">{{ talk.title }}{% if talk.url %} <a class="talk-link" href="{{ talk.url }}" target="_blank" rel="noopener" aria-label="Open talk link">↗</a>{% endif %}</div>
+                                <div class="talk-title">{% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener">{{ talk.title }}<span class="talk-link" aria-hidden="true">↗</span></a>{% else %}{{ talk.title }}{% endif %}</div>
                                 {% if talk.location %}
-                                <div class="talk-location"><i class="fas fa-location-dot" aria-hidden="true"></i>{{ talk.location }}</div>
+                                <div class="talk-location">{{ talk.location }}</div>
                                 {% endif %}
                             </div>
                         </div>

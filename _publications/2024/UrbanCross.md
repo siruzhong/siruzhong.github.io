@@ -17,8 +17,8 @@ authors:
   - Yangqiu Song
   - Yuxuan Liang
 links:
-  Code: https://github.com/siruzhong/urbancross
-  Paper: https://arxiv.org/pdf/2404.14241.pdf
+  Code: https://github.com/siruzhong/MM24-UrbanCross
+  Paper: https://arxiv.org/pdf/2404.14241
   # Stars: https://img.shields.io/github/stars/siruzhong/urbancross?style=social
   遥感与深度学习: https://mp.weixin.qq.com/s/khGHd-KwBIkG2BDNMniFRQ
 ---

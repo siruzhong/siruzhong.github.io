@@ -23,22 +23,16 @@ dblp: 359/5794
 
 bio: >-
   <p>
-    Hi there, I'm a Ph.D. Candidate at <a href="https://dsa.hkust-gz.edu.cn/" target="_blank">The Hong Kong University of Science and Technology, Guangzhou Campus</a>, advised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a>. I am currently visiting <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> and the <a href="https://www.nsccsz.cn/" target="_blank">National Supercomputing Center in Shenzhen</a>, hosted by <a href="https://www.thuhpgc.net/author/haohuan-fu/" target="_blank">Prof. Haohuan Fu</a>. I am also fortunate to receive guidance from <a href="https://scholar.google.com/citations?user=-oTraZ4AAAAJ" target="_blank">Prof. James T. Kwok</a> at <a href="https://hkust.edu.hk/" target="_blank">HKUST</a>.
+    I am a Ph.D. candidate at <a href="https://dsa.hkust-gz.edu.cn/" target="_blank">The Hong Kong University of Science and Technology, Guangzhou Campus</a>, advised by <a href="https://yuxuanliang.com/" target="_blank">Prof. Yuxuan Liang</a>. I am visiting <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> and the <a href="https://www.nsccsz.cn/" target="_blank">National Supercomputing Center in Shenzhen</a>, hosted by <a href="https://www.thuhpgc.net/author/haohuan-fu/" target="_blank">Prof. Haohuan Fu</a>. I also receive guidance from <a href="https://scholar.google.com/citations?user=-oTraZ4AAAAJ" target="_blank">Prof. James T. Kwok</a> at <a href="https://hkust.edu.hk/" target="_blank">HKUST</a>.
   </p>
 
   <p>
-    My research investigates how intelligent systems learn predictive representations from temporal and multimodal observations, maintain useful memories, and adapt their beliefs as the underlying world evolves.
-  </p>
-
-  <p>
-    Beyond academia, my industry experience spans temporal data infrastructure at <a href="https://www.tencent.com/" target="_blank">Tencent</a>, multimodal perception at <a href="https://www.xpeng.com/" target="_blank">XPENG</a>, spatio-temporal foundation models at <a href="https://www.huawei.com/" target="_blank">Huawei</a>, and long-term memory at <a class="no-break" href="https://betainf.com/" target="_blank">Beta Infinity</a>.
+    I study how models learn from evolving temporal and multimodal observations, with a current focus on maintaining and revising world states for reliable prediction and decision-making. Beyond academia, I have worked on temporal data infrastructure at <a href="https://www.tencent.com/" target="_blank" rel="noopener">Tencent</a>, multimodal perception at <a href="https://www.xpeng.com/" target="_blank" rel="noopener">XPENG</a>, spatio-temporal foundation models at <a href="https://www.huawei.com/" target="_blank" rel="noopener">Huawei</a>, and long-term memory at <a class="no-break" href="https://betainf.com/" target="_blank" rel="noopener">Beta Infinity</a>.
   </p>
 portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Hi there, I'm siru!
-
 education:
 - name: The Hong Kong University of Science and Technology (Guangzhou)
+  short_name: HKUST (Guangzhou)
   logo: /assets/images/badges/HKUST_GZ_full.png
   position: PhD Student, Data Science and Analytics
   date: 2025.02 - Present
@@ -49,6 +43,7 @@ education:
   date: 2026.02 - Present
   url: https://www.thuhpgc.net/
 - name: The Hong Kong University of Science and Technology (Guangzhou)
+  short_name: HKUST (Guangzhou)
   logo: /assets/images/badges/HKUST_GZ_full.png
   position: Red Bird MPhil, Data Science and Analytics
   date: 2023.08 - 2025.01
@@ -118,25 +113,39 @@ awards:
   date: 2020
 
 service:
-  - name: "<strong>Reviewer</strong>: NeurIPS 2026; FMTS 2026 @ NeurIPS 2026; ICLR 2025, 2026, 2027; KDD 2026, 2027; AAAI 2027; ACML 2026; MM 2025; FARS (Fully Automated Research System); IEEE TPAMI; Neurocomputing; IJITDM"
-  - name: "<strong>PC Member</strong>: WSDM 2027; ACM MM 2026; AAAI 2026, 2027; PAKDD 2026; MILETS 2026 @ KDD 2026"
-  - name: "<strong>Tutorial Speaker</strong>: MM4ST @ MM 2025, MM4ST @ ICME 2026, MM4TS @ AAAI 2026"
-  - name: "<strong>Web Chair</strong>: WebST 2026, WebST 2025, UrbComp 2025"
+  - role: Reviewer
+    details: "NeurIPS 2026; FMTS 2026 @ NeurIPS 2026; ICLR 2025, 2026, 2027; KDD 2026, 2027; AAAI 2027; ACML 2026; MM 2025; FARS (Fully Automated Research System); IEEE TPAMI; Neurocomputing; IJITDM"
+  - role: PC Member
+    details: "WSDM 2027; ACM MM 2026; AAAI 2026, 2027; PAKDD 2026; MILETS 2026 @ KDD 2026"
+  - role: Tutorial Speaker
+    details: >-
+      <a href="https://mm4st.netlify.app/" target="_blank" rel="noopener noreferrer">MM4ST @ MM 2025</a>,
+      <a href="https://2026.ieeeicme.org/tutorials/#1766933793356-40725ae5-4860" target="_blank" rel="noopener noreferrer">MM4ST @ ICME 2026</a>,
+      <a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/#th11" target="_blank" rel="noopener noreferrer">MM4TS @ AAAI 2026</a>
+  - role: Web Chair
+    details: >-
+      <a href="https://webst2026.netlify.app/" target="_blank" rel="noopener noreferrer">WebST 2026</a>,
+      <a href="https://doi.org/10.1145/3701716.3717374" target="_blank" rel="noopener noreferrer">WebST 2025</a>,
+      <a href="https://urbcomp25.netlify.app/" target="_blank" rel="noopener noreferrer">UrbComp 2025</a>
 
 teaching:
-  - name: DSAA60000 Table Representation Learning
+  - name: DSAA 6000O Table Representation Learning
     date: Spring 2026
-  - name: PLED5001 Communicating Research in English
+    url: https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/subject/DSAA#DSAA6000O
+  - name: PLED 5001 Communicating Research in English
     date: Spring 2025
-  - name: PDEV6800 Introduction to Teaching and Learning in Higher Education
+    url: https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/subject/PLED
+  - name: PDEV 6800 Introduction to Teaching and Learning in Higher Education
     date: Fall 2024
+    url: https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/subject/PDEV
 
 talks:
   - title: "Multimodal Learning for Spatio-Temporal Data Mining in the Era of Foundation Models"
     location: ICME 2026 Tutorial, Bangkok
+    url: https://2026.ieeeicme.org/tutorials/#1766933793356-40725ae5-4860
     date: 2026.07
-  - title: "跨时空学习：多模态感知、跨域泛化与鲁棒适应"
-    location: 中南大学计算机学院第六届青年学者论坛, 长沙
+  - title: "Learning across Space and Time: Multimodal Perception, Cross-Domain Generalization, and Robust Adaptation"
+    location: "6th Young Scholars Forum, School of Computer Science and Engineering, Central South University, Changsha"
     url: https://cse.csu.edu.cn/info/1039/11410.htm
     date: 2026.07
   - title: "DropoutTS: Sample-Adaptive Dropout for Robust Time Series Forecasting"
@@ -144,7 +153,7 @@ talks:
     url: https://mp.weixin.qq.com/s/CcHXC3sFP2dYbhLT8CpMHA?scene=1
     date: 2026.06
   - title: "Learning across Space and Time: Multimodal Integration, Foundation Models, and Dynamic Networks"
-    location: 清华大学深圳国际研究院, 深圳
+    location: "Tsinghua Shenzhen International Graduate School, Shenzhen"
     date: 2026.03
   - title: "Multi-modal TS Analysis: Methods, Datasets, and Applications"
     location: AAAI 2026 Tutorial, Singapore
@@ -158,7 +167,7 @@ talks:
     location: AI TIME × ICML 2025, Online
     url: https://mp.weixin.qq.com/s/Ck_rc15EoW1txUJWHJevmg?scene=1
     date: 2025.11
-  - title: "NeurIPS 2025（深圳）研讨会"
-    location: 南方科技大学统计与数据科学系, 深圳
+  - title: "NeurIPS 2025 Symposium"
+    location: "Department of Statistics and Data Science, Southern University of Science and Technology, Shenzhen"
     url: https://mp.weixin.qq.com/s/oLMspQh74LyB5TqcU9KqmQ
     date: 2025.11

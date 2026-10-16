@@ -1,0 +1,27 @@
+{% assign publication_authors = include.authors %}
+{% if publication_authors.size > 12 %}
+{% assign preview_authors = publication_authors | slice: 0, 3 %}
+{% assign preview_names = preview_authors | join: "|" | remove: "*" | remove: "#" | split: "|" %}
+{% assign last_author = publication_authors | last | remove: "*" | remove: "#" %}
+<details class="publication-authors publication-author-details">
+    <summary>
+        {% include widgets/author_list.html authors=preview_authors %}, …,
+        {% unless preview_names contains site.data.profile.primary_name or last_author == site.data.profile.primary_name %}
+        {% for author in publication_authors offset:3 %}
+        {% assign author_name = author | remove: "*" | remove: "#" %}
+        {% if author_name == site.data.profile.primary_name %}
+        {% assign own_author = author | split: "|" %}
+        {% include widgets/author_list.html authors=own_author %}, …,
+        {% break %}
+        {% endif %}
+        {% endfor %}
+        {% endunless %}
+        {% assign final_author = publication_authors | slice: -1, 1 %}
+        {% include widgets/author_list.html authors=final_author %}
+        <span class="publication-author-toggle">All {{ publication_authors.size }} authors</span>
+    </summary>
+    <p class="publication-author-full-list">{% include widgets/author_list.html authors=publication_authors %}</p>
+</details>
+{% else %}
+<p class="publication-authors">{% include widgets/author_list.html authors=publication_authors %}</p>
+{% endif %}

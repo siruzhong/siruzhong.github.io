@@ -1,0 +1,9 @@
+<li class="news-entry">
+    <time class="news-date" datetime="{{ include.item.date | date: '%Y-%m-%d' }}">{{ include.item.date | date: '%b %d, %Y' }}</time>
+    {%- assign news_title = include.item.title -%}
+    {%- for resource in include.item.links -%}
+        {%- capture resource_link -%}<a href="{{ resource[1] | escape }}" target="_blank" rel="noopener noreferrer">{{ resource[0] | escape }}</a>{%- endcapture -%}
+        {%- assign news_title = news_title | replace: resource[0], resource_link -%}
+    {%- endfor -%}
+    <div>{{ news_title }}</div>
+</li>

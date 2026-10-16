@@ -6,7 +6,7 @@ pinned: true
 pub:            "ACM MM (ACM International Conference on Multimedia) 2025, Dublin, Ireland"
 # pub_pre:        "Submitted to "
 # pub_post: "Preprint, 2025"
-# pub_last: ' <span class="badge badge-pill badge-publication badge-primary">Tutorial</span>'
+pub_last: ' <span class="badge badge-pill badge-publication badge-primary">Tutorial</span>'
 
 cover: /assets/images/covers/MM4ST.png
 authors:
@@ -20,5 +20,5 @@ authors:
 links:
   Code: https://github.com/CityMind-Lab/MM4ST
   Site: https://mm4st.netlify.app/
-  Tutorial: https://acmmm2025.org/tutorial/
+  Slides: https://mm4st.netlify.app/slides/MM4ST.pdf
 ---

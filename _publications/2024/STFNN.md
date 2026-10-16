@@ -20,6 +20,6 @@ authors:
   - Yuxuan Liang
 links:
   Code: https://github.com/Yutong-Feng/STFNN
-  Paper: https://arxiv.org/pdf/2403.02354.pdf
+  Paper: https://arxiv.org/pdf/2403.02354
   # Stars: https://img.shields.io/github/stars/Yutong-Feng/STFNN?style=social
 ---

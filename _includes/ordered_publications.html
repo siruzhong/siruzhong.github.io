@@ -1,0 +1,17 @@
+{%- comment -%}Return ordered_publications in first-author, equal-first-author, then other-author order; newest first within each group.{%- endcomment -%}
+{%- assign dated_publications = include.publications | sort: "date" | reverse -%}
+{%- assign first_author_publications = "" | split: "|" -%}
+{%- assign equal_first_author_publications = "" | split: "|" -%}
+{%- assign other_publications = "" | split: "|" -%}
+{%- assign equal_first_author = site.data.profile.primary_name | append: "*" -%}
+{%- for publication in dated_publications -%}
+    {%- assign first_author = publication.authors | first | remove: "*" | remove: "#" | strip -%}
+    {%- if first_author == site.data.profile.primary_name -%}
+        {%- assign first_author_publications = first_author_publications | push: publication -%}
+    {%- elsif publication.authors contains equal_first_author -%}
+        {%- assign equal_first_author_publications = equal_first_author_publications | push: publication -%}
+    {%- else -%}
+        {%- assign other_publications = other_publications | push: publication -%}
+    {%- endif -%}
+{%- endfor -%}
+{%- assign ordered_publications = first_author_publications | concat: equal_first_author_publications | concat: other_publications -%}
