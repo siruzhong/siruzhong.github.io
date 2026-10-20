@@ -1,7 +1,7 @@
 ---
 title: "A Fully Automated Research System Deployed at Scale"
 date: 2026-06-30 00:00:00 +0800
-pub: "Preprint, 2026"
+pub: "Technical Report, 2026"
 
 authors:
   - Qiong Tang
