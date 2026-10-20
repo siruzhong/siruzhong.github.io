@@ -1,63 +1,63 @@
-- title: "We release BetaMem, our long-term memory framework for embodied agents, as a technical report."
+- title: "We released BetaMem, our long-term memory framework for embodied agents, as a technical report."
   date: 2026-10-19 00:00:00 -0400
   links:
-    BetaMem: https://arxiv.org/abs/2610.26554
+    We released BetaMem, our long-term memory framework for embodied agents, as a technical report.: https://arxiv.org/abs/2610.26554
 
-- title: "One paper on Multimodal Spatio-Temporal forecasting was accepted to ACM MM 2026."
+- title: "One paper on multimodal spatio-temporal forecasting was accepted to ACM MM 2026."
   date: 2026-07-10 00:00:00 -0400
   links:
-    Multimodal Spatio-Temporal forecasting: https://github.com/RWLinno/ViST
+    multimodal spatio-temporal forecasting: https://github.com/RWLinno/ViST
 
 - title: "I passed my Ph.D. PQE and officially became a Ph.D. Candidate at HKUST (GZ)."
   date: 2026-05-21 00:00:00 -0400
 
-- title: "One paper about time series memory was accepted by KDD 2026 research track."
+- title: "One paper on time series memory was accepted to KDD 2026 research track."
   date: 2026-05-16 00:00:00 -0400
   links:
     time series memory: https://arxiv.org/abs/2602.11550
 
-- title: "One paper on sample-adaptive dropout for robust time series forecasting was accepted to ICML 2026."
+- title: "One paper on robust time series forecasting was accepted to ICML 2026."
   date: 2026-05-01 00:00:00 -0400
   links:
-    sample-adaptive dropout for robust time series forecasting: https://arxiv.org/abs/2601.21726
+    robust time series forecasting: https://arxiv.org/abs/2601.21726
 
-- title: "I am glad to become a visiting student at Tsinghua University and National Supercomputing Center."
+- title: "I became a visiting student at Tsinghua University and National Supercomputing Center."
   date: 2026-03-04 00:00:00 -0400
 
-- title: "One tutorial on Multimodal Learning for Spatio-Temporal Data Mining Era of Foundation Models was accepted to ICME 2026."
+- title: "One tutorial on multimodal learning for spatio-temporal data mining in the era of foundation models was accepted to ICME 2026."
   date: 2025-12-24 00:00:00 -0400
   links:
-    Multimodal Learning for Spatio-Temporal Data Mining Era of Foundation Models: https://2026.ieeeicme.org/tutorials/#1766933793356-40725ae5-4860
+    multimodal learning for spatio-temporal data mining in the era of foundation models: https://2026.ieeeicme.org/tutorials/#1766933793356-40725ae5-4860
 
-- title: "One paper on vision for time series forecasting was accepted to AAAI 2026."
+- title: "One paper on vision-based time series forecasting was accepted to AAAI 2026."
   date: 2025-11-08 00:00:00 -0400
   links:
-    vision for time series forecasting: https://arxiv.org/abs/2508.01727
+    vision-based time series forecasting: https://arxiv.org/abs/2508.01727
 
-- title: "One paper on Spatio-Temporal Foundation Model was accepted to NeurIPS 2025 (spotlight)."
+- title: "One paper on spatio-temporal foundation models was accepted to NeurIPS 2025 (spotlight)."
   date: 2025-09-18 00:00:00 -0400
   links:
-    Spatio-Temporal Foundation Model: https://proceedings.neurips.cc/paper_files/paper/2025/file/7fa2a1f2122a4dd76e6b9ac518cfce14-Paper-Conference.pdf
+    spatio-temporal foundation models: https://proceedings.neurips.cc/paper_files/paper/2025/file/7fa2a1f2122a4dd76e6b9ac518cfce14-Paper-Conference.pdf
 
-- title: "One paper on Traffic Flow Forecasting was accepted to TITS 2025."
+- title: "One paper on traffic flow forecasting was accepted to TITS 2025."
   date: 2025-08-20 00:00:00 -0400
   links:
-    Traffic Flow Forecasting: https://arxiv.org/abs/2411.09251
+    traffic flow forecasting: https://arxiv.org/abs/2411.09251
 
-- title: "One paper on Multimodal Building Electricity Loads Forecasting was accepted to MM 2025."
+- title: "One paper on multimodal building electricity load forecasting was accepted to MM 2025."
   date: 2025-07-05 00:00:00 -0400
   links:
-    Multimodal Building Electricity Loads Forecasting: https://doi.org/10.1145/3746027.3755775
+    multimodal building electricity load forecasting: https://doi.org/10.1145/3746027.3755775
 
-- title: "One paper on Urban Heat Island Effect Forecasting was accepted to KDD 2025."
+- title: "One paper on urban heat island effect forecasting was accepted to KDD 2025."
   date: 2025-05-15 00:00:00 -0400
   links:
-    Urban Heat Island Effect Forecasting: https://dl.acm.org/doi/10.1145/3711896.3736962
+    urban heat island effect forecasting: https://dl.acm.org/doi/10.1145/3711896.3736962
 
-- title: "One paper on Multimodal Time Series Forecasting was accepted to ICML 2025."
+- title: "One paper on multimodal time series forecasting was accepted to ICML 2025."
   date: 2025-05-01 00:00:00 -0400
   links:
-    Multimodal Time Series Forecasting: https://arxiv.org/abs/2502.04395
+    multimodal time series forecasting: https://arxiv.org/abs/2502.04395
 
 - title: "One tutorial on Multimodal Learning for Spatio-Temporal Data Mining was accepted to MM 2025."
   date: 2025-02-28 00:00:00 -0400
@@ -67,48 +67,46 @@
 - title: "I joined Huawei as a Research Intern working on spatio-temporal foundation models."
   date: 2025-02-06 00:00:00 -0400
 
-- title: "I started my PhD studies at the Hong Kong University of Science and Technology (Guangzhou)."
+- title: "I started my Ph.D. studies at the Hong Kong University of Science and Technology (Guangzhou)."
   date: 2025-02-05 00:00:00 -0400
 
 - title: "I received the Runner-Up Prize in the 2024 HKUST (GZ) DSA Excellent Research Award."
   date: 2025-01-27 00:00:00 -0400
 
-- title: "Two papers on Urban Indicator Prediction and Air Quality Inference were accepted to AAAI 2025."
+- title: "Two papers on urban indicator prediction and air quality inference were accepted to AAAI 2025."
   date: 2024-12-10 00:00:00 -0400
   links:
-    Urban Indicator Prediction: https://arxiv.org/abs/2403.16831
-    Air Quality Inference: https://arxiv.org/abs/2501.13141
+    urban indicator prediction and air quality inference were accepted to AAAI 2025.: https://arxiv.org/abs/2501.13141
 
-- title: "I successfully defended my MPhil thesis in Data Science and Analytics at HKUST (GZ)."
+- title: "I defended my MPhil thesis in Data Science and Analytics at HKUST (GZ)."
   date: 2024-11-25 00:00:00 -0400
 
-- title: "One paper on Urban Multimodal Image-Text Retrieval was accepted to MM 2024."
+- title: "One paper on urban multimodal image-text retrieval was accepted to MM 2024."
   date: 2024-07-18 00:00:00 -0400
   links:
-    Urban Multimodal Image-Text Retrieval: https://arxiv.org/abs/2404.14241
+    urban multimodal image-text retrieval: https://arxiv.org/abs/2404.14241
 
 - title: "I joined XPeng Motors as a Research Intern working on spatio-temporal perception for autonomous driving."
   date: 2024-05-14 00:00:00 -0400
 
-- title: "Two papers on Spatio-Temporal Prediction and Neural Networks were accepted to IJCAI 2024."
+- title: "Two papers on spatio-temporal prediction and neural networks were accepted to IJCAI 2024."
   date: 2024-05-14 00:00:00 -0400
   links:
-    Spatio-Temporal Prediction: https://arxiv.org/abs/2405.18910
-    Neural Networks: https://arxiv.org/abs/2403.02354
+    spatio-temporal prediction and neural networks were accepted to IJCAI 2024.: https://arxiv.org/abs/2403.02354
 
-- title: "One paper on LLM-Enhanced Urban Region Profiling was accepted to WWW 2024."
+- title: "One paper on LLM-enhanced urban region profiling was accepted to WWW 2024."
   date: 2024-01-23 00:00:00 -0400
   links:
-    LLM-Enhanced Urban Region Profiling: https://arxiv.org/abs/2310.18340
+    LLM-enhanced urban region profiling: https://arxiv.org/abs/2310.18340
 
 - title: "I started my MPhil studies at the Hong Kong University of Science and Technology (Guangzhou)."
   date: 2023-08-24 00:00:00 -0400
 
-- title: "I officially joined Tencent as a Software Engineer!"
+- title: "I joined Tencent as a Software Engineer."
   date: 2022-07-04 00:00:00 -0400
 
-- title: "I graduated from Hefei University of Technology with Outstanding Thesis Award."
+- title: "I graduated from Hefei University of Technology with the Outstanding Thesis Award."
   date: 2022-06-05 00:00:00 -0400
 
-- title: "I completed my three-month internship at Tencent and received a SP return offer."
+- title: "I completed my three-month internship at Tencent and received a return offer."
   date: 2021-09-14 00:00:00 -0400
