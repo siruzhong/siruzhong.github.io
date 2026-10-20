@@ -6,8 +6,8 @@ pinned: false
 pub: "Technical Report, 2026"
 
 authors:
-  - Mai Liu*
-  - He Sun*
+  - Mai Liu
+  - He Sun
   - Siru Zhong
   - Kerun Chen
   - Hao Yan
