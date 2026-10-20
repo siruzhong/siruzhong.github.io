@@ -3,7 +3,7 @@ title: "Learning to Remember a Changing World for Embodied Agents"
 date: 2026-10-19 00:00:00 +0800
 selected: true
 pinned: false
-pub: "Preprint, 2026"
+pub: "Technical Report, 2026"
 
 authors:
   - Mai Liu
