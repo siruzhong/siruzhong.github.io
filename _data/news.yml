@@ -3,10 +3,46 @@
   links:
     BetaMem: https://arxiv.org/abs/2610.26554
 
+- title: "One paper on benchmarking scientific agents for dynamic Earth systems and natural hazards was released as a preprint."
+  date: 2026-08-24 00:00:00 -0400
+  links:
+    Paper: https://arxiv.org/abs/2608.23525
+    Code: https://github.com/CuiZHIQ/Earth-Verse
+    Project: https://cuizhiq.github.io/EarthVerse/
+
+- title: "One paper on an open-world living benchmark for time series foundation models was released as a preprint."
+  date: 2026-08-18 00:00:00 -0400
+  links:
+    Demo: https://huggingface.co/spaces/ThinkcatLab/LiveHouse-TS
+    Paper: https://arxiv.org/abs/2608.17299
+
 - title: "One paper on multimodal spatio-temporal forecasting was accepted to ACM MM 2026."
   date: 2026-07-10 00:00:00 -0400
   links:
     multimodal spatio-temporal forecasting: https://github.com/RWLinno/ViST
+
+- title: "I presented a tutorial on multimodal learning for spatio-temporal data mining at ICME 2026 in Bangkok."
+  date: 2026-07-01 00:00:00 -0400
+  links:
+    Talk: https://2026.ieeeicme.org/tutorials/#1766933793356-40725ae5-4860
+
+- title: "I gave a talk on learning across space and time at the 6th Young Scholars Forum, Central South University."
+  date: 2026-07-01 00:00:00 -0400
+  links:
+    Talk: https://cse.csu.edu.cn/info/1039/11410.htm
+
+- title: "One paper on a fully automated research system deployed at scale was released as a preprint."
+  date: 2026-06-30 00:00:00 -0400
+  links:
+    Paper: https://arxiv.org/abs/2606.31651
+
+- title: "I joined Beta Infinity as a Research Scientist Intern working on spatio-temporal memory."
+  date: 2026-06-09 00:00:00 -0400
+
+- title: "I presented DropoutTS at AI TIME x ICML 2026."
+  date: 2026-06-01 00:00:00 -0400
+  links:
+    Talk: https://mp.weixin.qq.com/s/CcHXC3sFP2dYbhLT8CpMHA?scene=1
 
 - title: "I passed my Ph.D. PQE and officially became a Ph.D. Candidate at HKUST (GZ)."
   date: 2026-05-21 00:00:00 -0400
@@ -21,18 +57,41 @@
   links:
     robust time series forecasting: https://arxiv.org/abs/2601.21726
 
-- title: "I became a visiting student at Tsinghua University and National Supercomputing Center."
+- title: "I joined Tsinghua University and National Supercomputing Center as a visiting student, focusing on temporal sequence modeling."
   date: 2026-03-04 00:00:00 -0400
+
+- title: "I gave a talk on learning across space and time at Tsinghua Shenzhen International Graduate School."
+  date: 2026-03-01 00:00:00 -0400
+
+- title: "I presented a tutorial on multimodal time series analysis at AAAI 2026 in Singapore."
+  date: 2026-03-01 00:00:00 -0400
+  links:
+    Talk: https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/#th11
 
 - title: "One tutorial on multimodal learning for spatio-temporal data mining in the era of foundation models was accepted to ICME 2026."
   date: 2025-12-24 00:00:00 -0400
   links:
     multimodal learning for spatio-temporal data mining in the era of foundation models: https://2026.ieeeicme.org/tutorials/#1766933793356-40725ae5-4860
 
+- title: "I presented a tutorial on multimodal learning for spatio-temporal data mining at ACM MM 2025 in Dublin."
+  date: 2025-12-01 00:00:00 -0400
+  links:
+    Talk: https://mm4st.netlify.app/
+
 - title: "One paper on vision-based time series forecasting was accepted to AAAI 2026."
   date: 2025-11-08 00:00:00 -0400
   links:
     vision-based time series forecasting: https://arxiv.org/abs/2508.01727
+
+- title: "I presented ST-Factorized at AI TIME x ICML 2025."
+  date: 2025-11-01 00:00:00 -0400
+  links:
+    Talk: https://mp.weixin.qq.com/s/Ck_rc15EoW1txUJWHJevmg?scene=1
+
+- title: "I gave a talk at the NeurIPS 2025 Symposium, Southern University of Science and Technology."
+  date: 2025-11-01 00:00:00 -0400
+  links:
+    Talk: https://mp.weixin.qq.com/s/oLMspQh74LyB5TqcU9KqmQ
 
 - title: "One paper on spatio-temporal foundation models was accepted to NeurIPS 2025 (spotlight)."
   date: 2025-09-18 00:00:00 -0400
