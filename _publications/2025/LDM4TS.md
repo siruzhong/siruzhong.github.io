@@ -7,7 +7,6 @@ selected: false
 pub_post: "Preprint, 2025"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 
-cover: /assets/images/covers/LDM4TS.png
 authors:
   - Weilin Ruan
   - Siru Zhong

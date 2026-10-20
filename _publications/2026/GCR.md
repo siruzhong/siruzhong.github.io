@@ -5,7 +5,6 @@ selected: true
 pinned: false
 pub: "Preprint, 2026"
 
-cover: /assets/images/covers/GCR.png
 authors:
   - Fan Wei
   - Siru Zhong

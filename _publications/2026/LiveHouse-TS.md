@@ -5,7 +5,6 @@ selected: false
 pinned: false
 pub: "Preprint, 2026"
 
-cover: /assets/images/covers/LiveHouse-TS.png
 authors:
   - Haomin Wen*
   - Ziyu Zhou*

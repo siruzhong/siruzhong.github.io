@@ -3,7 +3,6 @@ title: "A Fully Automated Research System Deployed at Scale"
 date: 2026-06-30 00:00:00 +0800
 pub: "Preprint, 2026"
 
-cover: /assets/images/covers/FARS.jpg
 authors:
   - Qiong Tang
   - Tianxiang Sun

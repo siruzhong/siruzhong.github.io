@@ -5,7 +5,6 @@ selected: false
 pinned: false
 pub: "Preprint, 2026"
 
-cover: /assets/images/covers/DrafTS.jpg
 authors:
   - Yiqiu Liu
   - Siru Zhong

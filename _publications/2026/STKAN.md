@@ -3,7 +3,6 @@ title: "Kolmogorov-Arnold Networks for Spatio-Temporal Forecasting"
 date: 2026-07-14 00:00:00 +0800
 pub: "Preprint, 2026"
 
-cover: /assets/images/covers/STKAN.jpg
 authors:
   - Sicong Lai
   - Yuehong Hu

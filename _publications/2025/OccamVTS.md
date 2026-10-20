@@ -8,7 +8,6 @@ pub:            "AAAI (AAAI Conference on Artificial Intelligence) 2026, Singapo
 # pub_post: "Preprint, 2025"
 # pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
 
-cover: /assets/images/covers/OccamVTS.png
 authors:
   - Sisuo Lyu
   - Siru Zhong

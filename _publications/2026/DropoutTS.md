@@ -8,7 +8,6 @@ pub:            "ICML (International Conference on Machine Learning) 2026, Seoul
 # pub_post:       'ICML 2026.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 
-cover: /assets/images/covers/DropoutTS.png
 authors:
   - Siru Zhong
   - Yiqiu Liu

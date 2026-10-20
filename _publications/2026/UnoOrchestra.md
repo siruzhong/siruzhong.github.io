@@ -8,7 +8,6 @@ pinned: false
 pub_post: "Preprint, 2026"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 
-cover: /assets/images/covers/Uno-Orchestra.png
 authors:
   - Zhiqing Cui
   - Haotong Xie

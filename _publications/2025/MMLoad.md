@@ -8,7 +8,6 @@ pub:            "ACM MM (ACM International Conference on Multimedia) 2025, Dubli
 # pub_post: "Preprint, 2025"
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 
-cover: /assets/images/covers/MMLoad.png
 authors:
   - Yongzheng Liu
   - Siru Zhong

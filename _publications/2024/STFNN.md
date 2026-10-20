@@ -8,7 +8,6 @@ pub: "IJCAI (International Joint Conference on Artificial Intelligence) 2024, Je
 # pub_post:       'Preprint, 2024'
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 
-cover: /assets/images/covers/STFNN.png
 authors:
   - Yutong Feng
   - Qiongyan Wang

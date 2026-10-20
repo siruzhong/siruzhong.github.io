@@ -8,7 +8,6 @@ pub:            "KDD (ACM SIGKDD Conference on Knowledge Discovery and Data Mini
 # pub_post: "Preprint, 2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 
-cover: /assets/images/covers/TS-Memory.png
 authors:
   - Sisuo Lyu*
   - Siru Zhong*

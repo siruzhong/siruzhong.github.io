@@ -8,7 +8,6 @@ pub: "IEEE Transactions on Intelligent Transportation Systems, 2025"
 # pub_post:       'Preprint, 2025'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 
-cover: /assets/images/covers/STUM.png
 authors:
   - Weilin Ruan
   - Wenzhuo Wang

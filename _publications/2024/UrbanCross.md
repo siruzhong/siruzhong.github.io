@@ -8,7 +8,6 @@ pub: "ACM MM (ACM International Conference on Multimedia) 2024, Melbourne, Austr
 # pub_post:       'Preprint, 2024'
 # pub_last: ' <span class="badge badge-pill badge-publication badge-warning">Poster</span>'
 
-cover: /assets/images/covers/UrbanCross.png
 authors:
   - Siru Zhong
   - Xixuan Hao

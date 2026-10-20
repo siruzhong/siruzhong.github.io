@@ -11,7 +11,6 @@ pub: "WWW (The Web Conference) 2024, Singapore"
 # https://www.jst.go.jp/kisoken/crest/evaluation/nenpou/2023/JST_1111114_23827381_2023_Matsubara_PYR.pdf
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span> <span class="publication-venue-details" title="192 oral presentations out of 2,008 submissions">(9.6%)</span>'
 
-cover: /assets/images/covers/UrbanCLIP.png
 authors:
   - Yibo Yan
   - Haomin Wen

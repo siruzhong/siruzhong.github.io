@@ -8,7 +8,6 @@ pub:            "ACM MM (ACM International Conference on Multimedia) 2025, Dubli
 # pub_post: "Preprint, 2025"
 pub_last: ' <span class="badge badge-pill badge-publication badge-primary">Tutorial</span>'
 
-cover: /assets/images/covers/MM4ST.png
 authors:
   - Siru Zhong
   - Xixuan Hao

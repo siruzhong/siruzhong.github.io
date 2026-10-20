@@ -8,7 +8,6 @@ pub: "ACM MM (ACM International Conference on Multimedia) 2026, Rio de Janeiro, 
 # pub_post: "Preprint, 2026"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 
-cover: /assets/images/covers/ViST.png
 authors:
   - Weilin Ruan
   - Siru Zhong

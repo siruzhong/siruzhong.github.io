@@ -7,7 +7,6 @@ selected: false
 pub_post: "Preprint, 2024"
 
 
-cover: /assets/images/covers/STGormer.png
 authors:
   - Jianxiang Zhou
   - Erdong Liu

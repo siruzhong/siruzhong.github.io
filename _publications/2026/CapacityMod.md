@@ -5,7 +5,6 @@ selected: true
 pinned: true
 pub: "Preprint, 2026"
 
-cover: /assets/images/covers/CapacityMod.png
 authors:
   - Siru Zhong
   - Senzhang Wang

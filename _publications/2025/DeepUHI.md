@@ -9,7 +9,6 @@ pub:            "KDD (ACM SIGKDD Conference on Knowledge Discovery and Data Mini
 # Oral confirmed by the first author's project page: https://xczou.top/Research.html
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 
-cover: /assets/images/covers/DeepUHI.png
 authors:
   - Xingchen Zou
   - Weilin Ruan

@@ -9,7 +9,6 @@ pub: "IJCAI (International Joint Conference on Artificial Intelligence) 2024, Je
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 
-cover: /assets/images/covers/SINPA.png
 authors:
   - Huaiwu Zhang
   - Yutong Xia
