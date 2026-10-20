@@ -25,3 +25,19 @@
         </div>
     </div>
 </div>
+
+<!-- Teaching -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card open-section" id="teaching">
+            <h2 class="section-card-header section-heading">Teaching</h2>
+            <div class="section-card-body">
+                <ul class="dated-list">
+                    {% for item in site.data.profile.teaching %}
+                    <li class="resume-list-entry"><span class="resume-date">{{ item.date }}</span><span>{% if item.url %}<a class="career-affiliation" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</span></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

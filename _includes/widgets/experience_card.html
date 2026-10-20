@@ -36,14 +36,6 @@
                     {% endfor %}
                 </dl>
             </section>
-            <section class="activity-section resume-section" aria-labelledby="teaching">
-                <h2 class="section-subheading section-heading" id="teaching">Teaching</h2>
-                <ul class="dated-list">
-                    {% for item in site.data.profile.teaching %}
-                    <li class="resume-list-entry"><span class="resume-date">{{ item.date }}</span><span>{% if item.url %}<a class="career-affiliation" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</span></li>
-                    {% endfor %}
-                </ul>
-            </section>
         </div>
     </div>
 </div>
