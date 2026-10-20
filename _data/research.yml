@@ -5,6 +5,26 @@
 # Scientific-agent systems and KV-cache optimization remain additional work.
 # Order: first author, equal-first author, then other authorship; newest first within each group.
 modules:
+  - id: memory
+    title: Memory and Continual Understanding
+    publications:
+      - path: _publications/2026/PREM.md
+      - path: _publications/2026/STORM-Bench.md
+      - path: _publications/2026/BetaMem.md
+      - path: _publications/2026/GCR.md
+  - id: adaptation
+    title: Context-Adaptive Learning
+    publications:
+      - path: _publications/2026/DropoutTS.md
+      - path: _publications/2026/CapacityMod.md
+      - path: _publications/2026/DPRNet.md
+      - path: _publications/2024/UrbanCross.md
+      - path: _publications/2026/TS-Memory.md
+      - path: _publications/2026/DrafTS.md
+      - path: _publications/2026/LiveHouse-TS.md
+      - path: _publications/2025/AirRadar.md
+      - path: _publications/2024/STGormer.md
+
   - id: representation
     title: Predictive Representation Learning
     publications:
@@ -25,23 +45,3 @@ modules:
       - path: _publications/2025/MM4ST.md
       - path: _publications/2024/SINPA.md
 
-  - id: adaptation
-    title: Context-Adaptive Learning
-    publications:
-      - path: _publications/2026/DropoutTS.md
-      - path: _publications/2026/CapacityMod.md
-      - path: _publications/2026/DPRNet.md
-      - path: _publications/2024/UrbanCross.md
-      - path: _publications/2026/TS-Memory.md
-      - path: _publications/2026/DrafTS.md
-      - path: _publications/2026/LiveHouse-TS.md
-      - path: _publications/2025/AirRadar.md
-      - path: _publications/2024/STGormer.md
-
-  - id: memory
-    title: Memory and Continual Understanding
-    publications:
-      - path: _publications/2026/PREM.md
-      - path: _publications/2026/STORM-Bench.md
-      - path: _publications/2026/BetaMem.md
-      - path: _publications/2026/GCR.md
