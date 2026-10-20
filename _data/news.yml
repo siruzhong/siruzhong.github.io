@@ -3,14 +3,14 @@
   links:
     BetaMem: https://arxiv.org/abs/2610.26554
 
-- title: "One paper on benchmarking scientific agents for dynamic Earth systems and natural hazards was released as a preprint."
+- title: "One paper on benchmarking scientific agents for dynamic Earth systems and natural hazards was released."
   date: 2026-08-24 00:00:00 -0400
   links:
     Paper: https://arxiv.org/abs/2608.23525
     Code: https://github.com/CuiZHIQ/Earth-Verse
     Project: https://cuizhiq.github.io/EarthVerse/
 
-- title: "One paper on an open-world living benchmark for time series foundation models was released as a preprint."
+- title: "One paper on an open-world living benchmark for time series foundation models was released."
   date: 2026-08-18 00:00:00 -0400
   links:
     Demo: https://huggingface.co/spaces/ThinkcatLab/LiveHouse-TS
@@ -31,7 +31,7 @@
   links:
     Talk: https://cse.csu.edu.cn/info/1039/11410.htm
 
-- title: "One paper on a fully automated research system deployed at scale was released as a preprint."
+- title: "One paper on a fully automated research system deployed at scale was released."
   date: 2026-06-30 00:00:00 -0400
   links:
     Paper: https://arxiv.org/abs/2606.31651
