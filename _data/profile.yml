@@ -114,7 +114,7 @@ awards:
 
 service:
   - role: Reviewer
-    details: "NeurIPS 2026; FMTS 2026 @ NeurIPS 2026; ICLR 2025, 2026, 2027; KDD 2026, 2027; AAAI 2027; ACML 2026; MM 2025; FARS (Fully Automated Research System); IEEE TPAMI; Neurocomputing; IJITDM"
+    details: "NeurIPS 2026; FMTS 2026 @ NeurIPS 2026; ICLR 2025, 2026, 2027; KDD 2026, 2027; AAAI 2027; WWW 2027; ACML 2026; MM 2025; FARS (Fully Automated Research System); IEEE TPAMI; Neurocomputing; IJITDM"
   - role: PC Member
     details: "WSDM 2027; ACM MM 2026; AAAI 2026, 2027; PAKDD 2026; MILETS 2026 @ KDD 2026"
   - role: Tutorial Speaker
