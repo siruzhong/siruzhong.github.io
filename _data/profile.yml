@@ -140,6 +140,9 @@ teaching:
     url: https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/subject/PDEV
 
 talks:
+  - title: "Prefix-Steered Recurrent Memory for Long-Video Understanding"
+    location: The Chinese University of Hong Kong, Shenzhen
+    date: 2026.10
   - title: "Multimodal Learning for Spatio-Temporal Data Mining in the Era of Foundation Models"
     location: ICME 2026 Tutorial, Bangkok
     url: https://2026.ieeeicme.org/tutorials/#1766933793356-40725ae5-4860
