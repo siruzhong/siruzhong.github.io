@@ -1,5 +1,7 @@
 - title: "I was honored to be invited to give a talk on memory for video understanding at the Greater Bay Area Graduate Research Forum 2026, CUHK (SZ)."
   date: 2026-10-31 00:00:00 -0400
+  links:
+    Forum: https://gs.cuhk.edu.cn/node/385
 
 - title: "We released the BetaMem technical report, our long-term memory framework for embodied agents."
   date: 2026-10-19 00:00:00 -0400
