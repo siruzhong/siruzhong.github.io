@@ -139,33 +139,6 @@ teaching:
     date: Fall 2024
     url: https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/subject/PDEV
 
-service:
-  - role: Reviewer
-    details: "NeurIPS 2026; FMTS 2026 @ NeurIPS 2026; ICLR 2025, 2026, 2027; KDD 2026, 2027; AAAI 2027; WWW 2027; ACML 2026; MM 2025; FARS (Fully Automated Research System); IEEE TPAMI; Neurocomputing; IJITDM"
-  - role: PC Member
-    details: "WSDM 2027; ACM MM 2026; AAAI 2026, 2027; PAKDD 2026, 2027; MILETS 2026 @ KDD 2026"
-  - role: Tutorial Speaker
-    details: >-
-      <a href="https://mm4st.netlify.app/" target="_blank" rel="noopener noreferrer">MM4ST @ MM 2025</a>,
-      <a href="https://2026.ieeeicme.org/tutorials/#1766933793356-40725ae5-4860" target="_blank" rel="noopener noreferrer">MM4ST @ ICME 2026</a>,
-      <a href="https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/#th11" target="_blank" rel="noopener noreferrer">MM4TS @ AAAI 2026</a>
-  - role: Web Chair
-    details: >-
-      <a href="https://webst2026.netlify.app/" target="_blank" rel="noopener noreferrer">WebST 2026</a>,
-      <a href="https://doi.org/10.1145/3701716.3717374" target="_blank" rel="noopener noreferrer">WebST 2025</a>,
-      <a href="https://urbcomp25.netlify.app/" target="_blank" rel="noopener noreferrer">UrbComp 2025</a>
-
-teaching:
-  - name: DSAA 6000O Table Representation Learning
-    date: Spring 2026
-    url: https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/subject/DSAA#DSAA6000O
-  - name: PLED 5001 Communicating Research in English
-    date: Spring 2025
-    url: https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/subject/PLED
-  - name: PDEV 6800 Introduction to Teaching and Learning in Higher Education
-    date: Fall 2024
-    url: https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/subject/PDEV
-
 talks:
   - title: "Prefix-Steered Recurrent Memory for Long-Video Understanding"
     location: Greater Bay Area Graduate Research Forum 2026, The Chinese University of Hong Kong, Shenzhen
