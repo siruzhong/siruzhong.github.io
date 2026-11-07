@@ -6,8 +6,8 @@ pinned: false
 pub: "Preprint, 2026"
 
 authors:
-  - Yangyu Wu
-  - Siru Zhong
+  - Yangyu Wu*
+  - Siru Zhong*
   - Haoyuan Liang
   - Yuxuan Liang
 links:
