@@ -12,6 +12,7 @@ modules:
       - path: _publications/2026/STORM-Bench.md
       - path: _publications/2026/BetaMem.md
       - path: _publications/2026/GCR.md
+      - path: _publications/2026/CivicBench.md
   - id: adaptation
     title: Context-Adaptive Learning
     publications:
