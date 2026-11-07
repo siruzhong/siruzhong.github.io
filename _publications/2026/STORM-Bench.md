@@ -3,6 +3,7 @@ title: "STORM-Bench: Evaluating Online Video QA under Evolving and Incomplete Ev
 date: 2026-09-22 00:00:00 +0800
 selected: true
 pinned: true
+order: 2
 pub: "Preprint, 2026"
 
 authors:
