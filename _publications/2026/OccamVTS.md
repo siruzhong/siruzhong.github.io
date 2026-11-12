@@ -1,6 +1,6 @@
 ---
 title: "OccamVTS: Distilling Vision Models to 1% Parameters for Time Series Forecasting"
-date: 2025-11-08 00:00:00 +0800
+date: 2026-01-20 00:00:00 +0800
 selected: false
 pinned: false
 pub:            "AAAI (AAAI Conference on Artificial Intelligence) 2026, Singapore"

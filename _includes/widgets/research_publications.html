@@ -20,25 +20,7 @@
         <ul class="research-papers">
             {% for entry in module.publications %}
             {% assign publication = include.publications | where: "path", entry.path | first %}
-            {% if publication %}
-            {% assign venue_source = publication.pub | default: publication.pub_post %}
-            {% assign venue_parts = venue_source | split: " (" %}
-            {% if venue_parts.size > 1 %}
-            {% assign venue_suffix = venue_source | split: ")" | last | strip %}
-            {% assign venue_year = venue_suffix | split: "," | first | strip %}
-            {% assign venue_label = venue_parts | first | append: " " | append: venue_year %}
-            {% else %}
-            {% assign venue_label = venue_source | replace: ", ", " " %}
-            {% endif %}
-            {% if venue_source contains "Preprint" or venue_source contains "Technical Report" %}{% assign venue_state = "is-preprint" %}{% else %}{% assign venue_state = "is-published" %}{% endif %}
-            <li class="research-paper">
-                <div class="research-paper-venue {{ venue_state }}" title="{{ venue_source | escape }}">
-                    <span class="research-paper-venue-name">{{ venue_label }}</span>
-                    {% if publication.pub_last %}<span class="research-paper-award">{{ publication.pub_last }}</span>{% endif %}
-                </div>
-                {% include widgets/publication_item.html item=publication heading_level="h4" hide_venue=true hide_links=true short_author_names=true %}
-            </li>
-            {% endif %}
+            {% if publication %}{% include widgets/publication_row.html item=publication heading_level="h4" hide_links=true %}{% endif %}
             {% endfor %}
         </ul>
     </section>

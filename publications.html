@@ -19,9 +19,9 @@ body_attr: >-
         {% include ordered_publications.html publications=year.items %}
         <h2 class="publication-year" id="year-{{ year.name }}">{{ year.name }}</h2>
         <div class="publication-list open-section my-0">
-            <ul class="publication-entries publication-entries-archive">
+            <ul class="research-papers publication-year-papers">
             {% for item in ordered_publications %}
-                <li class="publication-entry">{% include widgets/publication_item.html item=item %}</li>
+                {% include widgets/publication_row.html item=item %}
             {% endfor %}
             </ul>
         </div>

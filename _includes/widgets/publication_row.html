@@ -1,0 +1,27 @@
+{%- comment -%}
+One paper as a two-column row: venue and award on the left, title and authors on the right.
+Used by the homepage Research section and the Publications page.
+Params: item (publication), heading_level (default h3), hide_links (hide Project/Demo/... links).
+{%- endcomment -%}
+{%- assign row_item = include.item -%}
+{%- assign row_venue_source = row_item.pub | default: row_item.pub_post -%}
+{%- assign row_venue_parts = row_venue_source | split: " (" -%}
+{%- if row_venue_parts.size > 1 -%}
+    {%- assign row_venue_suffix = row_venue_source | split: ")" | last | strip -%}
+    {%- assign row_venue_year = row_venue_suffix | split: "," | first | strip -%}
+    {%- assign row_venue_label = row_venue_parts | first | append: " " | append: row_venue_year -%}
+{%- else -%}
+    {%- assign row_venue_label = row_venue_source | replace: ", ", " " -%}
+{%- endif -%}
+{%- if row_venue_source contains "Preprint" or row_venue_source contains "Technical Report" -%}
+    {%- assign row_venue_state = "is-preprint" -%}
+{%- else -%}
+    {%- assign row_venue_state = "is-published" -%}
+{%- endif -%}
+<li class="research-paper">
+    <div class="research-paper-venue {{ row_venue_state }}" title="{{ row_venue_source | escape }}">
+        <span class="research-paper-venue-name">{{ row_venue_label }}</span>
+        {% if row_item.pub_last %}<span class="research-paper-award">{{ row_item.pub_last }}</span>{% endif %}
+    </div>
+    {% include widgets/publication_item.html item=row_item heading_level=include.heading_level hide_venue=true hide_links=include.hide_links short_author_names=true %}
+</li>
