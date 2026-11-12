@@ -25,6 +25,7 @@
     <meta name="twitter:title" content="{{ page.title }} - {{ site.data.profile.navbar_name }}">
     <meta name="twitter:description" content="{{ page.description | default: site.description }}">
     <meta name="twitter:image" content="{{ site.url }}/assets/images/photos/portrait.jpg">
+    {% if page.url == "/" %}{% include structured_data.html %}{% endif %}
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />

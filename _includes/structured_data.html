@@ -1,0 +1,28 @@
+{%- comment -%}schema.org Person markup so search engines can link the homepage to the scholarly profiles.{%- endcomment -%}
+{%- assign profile = site.data.profile -%}
+{%- assign current = profile.education | first -%}
+{%- assign undergrad = profile.education | last -%}
+{%- capture same_as -%}
+{%- if profile.gscholar -%}https://scholar.google.com/citations?user={{ profile.gscholar }}|{%- endif -%}
+{%- if profile.dblp -%}https://dblp.org/pid/{{ profile.dblp }}.html|{%- endif -%}
+{%- if profile.orcid -%}https://orcid.org/{{ profile.orcid }}|{%- endif -%}
+{%- if profile.sscholar -%}https://www.semanticscholar.org/author/{{ profile.sscholar }}|{%- endif -%}
+{%- if profile.github -%}https://github.com/{{ profile.github }}|{%- endif -%}
+{%- if profile.linkedin -%}https://www.linkedin.com/in/{{ profile.linkedin }}|{%- endif -%}
+{%- endcapture -%}
+{%- assign same_as = same_as | split: "|" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ profile.primary_name | jsonify }},
+  "url": {{ site.url | append: "/" | jsonify }},
+  "image": {{ site.url | append: profile.portrait_url | jsonify }},
+  "jobTitle": "Ph.D. Candidate",
+  "description": {{ site.description | jsonify }},
+  "affiliation": { "@type": "CollegeOrUniversity", "name": {{ current.name | jsonify }}, "url": {{ current.url | jsonify }} },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": {{ undergrad.name | jsonify }} },
+  "knowsAbout": ["Machine learning", "Time series", "Spatio-temporal data mining", "Multimodal learning", "Video understanding"],
+  "sameAs": {{ same_as | jsonify }}
+}
+</script>
