@@ -2,8 +2,8 @@ baseurl: ''
 url: https://siruzhong.github.io
 title: Siru Zhong
 description: 'Ph.D. Candidate at The Hong Kong University of Science and Technology
-  (Guangzhou), working on Machine Learning for Dynamic Worlds: predictive representation
-  learning, context-adaptive learning, and memory for continual understanding.'
+  (Guangzhou), studying how machine learning models learn from temporal data that
+  keep evolving, including time series, spatio-temporal signals, and video streams.'
 markdown: kramdown
 plugins:
 - jekyll-email-protect

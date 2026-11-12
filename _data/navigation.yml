@@ -1,8 +1,10 @@
 pages:
 - name: Home
   url: /
+- name: Research
+  url: /#research
 - name: Publications
-  url: /#publications
+  url: /publications.html
 - name: Service
   url: /#service
 - name: Awards

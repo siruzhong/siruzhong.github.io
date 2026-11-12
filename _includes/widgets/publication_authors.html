@@ -5,22 +5,22 @@
 {% assign last_author = publication_authors | last | remove: "*" | remove: "#" %}
 <details class="publication-authors publication-author-details">
     <summary>
-        {% include widgets/author_list.html authors=preview_authors %}, …,
+        {% include widgets/author_list.html authors=preview_authors short_names=include.short_names %}, …,
         {% unless preview_names contains site.data.profile.primary_name or last_author == site.data.profile.primary_name %}
         {% for author in publication_authors offset:3 %}
         {% assign author_name = author | remove: "*" | remove: "#" %}
         {% if author_name == site.data.profile.primary_name %}
         {% assign own_author = author | split: "|" %}
-        {% include widgets/author_list.html authors=own_author %}, …,
+        {% include widgets/author_list.html authors=own_author short_names=include.short_names %}, …,
         {% break %}
         {% endif %}
         {% endfor %}
         {% endunless %}
         {% assign final_author = publication_authors | slice: -1, 1 %}
-        {% include widgets/author_list.html authors=final_author %}
+        {% include widgets/author_list.html authors=final_author short_names=include.short_names %}
     </summary>
-    <p class="publication-author-full-list">{% include widgets/author_list.html authors=publication_authors %}</p>
+    <p class="publication-author-full-list">{% include widgets/author_list.html authors=publication_authors short_names=include.short_names %}</p>
 </details>
 {% else %}
-<p class="publication-authors">{% include widgets/author_list.html authors=publication_authors %}</p>
+<p class="publication-authors">{% include widgets/author_list.html authors=publication_authors short_names=include.short_names %}</p>
 {% endif %}

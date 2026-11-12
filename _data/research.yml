@@ -1,48 +1,37 @@
-# Three research areas develop in parallel and are organized by research question.
-# Representation covers predictive temporal, spatial, and multimodal structure;
-# adaptation covers context, data reliability, domain experience, and expert routing;
-# memory covers retaining, accessing, and evaluating historical evidence.
-# Scientific-agent systems and KV-cache optimization remain additional work.
-# Order: first author, equal-first author, then other authorship; newest first within each group.
-modules:
-  - id: memory
-    title: Memory and Continual Understanding
-    publications:
-      - path: _publications/2026/PREM.md
-      - path: _publications/2026/STORM-Bench.md
-      - path: _publications/2026/BetaMem.md
-      - path: _publications/2026/GCR.md
-      - path: _publications/2026/CivicBench.md
-  - id: adaptation
-    title: Context-Adaptive Learning
-    publications:
-      - path: _publications/2026/DropoutTS.md
-      - path: _publications/2026/CapacityMod.md
-      - path: _publications/2026/DPRNet.md
-      - path: _publications/2024/UrbanCross.md
-      - path: _publications/2026/TS-Memory.md
-      - path: _publications/2026/DrafTS.md
-      - path: _publications/2026/LiveHouse-TS.md
-      - path: _publications/2025/AirRadar.md
-      - path: _publications/2024/STGormer.md
+# Homepage research overview. The three thrusts follow one storyline:
+# represent temporal dynamics -> stay reliable under shift -> remember what matters from the past.
+# The (i)/(ii)/(iii) questions in the intro map to thrusts I/II/III below.
+# Each thrust lists every first-author and co-first-author paper in that area, rendered in the
+# order given here (accepted work first, then preprints). The complete list lives on /publications.html.
+intro: >-
+  I study how machine learning models learn from temporal data that keep evolving, including time series, spatio-temporal signals, and video streams. My work asks three connected questions: (i) how to represent temporal dynamics, (ii) how to stay reliable when the data shift, and (iii) what to remember from the past.
 
+modules:
   - id: representation
-    title: Predictive Representation Learning
+    title: Representing Dynamics
+    subtitle: Multimodal Spatio-Temporal Foundation Models
     publications:
-      - path: _publications/2025/TimeVLM.md
       - path: _publications/2025/FactoST.md
+      - path: _publications/2025/TimeVLM.md
+      - path: _publications/2025/MM4ST.md
       - path: _publications/2026/FactoST.md
       - path: _publications/2026/OmniAir.md
-      - path: _publications/2026/ViST.md
-      - path: _publications/2025/OccamVTS.md
-      - path: _publications/2025/LDM4TS.md
-      - path: _publications/2024/UrbanCLIP.md
-      - path: _publications/2025/UrbanVLP.md
-      - path: _publications/2026/STKAN.md
-      - path: _publications/2025/STUM.md
-      - path: _publications/2024/STFNN.md
-      - path: _publications/2025/DeepUHI.md
-      - path: _publications/2025/MMLoad.md
-      - path: _publications/2025/MM4ST.md
-      - path: _publications/2024/SINPA.md
 
+  - id: adaptation
+    title: Adapting to Shift
+    subtitle: Robust Learning under Noise and Non-Stationarity
+    publications:
+      - path: _publications/2026/DropoutTS.md
+      - path: _publications/2024/UrbanCross.md
+      - path: _publications/2026/CapacityMod.md
+      - path: _publications/2026/DPRNet.md
+      - path: _publications/2026/LiveHouse-TS.md
+
+  - id: memory
+    title: Remembering over Time
+    subtitle: Memory for Long-Horizon Understanding
+    publications:
+      - path: _publications/2026/TS-Memory.md
+      - path: _publications/2026/PREM.md
+      - path: _publications/2026/STORM-Bench.md
+      - path: _publications/2026/CivicBench.md

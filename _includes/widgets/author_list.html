@@ -21,6 +21,23 @@
         {%- assign name = key -%}
     {%- endif -%}
 
+    {%- comment -%}short_names: "Siru Zhong" -> "Zhong S", "Raymond Chi-Wing Wong" -> "Wong RCW".{%- endcomment -%}
+    {%- if include.short_names -%}
+        {%- assign name_parts = name | split: " " -%}
+        {%- if name_parts.size > 1 -%}
+            {%- assign initials = "" -%}
+            {%- for name_part in name_parts -%}
+                {%- if forloop.last -%}{%- break -%}{%- endif -%}
+                {%- assign name_pieces = name_part | split: "-" -%}
+                {%- for name_piece in name_pieces -%}
+                    {%- assign initial = name_piece | slice: 0 | upcase -%}
+                    {%- assign initials = initials | append: initial -%}
+                {%- endfor -%}
+            {%- endfor -%}
+            {%- assign name = name_parts | last | append: " " | append: initials -%}
+        {%- endif -%}
+    {%- endif -%}
+
     {%- if info['bold'] == true -%}
         {%- assign display_name = name | append: mark | prepend: "<strong>" | append: "</strong>" -%}
     {%- else -%}
