@@ -8,7 +8,7 @@
             </div>
             <div class="col-6">
                 <div class="text-right">
-                    {{ site.data.display.footer_text }}
+                    {% assign current_year = site.time | date: "%Y" %}{{ site.data.display.footer_text | replace: "%year%", current_year }}
                 </div>
             </div>
         </div>

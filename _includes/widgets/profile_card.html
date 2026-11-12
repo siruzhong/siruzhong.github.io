@@ -30,6 +30,12 @@
                             {% if site.data.profile.gscholar %}
                             <a class="social-link-item" target="_blank" rel="noopener" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en">Google Scholar</a>
                             {% endif %}
+                            {% if site.data.profile.dblp %}
+                            <a class="social-link-item" target="_blank" rel="noopener" href="https://dblp.org/pid/{{ site.data.profile.dblp }}.html">DBLP</a>
+                            {% endif %}
+                            {% if site.data.profile.orcid %}
+                            <a class="social-link-item" target="_blank" rel="noopener" href="https://orcid.org/{{ site.data.profile.orcid }}">ORCID</a>
+                            {% endif %}
                             {% if site.data.profile.github %}
                             <a class="social-link-item" target="_blank" rel="noopener" href="https://github.com/{{ site.data.profile.github }}">GitHub</a>
                             {% endif %}
