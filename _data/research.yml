@@ -4,7 +4,7 @@
 # Each thrust lists every first-author and co-first-author paper in that area, rendered in the
 # order given here (accepted work first, then preprints). The complete list lives on /publications.html.
 intro: >-
-  My work asks three connected questions: (i) how to represent temporal dynamics, (ii) how to stay reliable when the data shift, and (iii) what to remember from the past.
+  My work asks three questions: (i) how to represent temporal dynamics, (ii) how to stay reliable when data shift, and (iii) what to remember from the past.
 
 modules:
   - id: representation
