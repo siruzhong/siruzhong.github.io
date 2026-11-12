@@ -129,13 +129,16 @@ service:
       <a href="https://urbcomp25.netlify.app/" target="_blank" rel="noopener noreferrer">UrbComp 2025</a>
 
 teaching:
-  - name: DSAA 6000O Table Representation Learning
+  - role: Teaching Assistant
+    name: DSAA 6000O Table Representation Learning
     date: Spring 2026
     url: https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/subject/DSAA#DSAA6000O
-  - name: PLED 5001 Communicating Research in English
+  - role: Teaching Assistant
+    name: PLED 5001 Communicating Research in English
     date: Spring 2025
     url: https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/subject/PLED
-  - name: PDEV 6800 Introduction to Teaching and Learning in Higher Education
+  - role: Teaching Assistant
+    name: PDEV 6800 Introduction to Teaching and Learning in Higher Education
     date: Fall 2024
     url: https://w5.hkust-gz.edu.cn/wcq/cgi-bin/2530/subject/PDEV
 
@@ -145,7 +148,8 @@ talks:
     url: https://gs.cuhk.edu.cn/node/385
     date: "2026.10"
   - title: "Multimodal Learning for Spatio-Temporal Data Mining in the Era of Foundation Models"
-    location: ICME 2026 Tutorial, Bangkok
+    type: tutorial
+    location: ICME 2026, Bangkok
     url: https://2026.ieeeicme.org/tutorials/#1766933793356-40725ae5-4860
     date: "2026.07"
   - title: "Learning across Space and Time: Multimodal Perception, Cross-Domain Generalization, and Robust Adaptation"
@@ -160,18 +164,20 @@ talks:
     location: "Tsinghua Shenzhen International Graduate School, Shenzhen"
     date: "2026.03"
   - title: "Multi-modal TS Analysis: Methods, Datasets, and Applications"
-    location: AAAI 2026 Tutorial, Singapore
+    type: tutorial
+    location: AAAI 2026, Singapore
     url: https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/#th11
     date: "2026.03"
   - title: "Multimodal Learning for Spatio-Temporal Data Mining"
-    location: ACM MM 2025 Tutorial, Dublin
+    type: tutorial
+    location: ACM MM 2025, Dublin
     url: https://mm4st.netlify.app/
     date: "2025.12"
   - title: "Learning to Factorize Spatio-Temporal Foundation Models"
     location: AI TIME × ICML 2025, Online
     url: https://mp.weixin.qq.com/s/Ck_rc15EoW1txUJWHJevmg?scene=1
     date: "2025.11"
-  - title: "NeurIPS 2025 Symposium"
-    location: "Department of Statistics and Data Science, Southern University of Science and Technology, Shenzhen"
+  - title: "Learning to Factorize Spatio-Temporal Foundation Models"
+    location: "NeurIPS 2025 Symposium, Department of Statistics and Data Science, Southern University of Science and Technology, Shenzhen"
     url: https://mp.weixin.qq.com/s/oLMspQh74LyB5TqcU9KqmQ
     date: "2025.11"

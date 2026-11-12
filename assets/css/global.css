@@ -184,6 +184,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 #service, #awards, #talks, #teaching, #talks-teaching, #education-heading, #experience-heading, #news-title { scroll-margin-top: 6rem; }
 .talk-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.15rem; margin: 0; padding: 0; list-style: none; }
 .talk-list li { min-width: 0; padding: 0.5rem 0; }
+.talk-group-title { margin: 0.4rem 0 0.15rem; color: var(--muted); font-size: var(--meta-text-size); font-weight: var(--weight-semibold); letter-spacing: 0.04em; line-height: var(--meta-line-height); text-transform: uppercase; }
+.talk-group-title ~ .talk-group-title { margin-top: 1.1rem; }
+.talk-list + .talk-group-title { margin-top: 1.1rem; }
 .talk-content { min-width: 0; }
 .talk-title { color: var(--ink); font-size: var(--entry-text-size); font-weight: var(--weight-semibold); line-height: var(--entry-line-height); }
 .talk-title a { color: inherit; text-underline-offset: 3px; }

@@ -4,9 +4,16 @@
         <div class="card open-section" id="talks">
             <h2 class="section-card-header section-heading">Talks</h2>
             <div class="section-card-body">
+                {% assign talks = site.data.profile.talks | sort: "date" | reverse %}
+                {% assign tutorial_talks = talks | where: "type", "tutorial" %}
+                {% assign invited_talks = talks | where_exp: "talk", "talk.type != 'tutorial'" %}
+                {% assign talk_groups = "Tutorials|Invited Talks" | split: "|" %}
+                {% for group_name in talk_groups %}
+                {% if group_name == "Tutorials" %}{% assign group_talks = tutorial_talks %}{% else %}{% assign group_talks = invited_talks %}{% endif %}
+                {% if group_talks.size > 0 %}
+                <h3 class="talk-group-title">{{ group_name }}</h3>
                 <ul class="talk-list">
-                    {% assign talks = site.data.profile.talks | sort: "date" | reverse %}
-                    {% for talk in talks %}
+                    {% for talk in group_talks %}
                     <li>
                         {% assign talk_date = talk.date | replace: '.', '-' | append: '-01' %}
                         <div class="talk-row">
@@ -21,6 +28,8 @@
                     </li>
                     {% endfor %}
                 </ul>
+                {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>
@@ -34,7 +43,7 @@
             <div class="section-card-body">
                 <ul class="dated-list">
                     {% for item in site.data.profile.teaching %}
-                    <li class="resume-list-entry"><span class="resume-date">{{ item.date }}</span><span>{% if item.url %}<a class="career-affiliation" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</span></li>
+                    <li class="resume-list-entry"><span class="resume-date">{{ item.date }}</span><span>{% if item.role %}<strong>{{ item.role }}</strong>, {% endif %}{% if item.url %}<a class="career-affiliation" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</span></li>
                     {% endfor %}
                 </ul>
             </div>
