@@ -1,63 +1,61 @@
+# Each link key must appear verbatim in its title; the news template links that text.
 - title: "I gave an invited talk on memory for video understanding at the Greater Bay Area Graduate Research Forum, CUHK (SZ)."
   date: 2026-10-31 00:00:00 -0400
   links:
-    Forum: https://gs.cuhk.edu.cn/node/385
+    Greater Bay Area Graduate Research Forum: https://gs.cuhk.edu.cn/node/385
 
-- title: "We released the BetaMem technical report, our long-term memory framework for embodied agents."
+- title: "BetaMem (long-term memory for embodied agents) was released as a technical report."
   date: 2026-10-19 00:00:00 -0400
   links:
     BetaMem: https://arxiv.org/abs/2610.26554
 
-- title: "One paper on benchmarking scientific agents for extreme Earth systems was released."
+- title: "EarthVerse (benchmarking scientific agents across Earth systems and natural hazards) was released."
   date: 2026-08-24 00:00:00 -0400
   links:
-    Paper: https://arxiv.org/abs/2608.23525
-    Code: https://github.com/CuiZHIQ/Earth-Verse
-    Project: https://cuizhiq.github.io/EarthVerse/
+    EarthVerse: https://cuizhiq.github.io/EarthVerse/
 
-- title: "One paper on an open-world living benchmark for time series foundation models was released."
+- title: "LiveHouse-TS (an open-world living benchmark for time series foundation models) was released."
   date: 2026-08-18 00:00:00 -0400
   links:
-    Demo: https://huggingface.co/spaces/ThinkcatLab/LiveHouse-TS
-    Paper: https://arxiv.org/abs/2608.17299
+    LiveHouse-TS: https://arxiv.org/abs/2608.17299
 
-- title: "One paper on multimodal spatio-temporal forecasting was accepted to ACM MM 2026."
+- title: "ViST (multimodal spatio-temporal forecasting) was accepted to ACM MM 2026."
   date: 2026-07-10 00:00:00 -0400
   links:
-    multimodal spatio-temporal forecasting: https://github.com/RWLinno/ViST
+    ViST: https://github.com/RWLinno/ViST
 
-- title: "I was invited to give a talk on spatio-temporal learning at the 6th Young Scholars Forum, Central South University."
+- title: "I gave an invited talk on spatio-temporal learning at the 6th Young Scholars Forum, Central South University."
   date: 2026-07-01 00:00:00 -0400
   links:
-    Talk: https://cse.csu.edu.cn/info/1039/11410.htm
+    6th Young Scholars Forum: https://cse.csu.edu.cn/info/1039/11410.htm
 
-- title: "One paper on a fully automated research system deployed at scale was released."
+- title: "FARS (a fully automated research system deployed at scale) was released as a technical report."
   date: 2026-06-30 00:00:00 -0400
   links:
-    Paper: https://arxiv.org/abs/2606.31651
+    FARS: https://arxiv.org/abs/2606.31651
 
 - title: "I joined Beta Infinity as a Research Intern working on long-term memory."
   date: 2026-06-09 00:00:00 -0400
 
-- title: "I presented DropoutTS at AI TIME x ICML 2026."
+- title: "I presented DropoutTS at AI TIME × ICML 2026."
   date: 2026-06-01 00:00:00 -0400
   links:
-    Talk: https://mp.weixin.qq.com/s/CcHXC3sFP2dYbhLT8CpMHA?scene=1
+    AI TIME × ICML 2026: https://mp.weixin.qq.com/s/CcHXC3sFP2dYbhLT8CpMHA?scene=1
 
-- title: "I passed my Ph.D. PQE and officially became a Ph.D. Candidate at HKUST (GZ)."
+- title: "I passed the Ph.D. qualifying exam and became a Ph.D. candidate at HKUST (GZ)."
   date: 2026-05-21 00:00:00 -0400
 
-- title: "One paper on time series memory was accepted to KDD 2026 research track."
+- title: "TS-Memory (plug-and-play memory for time series foundation models) was accepted to KDD 2026."
   date: 2026-05-16 00:00:00 -0400
   links:
-    time series memory: https://arxiv.org/abs/2602.11550
+    TS-Memory: https://arxiv.org/abs/2602.11550
 
-- title: "One paper on robust time series forecasting was accepted to ICML 2026."
+- title: "DropoutTS (robust time series forecasting) was accepted to ICML 2026."
   date: 2026-05-01 00:00:00 -0400
   links:
-    robust time series forecasting: https://arxiv.org/abs/2601.21726
+    DropoutTS: https://arxiv.org/abs/2601.21726
 
-- title: "I joined Tsinghua University and National Supercomputing Center as a visiting student, focusing on temporal sequence modeling."
+- title: "I joined Tsinghua University and the National Supercomputing Center as a visiting student, focusing on temporal sequence modeling."
   date: 2026-03-04 00:00:00 -0400
 
 - title: "I gave a talk on learning across space and time at Tsinghua Shenzhen International Graduate School."
@@ -66,62 +64,62 @@
 - title: "I presented a tutorial on multimodal time series analysis at AAAI 2026 in Singapore."
   date: 2026-03-01 00:00:00 -0400
   links:
-    Talk: https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/#th11
+    tutorial on multimodal time series analysis: https://aaai.org/conference/aaai/aaai-26/tutorial-and-lab-list/#th11
 
-- title: "One tutorial on multimodal learning for spatio-temporal data mining was accepted to ICME 2026."
+- title: "Our tutorial on multimodal learning for spatio-temporal data mining was accepted to ICME 2026."
   date: 2025-12-24 00:00:00 -0400
   links:
-    multimodal learning for spatio-temporal data mining: https://2026.ieeeicme.org/tutorials/#1766933793356-40725ae5-4860
+    tutorial on multimodal learning for spatio-temporal data mining: https://2026.ieeeicme.org/tutorials/#1766933793356-40725ae5-4860
 
 - title: "I presented a tutorial on multimodal learning for spatio-temporal data mining at ACM MM 2025 in Dublin."
   date: 2025-12-01 00:00:00 -0400
   links:
-    Talk: https://mm4st.netlify.app/
+    tutorial on multimodal learning for spatio-temporal data mining: https://mm4st.netlify.app/
 
-- title: "One paper on vision-based time series forecasting was accepted to AAAI 2026."
+- title: "OccamVTS (distilling vision models for time series forecasting) was accepted to AAAI 2026."
   date: 2025-11-08 00:00:00 -0400
   links:
-    vision-based time series forecasting: https://arxiv.org/abs/2508.01727
+    OccamVTS: https://arxiv.org/abs/2508.01727
 
-- title: "I presented ST-Factorized at AI TIME x ICML 2025."
+- title: "I presented FactoST at AI TIME × ICML 2025."
   date: 2025-11-01 00:00:00 -0400
   links:
-    Talk: https://mp.weixin.qq.com/s/Ck_rc15EoW1txUJWHJevmg?scene=1
+    AI TIME × ICML 2025: https://mp.weixin.qq.com/s/Ck_rc15EoW1txUJWHJevmg?scene=1
 
-- title: "I gave a talk at the NeurIPS 2025 Symposium, Southern University of Science and Technology."
+- title: "I presented FactoST at the NeurIPS 2025 Symposium, Southern University of Science and Technology."
   date: 2025-11-01 00:00:00 -0400
   links:
-    Talk: https://mp.weixin.qq.com/s/oLMspQh74LyB5TqcU9KqmQ
+    NeurIPS 2025 Symposium: https://mp.weixin.qq.com/s/oLMspQh74LyB5TqcU9KqmQ
 
-- title: "One paper on spatio-temporal foundation models was accepted to NeurIPS 2025 (spotlight)."
+- title: "FactoST (factorized spatio-temporal foundation models) was accepted to NeurIPS 2025 as a spotlight."
   date: 2025-09-18 00:00:00 -0400
   links:
-    spatio-temporal foundation models: https://proceedings.neurips.cc/paper_files/paper/2025/file/7fa2a1f2122a4dd76e6b9ac518cfce14-Paper-Conference.pdf
+    FactoST: https://proceedings.neurips.cc/paper_files/paper/2025/file/7fa2a1f2122a4dd76e6b9ac518cfce14-Paper-Conference.pdf
 
-- title: "One paper on traffic flow forecasting was accepted to TITS 2025."
+- title: "STUM (traffic flow forecasting) was accepted to IEEE TITS."
   date: 2025-08-20 00:00:00 -0400
   links:
-    traffic flow forecasting: https://arxiv.org/abs/2411.09251
+    STUM: https://arxiv.org/abs/2411.09251
 
-- title: "One paper on multimodal building electricity load forecasting was accepted to MM 2025."
+- title: "Our paper on multimodal building electricity load forecasting was accepted to ACM MM 2025."
   date: 2025-07-05 00:00:00 -0400
   links:
     multimodal building electricity load forecasting: https://doi.org/10.1145/3746027.3755775
 
-- title: "One paper on urban heat island effect forecasting was accepted to KDD 2025."
+- title: "DeepUHI (urban heat island forecasting) was accepted to KDD 2025."
   date: 2025-05-15 00:00:00 -0400
   links:
-    urban heat island effect forecasting: https://dl.acm.org/doi/10.1145/3711896.3736962
+    DeepUHI: https://dl.acm.org/doi/10.1145/3711896.3736962
 
-- title: "One paper on multimodal time series forecasting was accepted to ICML 2025."
+- title: "Time-VLM (vision-language models for time series forecasting) was accepted to ICML 2025."
   date: 2025-05-01 00:00:00 -0400
   links:
-    multimodal time series forecasting: https://arxiv.org/abs/2502.04395
+    Time-VLM: https://arxiv.org/abs/2502.04395
 
-- title: "One tutorial on Multimodal Learning for Spatio-Temporal Data Mining was accepted to MM 2025."
+- title: "Our tutorial on multimodal learning for spatio-temporal data mining was accepted to ACM MM 2025."
   date: 2025-02-28 00:00:00 -0400
   links:
-    Multimodal Learning for Spatio-Temporal Data Mining: https://mm4st.netlify.app/
+    tutorial on multimodal learning for spatio-temporal data mining: https://mm4st.netlify.app/
 
 - title: "I joined Huawei as a Research Intern working on spatio-temporal foundation models."
   date: 2025-02-06 00:00:00 -0400
@@ -132,36 +130,38 @@
 - title: "I received the Runner-Up Prize in the 2024 HKUST (GZ) DSA Excellent Research Award."
   date: 2025-01-27 00:00:00 -0400
 
-- title: "Two papers on urban indicator prediction and air quality inference were accepted to AAAI 2025."
+- title: "UrbanVLP (urban indicator prediction) and AirRadar (nationwide air quality inference) were accepted to AAAI 2025."
   date: 2024-12-10 00:00:00 -0400
   links:
-    urban indicator prediction and air quality inference: https://arxiv.org/abs/2501.13141
+    UrbanVLP: https://arxiv.org/abs/2403.16831
+    AirRadar: https://arxiv.org/abs/2501.13141
 
 - title: "I defended my MPhil thesis in Data Science and Analytics at HKUST (GZ)."
   date: 2024-11-25 00:00:00 -0400
 
-- title: "One paper on urban multimodal image-text retrieval was accepted to MM 2024."
+- title: "UrbanCross (satellite image-text retrieval) was accepted to ACM MM 2024."
   date: 2024-07-18 00:00:00 -0400
   links:
-    urban multimodal image-text retrieval: https://arxiv.org/abs/2404.14241
+    UrbanCross: https://arxiv.org/abs/2404.14241
 
 - title: "I joined XPeng Motors as a Research Intern working on spatio-temporal perception for autonomous driving."
   date: 2024-05-14 00:00:00 -0400
 
-- title: "Two papers on spatio-temporal prediction and neural networks were accepted to IJCAI 2024."
+- title: "SINPA (parking availability prediction) and STFNN (air quality inference) were accepted to IJCAI 2024."
   date: 2024-05-14 00:00:00 -0400
   links:
-    spatio-temporal prediction and neural networks: https://arxiv.org/abs/2403.02354
+    SINPA: https://arxiv.org/abs/2405.18910
+    STFNN: https://arxiv.org/abs/2403.02354
 
-- title: "One paper on LLM-enhanced urban region profiling was accepted to WWW 2024."
+- title: "UrbanCLIP (LLM-enhanced urban region profiling) was accepted to WWW 2024."
   date: 2024-01-23 00:00:00 -0400
   links:
-    LLM-enhanced urban region profiling: https://arxiv.org/abs/2310.18340
+    UrbanCLIP: https://arxiv.org/abs/2310.18340
 
 - title: "I started my MPhil studies at the Hong Kong University of Science and Technology (Guangzhou)."
   date: 2023-08-24 00:00:00 -0400
 
-- title: "I joined Tencent as a Software Engineer, working on temporal workflow engine."
+- title: "I joined Tencent as a Software Engineer, working on a temporal workflow engine."
   date: 2022-07-04 00:00:00 -0400
 
 - title: "I graduated from Hefei University of Technology with the Outstanding Thesis Award."
