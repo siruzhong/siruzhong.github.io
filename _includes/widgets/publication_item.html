@@ -3,7 +3,7 @@
 <article class="publication-item">
     <div class="publication-content">
         <{{ publication_heading }} class="publication-title">
-            {% assign title_resource = item.links.Paper | default: item.links.Project | default: item.links.Site | default: item.links.Code %}
+            {% assign title_resource = item.links.Paper | default: item.links.Project | default: item.links.Site | default: item.links.Website | default: item.links.Code %}
             {% if title_resource %}
             <a href="{{ title_resource }}" target="_blank" rel="noopener">{{ item.title }}</a>
             {% else %}{{ item.title }}{% endif %}
@@ -27,6 +27,12 @@
             {% if item.pub and item.pub_post %}<span class="publication-venue-details">{{ item.pub_post }}</span>{% endif %}
         </p>
         {% endunless %}
+        {% if item.links.Code and item.links.Code != empty %}
+        <a class="publication-resource-link publication-code-link" target="_blank" rel="noopener" href="{{ item.links.Code }}" aria-label="Code for {{ item.title | escape }}">[Code]</a>
+        {% endif %}
+        {% if item.links.Website and item.links.Website != empty and item.links.Website != title_resource %}
+        <a class="publication-resource-link publication-website-link" target="_blank" rel="noopener" href="{{ item.links.Website }}" aria-label="Website for {{ item.title | escape }}">[Website]</a>
+        {% endif %}
         {% assign resource_names = "Project|Site|Tutorial|Dataset|Demo|Video|Poster" | split: "|" %}
         {% capture resource_links %}
             {% for resource_name in resource_names %}
