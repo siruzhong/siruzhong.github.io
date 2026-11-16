@@ -221,7 +221,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .research-publications, .news-card, .experience-section, #talks-teaching { margin-top: var(--section-gap); margin-bottom: 0; }
 .resume-section + .resume-section { margin-top: var(--section-gap); }
 #research, #research-overview { scroll-margin-top: 6.5rem; }
-/* Research overview: numbered thrusts; papers share the CV two-column grid (venue | paper). */
+/* Research overview: numbered directions with academic publication lists. */
 .research-intro { margin: 0; color: var(--ink); font-size: var(--entry-text-size); font-weight: var(--weight-regular); line-height: var(--entry-line-height); }
 .research-header-meta { display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 1.25rem; margin-left: auto; font-family: var(--font-sans); letter-spacing: 0; }
 .research-full-list { color: var(--accent); font-size: var(--meta-text-size); line-height: var(--meta-line-height); text-underline-offset: 3px; }
@@ -234,6 +234,18 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .research-paper { display: grid; grid-template-columns: var(--cv-label-width) minmax(0, 1fr); column-gap: var(--cv-column-gap); align-items: baseline; }
 .research-papers { margin: 0; padding: 0; list-style: none; }
 .research-paper { padding: 0.4rem 0; }
+.research-module .research-papers { padding-left: var(--list-indent); list-style: disc outside; }
+.research-list-entry { display: list-item; min-width: 0; padding: 0.45rem 0; }
+.research-list-entry::marker { color: var(--ink); }
+.research-list-entry .publication-item { padding: 0; }
+.research-list-entry .publication-title { font-weight: var(--weight-regular); }
+.research-list-entry .publication-title a { color: var(--accent); }
+.research-list-entry .publication-title a:hover,
+.research-list-entry .publication-title a:focus-visible { color: var(--accent-dark); }
+.research-list-entry .publication-authors,
+.research-list-entry .publication-authors .text-body,
+.research-list-entry .publication-venue,
+.research-list-entry .publication-venue-tag { color: var(--ink) !important; }
 .research-paper .publication-item { padding: 0; }
 .research-paper-venue { display: flex; flex-direction: column; min-width: 0; color: var(--ink); font-size: var(--meta-text-size); font-weight: var(--weight-semibold); line-height: var(--meta-line-height); }
 .research-paper-venue.is-preprint { color: var(--muted); font-weight: var(--weight-regular); }
