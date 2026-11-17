@@ -12,6 +12,7 @@ modules:
     subtitle: Multimodal Spatio-Temporal Foundation Models
     publications:
       - path: _publications/2025/FactoST.md
+      - path: _publications/2026/LiveHouse-TS.md
       - path: _publications/2025/TimeVLM.md
       - path: _publications/2025/MM4ST.md
       - path: _publications/2026/FactoST.md
@@ -34,3 +35,4 @@ modules:
       - path: _publications/2026/PREM.md
       - path: _publications/2026/STORM-Bench.md
       - path: _publications/2026/BetaMem.md
+      - path: _publications/2026/CivicBench.md
