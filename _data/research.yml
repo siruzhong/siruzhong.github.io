@@ -12,11 +12,11 @@ modules:
     subtitle: Multimodal Spatio-Temporal Foundation Models
     publications:
       - path: _publications/2025/FactoST.md
-      - path: _publications/2026/LiveHouse-TS.md
       - path: _publications/2025/TimeVLM.md
       - path: _publications/2025/MM4ST.md
       - path: _publications/2026/FactoST.md
       - path: _publications/2026/OmniAir.md
+      - path: _publications/2026/LiveHouse-TS.md
 
   - id: adaptation
     title: Adapting to Shift
@@ -31,8 +31,8 @@ modules:
     title: Remembering over Time
     subtitle: Memory for Long-Horizon Understanding
     publications:
-      - path: _publications/2026/TS-Memory.md
       - path: _publications/2026/PREM.md
       - path: _publications/2026/STORM-Bench.md
-      - path: _publications/2026/BetaMem.md
+      - path: _publications/2026/TS-Memory.md
       - path: _publications/2026/CivicBench.md
+      - path: _publications/2026/BetaMem.md
