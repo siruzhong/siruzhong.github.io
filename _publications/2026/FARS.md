@@ -63,4 +63,7 @@ authors:
   - Zihao Huang
 links:
   Paper: https://arxiv.org/abs/2606.31651
+  日行迹Analemma: https://mp.weixin.qq.com/s/WYVSqonZ3E56WBeS9cndgQ
+  机器之心: https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651017907&idx=1&sn=eb311627df884c3457d68de88e2eed40
+  酷玩实验室: https://mp.weixin.qq.com/s?__biz=MjM5OTYwOTM0Nw==&mid=2650551527&idx=1&sn=0a93c9648a255e2441ff8a0e3477eb65&chksm=be4172d33f24a905176d5152115e146702a65ed76021e01c88a174a8b48fe4c96dcc20e2533b
 ---
