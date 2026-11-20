@@ -28,6 +28,7 @@
         </p>
         {% endunless %}
         {% if item.citations %}<span class="citation-badge" title="{{ item.citations }} citations">{{ item.citations }} citations</span>{% endif %}
+        {% if item.attendees %}<span class="talk-attendees">{{ item.attendees }} attendees</span>{% endif %}
         {% if item.links.Code and item.links.Code != empty %}
         <a class="publication-resource-link publication-code-link" target="_blank" rel="noopener" href="{{ item.links.Code }}" aria-label="Code for {{ item.title | escape }}">[Code]</a>
         {% endif %}

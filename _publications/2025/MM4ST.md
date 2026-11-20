@@ -16,6 +16,7 @@ authors:
   - Qingsong Wen
   - Roger Zimmermann
   - Yuxuan Liang
+attendees: "30+"
 links:
   Code: https://github.com/CityMind-Lab/MM4ST
   Paper: https://doi.org/10.1145/3746027.3759204
