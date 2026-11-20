@@ -19,7 +19,7 @@
                         <div class="talk-content">
                             <div class="talk-title">{% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}</div>
                             <div class="talk-meta">
-                                {% if talk.location %}<span class="talk-location">{{ talk.location }}</span>, {% endif %}<time class="talk-date" datetime="{{ talk.date | replace: '.', '-' }}">{{ talk_date | date: '%b %Y' }}</time>
+                                {% if talk.location %}<span class="talk-location">{{ talk.location }}</span>, {% endif %}<time class="talk-date" datetime="{{ talk.date | replace: '.', '-' }}">{{ talk_date | date: '%b %Y' }}</time>{% if talk.attendees %}<span class="talk-attendees">{{ talk.attendees }} attendees</span>{% endif %}
                             </div>
                         </div>
                     </li>

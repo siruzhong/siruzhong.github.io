@@ -316,3 +316,17 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     html { scroll-behavior: auto; }
     *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* Citation and audience badges */
+.citation-badge, .talk-attendees {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.02rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.72em;
+  font-weight: var(--weight-semibold);
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.citation-badge { background: rgba(28, 122, 92, 0.12); color: #1c7a5c; }
+.talk-attendees { margin-left: 0.4rem; background: rgba(44, 92, 180, 0.12); color: #2c5cb4; }

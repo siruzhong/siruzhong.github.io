@@ -15,7 +15,7 @@ authors:
   - Huan Li
   - Qingsong Wen
   - Yuxuan Liang
-# citations: 15
+citations: 179
 links:
   Code: https://github.com/CityMind-Lab/ICML25-TimeVLM
   Paper: https://arxiv.org/abs/2502.04395
