@@ -1,5 +1,5 @@
 ---
-title: "STORM-Bench: Evaluating Online Video QA under Evolving and Incomplete Evidence"
+title: "RevisitQA: Short Videos Are Not Easy under Dense Revisits"
 date: 2026-09-22 00:00:00 +0800
 selected: true
 pinned: true
@@ -17,6 +17,6 @@ authors:
   - Haohuan Fu
   - Yuxuan Liang
 links:
-  Paper: https://arxiv.org/pdf/2609.30981
+  Paper: https://arxiv.org/abs/2609.30981
   Code: https://github.com/siruzhong/STORM-Bench
 ---

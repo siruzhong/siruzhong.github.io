@@ -32,7 +32,7 @@ modules:
     subtitle: Memory for Long-Horizon Understanding
     publications:
       - path: _publications/2026/PREM.md
-      - path: _publications/2026/STORM-Bench.md
+      - path: _publications/2026/RevisitQA.md
       - path: _publications/2026/TS-Memory.md
       - path: _publications/2026/CivicBench.md
       - path: _publications/2026/BetaMem.md
