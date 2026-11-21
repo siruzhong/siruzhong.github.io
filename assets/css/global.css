@@ -116,7 +116,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .career-card .career-entry:first-child { padding-top: 0; }
 .career-card .career-entry:last-child { padding-bottom: 0; }
 .career-entry .career-date, .resume-date, .news-date, .talk-date { color: var(--muted); font-size: var(--meta-text-size); font-style: normal; font-weight: var(--weight-regular); font-variant-numeric: tabular-nums; line-height: var(--meta-line-height); white-space: nowrap; }
-.career-entry .career-description { min-width: 0; margin: 0; color: var(--ink); font-size: var(--entry-text-size); font-weight: var(--weight-regular); line-height: var(--entry-line-height); }
+.career-entry .career-description { position: relative; min-width: 0; margin: 0; color: var(--ink); font-size: var(--entry-text-size); font-weight: var(--weight-regular); line-height: var(--entry-line-height); }
+.career-logo { position: absolute; inset-inline-start: calc(-1 * var(--cv-column-gap)); top: 0.28rem; width: 0.875rem; height: 0.875rem; object-fit: contain; }
+.career-logo-mark { object-fit: cover; object-position: left center; }
 .career-affiliation { color: var(--accent); text-underline-offset: 3px; }
 .career-affiliation:hover, .career-affiliation:focus-visible { color: var(--accent-dark); text-decoration: underline; }
 .career-topic { color: var(--muted); font-size: var(--meta-text-size); font-weight: var(--weight-regular); line-height: var(--meta-line-height); }
@@ -261,6 +263,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
 @media (max-width: 767.98px) {
     .career-card .career-entry { grid-template-columns: minmax(0, 1fr); row-gap: 0.1rem; padding: 0.45rem 0; }
+    .career-logo { position: static; margin-inline-end: 0.4rem; vertical-align: -0.12em; }
     .resume-list-entry, .service-entry, .news-entry { grid-template-columns: minmax(0, 1fr); row-gap: 0.1rem; }
     .resume-list-entry, .service-entry, .news-entry { padding: 0.45rem 0; }
     .research-publications .publication-card-header { gap: 0.35rem 0.8rem; }
