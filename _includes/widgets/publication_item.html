@@ -10,7 +10,6 @@
         </{{ publication_heading }}>
         {% include widgets/publication_authors.html authors=item.authors short_names=include.short_author_names %}
         <div class="publication-meta">
-        {% unless include.hide_venue %}
         {% assign venue_source = item.pub | default: item.pub_post %}
         {% assign venue_parts = venue_source | split: " (" %}
         {% assign venue_state = 'is-published' %}
@@ -32,7 +31,6 @@
             {% if item.pub and item.pub_post %}<span class="publication-venue-details">{{ item.pub_post }}</span>{% endif %}
         </p>
         {% if item.award_rate.value %}<span class="publication-rate-badge"{% if item.award_rate.title %} title="{{ item.award_rate.title | escape }}"{% endif %}>{{ item.award_rate.value | escape }}</span>{% endif %}
-        {% endunless %}
         {% if item.citations %}<span class="citation-badge" title="{{ item.citations }} citations">{{ item.citations }} citations</span>{% endif %}
         {% if item.attendees %}<span class="talk-attendees">{{ item.attendees }} attendees</span>{% endif %}
         {% if item.links.Code and item.links.Code != empty %}

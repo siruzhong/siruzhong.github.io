@@ -21,9 +21,7 @@
             {% for entry in module.publications %}
             {% assign publication = include.publications | where: "path", entry.path | first %}
             {% if publication %}
-            <li class="research-list-entry">
-                {% include widgets/publication_item.html item=publication heading_level="h4" hide_links=true short_author_names=true %}
-            </li>
+            {% include widgets/publication_row.html item=publication heading_level="h4" hide_links=true %}
             {% endif %}
             {% endfor %}
         </ul>

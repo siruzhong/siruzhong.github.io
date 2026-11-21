@@ -19,7 +19,7 @@ body_attr: >-
         {% include ordered_publications.html publications=year.items %}
         <h2 class="publication-year" id="year-{{ year.name }}">{{ year.name }}</h2>
         <div class="publication-list open-section my-0">
-            <ul class="research-papers publication-year-papers">
+            <ul class="research-papers">
             {% for item in ordered_publications %}
                 {% include widgets/publication_row.html item=item %}
             {% endfor %}
