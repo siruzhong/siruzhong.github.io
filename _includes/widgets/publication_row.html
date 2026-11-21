@@ -13,7 +13,9 @@ Params: item (publication), heading_level (default h3), hide_links (hide Project
 {%- else -%}
     {%- assign row_venue_label = row_venue_source | replace: ", ", " " -%}
 {%- endif -%}
-{%- if row_venue_source contains "Preprint" or row_venue_source contains "Technical Report" -%}
+{%- if row_venue_source contains "Technical Report" -%}
+    {%- assign row_venue_state = "is-technical-report" -%}
+{%- elsif row_venue_source contains "Preprint" -%}
     {%- assign row_venue_state = "is-preprint" -%}
 {%- else -%}
     {%- assign row_venue_state = "is-published" -%}

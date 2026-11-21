@@ -10,22 +10,28 @@
         </{{ publication_heading }}>
         {% include widgets/publication_authors.html authors=item.authors short_names=include.short_author_names %}
         <div class="publication-meta">
+        {% unless include.hide_venue %}
         {% assign venue_source = item.pub | default: item.pub_post %}
         {% assign venue_parts = venue_source | split: " (" %}
-        {% unless include.hide_venue %}
-        <p class="publication-venue">
+        {% assign venue_state = 'is-published' %}
+        {% if venue_source contains 'Technical Report' %}
+        {% assign venue_state = 'is-technical-report' %}
+        {% elsif venue_source contains 'Preprint' or venue_source == nil or venue_source == empty %}
+        {% assign venue_state = 'is-preprint' %}
+        {% endif %}
+        <p class="publication-venue {{ venue_state }}">
             {% if venue_parts.size > 1 %}
             {% assign venue_short = venue_parts | first %}
             {% assign venue_suffix = venue_source | split: ")" | last | strip %}
             {% assign venue_year = venue_suffix | split: "," | first | strip %}
             <span class="publication-venue-tag" title="{{ venue_source | escape }}">{{ venue_short }} {{ venue_year }}</span>
-            {{ item.pub_last }}
-            {% else %}
-            {% if venue_source %}<span class="publication-venue-tag">{{ venue_source | replace: ", ", " " }}</span>{% endif %}
-            {{ item.pub_last }}
+            {% elsif venue_source %}
+            <span class="publication-venue-tag">{{ venue_source | replace: ", ", " " }}</span>
             {% endif %}
+            {{ item.pub_last }}
             {% if item.pub and item.pub_post %}<span class="publication-venue-details">{{ item.pub_post }}</span>{% endif %}
         </p>
+        {% if item.award_rate.value %}<span class="publication-rate-badge"{% if item.award_rate.title %} title="{{ item.award_rate.title | escape }}"{% endif %}>{{ item.award_rate.value | escape }}</span>{% endif %}
         {% endunless %}
         {% if item.citations %}<span class="citation-badge" title="{{ item.citations }} citations">{{ item.citations }} citations</span>{% endif %}
         {% if item.attendees %}<span class="talk-attendees">{{ item.attendees }} attendees</span>{% endif %}

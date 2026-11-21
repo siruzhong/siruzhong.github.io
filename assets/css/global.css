@@ -19,6 +19,7 @@
     --entry-line-height: 1.65;
     --meta-line-height: 1.5;
     --heading-line-height: 1.4;
+    --venue-color: #b42332;
     --spotlight-color: #6f3fa0;
     --oral-color: #a3362a;
     --section-gap: 2.25rem;
@@ -158,9 +159,11 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .publication-authors, .publication-venue { margin: 0; color: var(--muted); font-size: var(--meta-text-size); font-weight: var(--weight-regular); line-height: var(--meta-line-height); }
 .publication-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.12rem 0.65rem; margin-top: 0.06rem; }
 .publication-venue { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0.4rem; color: var(--muted); }
-.publication-venue-tag { color: var(--muted); font-size: inherit; font-weight: var(--weight-regular); font-style: normal; }
+.publication-venue-tag { font-style: normal; }
 .publication-venue .badge-publication { display: inline; max-width: 100%; margin: 0; padding: 0; border-radius: 0; background: transparent; color: var(--muted); font-size: inherit; font-weight: var(--weight-regular); font-style: normal; line-height: inherit; white-space: normal; }
-.publication-venue .badge-publication.badge-info { color: var(--spotlight-color); font-weight: var(--weight-semibold); }
+.publication-venue.is-published .publication-venue-tag,
+.publication-venue.is-technical-report .publication-venue-tag,
+.publication-venue .badge-publication.badge-info { color: var(--venue-color); font-weight: var(--weight-semibold); }
 .publication-venue .badge-publication.badge-success { color: var(--oral-color); font-weight: var(--weight-semibold); }
 .publication-venue-details { color: var(--muted); font-size: var(--meta-text-size); font-weight: var(--weight-regular); line-height: var(--meta-line-height); }
 .publication-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.12rem 0.6rem; font-size: var(--meta-text-size); line-height: var(--meta-line-height); }
@@ -233,22 +236,23 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .research-list-entry { display: list-item; min-width: 0; padding: 0.45rem 0; }
 .research-list-entry::marker { color: var(--ink); }
 .research-list-entry .publication-item { padding: 0; }
-.research-list-entry .publication-title { font-weight: var(--weight-regular); }
+.research-list-entry .publication-title,
+.publication-year-papers .publication-title { font-weight: var(--weight-regular); }
 .research-list-entry .publication-title a { color: var(--accent); }
 .research-list-entry .publication-title a:hover,
 .research-list-entry .publication-title a:focus-visible { color: var(--accent-dark); }
 .research-list-entry .publication-authors,
 .research-list-entry .publication-authors .text-body,
-.research-list-entry .publication-venue,
-.research-list-entry .publication-venue-tag { color: var(--ink) !important; }
+.research-list-entry .publication-venue { color: var(--ink) !important; }
 .research-paper .publication-item { padding: 0; }
 .research-paper-venue { display: flex; flex-direction: column; min-width: 0; color: var(--ink); font-size: var(--meta-text-size); font-weight: var(--weight-semibold); line-height: var(--meta-line-height); }
 .research-paper-venue.is-preprint { color: var(--muted); font-weight: var(--weight-regular); }
+.research-paper-venue.is-technical-report .research-paper-venue-name { color: var(--venue-color); }
 .research-paper-award { font-weight: var(--weight-regular); }
 .research-paper-award .badge-publication { display: inline; margin: 0; padding: 0; border-radius: 0; background: transparent; color: var(--muted); font-size: inherit; font-weight: var(--weight-semibold); line-height: inherit; white-space: normal; }
-.research-paper-award .badge-info { color: var(--spotlight-color); }
-.research-paper-award .badge-success { color: var(--oral-color); }
-.research-paper-award .publication-venue-details { color: var(--muted); font-weight: var(--weight-regular); }
+.research-paper-award .badge-info,
+.research-paper-award .badge-primary,
+.research-paper-award .badge-success { color: var(--venue-color); }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .profile-main { gap: 2rem; }
@@ -311,8 +315,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     *, *::before, *::after { transition: none !important; animation: none !important; }
 }
 
-/* Citation and audience badges */
-.citation-badge, .talk-attendees {
+/* Publication and audience badges */
+.citation-badge, .talk-attendees, .publication-rate-badge {
   display: inline-flex;
   align-items: center;
   padding: 0.02rem 0.45rem;
@@ -324,3 +328,4 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 }
 .citation-badge { background: rgba(28, 122, 92, 0.12); color: #1c7a5c; }
 .talk-attendees { margin-left: 0.4rem; background: rgba(44, 92, 180, 0.12); color: #2c5cb4; }
+.publication-rate-badge { background: rgba(111, 63, 160, 0.12); color: var(--spotlight-color); }

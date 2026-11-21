@@ -6,7 +6,10 @@ pinned: true
 pub:            "NeurIPS (Advances in Neural Information Processing Systems) 2025, San Diego, USA"
 # pub_pre:        "Submitted to "
 # pub_post: "Preprint, 2025"
-pub_last: ' <span class="badge badge-pill badge-publication badge-info">Spotlight</span> <span class="publication-venue-details" title="688 spotlight papers out of 21,575 submissions">(3.19%)</span>'
+pub_last: ' <span class="badge badge-pill badge-publication badge-info">Spotlight</span>'
+award_rate:
+  value: "3.19%"
+  title: "688 spotlight papers out of 21,575 submissions"
 
 authors:
   - Siru Zhong
