@@ -22,4 +22,5 @@ links:
   Paper: https://doi.org/10.1145/3746027.3759204
   Website: https://mm4st.netlify.app/
   Slides: https://mm4st.netlify.app/slides/MM4ST.pdf
+  时空探索之旅（年度盘点）: https://mp.weixin.qq.com/s?__biz=MzkyMTY1MTEzNg==&mid=2247494594&idx=1&sn=fd73f3a148ef8f74eae4546158d96d2c&chksm=c182f96df6f5707bb1c63fd1048bec92f767ac54da939d005e2cb50cf954a27f56ad7cbca3ec#rd
 ---

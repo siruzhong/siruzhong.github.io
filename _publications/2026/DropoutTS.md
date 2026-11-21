@@ -27,4 +27,6 @@ links:
   网络科学与人工智能: https://mp.weixin.qq.com/s/t216fVNViw16pb2yblRPWQ
   研梦非凡985: https://mp.weixin.qq.com/s/3mBtW-GmwqmOHQFbT3b7cQ
   AI TIME × ICML 2026: https://mp.weixin.qq.com/s/CcHXC3sFP2dYbhLT8CpMHA?scene=1
+  时空探索之旅（ICML 盘点）: https://mp.weixin.qq.com/s?__biz=MzkyMTY1MTEzNg==&mid=2247496635&idx=1&sn=e2263efd243458a11ba6f2c1f1782474&chksm=c182e114f6f56802d1245c17447cec36b7c883df10b955d9ce9a37f2f86b2029bbac5f88b63c#rd
+  肥肥柴的AI科研笔记: https://mp.weixin.qq.com/s?__biz=MzUzMjY3NjcxOA==&mid=2247489268&idx=1&sn=34daae2e2541ae1caaccd5be8ef2857f&chksm=fb585d47d4dd1848470fb745eef81706f67af1ccbb8dd8522b50fc86ab2ad66860a4d3db5b3e#rd
 ---

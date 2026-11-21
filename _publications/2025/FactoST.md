@@ -26,4 +26,5 @@ links:
   时空探索之旅: https://mp.weixin.qq.com/s/i_6oeIalLHZ7rcN-jH7Gfg
   AI TIME × ICML 2025: https://mp.weixin.qq.com/s/Ck_rc15EoW1txUJWHJevmg?scene=1
   南方科技大学统计与数据科学系: https://mp.weixin.qq.com/s/oLMspQh74LyB5TqcU9KqmQ
+  AI 大模型实用派: https://mp.weixin.qq.com/s?__biz=Mzk5MDIwNDIyMg==&mid=2247483732&idx=1&sn=c7c6d33adddc0f23ded1d595492f1bcf&chksm=c46b0420a3e1b3276f3ff846f6948058e54dbc6834054ebac21a864bfa6ed6610ba2466242de#rd
 ---

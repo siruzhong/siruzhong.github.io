@@ -20,5 +20,5 @@ links:
   Code: https://github.com/CityMind-Lab/UrbanVLP
   Paper: https://arxiv.org/pdf/2403.16831
   # Stars: https://img.shields.io/github/stars/CityMind-Lab/UrbanVLP?style=social
-  遥感GIS大模型: https://mp.weixin.qq.com/s/nZK6CbTqnHUpI9RRz1xnBQ
+  遥感GIS大模型: https://mp.weixin.qq.com/s?__biz=Mzk1Nzg1MzIyMg==&mid=2247484122&idx=1&sn=aaf609c7c408a802ab69c4f0f9c9ff4f&chksm=c272850882bc904de0aaaf6364c41c8f79e69fb6f5949726bc51990c9219c5a0102eaf78a570#rd
 ---
