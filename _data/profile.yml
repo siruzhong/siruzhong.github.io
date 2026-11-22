@@ -32,7 +32,6 @@ bio: >-
 portrait_url: /assets/images/photos/portrait.jpg
 education:
 - name: The Hong Kong University of Science and Technology (Guangzhou)
-  short_name: HKUST (Guangzhou)
   logo: /assets/images/badges/HKUST_GZ.png
   position: PhD Student, Data Science and Analytics
   date: 2025.02 - Present
@@ -43,7 +42,6 @@ education:
   date: 2026.02 - Present
   url: https://www.thuhpgc.net/
 - name: The Hong Kong University of Science and Technology (Guangzhou)
-  short_name: HKUST (Guangzhou)
   logo: /assets/images/badges/HKUST_GZ.png
   position: Red Bird MPhil, Data Science and Analytics
   date: 2023.08 - 2025.01
@@ -62,7 +60,7 @@ experience:
     position: Research Intern · Long-term Memory
     date: 2026.06 - Present
     url: https://betainf.com/
-  - name: NSCS
+  - name: National Supercomputing Center in Shenzhen
     logo: /assets/images/badges/nscc.png
     dept: HPC Department
     position: Visiting Researcher · Temporal Sequence Modeling
