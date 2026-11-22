@@ -9,9 +9,6 @@
                         <span class="career-date">{% include widgets/career_date.html value=item.date %}</span>
                         {% assign degree_parts = item.position | replace: 'PhD', 'Ph.D.' | replace: 'MPhil', 'M.Phil.' | replace: 'BE,', 'B.E.,' | split: ', ' %}
                         <p class="career-description">
-                            {%- if item.logo and item.logo != empty -%}
-                            <img class="career-logo" src="{{ item.logo | relative_url }}" alt="" loading="lazy" decoding="async">
-                            {%- endif -%}
                             {{ degree_parts | first }}{% for part in degree_parts offset:1 %}, {{ part }}{% endfor %}, {% if item.url %}<a class="career-affiliation" href="{{ item.url }}" title="{{ item.name }}" target="_blank" rel="noopener noreferrer">{{ item.short_name | default: item.name }}</a>{% else %}{{ item.short_name | default: item.name }}{% endif %}{% if item.dept %}, {{ item.dept }}{% endif %}
                         </p>
                     </li>
@@ -26,9 +23,6 @@
                         <span class="career-date">{% include widgets/career_date.html value=item.date %}</span>
                         {% assign role_parts = item.position | split: ' · ' %}
                         <p class="career-description">
-                            {%- if item.logo and item.logo != empty -%}
-                            <img class="career-logo{% if item.logo_mark_only %} career-logo-mark{% endif %}" src="{{ item.logo | relative_url }}" alt="" loading="lazy" decoding="async">
-                            {%- endif -%}
                             {{ role_parts | first }}, {% if item.url %}<a class="career-affiliation" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}{% if item.dept %}, {{ item.dept }}{% endif %}{% if role_parts.size > 1 %}<span class="career-topic"> · {{ role_parts | last }}</span>{% endif %}
                         </p>
                     </li>
