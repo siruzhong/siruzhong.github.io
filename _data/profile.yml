@@ -173,7 +173,6 @@ talks:
     type: tutorial
     location: ACM MM 2025, Dublin
     url: https://mm4st.netlify.app/
-    attendees: "30+"
     date: "2025.12"
   - title: "Learning to Factorize Spatio-Temporal Foundation Models"
     location: AI TIME × ICML 2025, Online
