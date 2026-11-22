@@ -40,7 +40,7 @@
             <div class="section-card-body">
                 <ul class="dated-list">
                     {% for item in site.data.profile.teaching %}
-                    <li class="resume-list-entry"><span class="resume-date">{{ item.date }}</span><span>{% if item.role %}<strong>{{ item.role }}</strong>, {% endif %}{% if item.url %}<a class="career-affiliation" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</span></li>
+                    <li class="resume-list-entry"><span class="resume-date">{{ item.date }}</span><span>{% if item.role %}{{ item.role }}, {% endif %}{% if item.url %}<a class="career-affiliation" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</span></li>
                     {% endfor %}
                 </ul>
             </div>
