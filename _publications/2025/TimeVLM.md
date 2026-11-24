@@ -17,6 +17,7 @@ authors:
   - Yuxuan Liang
 citations: 179
 venue_extra: 'CRC Press Book Chapter 2026'
+note: 'In <a href="https://doi.org/10.1201/9781003616719-9" target="_blank" rel="noopener">AI for Time Series: Volume 2, Building Robust and Generalizable Models, Chapter 9, pp. 173-203</a>'
 links:
   Code: https://github.com/CityMind-Lab/ICML25-TimeVLM
   Paper: https://arxiv.org/abs/2502.04395
