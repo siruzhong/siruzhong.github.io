@@ -51,8 +51,8 @@
         {% endcapture %}
         {% assign resource_links = resource_links | strip %}
         {% if resource_links != empty and include.hide_links != true %}<div class="publication-links">{{ resource_links }}</div>{% endif %}
+        {% if item.note %}<p class="publication-note-line">{{ item.note }}</p>{% endif %}
         {% include widgets/publication_media.html links=item.links %}
         </div>
-        {% if item.note %}<p class="publication-note-line">{{ item.note }}</p>{% endif %}
     </div>
 </article>
