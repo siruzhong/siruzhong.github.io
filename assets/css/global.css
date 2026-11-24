@@ -313,3 +313,5 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .citation-badge { background: rgba(28, 122, 92, 0.12); color: #1c7a5c; }
 .talk-attendees { margin-left: 0.4rem; background: rgba(44, 92, 180, 0.12); color: #2c5cb4; }
 .publication-rate-badge { background: rgba(111, 63, 160, 0.12); color: var(--spotlight-color); }
+
+.publication-venue-note { flex-basis: 100%; color: var(--muted); font-size: var(--meta-text-size); font-weight: var(--weight-regular); line-height: var(--meta-line-height); }
