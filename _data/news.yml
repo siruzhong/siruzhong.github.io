@@ -45,6 +45,11 @@
 - title: "I passed the Ph.D. qualifying exam and became a Ph.D. candidate at HKUST (GZ)."
   date: 2026-05-21 00:00:00 -0400
 
+- title: "One book chapter on multimodal time series forecasting was published by CRC Press."
+  date: 2026-05-18 00:00:00 -0400
+  links:
+    Paper: https://doi.org/10.1201/9781003616719-9
+
 - title: "TS-Memory (plug-and-play memory for time series foundation models) was accepted to KDD 2026."
   date: 2026-05-16 00:00:00 -0400
   links:
