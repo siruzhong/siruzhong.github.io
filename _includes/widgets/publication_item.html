@@ -29,7 +29,6 @@
             {% endif %}
             {{ item.pub_last }}
             {% if item.pub and item.pub_post %}<span class="publication-venue-details">{{ item.pub_post }}</span>{% endif %}
-            {% if item.note %}<span class="publication-venue-note">{{ item.note }}</span>{% endif %}
         </p>
         {% if item.award_rate.value %}<span class="publication-rate-badge"{% if item.award_rate.title %} title="{{ item.award_rate.title | escape }}"{% endif %}>{{ item.award_rate.value | escape }}</span>{% endif %}
         {% if item.citations %}<span class="citation-badge" title="{{ item.citations }} citations">{{ item.citations }} citations</span>{% endif %}
@@ -54,5 +53,6 @@
         {% if resource_links != empty and include.hide_links != true %}<div class="publication-links">{{ resource_links }}</div>{% endif %}
         {% include widgets/publication_media.html links=item.links %}
         </div>
+        {% if item.note %}<p class="publication-note-line">{{ item.note }}</p>{% endif %}
     </div>
 </article>
