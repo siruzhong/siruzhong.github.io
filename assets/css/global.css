@@ -315,3 +315,5 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .publication-rate-badge { background: rgba(111, 63, 160, 0.12); color: var(--spotlight-color); }
 
 .publication-note-line { flex-basis: 100%; margin: 0.2rem 0 0; color: var(--muted); font-size: var(--meta-text-size); font-weight: var(--weight-regular); line-height: var(--meta-line-height); }
+
+.publication-venue-sep { color: var(--muted); }

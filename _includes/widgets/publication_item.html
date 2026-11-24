@@ -28,6 +28,7 @@
             <span class="publication-venue-tag">{{ venue_source | replace: ", ", " " }}</span>
             {% endif %}
             {{ item.pub_last }}
+            {% if item.venue_extra %}<span class="publication-venue-sep">/</span><span class="publication-venue-tag">{{ item.venue_extra }}</span>{% endif %}
             {% if item.pub and item.pub_post %}<span class="publication-venue-details">{{ item.pub_post }}</span>{% endif %}
         </p>
         {% if item.award_rate.value %}<span class="publication-rate-badge"{% if item.award_rate.title %} title="{{ item.award_rate.title | escape }}"{% endif %}>{{ item.award_rate.value | escape }}</span>{% endif %}
